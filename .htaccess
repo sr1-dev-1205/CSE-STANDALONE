@@ -1,0 +1,14 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # App is hosted at: https://hit.edu.in/cse/
+  RewriteBase /cse/
+
+  # Allow existing files and directories (assets, images, css, js)
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # React SPA fallback (all routes -> /cse/index.html)
+  RewriteRule ^ /cse/index.html [L]
+</IfModule>

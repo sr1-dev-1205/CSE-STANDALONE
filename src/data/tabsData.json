@@ -1,0 +1,561 @@
+{
+  "tabs": [
+    {
+      "id": "hod",
+      "name": "HOD's Desk",
+      "icon": "User",
+      "content": {
+        "title": "Message from Head of Department",
+        "items": [
+          {
+            "title": "Dr. A. Jameer Basha",
+            "description": "Professor and Head of Computer Science and Engineering He completed his Ph.D. in Faculty of Information and Communication Engineering from Anna University and has been passionate about Information and Communication Engineering since his undergraduate years. Expertise: His research focuses mostly on machine learning, deep learning, and generative AI. His area of expertise is the classification and analysis of medical images. He presented her findings at national and international conferences and published many peer-reviewed pieces in prestigious journals. Research Interests: His current research projects include assessing the vulnerability of endangered species to climate change, modeling the distribution of invasive species in urban areas, and evaluating the effectiveness of community-based conservation.",
+            "qualification": "Ph.D in Computer Science and Engineering",
+            "experience": "15+ years of teaching and research experience",
+            "specialization": "Artificial Intelligence, Machine Learning",
+            "email": "jameer@hit.edu.in",
+            "phone": "+91 9876543210",
+            "achievements": "Published 50+ research papers, Recipient of Best Teacher Award 2023"
+          }
+        ]
+      }
+    },
+    {
+      "id": "latest-events",
+      "name": "Latest Events",
+      "icon": "Calendar",
+      "content": {
+        "title": "Latest Events & Activities",
+        "items": [
+          {
+            "title": "Internal Smart India Hackathon – 2022",
+            "date": "10.03.2022",
+            "participants": "56 teams (45 Software, 11 Hardware)",
+            "description": "An internal hackathon held to shortlist teams under software and hardware categories for Smart India Hackathon. A total of 56 teams participated.",
+            "logo": ""
+          },
+          {
+            "title": "Technical Talk on Latest Trends in Software Testing",
+            "date": "15.03.2022",
+            "participants": "Students and faculty of Hindusthan Institute of Technology",
+            "description": "A one-day technical session on 'Latest trends in software testing' by Mr. M. Sabarinathan, CEO of Gateway Software Solution.",
+            "logo": ""
+          },
+          {
+            "title": "Pitching Event for PoCs & Innovation Mentorship",
+            "date": "16.02.2022",
+            "participants": "PoC developers and Innovation Ambassadors",
+            "description": "Pitching event to link student PoC developers with Innovation Ambassadors for mentorship support.",
+            "logo": ""
+          },
+          {
+            "title": "Entrepreneurship Awareness Drive – 2022",
+            "date": "04.07.2022",
+            "participants": "Students of Hindusthan Institute of Technology",
+            "description": "Entrepreneurship Awareness Drive was conducted to promote entrepreneurial thinking among students, featuring successful startup founders and alumni entrepreneurs.",
+            "logo": ""
+          }
+        ]
+      }
+    },
+    {
+      "id": "curriculum_syllabus",
+      "name": "Curriculum & Syllabus",
+      "icon": "FileText",
+      "content": {
+        "title": "Curriculum & Syllabus Details",
+        "items": [
+          {
+            "title": "Undergraduate Program",
+            "description": "B.Tech in Computer Science and Engineering - 4 Year Program",
+            "credits": "160 Credits",
+            "semesters": "8 Semesters",
+            "focus": "Core CS subjects with electives"
+          },
+          {
+            "title": "Postgraduate Program",
+            "description": "M.Tech in Computer Science and Engineering - 2 Year Program",
+            "credits": "80 Credits",
+            "semesters": "4 Semesters",
+            "specializations": "AI, Data Science, Cyber Security"
+          }
+        ]
+      }
+    },
+    {
+      "id": "academic_calendar",
+      "name": "Academic Calendar",
+      "icon": "Calendar",
+      "content": {
+        "title": "Academic Calendar Events",
+        "items": [
+          {
+            "title": "Semester I Commencement",
+            "date": "2025-07-15",
+            "description": "Start of classes for Semester I."
+          },
+          {
+            "title": "Mid-Semester Examinations",
+            "date": "2025-09-20",
+            "description": "Scheduled internal assessments for all departments."
+          },
+          {
+            "title": "Cultural Fest",
+            "date": "2025-11-05",
+            "description": "Annual cultural festival with student competitions and events."
+          },
+          {
+            "title": "End Semester Examinations",
+            "date": "2025-12-10",
+            "description": "Final exams for all undergraduate and postgraduate courses."
+          }
+        ]
+      }
+    },
+    {
+      "id": "research",
+      "name": "Research & Development",
+      "icon": "BookOpen",
+      "content": {
+        "title": "Current Research Projects",
+        "items": [
+          {
+            "description": "Dr.A.JameerBasha, Professor & Head Dr.S.Lokesh, ASP/CSE Ms.P.Jeevitha, AP/CSE",
+            "title": "Design and development of smart assistive device...",
+            "funding": "Rs.9,48,614",
+            "funding_agency": "AICTE - Research Promotion Scheme AQIS Application Id: 1-9335652751",
+            "status": "3‑years (Ongoing)",
+            "duration": "3 Years(Ongoing)",
+            "years": "2030"
+          },
+          {
+            "description": "Dr.R.Kala AP/CSE",
+            "title": "Brain Tumor Detection Using Deep CNN and FPGA Implementation",
+            "funding": "Rs.2,00,000",
+            "funding_agency": "Hindusthan Educational and Charitable Trust",
+            "status": "1 year (Ongoing)",
+            "duration": "1 Year(Ongoing)",
+            "years": "2030"
+          },
+          {
+            "description": "Ms.R.T. Subhalakshmi AP/CSE",
+            "title": "Automatic segmentation and classification of COVID‑19 CT image Using DCN",
+            "funding": "Rs.2,04,000",
+            "funding_agency": "Hindusthan Educational and Charitable Trust",
+            "status": "1 Year (ongoing)",
+            "duration": "1 Year(Ongoing)",
+            "years": "2030"
+          },
+          {
+            "description": "Dr.S.Lokesh, ASP/CSE",
+            "title": "Nano Assistive Communication Device for Elderly and Speech Disability People",
+            "funding": "Rs.2,00,000",
+            "funding_agency": "Hindusthan Educational and Charitable Trust",
+            "status": "1 Year (Completed)",
+            "duration": "1 Year(Completed)",
+            "years": "2030"
+          }
+        ]
+      }
+    },
+     {
+      "id": "faculty_achievements",
+      "name": "Faculty Achievements",
+      "icon": "Award",
+      "content": {
+        "title": "Faculty Accomplishments",
+        "items": [
+          {
+            "title": "Best Researcher Award",
+            "description": "Recognized for outstanding contributions in AI research.",
+            "year": "2024",
+            "awardedBy": "National Science Foundation",
+            "area": "Artificial Intelligence"
+          },
+          {
+            "title": "Patent Granted",
+            "description": "Patent for innovative algorithm in image processing.",
+            "year": "2023",
+            "patentNumber": "IN345678",
+            "field": "Computer Vision"
+          },
+          {
+            "title": "Book Publication",
+            "description": "Published textbook on Advanced Machine Learning adopted by universities.",
+            "year": "2024",
+            "publisher": "Springer",
+            "subject": "Machine Learning"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": "student_achievements",
+      "name": "Student Achievements",
+      "icon": "Award",
+      "content": {
+        "title": "Student Accomplishments",
+        "items": [
+          {
+            "title": "National Innovation Challenge Winner",
+            "description": "Students won first prize in national innovation competition.",
+            "year": "2024",
+            "competition": "National Level",
+            "team": "Team Innovators (5 members)"
+          },
+          {
+            "title": "Hackathon Champions",
+            "description": "Won the regional hackathon with an AI‑based solution for traffic management.",
+            "year": "2023",
+            "competition": "Regional Level",
+            "prize": "Rs. 1,00,000"
+          },
+          {
+            "title": "Paper Publication in IEEE",
+            "description": "Undergraduate students published research paper in IEEE conference.",
+            "year": "2024",
+            "conference": "IEEE International Conference",
+            "topic": "Machine Learning Applications"
+          }
+        ]
+      }
+    },
+    {
+      "id": "notable",
+      "name": "Notable Projects",
+      "icon": "BookOpen",
+      "content": {
+        "title": "Showcasing Notable Projects",
+        "items": [
+          {
+            "title": "AI Enhanced IoT based Water Management System",
+            "students": "AKSHAYA E (720821103009), KAMALESHWARI R (720821103046), KAVIN KUMAR P (720821103053), KAVIYASRI J (720821103054)",
+            "summary": "An automated surveillance system designed to protect agricultural crops from animal intrusions using Real-time Object Detection (YOLOv8), IoT-based deterrents, and Cloud monitoring to ensure crop safety without manual guarding.",
+            "image": "/ai_iot_water_management.jpg",
+            "year": "2024",
+            "type": "major",
+            "fullDetails": {
+              "Course": "20CS710 & Project Work",
+              "Source": "Niral Thiruvizha",
+              "WP_Attributes": "WP2, WP4, WP6",
+              "Proposed_EA": "EA1, EA3, EA5",
+              "PO_Mapped": "PO1, PO2, PO4",
+              "SDG_Goals": "SDG6, SDG11",
+              "PSO": "PSO2",
+              "Justification": "WP2 is relevant as the system utilizes data analysis and machine learning algorithms to process real-time data for drainage monitoring and decision-making. WP4 applies because the system integrates IoT and AI technologies, applying engineering principles for smart waste management solutions. WP6 aligns with the real-world application of IoT and AI for waste and drainage management, ensuring the system works effectively in urban environments."
+            }
+          },
+          {
+            "title": "Field Visit Tracker: Geo-Tagged Inspections with Digital Signatures",
+            "students": "SRIRAM B (720821103106), THIRUKUMARAN RP (720821103114), UDAY RAM S (720821103115)",
+            "summary": "The Field Visit Tracker is a digital system that modernizes inspections by officials, recording visits with geo-tagging, digital signatures, time, photos, and remarks, storing data in cloud dashboards for monitoring.",
+            "image": "/field_visit_tracker.jpg",
+            "year": "2024",
+            "type": "major",
+            "fullDetails": {
+              "Course": "20CS710 & Project Work",
+              "Source": "Niral Thiruvizha",
+              "WP_Attributes": "WP2, WP6, WP7",
+              "Proposed_EA": "EA1, EA2, EA4",
+              "PO_Mapped": "PO4, PO5, PO6",
+              "SDG_Goals": "SDG9, SDG11, SDG16",
+              "PSO": "PSO2",
+              "Justification": "An AI-enabled mobile application allows officials to conduct geo-tagged inspections and submit digitally authenticated reports in a secure and efficient manner. Inspection data uploaded to secure cloud storage with dashboards for HOD and District Collectors monitoring. This system ensures genuine, auditable, tamper-proof reports with accurate location and time recording."
+            }
+          },
+          {
+            "title": "Single-Window Platform to Streamline Approvals and Empower Entrepreneurial Success",
+            "students": "HARI HARAN S (720821103031), HARISH KEERTHI V (720821103036), HARISH S (720821103037), MAHALINGESHVARANATHAN N L (720821103062)",
+            "summary": "A unified digital portal designed to streamline government approvals for entrepreneurs. It uses AI-driven automation and real-time tracking to simplify complex regulatory processes into a single-window experience.",
+            "image": "/single_window_platform.jpg",
+            "year": "2024",
+            "type": "major",
+            "fullDetails": {
+              "Course": "20CS710 & Project Work",
+              "Source": "Niral Thiruvizha",
+              "WP_Attributes": "WP4, WP6, WP7",
+              "Proposed_EA": "EA1, EA2, E3",
+              "PO_Mapped": "PO5, P6, PO8",
+              "SDG_Goals": "SDG8, SDG9, SDG16",
+              "PSO": "PSO2",
+              "Justification": "WP4 applies as the system leverages engineering knowledge to design a comprehensive single-window platform that streamlines approval processes and enables efficient interaction between businesses and government agencies. WP6 aligns with the use of technology in creating an accessible and user-friendly platform that automates approvals and simplifies workflows."
+            }
+          },
+          {
+            "title": "Smart Parking Management System",
+            "students": "Sathana M (720821103097), Jahnavi P (720821103080)",
+            "summary": "IoT-based smart parking solution with real-time availability tracking and automated payment system.",
+            "image": "/smart_parking.jpg",
+            "year": "2024",
+            "type": "mini",
+            "courseCode": "20CS710",
+            "wp": ["WP1", "WP2", "WP3", "WP6"],
+            "ea": ["EA1", "EA2", "EA3"],
+            "po": ["PO1", "PO2", "PO3", "PO4", "PO5", "PO6"],
+            "pso": ["PSO2"],
+            "sdg": ["SDG8", "SDG9", "SDG11"]
+          },
+          {
+            "title": "Heart Disease Prediction Using Machine Learning",
+            "students": "Sirwin Maharishi R S (720821103101), Sunil Kumar D (720821103108), Rithik S (720821103090)",
+            "summary": "ML-based predictive model for early heart disease detection using patient health metrics and risk factors.",
+            "image": "/heart_disease_ml.jpg",
+            "year": "2024",
+            "type": "mini",
+            "courseCode": "20CS710",
+            "wp": ["WP2", "WP3", "WP4", "WP6"],
+            "ea": ["EA1", "EA2"],
+            "po": ["PO1", "PO2", "PO3", "PO4", "PO5", "PO12"],
+            "pso": ["PSO2"],
+            "sdg": ["SDG3"]
+          },
+          {
+            "title": "AI Based Farmer Assistance ChatBot",
+            "students": "Nilah Shareef (720821103074), Salah (720821103092)",
+            "summary": "Agricultural chatbot providing farmers with crop advice, weather updates, and pest management guidance.",
+            "image": "/farmer_chatbot.jpg",
+            "year": "2024",
+            "type": "mini",
+            "courseCode": "20CS710",
+            "wp": ["WP1", "WP2", "WP3", "WP6"],
+            "ea": ["EA1", "EA2", "EA3"],
+            "po": ["PO1", "PO2", "PO3", "PO4", "PO5", "PO6"],
+            "pso": ["PSO1", "PSO2"],
+            "sdg": ["SDG2", "SDG8", "SDG9"]
+          },
+          {
+            "title": "Medicinal Plants Detection Using Machine Learning",
+            "students": "Sriram B (720821103106), Thirukumaran R P (720821103114)",
+            "summary": "Image recognition system using ML to identify medicinal plants and provide information about their uses.",
+            "image": "/medicinal_plants_ml.jpg",
+            "year": "2024",
+            "type": "mini",
+            "courseCode": "20CS710",
+            "wp": ["WP2", "WP3", "WP4", "WP6"],
+            "ea": ["EA1", "EA2"],
+            "po": ["PO1", "PO2", "PO3", "PO4", "PO5", "PO12"],
+            "pso": ["PSO2"],
+            "sdg": ["SDG3", "SDG15"]
+          },
+          {
+            "title": "Intelligent Video Surveillance System",
+            "students": "Maddasani Manasa (720819104063), Pachigulla Deepthi (720819104080), Velaga Nikhila (720819104122)",
+            "summary": "AI-powered video surveillance system with real-time threat detection and automated alerts for enhanced security.",
+            "image": "/video_surveillance.jpg",
+            "year": "2023",
+            "type": "mini",
+            "courseCode": "20CS710",
+            "wp": ["WP2", "WP5", "WP6", "WP7"],
+            "ea": ["EA1", "EA3", "EA5"],
+            "po": ["PO1", "PO2", "PO3", "PO4", "PO5", "PO6"],
+            "pso": ["PSO1", "PSO2", "PSO3"],
+            "sdg": ["SDG16"]
+          },
+          {
+            "title": "ChatBot – Schemes of Government",
+            "students": "Shivani R (720821103098), Swetha A (720821103110), Pramtiti S (720821103082)",
+            "summary": "AI chatbot to help citizens understand and access various government schemes and welfare programs easily.",
+            "image": "/government_chatbot.jpg",
+            "year": "2024",
+            "type": "mini",
+            "courseCode": "20CS710",
+            "wp": ["WP2", "WP3", "WP6"],
+            "ea": ["EA1", "EA2"],
+            "po": ["PO1", "PO2", "PO3", "PO5", "PO12"],
+            "pso": ["PSO2"],
+            "sdg": ["SDG9", "SDG16"]
+          },
+          {
+            "title": "Sentiment Analysis for Social Media",
+            "students": "Rikshitha G (720821103089), Nithya Shree R K (720821103078), Priya M (720821103084)",
+            "summary": "NLP-based sentiment analysis tool to analyze social media posts and extract public opinion insights.",
+            "image": "/sentiment_analysis.jpg",
+            "year": "2024",
+            "type": "mini",
+            "courseCode": "20CS710",
+            "wp": ["WP2", "WP3", "WP4", "WP6"],
+            "ea": ["EA1", "EA2"],
+            "po": ["PO1", "PO2", "PO3", "PO4", "PO5", "PO6", "PO8", "PO12"],
+            "pso": ["PSO2"],
+            "sdg": ["SDG9", "SDG16"]
+          }
+        ]
+      }
+    },
+   
+    {
+      "id": "internships",
+      "name": "Notable Internship ",
+      "icon": "Briefcase",
+      "content": {
+        "title": "Leading Internship Opportunities",
+        "items": [
+          {
+            "title": "Google Summer Internship",
+            "description": "Internship program focusing on software engineering and AI projects.",
+            "duration": "3 Months",
+            "stipend": "$3000/month",
+            "openings": "10 Students"
+          },
+          {
+            "title": "Microsoft Research Internship",
+            "description": "Opportunities in AI, Cloud Computing, and Quantum Computing research.",
+            "duration": "6 Months",
+            "stipend": "$3500/month",
+            "openings": "8 Students"
+          },
+          {
+            "title": "TCS Digital Internship",
+            "description": "Industry projects with mentorship from senior engineers.",
+            "duration": "4 Months",
+            "stipend": "Rs. 25,000/month",
+            "openings": "20 Students"
+          }
+        ]
+      }
+    },
+    {
+      "id": "placements",
+      "name": "Placements",
+      "icon": "Briefcase",
+      "content": {
+        "title": "Placement Highlights",
+        "items": [
+          {
+            "title": "Placement Statistics 2024",
+            "description": "Our students have been placed in top companies with excellent packages.",
+            "placed": "95% of students placed",
+            "highest": "Rs. 42 LPA",
+            "average": "Rs. 8.5 LPA",
+            "companies": "50+ recruiters"
+          },
+          {
+            "title": "Top Recruiters",
+            "description": "Our students have been recruited by leading global companies.",
+            "list": "Google, Microsoft, Amazon, TCS, Infosys, Wipro, IBM, Accenture",
+            "visits": "Regular campus recruitment drives"
+          },
+          {
+            "title": "Placement Training",
+            "description": "Comprehensive training program to prepare students for placements.",
+            "modules": "Aptitude, Technical, Communication, Interview Skills",
+            "duration": "Year‑round program",
+            "success": "90% placement rate in last 5 years"
+          }
+        ]
+      }
+    },
+    
+    {
+      "id": "professional",
+      "name": "Professional Society",
+      "icon": "Users",
+      "content": {
+        "title": "Professional Society Memberships",
+        "items": [
+          {
+            "title": "IEEE",
+            "description": "Institute of Electrical and Electronics Engineers",
+            "logo": "IEEE"
+          },
+          {
+            "title": "ICT Academy",
+            "description": "ICT Academy membership supporting faculty and students.",
+            "logo": "ict"
+          },
+          {
+            "title": "Computer Society of India",
+            "description": "Promotes IT professionals and student involvement.",
+            "logo": "csi"
+          }
+        ]
+      }
+    },
+    
+    {
+  "id": "sdgs",
+  "name": "SDG Initiatives",
+  "icon": "Globe",
+  "content": {
+    "title": "Our Contribution to SDGs",
+    "items": [
+      {
+        "goal": "SDG 4",
+        "title": "Quality Education",
+        "description": "Implemented inclusive teaching methodologies and scholarship programs.",
+        "year": "2024",
+        "initiatives": ["Digital Classrooms", "Faculty Training Programs"]
+      },
+      {
+        "goal": "SDG 7",
+        "title": "Affordable and Clean Energy",
+        "description": "Installed solar panels on campus reducing 30% energy dependency.",
+        "year": "2023",
+        "initiatives": ["Green Campus Initiative", "Energy Audits"]
+      },
+      {
+        "goal": "SDG 13",
+        "title": "Climate Action",
+        "description": "Organized plantation drives and sustainability awareness campaigns.",
+        "year": "2024",
+        "initiatives": ["Tree Plantation", "Waste Management Program"]
+      }
+    ]
+  }
+},
+ {
+      "id": "collaborations",
+      "name": "Powered by Industries",
+      "icon": "Briefcase",
+      "content": {
+        "title": "Collaboration & MoU Partners",
+        "items": [
+          { "title": "IBM", "description": "Curriculum integration and delivery in AI & Data Sciences.", "logo": "ibm" },
+          { "title": "Google", "description": "Academic partner with tools and resources for digital skills.", "logo": "google" },
+          { "title": "Oracle Academy", "description": "Membership providing resources to develop computing skills.", "logo": "oracle" },
+          { "title": "Zoho", "description": "Partner for training and internships in application development.", "logo": "zoho" },
+          { "title": "Red Hat", "description": "Alliance for Linux, cloud, and development technologies.", "logo": "redhat" },
+          { "title": "Dell EMC", "description": "Center of excellence in Data Science and Big Data Analytics.", "logo": "dell" },
+          { "title": "VMware", "description": "Center of excellence in cloud infrastructure services.", "logo": "vmware" },
+          { "title": "CSS Corp", "description": "Skills training and soft skills development.", "logo": "csscorp" },
+          { "title": "Salesforce", "description": "Partner for CRM using AI and app development.", "logo": "salesforce" },
+          { "title": "NASSCOM", "description": "Supports India as a global hub for emerging technologies.", "logo": "nasscom" },
+          { "title": "UiPath", "description": "Center of Excellence in Robotic Process Automation.", "logo": "uipath" },
+          { "title": "Celonis", "description": "Center of Excellence in Process Mining and Execution.", "logo": "celonis" },
+          { "title": "Infosys Springboard", "description": "Training and reskilling in technology.", "logo": "infosys" }
+        ]
+      }
+    },
+    
+  
+    {
+      "id": "alumni",
+      "name": "Alumni Network",
+      "icon": "Users",
+      "content": {
+        "title": "Distinguished Alumni",
+        "items": [
+          {
+            "title": "Rajesh Kumar - CEO, Tech Innovations",
+            "description": "Leading a Fortune 500 tech company.",
+            "batch": "2010",
+            "company": "Tech Innovations"
+          },
+          {
+            "title": "Priya Sharma - Senior Engineer, Google",
+            "description": "Working on AI projects at Google HQ.",
+            "batch": "2015",
+            "company": "Google"
+          },
+          {
+            "title": "Amit Patel - Founder, StartupXYZ",
+            "description": "Founded successful fintech startup.",
+            "batch": "2012",
+            "company": "StartupXYZ"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Laboratories",
+  "subcategories": [
+    {
+      "name": "Web Programming Lab",
+      "images": [
+        { "url": "/GalleryImages/Labs/cs1.webp", "caption": "Web Programming Lab Overview" },
+        { "url": "/GalleryImages/Labs/cs2.webp", "caption": "Programming Workstations" },
+        { "url": "/GalleryImages/Labs/cs3.webp", "caption": "Advanced Computing Setup" }
+      ]
+    },
+    {
+      "name": "RDBMS Lab",
+      "images": [
+        { "url": "/GalleryImages/Labs/rdbms1.webp", "caption": "Database Management Lab" },
+        { "url": "/GalleryImages/Labs/rdbms2.webp", "caption": "Server Room" },
+        { "url": "/GalleryImages/Labs/rdbms3.webp", "caption": "Database Workstations" }
+      ]
+    },
+    {
+      "name": "Network Lab",
+      "images": [
+        { "url": "/GalleryImages/Labs/net1.webp", "caption": "Network Lab" },
+        { "url": "/GalleryImages/Labs/net2.webp", "caption": "Cisco Equipment" },
+        { "url": "/GalleryImages/Labs/net3.webp", "caption": "Network Testing Setup" }
+      ]
+    },
+    {
+      "name": "Operating System Lab",
+      "images": [
+        { "url": "/GalleryImages/Labs/os1.webp", "caption": "OS Lab Overview" },
+        { "url": "/GalleryImages/Labs/cs1.webp", "caption": "Virtual Machine Environment" },
+        { "url": "/GalleryImages/Labs/rdbms1.webp", "caption": "Database Tools" },
+        { "url": "/GalleryImages/Labs/net1.webp", "caption": "Linux Workstations" }
+      ]
+    }
+  ]
+}
