@@ -590,9 +590,12 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
       prototypes: "prototypes",
       research: "research",
       notable: "notable",
+      faculty_achievements: "faculty_achievements",
+      student_achievements: "student_achievements",
       faculty_ach: "faculty_achievements",
       "latest-events": "latest-event",
       innovations: "innovations",
+      placements: "placements_tab",
       placements_tab: "placements_tab",
     };
 
@@ -651,22 +654,27 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
         {activeTabData && (
           <div className="space-y-6">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-              <h3 className="text-lg sm:text-2xl font-bold text-gray-900">
-                {activeTabData.content.title}
-              </h3>
-              {activeTab !== "hod" && activeTab !== "collaborations" && activeTab !== "professional" && activeTab !== "notable" && activeTab !== "curriculum_syllabus" && (
-              {activeTab !== "hod" && activeTab !== "collaborations" && activeTab !== "professional" && (
-                <button
-                  onClick={handleViewMore}
-                  className="bg-yellow-500 text-black hover:bg-yellow-600 font-medium text-sm md:text-base px-3 md:px-5 py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300 flex items-center space-x-2"
-                >
-                  <span className="hidden sm:inline">
-                    {buttonLabels[activeTab] || "More"}
-                  </span>
-                  <ChevronRight className="h-4 w-4" />
-                </button>
-              )}
-            </div>
+  <h3 className="text-lg sm:text-2xl font-bold text-gray-900">
+    {activeTabData.content.title}
+  </h3>
+
+  {activeTab !== "hod" &&
+    activeTab !== "collaborations" &&
+    activeTab !== "professional" &&
+    activeTab !== "notable" &&
+    activeTab !== "curriculum_syllabus" && (
+      <button
+        onClick={handleViewMore}
+        className="bg-yellow-500 text-black hover:bg-yellow-600 font-medium text-sm md:text-base px-3 md:px-5 py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300 flex items-center space-x-2"
+      >
+        <span className="hidden sm:inline">
+          {buttonLabels[activeTab] || "More"}
+        </span>
+        <ChevronRight className="h-4 w-4" />
+      </button>
+    )}
+</div>
+
 
             {activeTab === "hod" ? (
               <div className="bg-gray-50 p-4 sm:p-8 rounded-xl border border-gray-200">
