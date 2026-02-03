@@ -6,7 +6,7 @@ import ReusableTable from "../components/ReusableTable";
 
 const categoryOptions = [
   { label: "Mini Projects", key: "stu_mini" },
-  { label: "Micro Projects", key: "micro_projects" },
+  { label: "Micro Projects", key: "stu_micro" },
   { label: "Capstone Projects", key: "castrol_projects" },
 ];
 
@@ -34,7 +34,7 @@ const stuCategoryOptions = [
 
 const sectionDataKeyMap: Record<string, string> = {
   internships: "internships",
-  micro: "micro_projects",
+  micro: "stu_micro",
   castrol_projects: "castrol_projects",
   prototypes: "castrol_projects",
   research: "research_data",
@@ -52,7 +52,7 @@ const sectionDataKeyMap: Record<string, string> = {
 
 const sectionTitleMap: Record<string, string> = {
   internships: "Internships",
-  micro_projects: "Micro Projects",
+  stu_micro: "Micro Projects",
   castrol_projects: "Notable Projects",
   prototypes: "Notable Projects",
   research_data: "Research Projects",
@@ -79,7 +79,6 @@ const sectionTitleMap: Record<string, string> = {
   stu_International_Confrense: "Student International Conference",
   stu_capstone_projects: "Student Capstone Projects",
   stu_mini: "Student Mini Projects",
-  stu_micro: "Student Micro Projects",
   stu_international_journal: "Student International Journals",
   stu_Books: "Student Books",
   hackathon: "Student Hackathon Events",
@@ -89,7 +88,7 @@ const sectionTitleMap: Record<string, string> = {
 const sectionDescriptions: Record<string, string> = {
   internships:
     "A collection of student internships with various companies across years.",
-  micro_projects:
+  stu_micro:
     "Short academic micro projects focused on practical problems.",
   castrol_projects: "Funded and recognized student Castrol projects.",
   prototypes: "Funded and recognized student Castrol projects.",
@@ -118,8 +117,6 @@ const sectionDescriptions: Record<string, string> = {
     "Research articles published by students in reputed international journals.",
   stu_mini:
     "Mini projects developed by student teams showcasing innovation and technical skills.",
-  stu_micro:
-    "Micro projects carried out by students focusing on practical problem-solving.",
   stu_Books: "Books published by students.",
   hackathon: "Hackathon events participated by students.",
   Resource_Person: "Details of faculty as resource persons in various events.",

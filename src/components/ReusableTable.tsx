@@ -11,7 +11,7 @@ import {
   ChevronLeft as CollapseIcon,
   X
 } from 'lucide-react';
-import { BookOpen, Newspaper } from "lucide-react";
+import { BookOpen, Newspaper, Briefcase } from "lucide-react";
 import { Link } from 'react-router-dom';
 
 interface CategoryOption {
@@ -496,6 +496,17 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
     <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 whitespace-nowrap font-bold">
       NewsLetter
     </span>
+  </button>
+</div>
+
+{/* Opportunities button - Static Blinking */}
+<div className="fixed right-4 top-[60%] transform -translate-y-1/2 z-50">
+  <button
+    onClick={() => navigate('/opportunities')}
+    className="flex items-center justify-center bg-gradient-to-br from-yellow-400 via-yellow-500 to-orange-500 text-white w-14 h-14 rounded-full shadow-2xl transition-all duration-300 hover:scale-110 hover:shadow-yellow-400/50 animate-pulse"
+    title="Opportunities"
+  >
+    <Briefcase className="w-7 h-7" />
   </button>
 </div>
 
