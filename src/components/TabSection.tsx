@@ -655,6 +655,7 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
                 {activeTabData.content.title}
               </h3>
               {activeTab !== "hod" && activeTab !== "collaborations" && activeTab !== "professional" && activeTab !== "notable" && activeTab !== "curriculum_syllabus" && (
+              {activeTab !== "hod" && activeTab !== "collaborations" && activeTab !== "professional" && (
                 <button
                   onClick={handleViewMore}
                   className="bg-yellow-500 text-black hover:bg-yellow-600 font-medium text-sm md:text-base px-3 md:px-5 py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300 flex items-center space-x-2"
