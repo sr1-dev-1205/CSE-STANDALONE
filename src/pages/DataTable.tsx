@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { ChevronLeft } from "lucide-react";
-import secData from "../data/SecData.json";
+// import secData from "../data/SecData.json"; // Temporarily disabled due to JSON error
+import tabsData from "../data/tabsData.json";
 import ReusableTable from "../components/ReusableTable";
 
 const categoryOptions = [
@@ -138,7 +139,32 @@ const DataTable: React.FC = () => {
     return sectionDataKeyMap[normalizedSection] || "internships";
   });
 
-  const data = (secData as any)[selectedCategoryKey] || [];
+  // Load internship data from tabsData.json instead of secData
+  const [internshipData, setInternshipData] = useState<any[]>([]);
+
+  useEffect(() => {
+    if (normalizedSection === "internships") {
+      const internshipsTab = (tabsData as any).tabs.find((tab: any) => tab.id === "internships");
+      if (internshipsTab && internshipsTab.content && internshipsTab.content.items) {
+        // Transform the data to match the table format
+        const transformedData = internshipsTab.content.items.map((item: any, index: number) => ({
+          "s.no.": index + 1,
+          "name": item.candidate_name,
+          "year": "2023-24",
+          "company": "Academor",
+          "designation": item.designation,
+          "location": item.location,
+          "joining_date": item.date_of_joining,
+          "stipend_per_month": `₹${item.stipend_per_month.toLocaleString()}`,
+          "incentives": `₹${item.incentives.toLocaleString()}`,
+          "pre_placement_offer": item.pre_placement_offer
+        }));
+        setInternshipData(transformedData);
+      }
+    }
+  }, [normalizedSection]);
+
+  const data = normalizedSection === "internships" ? internshipData : [];
   const title = sectionTitleMap[normalizedSection] || "Section";
 
   const description =

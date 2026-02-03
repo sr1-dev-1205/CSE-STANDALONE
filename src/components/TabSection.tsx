@@ -185,6 +185,131 @@ function TabCard({ item }: { item: any }) {
   );
 }
 
+// Curriculum Card Component with horizontal layout for options
+function CurriculumCard({ item }: { item: any }) {
+  const curriculumFields = [
+    { key: "regulations", label: "Regulations" },
+        { key: "regulations_2020 A", label: "Regulations 2020 A" },
+
+    { key: "regulations_2020", label: "Regulations 2020" },
+    { key: "curriculum", label: "Curriculum" },
+    { key: "syllabus", label: "Syllabus" },
+  ];
+
+  const handlePDFClick = (pdfPath: string) => {
+    if (pdfPath && pdfPath !== "PDF Link") {
+      const fullPath = `${import.meta.env.BASE_URL}${pdfPath}`;
+      window.open(fullPath, '_blank');
+    }
+  };
+
+  return (
+    <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 border border-gray-100 hover:border-yellow-200 group">
+      {/* Title */}
+      <div className="mb-4">
+        <h3 className="text-xl font-bold text-yellow-500 leading-tight mb-3 group-hover:text-yellow-600 transition-colors">
+          {item.title}
+        </h3>
+      </div>
+
+      {/* Description */}
+      {item.description && (
+        <p className="text-sm text-gray-600 leading-relaxed mb-6">
+          {item.description}
+        </p>
+      )}
+
+      {/* Horizontal Options */}
+      <div className="flex flex-wrap gap-2">
+        {curriculumFields.map(({ key, label }) => {
+          if (!item[key]) return null;
+          const isAvailable = item[key] !== "PDF Link";
+          return (
+            <button
+              key={key}
+              onClick={() => handlePDFClick(item[key])}
+              disabled={!isAvailable}
+              className={`flex items-center gap-2 px-5 py-2 border rounded-lg transition-all duration-200 group/btn ${
+                isAvailable
+                  ? 'bg-yellow-50 hover:bg-yellow-100 border-yellow-200 cursor-pointer'
+                  : 'bg-gray-50 border-gray-200 cursor-not-allowed opacity-60'
+              }`}
+            >
+              <FileText className={`w-4 h-4 ${
+                isAvailable
+                  ? 'text-yellow-600 group-hover/btn:text-yellow-700'
+                  : 'text-gray-400'
+              }`} />
+              <span className={`text-sm font-medium ${
+                isAvailable
+                  ? 'text-gray-700 group-hover/btn:text-gray-900'
+                  : 'text-gray-400'
+              }`}>
+                {label}
+              </span>
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+// Internship Card Component for scrolling carousel
+function InternshipCard({ item }: { item: any }) {
+  return (
+    <div className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 border border-gray-100 hover:border-yellow-200 group h-full">
+      {/* Header */}
+      <div className="mb-4 pb-4 border-b border-gray-200">
+        <div className="flex justify-between items-start gap-3 mb-2">
+          <h3 className="text-lg font-bold text-yellow-600 group-hover:text-yellow-700 transition-colors flex-1 min-w-0">
+            {item.candidate_name}
+          </h3>
+          <span className="text-xs font-semibold text-white bg-yellow-500 px-3 py-1 rounded-full flex-shrink-0 whitespace-nowrap">
+            2023-24
+          </span>
+        </div>
+        <p className="text-sm font-medium text-gray-700">{item.designation}</p>
+      </div>
+
+      {/* Details */}
+      <div className="space-y-3">
+        <div className="flex items-center gap-2">
+          <Building className="w-4 h-4 text-yellow-500 flex-shrink-0" />
+          <div className="flex-1">
+            <span className="text-xs font-semibold text-gray-500 block">Location</span>
+            <p className="text-sm text-gray-700">{item.location}</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <DollarSign className="w-4 h-4 text-green-600 flex-shrink-0" />
+          <div className="flex-1">
+            <span className="text-xs font-semibold text-gray-500 block">Stipend/Month</span>
+            <p className="text-sm font-bold text-gray-700">₹{item.stipend_per_month.toLocaleString()}</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <Calendar className="w-4 h-4 text-blue-600 flex-shrink-0" />
+          <div className="flex-1">
+            <span className="text-xs font-semibold text-gray-500 block">Joining Date</span>
+            <p className="text-sm text-gray-700">{item.date_of_joining}</p>
+          </div>
+        </div>
+
+        <div className="flex items-center gap-2">
+          <Award className="w-4 h-4 text-purple-600 flex-shrink-0" />
+          <div className="flex-1">
+            <span className="text-xs font-semibold text-gray-500 block">Pre-Placement Offer</span>
+            <p className="text-sm font-bold text-purple-700">{item.pre_placement_offer}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // Compact Card without Learn More button
 
 // Compact Project Card for Notable Projects - REDESIGNED
@@ -529,6 +654,7 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
               <h3 className="text-lg sm:text-2xl font-bold text-gray-900">
                 {activeTabData.content.title}
               </h3>
+              {activeTab !== "hod" && activeTab !== "collaborations" && activeTab !== "professional" && activeTab !== "notable" && activeTab !== "curriculum_syllabus" && (
               {activeTab !== "hod" && activeTab !== "collaborations" && activeTab !== "professional" && (
                 <button
                   onClick={handleViewMore}
@@ -699,6 +825,43 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
                       {activeTabData.content.items.map(
                         (item: any, index: number): JSX.Element => (
                           <TabCard key={index} item={item} />
+                        ),
+                      )}
+                    </div>
+                  ) : activeTab === "internships" ? (
+                    // Internships - Auto-scrolling Carousel showing 10 internships
+                    <Slider
+                      dots={true}
+                      infinite={true}
+                      autoplay={true}
+                      autoplaySpeed={2500}
+                      slidesToShow={3}
+                      slidesToScroll={1}
+                      responsive={[
+                        {
+                          breakpoint: 1024,
+                          settings: { slidesToShow: 2, slidesToScroll: 1 },
+                        },
+                        {
+                          breakpoint: 768,
+                          settings: { slidesToShow: 1, slidesToScroll: 1 },
+                        },
+                      ]}
+                    >
+                      {activeTabData.content.items.slice(0, 10).map(
+                        (item: any, index: number) => (
+                          <div key={index} className="px-4 mb-6">
+                            <InternshipCard item={item} />
+                          </div>
+                        ),
+                      )}
+                    </Slider>
+                  ) : activeTab === "curriculum_syllabus" ? (
+                    // Show all 3 cards for curriculum_syllabus tab with horizontal layout
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                      {activeTabData.content.items.map(
+                        (item: any, index: number): JSX.Element => (
+                          <CurriculumCard key={index} item={item} />
                         ),
                       )}
                     </div>
