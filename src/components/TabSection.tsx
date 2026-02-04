@@ -634,7 +634,7 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
       <div className="border-b border-gray-200 relative">
         {/* Enhanced scrollable tabs navigation */}
         <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-yellow-400 scrollbar-track-gray-100 hover:scrollbar-thumb-yellow-500">
-          <div className="flex min-w-max">
+          <div className="flex min-w-max lg:flex-wrap lg:min-w-0">
             {tabs.map((tab: any) => (
               <button
                 key={tab.id}
@@ -651,8 +651,8 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
             ))}
           </div>
         </div>
-        {/* Scroll indicator for mobile */}
-        <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-white to-transparent pointer-events-none sm:hidden"></div>
+        {/* Scroll indicator for mobile/tablet only */}
+        <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-white to-transparent pointer-events-none lg:hidden"></div>
       </div>
 
       <div className="p-4 sm:p-8">
