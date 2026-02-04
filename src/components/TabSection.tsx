@@ -631,24 +631,28 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
 
   return (
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-      <div className="border-b border-gray-200">
-        {/* ✅ Mobile scrollable tabs */}
-        <div className="flex flex-wrap overflow-x-auto sm:overflow-visible">
-          {tabs.map((tab: any) => (
-            <button
-              key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
-              className={`flex items-center justify-center gap-2 px-4 sm:px-6 py-2 sm:py-4 font-medium transition-all duration-200 border-b-2 whitespace-nowrap ${
-                activeTab === tab.id
-                  ? "text-yellow-600 border-yellow-500 bg-yellow-50"
-                  : "text-gray-600 border-transparent hover:text-yellow-600 hover:bg-yellow-50"
-              }`}
-            >
-              {tab.icon && <tab.icon className="h-5 w-5" />}
-              <span>{tab.name}</span>
-            </button>
-          ))}
+      <div className="border-b border-gray-200 relative">
+        {/* Enhanced scrollable tabs navigation */}
+        <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-yellow-400 scrollbar-track-gray-100 hover:scrollbar-thumb-yellow-500">
+          <div className="flex min-w-max">
+            {tabs.map((tab: any) => (
+              <button
+                key={tab.id}
+                onClick={() => setActiveTab(tab.id)}
+                className={`flex items-center justify-center gap-2 px-3 sm:px-5 lg:px-6 py-3 sm:py-4 font-medium transition-all duration-200 border-b-2 whitespace-nowrap flex-shrink-0 ${
+                  activeTab === tab.id
+                    ? "text-yellow-600 border-yellow-500 bg-yellow-50 shadow-sm"
+                    : "text-gray-600 border-transparent hover:text-yellow-600 hover:bg-yellow-50"
+                }`}
+              >
+                {tab.icon && <tab.icon className="h-4 w-4 sm:h-5 sm:w-5" />}
+                <span className="text-xs sm:text-sm lg:text-base">{tab.name}</span>
+              </button>
+            ))}
+          </div>
         </div>
+        {/* Scroll indicator for mobile */}
+        <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-white to-transparent pointer-events-none sm:hidden"></div>
       </div>
 
       <div className="p-4 sm:p-8">
