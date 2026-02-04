@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
-  <!-- White background circle for visibility -->
-  <circle cx="100" cy="25" r="24" fill="white"/>
-  <!-- Blue Internshala text -->
-  <text x="100" y="33" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#00A5EC" text-anchor="middle">Internshala</text>
-</svg>
