@@ -327,14 +327,19 @@ const DepartmentPage: React.FC = () => {
           </button>
         </div>
 
-        {/* Opportunities button - Static Blinking */}
-        <div className="fixed right-4 top-[57%] sm:top-[60%] transform -translate-y-1/2 z-40">
+        {/* Opportunities button - Roll-out style, positioned at top */}
+        <div className="fixed right-0 sm:right-4 top-[28%] sm:top-[30%] transform -translate-y-1/2 z-40">
           <button
             onClick={() => navigate('/opportunities')}
-            className="flex items-center justify-center bg-gradient-to-br from-yellow-400 via-yellow-500 to-orange-500 text-white w-14 h-14 sm:w-16 sm:h-16 rounded-full shadow-2xl transition-all duration-300 hover:scale-110 hover:shadow-yellow-400/50 animate-pulse"
+            className="group flex items-center bg-yellow-500 hover:bg-yellow-600 text-gray-900 w-10 sm:w-12 hover:w-32 sm:hover:w-40 h-10 sm:h-12 rounded-l-lg sm:rounded-l-xl shadow-lg transition-all duration-300 overflow-hidden"
             title="Opportunities"
           >
-            <Briefcase className="w-7 h-7 sm:w-8 sm:h-8" />
+            <div className="flex-shrink-0 w-10 sm:w-12 flex items-center justify-center">
+              <Briefcase className="w-5 h-5 sm:w-6 sm:h-6 transition-transform duration-300 group-hover:scale-110" />
+            </div>
+            <span className="ml-1 sm:ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 whitespace-nowrap font-bold text-sm">
+              Opportunities
+            </span>
           </button>
         </div>
       </PageLayout>
