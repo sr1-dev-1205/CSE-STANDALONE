@@ -121,7 +121,7 @@ const DepartmentSectionNav: React.FC<DepartmentSectionNavProps> = ({ sections })
       <div className="lg:hidden fixed left-3 sm:left-4 bottom-4 sm:bottom-6 z-50">
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          className="bg-yellow-500 text-gray-900 p-2.5 sm:p-3 rounded-full shadow-lg hover:bg-yellow-600 transition-transform transform hover:scale-110"
+          className="bg-yellow-500 text-black p-2.5 sm:p-3 rounded-full shadow-lg hover:bg-yellow-600 transition-transform transform hover:scale-110"
           aria-label="Toggle Section Navigation"
         >
           {isMobileMenuOpen ? <X size={20} className="sm:w-6 sm:h-6" /> : <Menu size={20} className="sm:w-6 sm:h-6" />}
@@ -170,7 +170,7 @@ const DepartmentSectionNav: React.FC<DepartmentSectionNavProps> = ({ sections })
             <span className="font-bold text-gray-800 text-sm">Sections</span>
             <button 
               onClick={() => setIsMobileMenuOpen(false)}
-              className="text-gray-500 hover:text-gray-700"
+              className="text-gray-500 hover:text-black"
             >
               <X size={18} />
             </button>
@@ -186,8 +186,8 @@ const DepartmentSectionNav: React.FC<DepartmentSectionNavProps> = ({ sections })
                     className={`
                       group relative w-full text-left flex items-center px-3 sm:px-4 py-2.5 sm:py-3 text-xs sm:text-sm font-medium transition hover:bg-yellow-100 border-r border-yellow-400/30 last:border-r-0
                       ${activeSection === section.id 
-                        ? 'text-gray-900 font-bold bg-yellow-200/50' 
-                        : 'text-gray-700 font-medium'
+                        ? 'text-black font-bold bg-yellow-200/50' 
+                        : 'text-black font-medium'
                       }
                     `}
                   >
@@ -198,7 +198,7 @@ const DepartmentSectionNav: React.FC<DepartmentSectionNavProps> = ({ sections })
                      `} />
   
                      {/* Icon */}
-                     <Icon className={`w-4 sm:w-5 h-4 sm:h-5 mr-2 sm:mr-3 transition-colors ${activeSection === section.id ? 'text-gray-900' : 'text-gray-500 group-hover:text-gray-700'}`} />
+                     <Icon className={`w-4 sm:w-5 h-4 sm:h-5 mr-2 sm:mr-3 transition-colors ${activeSection === section.id ? 'text-black' : 'text-black group-hover:text-black'}`} />
   
                      <span className={`flex-1 transition-transform duration-200 ${activeSection === section.id ? 'translate-x-1' : 'group-hover:translate-x-0.5'}`}>
                        {section.label}
