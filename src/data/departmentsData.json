@@ -170,7 +170,7 @@
   {
     "id": 4,
     "image": "/images/subhalakshmi.jpg",
-    "name": "Dr.R.T.Subhalaskhmi ",
+    "name": "Dr.R.T.Subhalakshmi ",
     "designation": "Associate Professor",
     "specialization": "Computer Science And Engineering",
     "experience": "13+ years",
@@ -591,7 +591,7 @@
 },
 {
   "id": 34,
-  "image": "images/sarnya.jpeg",
+  "image": "images/Sujana_banu.jpeg",
   "name": "Mrs.Sujana Banu",
   "designation": "Assistant Professor",
   "specialization": "Computer Science and Engineering",
@@ -605,7 +605,7 @@
 },
 {
   "id": 35,
-  "image": "images/saraya.jpeg",
+  "image": "images/Sri_vidyavathi.jpeg",
   "name": "Mrs.Srividhyavathi T",
   "designation": "Assistant Professor",
   "specialization": "Computer Science and Engineering",
@@ -619,7 +619,7 @@
 },
 {
   "id": 36,
-  "image": "images/sarana.jpeg",
+  "image": "images/Parathasarathy.jpeg",
   "name": "Mr.Parthasarathy G",
   "designation": "Assistant Professor",
   "specialization": "Computer Science and Engineering",
