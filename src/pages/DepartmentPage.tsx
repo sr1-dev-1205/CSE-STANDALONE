@@ -193,7 +193,7 @@ const DepartmentPage: React.FC = () => {
                 <SectionWrapper containerClassName="w-full max-w-6xl mx-auto px-3 sm:px-4 lg:px-6">
                   <LazyLoadWrapper height="400px" delay={1100}>
                     <FacilitiesCarousel
-                      facilities={[]}
+                      facilities={(department as any).facilitiesDetails || []}
                       departmentName={department.name}
                     />
                   </LazyLoadWrapper>
