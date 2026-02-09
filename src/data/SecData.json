@@ -12374,9 +12374,8 @@
       "Award": "-"
     }
   ],
-  "stu_internships": 
-    [
-    {
+  "stu_internships": [
+   {
         "sno": 1,
         "registerNumber": "720822103001",
         "name": "AAKASH S",
@@ -17132,12 +17131,6 @@
     "to": "",
     "year": "2022-2023"
   }
-
-
-
-
-
-
 
   ],
   "stu_mini": [
