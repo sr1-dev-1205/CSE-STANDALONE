@@ -4,6 +4,7 @@ import { ChevronLeft } from "lucide-react";
 import secData from "../data/SecData.json";
 import tabsData from "../data/tabsData.json";
 import ReusableTable from "../components/ReusableTable";
+import InternshipTable from "../components/InternshipTable";
 
 const categoryOptions = [
   { label: "Mini Projects", key: "stu_mini" },
@@ -131,6 +132,7 @@ const DataTable: React.FC = () => {
   const isNotable = normalizedSection === "notable";
   const isFaculty = normalizedSection === "faculty_achievements";
   const isStudent = normalizedSection === "student_achievements";
+  const isInternship = normalizedSection === "internships";
 
   const [selectedCategoryKey, setSelectedCategoryKey] = useState(() => {
     if (isNotable) return "castrol_projects";
@@ -145,25 +147,10 @@ const DataTable: React.FC = () => {
   useEffect(() => {
     // Map the section to the correct data key
     const dataKey = sectionDataKeyMap[normalizedSection] || normalizedSection;
-    
-    if (normalizedSection === "internships") {
-      // Load internship data from tabsData.json
-      const internshipsTab = (tabsData as any).tabs.find((tab: any) => tab.id === "internships");
-      if (internshipsTab && internshipsTab.content && internshipsTab.content.items) {
-        const transformedData = internshipsTab.content.items.map((item: any, index: number) => ({
-          "s.no.": index + 1,
-          "name": item.candidate_name,
-          "year": "2023-24",
-          "company": "Academor",
-          "designation": item.designation,
-          "location": item.location,
-          "joining_date": item.date_of_joining,
-          "stipend_per_month": `₹${item.stipend_per_month.toLocaleString()}`,
-          "incentives": `₹${item.incentives.toLocaleString()}`,
-          "pre_placement_offer": item.pre_placement_offer
-        }));
-        setTableData(transformedData);
-      }
+
+    if (isInternship) {
+      // Use the imported internships data directly
+      setTableData(internshipsData);
     } else if (isNotable || isFaculty || isStudent) {
       // For sections with category dropdown, load based on selected category
       const data = (secData as any)[selectedCategoryKey] || [];
@@ -173,7 +160,7 @@ const DataTable: React.FC = () => {
       const data = (secData as any)[dataKey] || [];
       setTableData(data);
     }
-  }, [normalizedSection, selectedCategoryKey, isNotable, isFaculty, isStudent]);
+  }, [normalizedSection, selectedCategoryKey, isNotable, isFaculty, isStudent, isInternship]);
 
   const data = tableData;
   const title = sectionTitleMap[normalizedSection] || "Section";
@@ -207,15 +194,23 @@ const DataTable: React.FC = () => {
       </div>
 
       {/* Table */}
-      <ReusableTable
-        data={data}
-        title={title}
-        description={description}
-        showCategory={showCategoryDropdown}
-        categoryOptions={dropdownOptions}
-        selectedCategoryKey={selectedCategoryKey}
-        onCategoryChange={setSelectedCategoryKey}
-      />
+      {isInternship ? (
+        <InternshipTable
+          data={data}
+          title={title}
+          description={description}
+        />
+      ) : (
+        <ReusableTable
+          data={data}
+          title={title}
+          description={description}
+          showCategory={showCategoryDropdown}
+          categoryOptions={dropdownOptions}
+          selectedCategoryKey={selectedCategoryKey}
+          onCategoryChange={setSelectedCategoryKey}
+        />
+      )}
 
       {/* Call to Action */}
       <div className="mt-12 mb-8 max-w-7xl mx-auto px-4">

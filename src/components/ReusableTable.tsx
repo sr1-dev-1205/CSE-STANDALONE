@@ -154,8 +154,21 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
   const totalPages = Math.ceil(filteredData.length / itemsPerPage);
   const paginatedData = filteredData.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 
-  // ✅ Columns handling
-  const allColumns = data.length > 0 ? Object.keys(data[0]).filter((c) => c.toLowerCase() !== 'year') : [];
+  // ✅ Columns handling - filter out columns with all empty values
+  const allColumns = data.length > 0 
+    ? Object.keys(data[0]).filter((key) => {
+        // Always exclude 'year' from display
+        if (key.toLowerCase() === 'year') return false;
+        
+        // Check if column has any non-empty values
+        const hasData = data.some((item) => {
+          const value = item[key];
+          return value !== undefined && value !== null && value !== '';
+        });
+        
+        return hasData;
+      }) 
+    : [];
   const compactColumns = allColumns.slice(0, 4); // only first 4 columns in collapsed view
   const columns = expanded ? allColumns : compactColumns;
 
