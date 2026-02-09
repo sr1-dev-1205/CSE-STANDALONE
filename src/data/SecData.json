@@ -12003,35 +12003,7 @@
       "award": "-"
     }
   ],
-  "stu_National_journals": [
-    {
-      "s.no.": 1,
-      "student_name": "",
-      "journal_name": "",
-      "indexing": "",
-      "title": "",
-      "volume_issue_page": "",
-      "doi": ""
-    },
-    {
-      "s.no.": 2,
-      "student_name": "",
-      "journal_name": "",
-      "indexing": "",
-      "title": "",
-      "volume_issue_page": "",
-      "doi": ""
-    },
-    {
-      "s.no.": 3,
-      "student_name": "",
-      "journal_name": "",
-      "indexing": "",
-      "title": "",
-      "volume_issue_page": "",
-      "doi": ""
-    }
-  ],
+  
   "stu_National_confrence": [
     {
       "s.no.": 1,
@@ -12041,30 +12013,6 @@
       "title": "Paper Title",
       "volume_issue_page": "Vol. X, Issue Y, pp. Z",
       "doi": "https://doi.org/... "
-    },
-      {"S.N.": 18,
-      "Students": [
-        "Yuvraaj Arun"
-      ],
-      "Publisher": "Conference Proceedings Venue: Bannari Amman Institute of Technology, May 2024",
-      "Journal_Conference": "National Conference on Recent Advancements in Science, Engineering and Technologies (RASET-2024)",
-      "Title": "Legal Documentation Using AI Assistant",
-      "Volume_Issue": "Conference Proceedings",
-      "Award": "-"
-    },
-    {
-      "S.N.": 19,
-      "Students": [
-        "Rishi Bala M",
-        "Vanisri MS",
-        "Snowin J",
-        "Swetha P"
-      ],
-      "Publisher": "Conference Proceedings Venue: Nandha College of Technology, April 2024",
-      "Journal_Conference": "National Conference on Application of Artificial Intelligence (AI) in Libraries (NCAAIL 2024)",
-      "Title": "CogniGuide - Your AI Learning Advisor",
-      "Volume_Issue": "Conference Proceedings",
-      "Award": "-"
     },
     {
       "s.no.": 2,
