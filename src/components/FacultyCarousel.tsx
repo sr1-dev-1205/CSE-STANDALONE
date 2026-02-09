@@ -43,8 +43,8 @@ const getHighestDegree = (education: string): string => {
 };
 
 const getImageUrl = (img?: string) => {
-  const defaultImg = 'images/default-faculty.jpg';
-  if (!img) return `${import.meta.env.BASE_URL}${defaultImg}`;
+  const defaultImg = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2Y1ZjVmNSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiM5OTkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5GYWN1bHR5PC90ZXh0Pjwvc3ZnPg==';
+  if (!img) return defaultImg;
   if (img.startsWith('http')) return img;
   const cleanPath = img.replace(/^public\//, '').replace(/^\//, '');
   return `${import.meta.env.BASE_URL}${cleanPath}`;
@@ -179,6 +179,7 @@ const FacultyCarousel: React.FC<FacultyCarouselProps> = ({
                     className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
+                      target.onerror = null; // Prevent infinite loop
                       target.src = getImageUrl();
                     }}
                   />
@@ -311,6 +312,7 @@ const FacultyModal: React.FC<FacultyModalProps> = ({ member, onClose }) => {
               className="w-full h-full object-cover"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
+                target.onerror = null; // Prevent infinite loop
                 target.src = getImageUrl();
               }}
             />

@@ -452,7 +452,8 @@ const HODModal: React.FC<HODModalProps> = ({ hodData, onClose }) => {
               className="w-full h-full object-cover"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
-                target.src = `${import.meta.env.BASE_URL}images/default-faculty.jpg`;
+                target.onerror = null; // Prevent infinite loop
+                target.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgZmlsbD0iI2Y1ZjVmNSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiM5OTkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5GYWN1bHR5PC90ZXh0Pjwvc3ZnPg==';
               }}
             />
           </div>
@@ -590,9 +591,12 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
       prototypes: "prototypes",
       research: "research",
       notable: "notable",
+      faculty_achievements: "faculty_achievements",
+      student_achievements: "student_achievements",
       faculty_ach: "faculty_achievements",
       "latest-events": "latest-event",
       innovations: "innovations",
+      placements: "placements_tab",
       placements_tab: "placements_tab",
     };
 
@@ -627,45 +631,55 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
 
   return (
     <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-      <div className="border-b border-gray-200">
-        {/* ✅ Mobile scrollable tabs */}
-        <div className="flex flex-wrap overflow-x-auto sm:overflow-visible">
-          {tabs.map((tab: any) => (
-            <button
-              key={tab.id}
-              onClick={() => setActiveTab(tab.id)}
-              className={`flex items-center justify-center gap-2 px-4 sm:px-6 py-2 sm:py-4 font-medium transition-all duration-200 border-b-2 whitespace-nowrap ${
-                activeTab === tab.id
-                  ? "text-yellow-600 border-yellow-500 bg-yellow-50"
-                  : "text-gray-600 border-transparent hover:text-yellow-600 hover:bg-yellow-50"
-              }`}
-            >
-              {tab.icon && <tab.icon className="h-5 w-5" />}
-              <span>{tab.name}</span>
-            </button>
-          ))}
+      <div className="border-b border-gray-200 relative">
+        {/* Enhanced scrollable tabs navigation */}
+        <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-yellow-400 scrollbar-track-gray-100 hover:scrollbar-thumb-yellow-500">
+          <div className="flex min-w-max lg:flex-wrap lg:min-w-0">
+            {tabs.map((tab: any) => (
+              <button
+                key={tab.id}
+                onClick={() => setActiveTab(tab.id)}
+                className={`flex items-center justify-center gap-2 px-3 sm:px-5 lg:px-6 py-3 sm:py-4 font-medium transition-all duration-200 border-b-2 whitespace-nowrap flex-shrink-0 ${
+                  activeTab === tab.id
+                    ? "text-yellow-600 border-yellow-500 bg-yellow-50 shadow-sm"
+                    : "text-gray-600 border-transparent hover:text-yellow-600 hover:bg-yellow-50"
+                }`}
+              >
+                {tab.icon && <tab.icon className="h-4 w-4 sm:h-5 sm:w-5" />}
+                <span className="text-xs sm:text-sm lg:text-base">{tab.name}</span>
+              </button>
+            ))}
+          </div>
         </div>
+        {/* Scroll indicator for mobile/tablet only */}
+        <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-white to-transparent pointer-events-none lg:hidden"></div>
       </div>
 
       <div className="p-4 sm:p-8">
         {activeTabData && (
           <div className="space-y-6">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-              <h3 className="text-lg sm:text-2xl font-bold text-gray-900">
-                {activeTabData.content.title}
-              </h3>
-              {activeTab !== "hod" && activeTab !== "collaborations" && activeTab !== "professional" && activeTab !== "notable" && activeTab !== "curriculum_syllabus" && (
-                <button
-                  onClick={handleViewMore}
-                  className="bg-yellow-500 text-black hover:bg-yellow-600 font-medium text-sm md:text-base px-3 md:px-5 py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300 flex items-center space-x-2"
-                >
-                  <span className="hidden sm:inline">
-                    {buttonLabels[activeTab] || "More"}
-                  </span>
-                  <ChevronRight className="h-4 w-4" />
-                </button>
-              )}
-            </div>
+  <h3 className="text-lg sm:text-2xl font-bold text-gray-900">
+    {activeTabData.content.title}
+  </h3>
+
+  {activeTab !== "hod" &&
+    activeTab !== "collaborations" &&
+    activeTab !== "professional" &&
+    activeTab !== "notable" &&
+    activeTab !== "curriculum_syllabus" && (
+      <button
+        onClick={handleViewMore}
+        className="bg-yellow-500 text-black hover:bg-yellow-600 font-medium text-sm md:text-base px-3 md:px-5 py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300 flex items-center space-x-2"
+      >
+        <span className="hidden sm:inline">
+          {buttonLabels[activeTab] || "More"}
+        </span>
+        <ChevronRight className="h-4 w-4" />
+      </button>
+    )}
+</div>
+
 
             {activeTab === "hod" ? (
               <div className="bg-gray-50 p-4 sm:p-8 rounded-xl border border-gray-200">

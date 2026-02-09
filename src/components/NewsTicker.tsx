@@ -62,7 +62,7 @@ const NewsTicker: React.FC<NewsTickerProps> = ({
       const scrollTop = window.scrollY || document.documentElement.scrollTop;
       
       // Only show the ticker when at the very top of the page
-      if (scrollTop <= 10) { // Small threshold to account for minor scrolling
+      if (scrollTop <= 5) { // Reduced threshold for better mobile responsiveness
         setIsVisible(true);
       } else {
         setIsVisible(false);
@@ -124,11 +124,11 @@ const NewsTicker: React.FC<NewsTickerProps> = ({
 
   return (
     <div
-  className={`fixed top-[68px] sm:top-[84px] left-0 right-0 z-40 bg-yellow-500 border-b border-yellow-600 transition-transform duration-300 ${
-    isVisible ? 'translate-y-0' : '-translate-y-full'
-  }`}
->
-      <div className="relative overflow-hidden h-12">
+      className={`fixed top-[60px] sm:top-[68px] md:top-[76px] lg:top-[84px] left-0 right-0 z-40 bg-yellow-500 border-b border-yellow-600 transition-all duration-300 ${
+        isVisible ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'
+      }`}
+    >
+      <div className="relative overflow-hidden h-10 sm:h-12">
         <div className="flex items-center h-full relative">
           <div className="flex-shrink-0 px-6 flex items-center space-x-3 bg-yellow-600/30">
             <div className="bg-white/30 p-2 rounded-full">

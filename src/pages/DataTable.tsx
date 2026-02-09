@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { ChevronLeft } from "lucide-react";
-// import secData from "../data/SecData.json"; // Temporarily disabled due to JSON error
+import secData from "../data/SecData.json";
 import tabsData from "../data/tabsData.json";
 import ReusableTable from "../components/ReusableTable";
 
 const categoryOptions = [
   { label: "Mini Projects", key: "stu_mini" },
-  { label: "Micro Projects", key: "micro_projects" },
+  { label: "Micro Projects", key: "stu_micro" },
   { label: "Capstone Projects", key: "castrol_projects" },
 ];
 
@@ -35,7 +35,7 @@ const stuCategoryOptions = [
 
 const sectionDataKeyMap: Record<string, string> = {
   internships: "internships",
-  micro: "micro_projects",
+  micro: "stu_micro",
   castrol_projects: "castrol_projects",
   prototypes: "castrol_projects",
   research: "research_data",
@@ -53,7 +53,7 @@ const sectionDataKeyMap: Record<string, string> = {
 
 const sectionTitleMap: Record<string, string> = {
   internships: "Internships",
-  micro_projects: "Micro Projects",
+  stu_micro: "Micro Projects",
   castrol_projects: "Notable Projects",
   prototypes: "Notable Projects",
   research_data: "Research Projects",
@@ -80,7 +80,6 @@ const sectionTitleMap: Record<string, string> = {
   stu_International_Confrense: "Student International Conference",
   stu_capstone_projects: "Student Capstone Projects",
   stu_mini: "Student Mini Projects",
-  stu_micro: "Student Micro Projects",
   stu_international_journal: "Student International Journals",
   stu_Books: "Student Books",
   hackathon: "Student Hackathon Events",
@@ -90,7 +89,7 @@ const sectionTitleMap: Record<string, string> = {
 const sectionDescriptions: Record<string, string> = {
   internships:
     "A collection of student internships with various companies across years.",
-  micro_projects:
+  stu_micro:
     "Short academic micro projects focused on practical problems.",
   castrol_projects: "Funded and recognized student Castrol projects.",
   prototypes: "Funded and recognized student Castrol projects.",
@@ -119,8 +118,6 @@ const sectionDescriptions: Record<string, string> = {
     "Research articles published by students in reputed international journals.",
   stu_mini:
     "Mini projects developed by student teams showcasing innovation and technical skills.",
-  stu_micro:
-    "Micro projects carried out by students focusing on practical problem-solving.",
   stu_Books: "Books published by students.",
   hackathon: "Hackathon events participated by students.",
   Resource_Person: "Details of faculty as resource persons in various events.",
@@ -142,14 +139,17 @@ const DataTable: React.FC = () => {
     return sectionDataKeyMap[normalizedSection] || "internships";
   });
 
-  // Load internship data from tabsData.json instead of secData
-  const [internshipData, setInternshipData] = useState<any[]>([]);
+  // Load data based on section
+  const [tableData, setTableData] = useState<any[]>([]);
 
   useEffect(() => {
+    // Map the section to the correct data key
+    const dataKey = sectionDataKeyMap[normalizedSection] || normalizedSection;
+    
     if (normalizedSection === "internships") {
+      // Load internship data from tabsData.json
       const internshipsTab = (tabsData as any).tabs.find((tab: any) => tab.id === "internships");
       if (internshipsTab && internshipsTab.content && internshipsTab.content.items) {
-        // Transform the data to match the table format
         const transformedData = internshipsTab.content.items.map((item: any, index: number) => ({
           "s.no.": index + 1,
           "name": item.candidate_name,
@@ -162,12 +162,20 @@ const DataTable: React.FC = () => {
           "incentives": `₹${item.incentives.toLocaleString()}`,
           "pre_placement_offer": item.pre_placement_offer
         }));
-        setInternshipData(transformedData);
+        setTableData(transformedData);
       }
+    } else if (isNotable || isFaculty || isStudent) {
+      // For sections with category dropdown, load based on selected category
+      const data = (secData as any)[selectedCategoryKey] || [];
+      setTableData(data);
+    } else {
+      // For other sections, load data directly from SecData
+      const data = (secData as any)[dataKey] || [];
+      setTableData(data);
     }
-  }, [normalizedSection]);
+  }, [normalizedSection, selectedCategoryKey, isNotable, isFaculty, isStudent]);
 
-  const data = normalizedSection === "internships" ? internshipData : [];
+  const data = tableData;
   const title = sectionTitleMap[normalizedSection] || "Section";
 
   const description =
