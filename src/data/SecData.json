@@ -13108,30 +13108,579 @@
   "stu_micro": [
     {
       "s.no.": 1,
-      "student_name": "Name (Register No.)",
+      "student_name": "ABDUL KALAM N (720821103001)",
       "year_semester": "III Year / VI Semester",
-      "project_name": "Project Title",
-      "PO_PSO": "PO1, PO2 / PSO1",
-      "SDGs": "SDG 4, SDG 9",
-      "outcome_impact": "Outcome or impact description"
+      "project_name": "Student Performance Prediction using Machine Learning",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG4",
+      "outcome_impact": "Predicts academic performance to support early intervention and personalized learning."
     },
     {
       "s.no.": 2,
-      "student_name": "",
-      "year_semester": "",
-      "project_name": "",
-      "PO_PSO": "",
-      "SDGs": "",
-      "outcome_impact": ""
+      "student_name": "ABHILASH S (720821103002)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "House Price Prediction using Regression Models",
+      "PO_PSO": "PO1 / PSO1",
+      "SDGs": "SDG11",
+      "outcome_impact": "Estimates property values accurately using historical and market data."
     },
     {
       "s.no.": 3,
-      "student_name": "",
-      "year_semester": "",
-      "project_name": "",
-      "PO_PSO": "",
-      "SDGs": "",
-      "outcome_impact": ""
+      "student_name": "ABIJITH C P (720821103003)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Email Spam Detection System",
+      "PO_PSO": "PO5 / PSO1",
+      "SDGs": "SDG9",
+      "outcome_impact": "Automatically filters unwanted emails to improve communication efficiency."
+    },
+    {
+      "s.no.": 4,
+      "student_name": "ABIJITH K (720821103004)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Movie Recommendation System",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG12",
+      "outcome_impact": "Recommends personalized content based on user preferences and behavior."
+    },
+    {
+      "s.no.": 5,
+      "student_name": "ABINESH P (720821103005)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Iris Flower Classification",
+      "PO_PSO": "PO1 / PSO1",
+      "SDGs": "SDG15",
+      "outcome_impact": "Classifies data points accurately using supervised learning techniques."
+    },
+    {
+      "s.no.": 6,
+      "student_name": "ADHEEP DAS (720821103006)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Loan Eligibility Prediction",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG8",
+      "outcome_impact": "Assists financial institutions in making informed loan approval decisions."
+    },
+    {
+      "s.no.": 7,
+      "student_name": "ADHIL J (720821103007)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Diabetes Prediction System",
+      "PO_PSO": "PO4 / PSO1",
+      "SDGs": "SDG3",
+      "outcome_impact": "Helps in early detection of diabetes using patient health data."
+    },
+    {
+      "s.no.": 8,
+      "student_name": "ADIL ABDUL NASSAR (720821103008)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Weather Forecasting using ML",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG13",
+      "outcome_impact": "Forecasts weather conditions to support planning and decision-making."
+    },
+    {
+      "s.no.": 9,
+      "student_name": "AKSHAYA E (720821103009)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Customer Churn Prediction",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG8",
+      "outcome_impact": "Identifies customers likely to leave, enabling retention strategies."
+    },
+    {
+      "s.no.": 10,
+      "student_name": "ANBURAJ G (720821103010)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Handwritten Digit Recognition",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG9",
+      "outcome_impact": "Recognizes handwritten digits for automation and document processing."
+    },
+    {
+      "s.no.": 11,
+      "student_name": "ANITHA V (720821103011)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Credit Card Fraud Detection System",
+      "PO_PSO": "PO4 / PSO1",
+      "SDGs": "SDG16",
+      "outcome_impact": "Detects fraudulent transactions to enhance financial security."
+    },
+    {
+      "s.no.": 12,
+      "student_name": "ASHAK MS (720821103012)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Sentiment Analysis of Product Reviews",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG12",
+      "outcome_impact": "Analyzes customer opinions to improve product quality and services."
+    },
+    {
+      "s.no.": 13,
+      "student_name": "AYESETTY MOHANA SAI SREE HARIKA (720821103013)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Fake News Detection using NLP",
+      "PO_PSO": "PO4 / PSO1",
+      "SDGs": "SDG16",
+      "outcome_impact": "Identifies misleading news to reduce misinformation spread."
+    },
+    {
+      "s.no.": 14,
+      "student_name": "BANDI VENKA REDDY (720821103014)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Stock Price Prediction using ML",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG8",
+      "outcome_impact": "Predicts stock trends to assist investors in decision-making."
+    },
+    {
+      "s.no.": 15,
+      "student_name": "BIRUNDHADEVI R (720821103015)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Heart Disease Prediction System",
+      "PO_PSO": "PO4 / PSO1",
+      "SDGs": "SDG3",
+      "outcome_impact": "Supports early diagnosis of heart disease for better healthcare outcomes."
+    },
+    {
+      "s.no.": 16,
+      "student_name": "BOPPANA PRAVALLIKA (720821103016)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Traffic Accident Severity Prediction",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG11",
+      "outcome_impact": "Analyzes accident data to improve road safety measures."
+    },
+    {
+      "s.no.": 17,
+      "student_name": "DEEPTHI S (720821103017)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Image Classification using CNN",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG9",
+      "outcome_impact": "Classifies images effectively using deep learning models."
+    },
+    {
+      "s.no.": 18,
+      "student_name": "DHANASEKAR M (720821103018)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Face Mask Detection System",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG3",
+      "outcome_impact": "Ensures public safety by detecting face mask compliance."
+    },
+    {
+      "s.no.": 19,
+      "student_name": "DHARANI R (720821103019)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Resume Screening using Machine Learning",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG8",
+      "outcome_impact": "Automates resume shortlisting to reduce recruitment effort."
+    },
+    {
+      "s.no.": 20,
+      "student_name": "DHIBINESH P D (720821103020)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Online Shopping Recommendation Engine",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG12",
+      "outcome_impact": "Enhances user experience through personalized product recommendations."
+    },
+    {
+      "s.no.": 21,
+      "student_name": "DHINESH D (720821103021)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Chatbot using Natural Language Processing",
+      "PO_PSO": "PO5 / PSO1",
+      "SDGs": "SDG9",
+      "outcome_impact": "Provides automated conversational support using natural language understanding."
+    },
+    {
+      "s.no.": 22,
+      "student_name": "DILSHAD P (720821103022)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Emotion Detection from Text",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG3",
+      "outcome_impact": "Detects emotional tone in text for sentiment-aware applications."
+    },
+    {
+      "s.no.": 23,
+      "student_name": "DINESH L (720821103023)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Language Translation System",
+      "PO_PSO": "PO5 / PSO1",
+      "SDGs": "SDG10",
+      "outcome_impact": "Enables translation between languages to improve global communication."
+    },
+    {
+      "s.no.": 24,
+      "student_name": "DINESH M (720821103024)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "News Article Classification",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG16",
+      "outcome_impact": "Organizes and categorizes news articles efficiently."
+    },
+    {
+      "s.no.": 25,
+      "student_name": "DINESHKUMAR M (720821103025)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Hate Speech Detection System",
+      "PO_PSO": "PO4 / PSO1",
+      "SDGs": "SDG16",
+      "outcome_impact": "Identifies harmful online content to promote safer digital platforms."
+    },
+    {
+      "s.no.": 26,
+      "student_name": "DURAI R (720821103026)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Text Summarization using Machine Learning",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG4",
+      "outcome_impact": "Generates concise summaries from large text documents."
+    },
+    {
+      "s.no.": 27,
+      "student_name": "ELAMPARITHI K (720821103027)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Plagiarism Detection System",
+      "PO_PSO": "PO4 / PSO1",
+      "SDGs": "SDG16",
+      "outcome_impact": "Detects copied content to uphold academic and content integrity."
+    },
+    {
+      "s.no.": 28,
+      "student_name": "GANDIKOTA YESU PRASAD (720821103028)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Question Answering System",
+      "PO_PSO": "PO5 / PSO1",
+      "SDGs": "SDG9",
+      "outcome_impact": "Answers user queries accurately using intelligent systems."
+    },
+    {
+      "s.no.": 29,
+      "student_name": "GOSU VAMSHI (720821103029)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Speech-to-Text Conversion System",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG10",
+      "outcome_impact": "Converts spoken language into text for accessibility and automation."
+    },
+    {
+      "s.no.": 30,
+      "student_name": "GURUPRASATH A (720821103030)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Fake News Detection using Machine Learning",
+      "PO_PSO": "PO4 / PSO1",
+      "SDGs": "SDG16",
+      "outcome_impact": "Identifies fake news using machine learning classification models."
+    },
+    {
+      "s.no.": 31,
+      "student_name": "HARI HARAN S (720821103031)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Face Recognition System",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG9",
+      "outcome_impact": "Authenticates individuals using facial features."
+    },
+    {
+      "s.no.": 32,
+      "student_name": "HARIHARAN K (720821103032)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Object Detection using YOLO",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG9",
+      "outcome_impact": "Detects and localizes objects in real-time images or videos."
+    },
+    {
+      "s.no.": 33,
+      "student_name": "HARISANKAR A (720821103034)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Traffic Sign Recognition",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG11",
+      "outcome_impact": "Recognizes traffic signs to support intelligent transportation systems."
+    },
+    {
+      "s.no.": 34,
+      "student_name": "HARISARAN V (720821103035)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Disease Detection from X-ray Images",
+      "PO_PSO": "PO4 / PSO2",
+      "SDGs": "SDG3",
+      "outcome_impact": "Assists medical professionals by detecting diseases from X-ray images."
+    },
+    {
+      "s.no.": 35,
+      "student_name": "HARISH KEERTHI V (720821103036)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Plant Leaf Disease Detection",
+      "PO_PSO": "PO4 / PSO2",
+      "SDGs": "SDG2",
+      "outcome_impact": "Identifies plant diseases early to improve agricultural productivity."
+    },
+    {
+      "s.no.": 36,
+      "student_name": "HARISHMA M (720821103038)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Gesture Recognition System",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG9",
+      "outcome_impact": "Interprets human gestures for human–computer interaction."
+    },
+    {
+      "s.no.": 37,
+      "student_name": "HARISH S (720821103037)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Automatic Number Plate Recognition",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG11",
+      "outcome_impact": "Automates vehicle identification for traffic monitoring and security."
+    },
+    {
+      "s.no.": 38,
+      "student_name": "ILANTHIRAYAN G (720821103039)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Crowd Counting System",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG11",
+      "outcome_impact": "Estimates crowd density to enhance public safety management."
+    },
+    {
+      "s.no.": 39,
+      "student_name": "IMAYASRI A (720821103040)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Facial Emotion Recognition",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG3",
+      "outcome_impact": "Identifies facial expressions to understand human emotions."
+    },
+    {
+      "s.no.": 40,
+      "student_name": "JAGAN A (720821103041)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Fire Detection using Image Processing",
+      "PO_PSO": "PO4 / PSO2",
+      "SDGs": "SDG11",
+      "outcome_impact": "Detects fire incidents early to prevent large-scale damage."
+    },
+    {
+      "s.no.": 41,
+      "student_name": "JANATH NIKASH K (720821103042)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Autonomous Vehicle Navigation System",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG11",
+      "outcome_impact": "Supports safe navigation of autonomous vehicles."
+    },
+    {
+      "s.no.": 42,
+      "student_name": "JITHIN L (720821103043)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Intrusion Detection System using ML",
+      "PO_PSO": "PO4 / PSO1",
+      "SDGs": "SDG16",
+      "outcome_impact": "Identifies network intrusions to improve cybersecurity."
+    },
+    {
+      "s.no.": 43,
+      "student_name": "KABILESH R (720821103044)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Fake Profile Detection on Social Media",
+      "PO_PSO": "PO4 / PSO1",
+      "SDGs": "SDG16",
+      "outcome_impact": "Detects fake social media profiles to reduce online fraud."
+    },
+    {
+      "s.no.": 44,
+      "student_name": "KAMALAKANNAN K (720821103045)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Recommendation System for E-Learning Platforms",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG4",
+      "outcome_impact": "Personalizes learning content for improved educational outcomes."
+    },
+    {
+      "s.no.": 45,
+      "student_name": "KAMALESHWARI R (720821103046)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Infertility Based Classification Model using Machine Learning Techniques",
+      "PO_PSO": "PO4 / PSO1",
+      "SDGs": "SDG3",
+      "outcome_impact": "Enables early infertility detection through machine learning–based classification to support accurate diagnosis and improved treatment outcomes."
+    },
+    {
+      "s.no.": 46,
+      "student_name": "KARTHIC V (720821103047)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Smart Traffic Management System",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG11",
+      "outcome_impact": "Optimizes traffic flow using intelligent decision-making systems."
+    },
+    {
+      "s.no.": 47,
+      "student_name": "KARTHICK S (720821103048)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "AI-Based Resume Ranking System",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG8",
+      "outcome_impact": "Ranks resumes objectively to improve recruitment efficiency."
+    },
+    {
+      "s.no.": 48,
+      "student_name": "KARTHICK S (720821103049)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Speech Emotion Recognition System",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG3",
+      "outcome_impact": "Analyzes speech patterns to identify emotional states."
+    },
+    {
+      "s.no.": 49,
+      "student_name": "KARTHIK SUJITH (720821103050)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Financial Market Trend Prediction",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG8",
+      "outcome_impact": "Predicts financial trends to support strategic planning."
+    },
+    {
+      "s.no.": 50,
+      "student_name": "KARTHIKEYAN M (720821103051)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Healthcare Diagnosis System using ML",
+      "PO_PSO": "PO4 / PSO1",
+      "SDGs": "SDG3",
+      "outcome_impact": "Assists doctors in diagnosis using data-driven insights."
+    },
+    {
+      "s.no.": 51,
+      "student_name": "KATHIRVEL R (720821103052)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Smart Agriculture System using ML",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG2",
+      "outcome_impact": "Improves crop yield through intelligent farming practices."
+    },
+    {
+      "s.no.": 52,
+      "student_name": "KAVIN KUMAR P (720821103053)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Energy Consumption Prediction System",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG7",
+      "outcome_impact": "Forecasts energy demand for efficient resource management."
+    },
+    {
+      "s.no.": 53,
+      "student_name": "KAVIYASRI J (720821103054)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Smart Home Automation using AI",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG11",
+      "outcome_impact": "Enhances comfort and efficiency through automated home systems."
+    },
+    {
+      "s.no.": 54,
+      "student_name": "KESAVAN A (720821103055)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "AI-Based Air Quality Monitoring System",
+      "PO_PSO": "PO4 / PSO2",
+      "SDGs": "SDG13",
+      "outcome_impact": "Monitors air quality to support environmental protection."
+    },
+    {
+      "s.no.": 55,
+      "student_name": "KISHORE R (720821103056)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Intelligent Water Quality Prediction",
+      "PO_PSO": "PO4 / PSO2",
+      "SDGs": "SDG6",
+      "outcome_impact": "Assesses water quality to ensure safe consumption."
+    },
+    {
+      "s.no.": 56,
+      "student_name": "KURAPATI LOHITHA (720821103057)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Disease Outbreak Prediction System",
+      "PO_PSO": "PO4 / PSO1",
+      "SDGs": "SDG3",
+      "outcome_impact": "Predicts disease spread to assist public health planning."
+    },
+    {
+      "s.no.": 57,
+      "student_name": "LINJU RAJAN (720821103058)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "AI-Powered Virtual Assistant",
+      "PO_PSO": "PO5 / PSO1",
+      "SDGs": "SDG9",
+      "outcome_impact": "Provides intelligent assistance through voice or text interaction."
+    },
+    {
+      "s.no.": 58,
+      "student_name": "LOGESHWARAN P (720821103059)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Smart Attendance System using Face Recognition",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG4",
+      "outcome_impact": "Automates attendance tracking using facial recognition."
+    },
+    {
+      "s.no.": 59,
+      "student_name": "LOKESH V (720821103060)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Fraud Detection in Online Transactions",
+      "PO_PSO": "PO4 / PSO1",
+      "SDGs": "SDG16",
+      "outcome_impact": "Detects fraudulent activities in online transactions."
+    },
+    {
+      "s.no.": 60,
+      "student_name": "MADHESH P D (720821103061)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Hand Gesture Recognition using OpenCV",
+      "PO_PSO": "PO2 / PSO2",
+      "SDGs": "SDG9",
+      "outcome_impact": "Interprets hand movements for interactive system control."
+    },
+    {
+      "s.no.": 61,
+      "student_name": "MAHALINGESHVARANATHAN N L (720821103062)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Personality Prediction from Text",
+      "PO_PSO": "PO2 / PSO1",
+      "SDGs": "SDG8",
+      "outcome_impact": "Analyzes text to infer personality traits."
+    },
+    {
+      "s.no.": 62,
+      "student_name": "MAHESH S (720821103063)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Predictive Maintenance using Machine Learning",
+      "PO_PSO": "PO2 / PSO2",
+      "SDGs": "SDG16",
+      "outcome_impact": "Predicts equipment failure to reduce downtime and maintenance costs."
+    },
+    {
+      "s.no.": 63,
+      "student_name": "HARISH KUMAR R (720821103302)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Cyberbullying Detection System",
+      "PO_PSO": "PO4 / PSO1",
+      "SDGs": "SDG11",
+      "outcome_impact": "Identifies cyberbullying content to promote safer online communities."
+    },
+    {
+      "s.no.": 64,
+      "student_name": "MOHAMED RIYAZATH ALIE H (720821103303)",
+      "year_semester": "III Year / VI Semester",
+      "project_name": "Real-Time Traffic Congestion Prediction Using Machine Learning",
+      "PO_PSO": "PO5 / PSO2",
+      "SDGs": "SDG4",
+      "outcome_impact": "Predicts traffic congestion in real time to improve urban mobility."
     }
   ],
   "stu_capstone_projects": [
