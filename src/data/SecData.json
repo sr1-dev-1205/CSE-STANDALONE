@@ -11971,135 +11971,6 @@
       "title": "Fingerprint Based ATM Security System",
       "volume_issue": "Conference Proceedings",
       "award": "-"
-      "S.N.": 3,
-      "Students": [
-        "Adithyan S",
-        "Amrith Dinesh",
-        "Ashwin M"
-      ],
-      "Publisher": "Journal of Science Technology and Research",
-      "Journal_Conference": "Journal of Science Technology and Research",
-      "Title": "Food Quantity Prediction Using Machine Learning Algorithms",
-      "Volume_Issue": "Volume 2, Issue 2, April 2024",
-      "Award": "-"
-    },
-    {
-      "S.N.": 4,
-      "Students": [
-        "Ananya G",
-        "Abhisha Divyadharshini FR",
-        "Kalaivani M",
-        "Leela Christy I"
-      ],
-      "Publisher": "Journal of Artificial Intelligence and Cyber Security",
-      "Journal_Conference": "Journal of Artificial Intelligence and Cyber Security",
-      "Title": "Predictive Routing Optimization Technology Based On Event Traffic Prediction",
-      "Volume_Issue": "Volume 2, Issue 2, April 2024",
-      "Award": "-"
-    },
-    {
-      "S.N.": 5,
-      "Students": [
-        "Linjurajan",
-        "Boppana Pravallika"
-      ],
-      "Publisher": "Journal of Artificial Intelligence and Cyber Security",
-      "Journal_Conference": "Journal of Artificial Intelligence and Cyber Security",
-      "Title": "AI – Based Tool For Preliminary Diagnosis Of Dermatological Manifestation",
-      "Volume_Issue": "Volume 2, Issue 2, April 2024",
-      "Award": "-"
-    },
-    {
-      "S.N.": 6,
-      "Students": [
-        "Suresh Krishna C",
-        "Srikrishnan R",
-        "Nisha S",
-        "Noufia Firthous S"
-      ],
-      "Publisher": "Journal of Theoretical and Computationsl Advances in Scientific Research (JTCASR)",
-      "Journal_Conference": "Journal of Theoretical and Computationsl Advances in Scientific Research (JTCASR)",
-      "Title": "Web scraping Based Site For Product Analysis",
-      "Volume_Issue": "Volume 1, Issue 1, April 2024",
-      "Award": "-"
-    },
-    {
-      "S.N.": 7,
-      "Students": [
-        "Anitha V",
-        "Kamaleshwari R"
-      ],
-      "Publisher": "Conference Proceedings Venue: Taylor University, Kuala Lampur, Malaysia",
-      "Journal_Conference": "International Conference On Transforming Engineering Systems For Sustainability (Tess-2023)",
-      "Title": "Integrating Autonomous emergency banking system with medical assistant using machine learning techniques",
-      "Volume_Issue": "Conference Proceedings",
-      "Award": "-"
-    },
-    {
-      "S.N.": 8,
-      "Students": [
-        "Birundhadevi R",
-        "Deepthi S",
-        "Imayasri A"
-      ],
-      "Publisher": "Conference Proceedings Venue: Taylor University, Kuala Lampur, Malaysia",
-      "Journal_Conference": "International Conference On Transforming Engineering Systems For Sustainability (Tess-2023)",
-      "Title": "Malware detection using artificial intelligence",
-      "Volume_Issue": "Conference Proceedings",
-      "Award": "-"
-    },
-    {
-      "S.N.": 9,
-      "Students": [
-        "Linjurajan",
-        "Boppana Pravallika"
-      ],
-      "Publisher": "Conference Proceedings Venue: Taylor University, Kuala Lampur, Malaysia",
-      "Journal_Conference": "International Conference On Transforming Engineering Systems For Sustainability (Tess-2023)",
-      "Title": "Smart security system for women protection",
-      "Volume_Issue": "Conference Proceedings",
-      "Award": "-"
-    },
-    {
-      "S.N.": 10,
-      "Students": [
-        "Dharani R",
-        "Harishma M",
-        "Kaviyasri J",
-        "Akshaya E"
-      ],
-      "Publisher": "Conference Proceedings Venue: Taylor University, Kuala Lampur, Malaysia",
-      "Journal_Conference": "International Conference On Transforming Engineering Systems For Sustainability (Tess-2023)",
-      "Title": "AI enhanced motion detection for comprehensive home security",
-      "Volume_Issue": "Conference Proceedings",
-      "Award": "-"
-    },
-    {
-      "S.N.": 11,
-      "Students": [
-        "Karthick S",
-        "Kishore R",
-        "Jagan A"
-      ],
-      "Publisher": "Conference Proceedings Venue: Taylor University, Kuala Lampur, Malaysia",
-      "Journal_Conference": "International Conference On Transforming Engineering Systems For Sustainability (Tess-2023)",
-      "Title": "AI-Based approach for IOT integrated Programmed solar power Humorless grassland mower",
-      "Volume_Issue": "Conference Proceedings",
-      "Award": "-"
-    },
-    {
-      "S.N.": 12,
-      "Students": [
-        "S. Kishore",
-        "E. Dhansekar",
-        "L. Vani",
-        "S. Pradeep Kumar"
-      ],
-      "Publisher": "Conference Proceedings Venue: Nandha College of Technology, April 2024",
-      "Journal_Conference": "National Conference on Application of Artificial Intelligence (AI) in Libraries (NCAAIL 2024)",
-      "Title": "Sustainable waste classification and detection using deep learning",
-      "Volume_Issue": "Conference Proceedings",
-      "Award": "-"
     },
     {
       "s.no.": 16,
@@ -12141,15 +12012,6 @@
       "title": "",
       "volume_issue_page": "",
       "doi": ""
-      "S.N.": 16,
-      "Students": [
-        "Saravana S"
-      ],
-      "Publisher": "Conference Proceedings Venue: Bannari Amman Institute of Technology, May 2024",
-      "Journal_Conference": "National Conference on Recent Advancements in Science, Engineering and Technologies (RASET-2024)",
-      "Title": "Autonomous Driving Simulator",
-      "Volume_Issue": "Conference Proceedings",
-      "Award": "Best Paper Award"
     },
     {
       "s.no.": 2,
@@ -12179,7 +12041,8 @@
       "title": "Paper Title",
       "volume_issue_page": "Vol. X, Issue Y, pp. Z",
       "doi": "https://doi.org/... "
-      "S.N.": 18,
+    },
+      {"S.N.": 18,
       "Students": [
         "Yuvraaj Arun"
       ],
@@ -14301,17 +14164,7 @@
       "to": "19.04.2024",
       "year": "2024-2025"
     },
-      "s.no.": 3,
-      "student_name": "",
-      "year_semester": "",
-      "event_name": "",
-      "status": "",
-      "PO_PSO": "",
-      "SDGs": "",
-      "outcome_impact": ""
-    }
-  ],
-  "stu_nptel": [
+      
     {
       "sno": 161,
       "registerNumber": "720822103161",
@@ -14342,17 +14195,7 @@
       "to": "19.04.2024",
       "year": "2024-2025"
     },
-      "s.no.": 3,
-      "student_name": "",
-      "year_semester": "",
-      "course_name": "",
-      "status": "",
-      "PO_PSO": "",
-      "SDGs": "",
-      "outcome_impact": ""
-    }
-  ],
-  "Resource_Person": [
+      
     {
       "sno": 164,
       "registerNumber": "720822103164",
@@ -14412,12 +14255,6 @@
       "from": "03.04.2024",
       "to": "19.04.2024",
       "year": "2024-2025"
-      "S.NO.": 6,
-      "Name_of_Faculty_as_Resource_Person": "Dr.Subhalaskhmi. R.T",
-      "Seminar/Workshop/FDP": "Hands on Session to Unleash the Power of Data Exploration",
-      "Date": "13.09.2023",
-      "Location": "Coimbatore",
-      "Organized_by": "Department of Artificial Intelligence and Data Science, M.A.M College of Engineering and Technology"
     },
     {
       "sno": 170,
@@ -14438,12 +14275,6 @@
       "from": "15.07.2024",
       "to": "14.07.2024",
       "year": "2024-2025"
-      "S.NO.": 8,
-      "Name_of_Faculty_as_Resource_Person": "Mr.Murugan.M",
-      "Seminar/Workshop/FDP": "Preparation of IQAC and SSR for NAAC",
-      "Date": "16.04.2024",
-      "Location": "Coimbatore",
-      "Organized_by": "Department of Artificial Intelligence and Data Science, RVS Technical Campus"
     },
     {
       "sno": 172,
@@ -14624,73 +14455,6 @@
       "from": "01.06.2024",
       "to": "30.06.2024",
       "year": "2024-2025"
-      "S.NO.": 20,
-      "Name_of_Faculty_as_Resource_Person": "Mr.Tamizharasu.T",
-      "Seminar/Workshop/FDP": "Cyber Security Threats and Vulnerabilities",
-      "Date": "06.11.2023",
-      "Location": "Coimbatore",
-      "Organized_by": "Department of Artificial Intelligence and Data Science, Adithya Institute of Technology"
-    },
-    {
-      "S.NO.": 21,
-      "Name_of_Faculty_as_Resource_Person": "Dr.Jameer Basha. A",
-      "Seminar/Workshop/FDP": "Security and Privacy Issues in Wireless Networks",
-      "Date": "18.07.2023",
-      "Location": "Coimbatore",
-      "Organized_by": "Department of Electronics and Communication Engineering, Erode Sengunthar Engineering College"
-    },
-    {
-      "S.NO.": 22,
-      "Name_of_Faculty_as_Resource_Person": "Dr. Senthil Kumar.R",
-      "Seminar/Workshop/FDP": "Hands on Session to Unleash the Power of Data Exploration",
-      "Date": "25.08.2023",
-      "Location": "Coimbatore",
-      "Organized_by": "Department of Computer Science and Engineering"
-    },
-    {
-      "S.NO.": 23,
-      "Name_of_Faculty_as_Resource_Person": "Dr.Subhalaskhmi. R.T",
-      "Seminar/Workshop/FDP": "Hands on Session to Unleash the Power of Data Exploration",
-      "Date": "13.09.2023",
-      "Location": "Coimbatore",
-      "Organized_by": "Department of Artificial Intelligence and Data Science, M.A.M College of Engineering and Technology"
-    },
-    {
-      "S.NO.": 24,
-      "Name_of_Faculty_as_Resource_Person": "Dr.Subhalaskhmi. R.T",
-      "Seminar/Workshop/FDP": "Hands on Session to Unleash the Power of Data Exploration",
-      "Date": "22.02.2024",
-      "Location": "Perundurai",
-      "Organized_by": "Department of Computer Science and Engineering, Sri Sai Ranganathar Institute of Technology"
-    },
-    {
-      "S.NO.": 25,
-      "Name_of_Faculty_as_Resource_Person": "Mr.Murugan.M",
-      "Seminar/Workshop/FDP": "Preparation of IQAC and SSR for NAAC",
-      "Date": "16.04.2024",
-      "Location": "Coimbatore",
-      "Organized_by": "Department of Artificial Intelligence and Data Science, RVS Technical Campus"
-    },
-    {
-      "S.NO.": 26,
-      "Name_of_Faculty_as_Resource_Person": "Dr.Jameer Basha.A",
-      "Seminar/Workshop/FDP": "FDP on Artificial Intelligence (AI) Enabled Internet of Things (IoT)",
-      "Date": "28.05.2024",
-      "Location": "Tiruchirapalli",
-      "Organized_by": "Department of Computer Science and Engineering, Indira Ganesan College of Engineering"
-    }
-  ],
-  "stu_mini": [
-    {
-      "s.no.": 1,
-      "title": "Road Accident Prediction Using Data Mining Techniques",
-      "students": "Manoj Kumar Nagumothu, Podapati Anvesh, Muthinti Satyanarayana",
-      "year": "2023",
-      "courseCode": "20CS710",
-      "wp": "WP2, WP5, WP6",
-      "ea": "EA1, EA2, EA3",
-      "po": "PO1, PO2, PO3, PO4, PO5, PO6, PO7, PO9, PO10",
-      "pso": "PSO1, PSO2"
     },
     {
       "sno": 190,
