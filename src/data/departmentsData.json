@@ -37,6 +37,62 @@
       ],
       "specializations": ["Artificial Intelligence", "Machine Learning", "Cybersecurity", "Data Science", "Cloud Computing", "IoT"],
       "facilities": ["Networks and Simulations Laboratory", "RDBMS Laboratory", "Project Laboratory", "Mobile Application Development Laboratory", "PG Research Laboratory"],
+      "facilitiesDetails": [
+        {
+          "id": 1,
+          "name": "AI & Machine Learning Lab",
+          "description": "State-of-the-art laboratory equipped with high-performance GPUs and advanced computing infrastructure for AI research and development.",
+          "image": "/facilites&infrastructures/AI & machine learning.webp",
+          "capacity": "50 Students",
+          "features": ["NVIDIA Tesla GPUs", "High-speed Computing", "Research Workstations"],
+          "category": "Research Lab"
+        },
+        {
+          "id": 2,
+          "name": "Robotics Workshop",
+          "description": "Advanced robotics facility with robotic arms, sensors, and automation equipment for hands-on learning.",
+          "image": "/facilites&infrastructures/robotic workshop.jpeg",
+          "capacity": "30 Students",
+          "features": ["Robotic Arms", "Sensor Networks", "Prototyping Tools"],
+          "category": "Workshop"
+        },
+        {
+          "id": 3,
+          "name": "Cloud Computing Center",
+          "description": "Modern cloud infrastructure lab with access to major cloud platforms and enterprise-level computing resources.",
+          "image": "/facilites&infrastructures/cloud computing.jpeg",
+          "capacity": "60 Students",
+          "features": ["AWS Access", "Azure Platform", "Google Cloud"],
+          "category": "Computing Center"
+        },
+        {
+          "id": 4,
+          "name": "High Performance Computing Lab",
+          "description": "Supercomputing facility for complex simulations, data analysis, and computational research projects.",
+          "image": "/facilites&infrastructures/high performance lab.webp",
+          "capacity": "40 Students",
+          "features": ["Parallel Processing", "Cluster Computing"],
+          "category": "Research Lab"
+        },
+        {
+          "id": 5,
+          "name": "Innovation & Incubation Center",
+          "description": "Dedicated space for student startups and entrepreneurship development with mentoring and prototyping tools.",
+          "image": "/facilites&infrastructures/innovatiion lab.jpeg",
+          "capacity": "20 Startups",
+          "features": ["3D Printers", "Prototyping Tools"],
+          "category": "Incubation"
+        },
+        {
+          "id": 6,
+          "name": "Digital Library & Learning Commons",
+          "description": "Modern digital library with extensive e-resources, collaborative spaces, and advanced learning technologies.",
+          "image": "/facilites&infrastructures/library.jpg",
+          "capacity": "200 Students",
+          "features": ["E-books", "Research Databases", "Study Pods"],
+          "category": "Library"
+        }
+      ],
       "psos": [
         {
           "id": "PSO1",
