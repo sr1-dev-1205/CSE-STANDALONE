@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { ChevronLeft } from "lucide-react";
 import secData from "../data/SecData.json";
+import tabsData from "../data/tabsData.json";
 import ReusableTable from "../components/ReusableTable";
 
 const categoryOptions = [
@@ -138,7 +139,43 @@ const DataTable: React.FC = () => {
     return sectionDataKeyMap[normalizedSection] || "internships";
   });
 
-  const data = (secData as any)[selectedCategoryKey] || [];
+  // Load data based on section
+  const [tableData, setTableData] = useState<any[]>([]);
+
+  useEffect(() => {
+    // Map the section to the correct data key
+    const dataKey = sectionDataKeyMap[normalizedSection] || normalizedSection;
+    
+    if (normalizedSection === "internships") {
+      // Load internship data from tabsData.json
+      const internshipsTab = (tabsData as any).tabs.find((tab: any) => tab.id === "internships");
+      if (internshipsTab && internshipsTab.content && internshipsTab.content.items) {
+        const transformedData = internshipsTab.content.items.map((item: any, index: number) => ({
+          "s.no.": index + 1,
+          "name": item.candidate_name,
+          "year": "2023-24",
+          "company": "Academor",
+          "designation": item.designation,
+          "location": item.location,
+          "joining_date": item.date_of_joining,
+          "stipend_per_month": `₹${item.stipend_per_month.toLocaleString()}`,
+          "incentives": `₹${item.incentives.toLocaleString()}`,
+          "pre_placement_offer": item.pre_placement_offer
+        }));
+        setTableData(transformedData);
+      }
+    } else if (isNotable || isFaculty || isStudent) {
+      // For sections with category dropdown, load based on selected category
+      const data = (secData as any)[selectedCategoryKey] || [];
+      setTableData(data);
+    } else {
+      // For other sections, load data directly from SecData
+      const data = (secData as any)[dataKey] || [];
+      setTableData(data);
+    }
+  }, [normalizedSection, selectedCategoryKey, isNotable, isFaculty, isStudent]);
+
+  const data = tableData;
   const title = sectionTitleMap[normalizedSection] || "Section";
 
   const description =
