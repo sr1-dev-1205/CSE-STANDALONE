@@ -15423,5 +15423,477 @@
       "volume_issue": "Conference Proceedings",
       "award": "-"
     }
+  ],
+  "stu_nptel": [
+    {
+      "s.no.": 1,
+      "register_number": "720823103002",
+      "student_name": "Aathish K",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 2,
+      "register_number": "720823103003",
+      "student_name": "Abdul Gafoor Suhail",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 3,
+      "register_number": "720823103005",
+      "student_name": "Abhijith R Krishna",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 4,
+      "register_number": "720823103006",
+      "student_name": "Abhinaya K",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 5,
+      "register_number": "720823103009",
+      "student_name": "Abiram K A",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite + Silver",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 6,
+      "register_number": "720823103011",
+      "student_name": "Adithya U",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite + Silver",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 7,
+      "register_number": "720823103012",
+      "student_name": "Ahamed Abrar T A K",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 8,
+      "register_number": "720823103023",
+      "student_name": "Asmitha M",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 9,
+      "register_number": "720823103065",
+      "student_name": "Kanishka A",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite + Silver",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 10,
+      "register_number": "720823103067",
+      "student_name": "Karthick Ram R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 11,
+      "register_number": "720823103072",
+      "student_name": "Kayalvizhi Pearlin L",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 12,
+      "register_number": "720823103073",
+      "student_name": "Kiruthika B",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite + Silver",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 13,
+      "register_number": "720823103074",
+      "student_name": "Kishore M",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite + Silver",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 14,
+      "register_number": "720823103082",
+      "student_name": "Logeshwaran R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 15,
+      "register_number": "720823103086",
+      "student_name": "Mahalakshmi K",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 16,
+      "register_number": "720823103087",
+      "student_name": "Manikandan G",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 17,
+      "register_number": "720823103099",
+      "student_name": "Mythilipriyanka T",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 18,
+      "register_number": "720823103100",
+      "student_name": "Mythish T",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 19,
+      "register_number": "720823103102",
+      "student_name": "Nandhini R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 20,
+      "register_number": "720823103103",
+      "student_name": "Nandhini R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 21,
+      "register_number": "720823103105",
+      "student_name": "Naveen M",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 22,
+      "register_number": "720823103109",
+      "student_name": "Padmaharshini A",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 23,
+      "register_number": "720823103112",
+      "student_name": "Pavishini K",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite + Silver",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 24,
+      "register_number": "720823103117",
+      "student_name": "Ragavan S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 25,
+      "register_number": "720823103120",
+      "student_name": "Rajakumari R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 26,
+      "register_number": "720823103123",
+      "student_name": "Rakshitha R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 27,
+      "register_number": "720823103124",
+      "student_name": "Rama R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 28,
+      "register_number": "720823103126",
+      "student_name": "Ramkumar P",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 29,
+      "register_number": "720823103129",
+      "student_name": "Rohith P",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 30,
+      "register_number": "720823103137",
+      "student_name": "Sanjay P",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 31,
+      "register_number": "720823103141",
+      "student_name": "Santhiya S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 32,
+      "register_number": "720823103143",
+      "student_name": "Santhosh M",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 33,
+      "register_number": "720823103147",
+      "student_name": "Selvamalar U",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 34,
+      "register_number": "720823103149",
+      "student_name": "Sham S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 35,
+      "register_number": "720823103150",
+      "student_name": "Shani T",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 36,
+      "register_number": "720823103152",
+      "student_name": "Sherinsweety S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 37,
+      "register_number": "720823103153",
+      "student_name": "Shyam AM",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 38,
+      "register_number": "720823103154",
+      "student_name": "Shyamala Devi M",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 39,
+      "register_number": "720823103158",
+      "student_name": "Sridhar S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 40,
+      "register_number": "720823103163",
+      "student_name": "Swetha S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 41,
+      "register_number": "720823103167",
+      "student_name": "Thillaikarasi R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 42,
+      "register_number": "720823103171",
+      "student_name": "Vasu P",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 43,
+      "register_number": "720823103172",
+      "student_name": "Vedha Valli V",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 44,
+      "register_number": "720823103173",
+      "student_name": "Vijayakumar G",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 45,
+      "register_number": "720823103175",
+      "student_name": "Vikashini K",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 46,
+      "register_number": "720823103180",
+      "student_name": "Vinothini S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 47,
+      "register_number": "720823103183",
+      "student_name": "Yogeshwari S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    }
   ]
 }
