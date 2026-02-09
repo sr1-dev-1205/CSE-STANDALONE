@@ -73,40 +73,40 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
   };
 
   const parseDate = (dateStr: string) => {
-  if (!dateStr) return new Date(0);
-  
-  const formats = [
-    // DD-MM-YYYY
-    () => {
-      const [day, month, year] = dateStr.split('-').map(Number);
-      return new Date(year, month - 1, day);
-    },
-    // MM-DD-YYYY
-    () => {
-      const [month, day, year] = dateStr.split('-').map(Number);
-      return new Date(year, month - 1, day);
-    },
-    // YYYY-MM-DD
-    () => {
-      const [year, month, day] = dateStr.split('-').map(Number);
-      return new Date(year, month - 1, day);
-    },
-    () => new Date(dateStr)
-  ];
-  
-  // Try each format until we get a valid date
-  for (const format of formats) {
-    try {
-      const date = format();
-      if (!isNaN(date.getTime())) {
-        return date;
-      }
-    } catch (e) {
+    if (!dateStr) return new Date(0);
 
+    const formats = [
+      // DD-MM-YYYY
+      () => {
+        const [day, month, year] = dateStr.split('-').map(Number);
+        return new Date(year, month - 1, day);
+      },
+      // MM-DD-YYYY
+      () => {
+        const [month, day, year] = dateStr.split('-').map(Number);
+        return new Date(year, month - 1, day);
+      },
+      // YYYY-MM-DD
+      () => {
+        const [year, month, day] = dateStr.split('-').map(Number);
+        return new Date(year, month - 1, day);
+      },
+      () => new Date(dateStr)
+    ];
+
+    // Try each format until we get a valid date
+    for (const format of formats) {
+      try {
+        const date = format();
+        if (!isNaN(date.getTime())) {
+          return date;
+        }
+      } catch (e) {
+
+      }
     }
-  }
-  return new Date(0);
-};
+    return new Date(0);
+  };
 
   const handleSort = (key: string) => {
     let direction: 'ascending' | 'descending' = 'ascending';
@@ -117,30 +117,30 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
   };
 
   const sortedData = React.useMemo(() => {
-  let sortableItems = [...data];
-  if (sortConfig !== null) {
-    sortableItems.sort((a, b) => {
-      const isDateColumn = sortConfig.key.toLowerCase().includes('date');
-      let aValue = a[sortConfig.key];
-      let bValue = b[sortConfig.key];
-      
-      if (isDateColumn) {
-        // For dates, compare timestamps
-        aValue = parseDate(aValue).getTime();
-        bValue = parseDate(bValue).getTime();
-      } else {
-        // Handle non-date values
-        if (typeof aValue === 'string') aValue = aValue.toLowerCase();
-        if (typeof bValue === 'string') bValue = bValue.toLowerCase();
-      }
-      
-      if (aValue < bValue) return sortConfig.direction === 'ascending' ? -1 : 1;
-      if (aValue > bValue) return sortConfig.direction === 'ascending' ? 1 : -1;
-      return 0;
-    });
-  }
-  return sortableItems;
-}, [data, sortConfig]);
+    let sortableItems = [...data];
+    if (sortConfig !== null) {
+      sortableItems.sort((a, b) => {
+        const isDateColumn = sortConfig.key.toLowerCase().includes('date');
+        let aValue = a[sortConfig.key];
+        let bValue = b[sortConfig.key];
+
+        if (isDateColumn) {
+          // For dates, compare timestamps
+          aValue = parseDate(aValue).getTime();
+          bValue = parseDate(bValue).getTime();
+        } else {
+          // Handle non-date values
+          if (typeof aValue === 'string') aValue = aValue.toLowerCase();
+          if (typeof bValue === 'string') bValue = bValue.toLowerCase();
+        }
+
+        if (aValue < bValue) return sortConfig.direction === 'ascending' ? -1 : 1;
+        if (aValue > bValue) return sortConfig.direction === 'ascending' ? 1 : -1;
+        return 0;
+      });
+    }
+    return sortableItems;
+  }, [data, sortConfig]);
 
   // ✅ Apply year + search filter
   const filteredData = sortedData.filter((item) => {
@@ -197,7 +197,7 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
     if (col.toLowerCase().includes('volume') && col.toLowerCase().includes('issue')) {
       return 'VOLUME/ISSUE/PAGE NO.';
     }
-    
+
     if (/^[A-Z0-9_]+$/.test(col)) {
       return col.toUpperCase(); // Keep POPSO, SDGS, etc. in uppercase
     }
@@ -242,11 +242,10 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
                     <button
                       key={key}
                       onClick={() => handleCategoryChange(key)}
-                      className={`px-4 sm:px-6 py-2 text-sm sm:text-base font-semibold rounded-t-xl transition-all duration-200 ${
-                        isActive
+                      className={`px-4 sm:px-6 py-2 text-sm sm:text-base font-semibold rounded-t-xl transition-all duration-200 ${isActive
                           ? 'bg-amber-500 text-white shadow-md'
                           : 'bg-gray-100 text-gray-700 hover:bg-amber-100 hover:text-amber-700'
-                      }`}
+                        }`}
                     >
                       {label}
                     </button>
@@ -306,64 +305,64 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
         <div className="px-2 sm:px-4 md:px-6 pb-6 overflow-x-auto">
           <div className="inline-block min-w-full rounded-2xl border border-gray-200">
             <table className="min-w-full border-collapse text-sm md:text-base">
-             <thead>
-  <tr className="bg-gradient-to-r from-yellow-400 via-amber-500 to-orange-400 text-white">
-    {columns.map((col, idx) => (
-      <th
-        key={idx}
-        className={`relative px-3 sm:px-4 py-2 sm:py-3 text-center font-semibold break-words 
+              <thead>
+                <tr className="bg-gradient-to-r from-yellow-400 via-amber-500 to-orange-400 text-white">
+                  {columns.map((col, idx) => (
+                    <th
+                      key={idx}
+                      className={`relative px-3 sm:px-4 py-2 sm:py-3 text-center font-semibold break-words 
   ${getColumnWidth(col)} ${isMobile ? 'text-xs' : ''} 
   ${idx === 0 ? 'rounded-tl-2xl' : ''} ${idx === columns.length - 1 ? 'rounded-tr-2xl pr-12' : ''} 
   ${col.toLowerCase().includes('date') ? 'cursor-pointer hover:bg-amber-600' : ''}`}
 
-        onClick={() => col.toLowerCase().includes('date') && handleSort(col)}
-      >
-        <div className="flex items-center justify-center">
-          {formatColumnName(col)}
+                      onClick={() => col.toLowerCase().includes('date') && handleSort(col)}
+                    >
+                      <div className="flex items-center justify-center">
+                        {formatColumnName(col)}
 
-          {col.toLowerCase().includes('date') && (
-            <span className="ml-1">
-              {sortConfig && sortConfig.key === col ? (
-                sortConfig.direction === 'ascending' ? (
-                  <ArrowUp size={14} />
-                ) : (
-                  <ArrowDown size={14} />
-                )
-              ) : (
-                <ArrowUp size={14} className="opacity-50" />
-              )}
-            </span>
-          )}
-        </div>
-{/* ✅ Floating expand/collapse button (outside normal header flow) */}
-{idx === columns.length - 1 && (
-  <div className="absolute -right-[-1.5px] top-1/2 -translate-y-1/2 ">
-    <button
-      onClick={(e) => {
-        e.stopPropagation(); // avoid triggering sort
-        setExpanded(!expanded);
-      }}
-      className={`p-1.5 rounded-full shadow-lg transition-colors
+                        {col.toLowerCase().includes('date') && (
+                          <span className="ml-1">
+                            {sortConfig && sortConfig.key === col ? (
+                              sortConfig.direction === 'ascending' ? (
+                                <ArrowUp size={14} />
+                              ) : (
+                                <ArrowDown size={14} />
+                              )
+                            ) : (
+                              <ArrowUp size={14} className="opacity-50" />
+                            )}
+                          </span>
+                        )}
+                      </div>
+                      {/* ✅ Floating expand/collapse button (outside normal header flow) */}
+                      {idx === columns.length - 1 && (
+                        <div className="absolute -right-[-1.5px] top-1/2 -translate-y-1/2 ">
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation(); // avoid triggering sort
+                              setExpanded(!expanded);
+                            }}
+                            className={`p-1.5 rounded-full shadow-lg transition-colors
         ${expanded
-          ? "bg-orange-500 text-white"
-          : "bg-white text-orange-500 hover:bg-orange-500 hover:text-white"
-        }`}
-    >
-      {expanded ? (
-        <CollapseIcon className="w-3.5 h-3.5" />
-      ) : (
-        <ExpandIcon className="w-3.5 h-3.5" />
-      )}
-    </button>
-  </div>
-)}
+                                ? "bg-orange-500 text-white"
+                                : "bg-white text-orange-500 hover:bg-orange-500 hover:text-white"
+                              }`}
+                          >
+                            {expanded ? (
+                              <CollapseIcon className="w-3.5 h-3.5" />
+                            ) : (
+                              <ExpandIcon className="w-3.5 h-3.5" />
+                            )}
+                          </button>
+                        </div>
+                      )}
 
 
 
-      </th>
-    ))}
-  </tr>
-</thead>
+                    </th>
+                  ))}
+                </tr>
+              </thead>
 
 
               <tbody>
@@ -389,11 +388,31 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
                                 </button>
                               )}
                             </div>
+                          ) : col.toLowerCase() === 'grade' ? (
+                            <div className="flex items-center justify-center">
+                              {row[col]?.toLowerCase().includes('elite + silver') ? (
+                                <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-slate-100 to-slate-200 border-2 border-slate-300 text-slate-700 font-bold text-xs shadow-sm">
+                                  <svg className="w-4 h-4 text-slate-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                  </svg>
+                                  <span>Elite + Silver</span>
+                                </span>
+                              ) : row[col]?.toLowerCase().includes('elite') ? (
+                                <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-gradient-to-r from-yellow-100 to-amber-100 border-2 border-yellow-400 text-amber-700 font-bold text-xs shadow-sm">
+                                  <svg className="w-4 h-4 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                  </svg>
+                                  <span>Elite</span>
+                                </span>
+                              ) : (
+                                row[col]
+                              )}
+                            </div>
                           ) : Array.isArray(row[col])
                             ? row[col].join(', ')
                             : typeof row[col] === 'object' && row[col] !== null
-                            ? JSON.stringify(row[col])
-                            : row[col]}
+                              ? JSON.stringify(row[col])
+                              : row[col]}
                         </td>
                       ))}
                     </tr>
@@ -440,11 +459,10 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
                 <button
                   key={index}
                   onClick={() => setCurrentPage(pageNum)}
-                  className={`px-2 sm:px-3 py-1 text-xs sm:text-sm font-medium rounded-md ${
-                    currentPage === pageNum
+                  className={`px-2 sm:px-3 py-1 text-xs sm:text-sm font-medium rounded-md ${currentPage === pageNum
                       ? 'bg-amber-100 text-amber-700 border border-amber-400'
                       : 'text-gray-600 hover:bg-gray-100 border border-transparent'
-                  }`}
+                    }`}
                 >
                   {pageNum}
                 </button>
@@ -456,11 +474,10 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
                   <span className="px-1 text-gray-500">...</span>
                   <button
                     onClick={() => setCurrentPage(totalPages)}
-                    className={`px-2 sm:px-3 py-1 text-xs sm:text-sm font-medium rounded-md ${
-                      currentPage === totalPages
+                    className={`px-2 sm:px-3 py-1 text-xs sm:text-sm font-medium rounded-md ${currentPage === totalPages
                         ? 'bg-amber-100 text-amber-700 border border-amber-400'
                         : 'text-gray-600 hover:bg-gray-100 border border-transparent'
-                    }`}
+                      }`}
                   >
                     {totalPages}
                   </button>
@@ -477,61 +494,61 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
         </div>
       </div>
       {/* Magazine button */}
-<div className="fixed right-0 top-[38%] transform -translate-y-1/2 z-50">
-  <button
-    onClick={() => navigate("/magazine")}
-    className="group flex items-center bg-yellow-500 hover:bg-yellow-600 text-gray-900 w-12 hover:w-40 h-12 rounded-l-xl shadow-lg transition-all duration-300 overflow-hidden"
-    title="Magazine"
-  >
-    {/* Icon always visible, stays at right */}
-    <div className="flex-shrink-0 w-12 flex items-center justify-center">
-      <BookOpen className="w-6 h-6 transition-transform duration-300 group-hover:scale-110 group-hover:animate-bounce" />
-    </div>
+      <div className="fixed right-0 top-[38%] transform -translate-y-1/2 z-50">
+        <button
+          onClick={() => navigate("/magazine")}
+          className="group flex items-center bg-yellow-500 hover:bg-yellow-600 text-gray-900 w-12 hover:w-40 h-12 rounded-l-xl shadow-lg transition-all duration-300 overflow-hidden"
+          title="Magazine"
+        >
+          {/* Icon always visible, stays at right */}
+          <div className="flex-shrink-0 w-12 flex items-center justify-center">
+            <BookOpen className="w-6 h-6 transition-transform duration-300 group-hover:scale-110 group-hover:animate-bounce" />
+          </div>
 
-    {/* Text slides in when expanded */}
-    <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 whitespace-nowrap font-bold">
-      Magazine
-    </span>
-  </button>
-</div>
+          {/* Text slides in when expanded */}
+          <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 whitespace-nowrap font-bold">
+            Magazine
+          </span>
+        </button>
+      </div>
 
-{/* Newsletter button */}
-<div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
-  <button
-    onClick={() => navigate("/newsletter")}
-    className="group flex items-center bg-yellow-500 hover:bg-yellow-600 text-gray-900 w-12 hover:w-40 h-12 rounded-l-xl shadow-lg transition-all duration-300 overflow-hidden"
-    title="NewsLetter"
-  >
-    <div className="flex-shrink-0 w-12 flex items-center justify-center">
-      <Newspaper className="w-6 h-6 transition-transform duration-300 group-hover:scale-110 group-hover:animate-bounce" />
-    </div>
+      {/* Newsletter button */}
+      <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
+        <button
+          onClick={() => navigate("/newsletter")}
+          className="group flex items-center bg-yellow-500 hover:bg-yellow-600 text-gray-900 w-12 hover:w-40 h-12 rounded-l-xl shadow-lg transition-all duration-300 overflow-hidden"
+          title="NewsLetter"
+        >
+          <div className="flex-shrink-0 w-12 flex items-center justify-center">
+            <Newspaper className="w-6 h-6 transition-transform duration-300 group-hover:scale-110 group-hover:animate-bounce" />
+          </div>
 
-    <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 whitespace-nowrap font-bold">
-      NewsLetter
-    </span>
-  </button>
-</div>
+          <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 whitespace-nowrap font-bold">
+            NewsLetter
+          </span>
+        </button>
+      </div>
 
-{/* Opportunities button - Roll-out style, positioned at top */}
-<div className="fixed right-0 top-[30%] transform -translate-y-1/2 z-50">
-  <button
-    onClick={() => navigate('/opportunities')}
-    className="group flex items-center bg-yellow-500 hover:bg-yellow-600 text-gray-900 w-12 hover:w-40 h-12 rounded-l-xl shadow-lg transition-all duration-300 overflow-hidden"
-    title="Opportunities"
-  >
-    <div className="flex-shrink-0 w-12 flex items-center justify-center">
-      <Briefcase className="w-6 h-6 transition-transform duration-300 group-hover:scale-110 group-hover:animate-bounce" />
-    </div>
-    <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 whitespace-nowrap font-bold">
-      Opportunities
-    </span>
-  </button>
-</div>
+      {/* Opportunities button - Roll-out style, positioned at top */}
+      <div className="fixed right-0 top-[30%] transform -translate-y-1/2 z-50">
+        <button
+          onClick={() => navigate('/opportunities')}
+          className="group flex items-center bg-yellow-500 hover:bg-yellow-600 text-gray-900 w-12 hover:w-40 h-12 rounded-l-xl shadow-lg transition-all duration-300 overflow-hidden"
+          title="Opportunities"
+        >
+          <div className="flex-shrink-0 w-12 flex items-center justify-center">
+            <Briefcase className="w-6 h-6 transition-transform duration-300 group-hover:scale-110 group-hover:animate-bounce" />
+          </div>
+          <span className="ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 whitespace-nowrap font-bold">
+            Opportunities
+          </span>
+        </button>
+      </div>
 
       {/* Full Content Modal */}
       {modalContent && (
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm transition-opacity duration-300">
-          <div 
+          <div
             className="bg-white rounded-2xl shadow-2xl w-full max-w-2xl max-h-[80vh] overflow-hidden flex flex-col transform transition-all scale-100 animate-in fade-in zoom-in duration-200"
           >
             {/* Modal Header */}
@@ -544,14 +561,14 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
                 <X size={20} />
               </button>
             </div>
-            
+
             {/* Modal Body */}
             <div className="p-6 overflow-y-auto custom-scrollbar">
               <p className="text-gray-700 leading-relaxed text-base whitespace-pre-line">
                 {modalContent.content}
               </p>
             </div>
-            
+
             {/* Modal Footer */}
             <div className="px-6 py-4 border-t border-gray-100 flex justify-end bg-gray-50">
               <button

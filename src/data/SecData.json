@@ -702,6 +702,651 @@
       "status": "Filled"
     }
   ],
+  "internships": [
+    {
+      "s.no.": 1,
+      "name": "Chinthalapalli Kiran Kumar Reddy",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "AM8871",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 2,
+      "name": "Boppana Akash Sai Kumar",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "AM8885",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 3,
+      "name": "Agarshana S",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "AM8906",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 4,
+      "name": "Charan Gopi Yerramsetty",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "AM8842",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 5,
+      "name": "Santhosh M",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "AM8837",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 6,
+      "name": "Vinisha M",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "AM8841",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 7,
+      "name": "Abisheik G",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "AM8893",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 8,
+      "name": "Midhun R R",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "AM8907",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 9,
+      "name": "Nithish P",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "UNKNOWN",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 10,
+      "name": "Vijay Anand",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "UNKNOWN",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 11,
+      "name": "Mohamedirfan K",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "AM8887",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 12,
+      "name": "Nisha S",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "AM8909",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 13,
+      "name": "Noufia Firthous B",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "AM8843",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 14,
+      "name": "Aashad S",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "AM8896",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 15,
+      "name": "Sai Santhosh Durbhakula",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "AM8888",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 16,
+      "name": "Lam Amulya",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "AM8884",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    },
+    {
+      "s.no.": 17,
+      "name": "Ashish K S",
+      "year": "2023-24",
+      "company": "Academor",
+      "offer_letter": "AM8914",
+      "designation": "Business Development Executive",
+      "location": "Bangalore",
+      "joining_date": "7-February-2024",
+      "stipend_per_month": "₹15,000",
+      "incentives": "₹10,000",
+      "pre_placement_offer": "4 to 6 LPA"
+    }
+  ],
+  "castrol_projects": [
+    {
+      "s.no.": 2,
+      "name": "Jeyasuba M (720822103075)",
+      "year": "2024-25",
+      "company": "Infosys",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 3,
+      "name": "Krishna Prabhu E (720822103092)",
+      "year": "2024-25",
+      "company": "Infosys",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 4,
+      "name": "Lathika K (720822103093)",
+      "year": "2024-25",
+      "company": "Infosys",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 5,
+      "name": "Priyadharsan V K (720822108045)",
+      "year": "2024-25",
+      "company": "Infosys",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 6,
+      "name": "Karthic V (720821103047)",
+      "year": "2024-25",
+      "company": "GT Software",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 7,
+      "name": "Podapati Jahnavi (720821103080)",
+      "year": "2024-25",
+      "company": "Skillforge",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 8,
+      "name": "Aidan Herold J (720822103009)",
+      "year": "2024-25",
+      "company": "Marpu Foundation",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 9,
+      "name": "Anbarasu K (720822103012)",
+      "year": "2024-25",
+      "company": "DotN.",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 10,
+      "name": "Anshith Nandha (720822103016)",
+      "year": "2024-25",
+      "company": "Infotech",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 11,
+      "name": "Kaviarasan D (720822103081)",
+      "year": "2024-25",
+      "company": "Emglitz Technology",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 12,
+      "name": "Anitha V (720821103011)",
+      "year": "2023-24",
+      "company": "Visaithalam Solution",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 13,
+      "name": "Deepthi S (720821103017)",
+      "year": "2023-24",
+      "company": "Visaithalam Solutions",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 14,
+      "name": "Santhoshkumar S (720821103096)",
+      "year": "2023-24",
+      "company": "Forage in association with Cognizant",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 15,
+      "name": "Ravichandran R (720821103088)",
+      "year": "2023-24",
+      "company": "ILife Technologies",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 16,
+      "name": "Pandinila M (720822103118)",
+      "year": "2023-24",
+      "company": "Skill dragon",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 17,
+      "name": "Vinoth Kumar D (720822103179)",
+      "year": "2023-24",
+      "company": "Technohacks",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 18,
+      "name": "Tharun V (720822103163)",
+      "year": "2023-24",
+      "company": "Octanet Services Private Limited",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 19,
+      "name": "Nithya Dharshini S (720821103077)",
+      "year": "2023-24",
+      "company": "Techies Around",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 20,
+      "name": "Margreat Pavithra. A (720821103065)",
+      "year": "2023-24",
+      "company": "Gateway Software Solutions",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 21,
+      "name": "Mruthul P (720821103068)",
+      "year": "2023-24",
+      "company": "NoviTech",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 22,
+      "name": "S. Agarshana (720820103008)",
+      "year": "2022-23",
+      "company": "Accenture",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 23,
+      "name": "Kiran Kumar Reddy (720820103024)",
+      "year": "2022-23",
+      "company": "Seattle Technologies, Coimbatore",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 24,
+      "name": "I. Leela Christy (720820103057)",
+      "year": "2022-23",
+      "company": "Techvolt Software Pvt. Ltd, Coimbatore",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 25,
+      "name": "V. Bharath (720820103021)",
+      "year": "2022-23",
+      "company": "Braineryspot Technology, Coimbatore",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 26,
+      "name": "R. Chandrasekar (720820103023)",
+      "year": "2022-23",
+      "company": "Codebind Technologies, Trichy",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 27,
+      "name": "M. Logeshwaran (720820103059)",
+      "year": "2022-23",
+      "company": "Elysium Academy, Coimbatore",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 28,
+      "name": "S. Arun (720820103015)",
+      "year": "2022-23",
+      "company": "Neelvath Software Solutions, Coimbatore",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 29,
+      "name": "G. Abishek (720820103005)",
+      "year": "2022-23",
+      "company": "Fantasy Solution, Trichy",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO-PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 30,
+      "name": "Kavin Kumar (720820103050)",
+      "year": "2022-23",
+      "company": "Think Next Technologies Private Limited",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO-PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    },
+    {
+      "s.no.": 31,
+      "name": "R. Karthick (720820103047)",
+      "year": "2022-23",
+      "company": "Technofly Solutions, Bangalore",
+      "semester": "",
+      "internship_title": "",
+      "company_city": "",
+      "dates": "",
+      "duration": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    }
+  ],
   "castrol_projects": [
     {
       "S_No": 1,
@@ -1210,6 +1855,1096 @@
   ],
   "miniProjects": [],
   "micro_projects": [],
+  "stu_micro": [
+    {
+      "S_No": 1,
+      "Project_Title": "Student Performance Prediction using Machine Learning",
+      "Students": [
+        "ABDUL KALAM N (720821103001)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG4"
+      ],
+      "Outcome_Impact": "Predicts academic performance to support early intervention and personalized learning.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 2,
+      "Project_Title": "House Price Prediction using Regression Models",
+      "Students": [
+        "ABHILASH S (720821103002)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO1",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Estimates property values accurately using historical and market data.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 3,
+      "Project_Title": "Email Spam Detection System",
+      "Students": [
+        "ABIJITH C P (720821103003)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Automatically filters unwanted emails to improve communication efficiency.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 4,
+      "Project_Title": "Movie Recommendation System",
+      "Students": [
+        "ABIJITH K (720821103004)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SD G_Goals": [
+        "SDG12"
+      ],
+      "Outcome_Impact": "Recommends personalized content based on user preferences and behavior.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 5,
+      "Project_Title": "Iris Flower Classification",
+      "Students": [
+        "ABINESH P (720821103005)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO1",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG15"
+      ],
+      "Outcome_Impact": "Classifies data points accurately using supervised learning techniques.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 6,
+      "Project_Title": "Loan Eligibility Prediction",
+      "Students": [
+        "ADHEEP DAS (720821103006)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG8"
+      ],
+      "Outcome_Impact": "Assists financial institutions in making informed loan approval decisions.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 7,
+      "Project_Title": "Diabetes Prediction System",
+      "Students": [
+        "ADHIL J (720821103007)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Helps in early detection of diabetes using patient health data.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 8,
+      "Project_Title": "Weather Forecasting using ML",
+      "Students": [
+        "ADIL ABDUL NASSAR (720821103008)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG13"
+      ],
+      "Outcome_Impact": "Forecasts weather conditions to support planning and decision-making.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 9,
+      "Project_Title": "Customer Churn Prediction",
+      "Students": [
+        "AKSHAYA E (720821103009)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG8"
+      ],
+      "Outcome_Impact": "Identifies customers likely to leave, enabling retention strategies.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 10,
+      "Project_Title": "Handwritten Digit Recognition",
+      "Students": [
+        "ANBURAJ G (720821103010)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Recognizes handwritten digits for automation and document processing.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 11,
+      "Project_Title": "Credit Card Fraud Detection System",
+      "Students": [
+        "ANITHA V (720821103011)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Detects fraudulent transactions to enhance financial security.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 12,
+      "Project_Title": "Sentiment Analysis of Product Reviews",
+      "Students": [
+        "ASHAK MS (720821103012)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG12"
+      ],
+      "Outcome_Impact": "Analyzes customer opinions to improve product quality and services.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 13,
+      "Project_Title": "Fake News Detection using NLP",
+      "Students": [
+        "AYESETTY MOHANA SAI SREE HARIKA (720821103013)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Identifies misleading news to reduce misinformation spread.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 14,
+      "Project_Title": "Stock Price Prediction using ML",
+      "Students": [
+        "BANDI VENKA REDDY (720821103014)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG8"
+      ],
+      "Outcome_Impact": "Predicts stock trends to assist investors in decision-making.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 15,
+      "Project_Title": "Heart Disease Prediction System",
+      "Students": [
+        "BIRUNDHADEVI R (720821103015)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Supports early diagnosis of heart disease for better healthcare outcomes.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 16,
+      "Project_Title": "Traffic Accident Severity Prediction",
+      "Students": [
+        "BOPPANA PRAVALLIKA (720821103016)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Analyzes accident data to improve road safety measures.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 17,
+      "Project_Title": "Image Classification using CNN",
+      "Students": [
+        "DEEPTHI S (720821103017)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Classifies images effectively using deep learning models.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 18,
+      "Project_Title": "Face Mask Detection System",
+      "Students": [
+        "DHANASEKAR M (720821103018)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Ensures public safety by detecting face mask compliance.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 19,
+      "Project_Title": "Resume Screening using Machine Learning",
+      "Students": [
+        "DHARANI R (720821103019)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG8"
+      ],
+      "Outcome_Impact": "Automates resume shortlisting to reduce recruitment effort.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 20,
+      "Project_Title": "Online Shopping Recommendation Engine",
+      "Students": [
+        "DHIBINESH P D (720821103020)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG12"
+      ],
+      "Outcome_Impact": "Enhances user experience through personalized product recommendations.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 21,
+      "Project_Title": "Chatbot using Natural Language Processing",
+      "Students": [
+        "DHINESH D (720821103021)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Provides automated conversational support using natural language understanding.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 22,
+      "Project_Title": "Emotion Detection from Text",
+      "Students": [
+        "DILSHAD P (720821103022)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Detects emotional tone in text for sentiment-aware applications.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 23,
+      "Project_Title": "Language Translation System",
+      "Students": [
+        "DINESH L (720821103023)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG10"
+      ],
+      "Outcome_Impact": "Enables translation between languages to improve global communication.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 24,
+      "Project_Title": "News Article Classification",
+      "Students": [
+        "DINESH M (720821103024)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Organizes and categorizes news articles efficiently.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 25,
+      "Project_Title": "Hate Speech Detection System",
+      "Students": [
+        "DINESHKUMAR M (720821103025)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Identifies harmful online content to promote safer digital platforms.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 26,
+      "Project_Title": "Text Summarization using Machine Learning",
+      "Students": [
+        "DURAI R (720821103026)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG4"
+      ],
+      "Outcome_Impact": "Generates concise summaries from large text documents.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 27,
+      "Project_Title": "Plagiarism Detection System",
+      "Students": [
+        "ELAMPARITHI K (720821103027)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Detects copied content to uphold academic and content integrity.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 28,
+      "Project_Title": "Question Answering System",
+      "Students": [
+        "GANDIKOTA YESU PRASAD (720821103028)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Answers user queries accurately using intelligent systems.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 29,
+      "Project_Title": "Speech-to-Text Conversion System",
+      "Students": [
+        "GOSU VAMSHI (720821103029)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG10"
+      ],
+      "Outcome_Impact": "Converts spoken language into text for accessibility and automation.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 30,
+      "Project_Title": "Fake News Detection using Machine Learning",
+      "Students": [
+        "GURUPRASATH A (720821103030)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Identifies fake news using machine learning classification models.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 31,
+      "Project_Title": "Face Recognition System",
+      "Students": [
+        "HARI HARAN S (720821103031)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Authenticates individuals using facial features.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 32,
+      "Project_Title": "Object Detection using YOLO",
+      "Students": [
+        "HARIHARAN K (720821103032)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Detects and localizes objects in real-time images or videos.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 33,
+      "Project_Title": "Traffic Sign Recognition",
+      "Students": [
+        "HARISANKAR A (720821103034)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Recognizes traffic signs to support intelligent transportation systems.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 34,
+      "Project_Title": "Disease Detection from X-ray Images",
+      "Students": [
+        "HARISARAN V (720821103035)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Assists medical professionals by detecting diseases from X-ray images.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 35,
+      "Project_Title": "Plant Leaf Disease Detection",
+      "Students": [
+        "HARISH KEERTHI V (720821103036)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG2"
+      ],
+      "Outcome_Impact": "Identifies plant diseases early to improve agricultural productivity.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 36,
+      "Project_Title": "Gesture Recognition System",
+      "Students": [
+        "HARISHMA M (720821103038)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Interprets human gestures for human–computer interaction.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 37,
+      "Project_Title": "Automatic Number Plate Recognition",
+      "Students": [
+        "HARISH S (720821103037)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Automates vehicle identification for traffic monitoring and security.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 38,
+      "Project_Title": "Crowd Counting System",
+      "Students": [
+        "ILANTHIRAYAN G (720821103039)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Estimates crowd density to enhance public safety management.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 39,
+      "Project_Title": "Facial Emotion Recognition",
+      "Students": [
+        "IMAYASRI A (720821103040)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Identifies facial expressions to understand human emotions.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 40,
+      "Project_Title": "Fire Detection using Image Processing",
+      "Students": [
+        "JAGAN A (720821103041)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Detects fire incidents early to prevent large-scale damage.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 41,
+      "Project_Title": "Autonomous Vehicle Navigation System",
+      "Students": [
+        "JANATH NIKASH K (720821103042)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Supports safe navigation of autonomous vehicles.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 42,
+      "Project_Title": "Intrusion Detection System using ML",
+      "Students": [
+        "JITHIN L (720821103043)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Identifies network intrusions to improve cybersecurity.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 43,
+      "Project_Title": "Fake Profile Detection on Social Media",
+      "Students": [
+        "KABILESH R (720821103044)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Detects fake social media profiles to reduce online fraud.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 44,
+      "Project_Title": "Recommendation System for E-Learning Platforms",
+      "Students": [
+        "KAMALAKANNAN K (720821103045)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG4"
+      ],
+      "Outcome_Impact": "Personalizes learning content for improved educational outcomes.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 45,
+      "Project_Title": "Infertility Based Classification Model using Machine Learning Techniques",
+      "Students": [
+        "KAMALESHWARI R (720821103046)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Enables early infertility detection through machine learning–based classification to support accurate diagnosis and improved treatment outcomes.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 46,
+      "Project_Title": "Smart Traffic Management System",
+      "Students": [
+        "KARTHIC V (720821103047)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Optimizes traffic flow using intelligent decision-making systems.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 47,
+      "Project_Title": "AI-Based Resume Ranking System",
+      "Students": [
+        "KARTHICK S (720821103048)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG8"
+      ],
+      "Outcome_Impact": "Ranks resumes objectively to improve recruitment efficiency.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 48,
+      "Project_Title": "Speech Emotion Recognition System",
+      "Students": [
+        "KARTHICK S (720821103049)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Analyzes speech patterns to identify emotional states.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 49,
+      "Project_Title": "Financial Market Trend Prediction",
+      "Students": [
+        "KARTHIK SUJITH (720821103050)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG8"
+      ],
+      "Outcome_Impact": "Predicts financial trends to support strategic planning.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 50,
+      "Project_Title": "Healthcare Diagnosis System using ML",
+      "Students": [
+        "KARTHIKEYAN M (720821103051)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Assists doctors in diagnosis using data-driven insights.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 51,
+      "Project_Title": "Smart Agriculture System using ML",
+      "Students": [
+        "KATHIRVEL R (720821103052)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG2"
+      ],
+      "Outcome_Impact": "Improves crop yield through intelligent farming practices.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 52,
+      "Project_Title": "Energy Consumption Prediction System",
+      "Students": [
+        "KAVIN KUMAR P (720821103053)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG7"
+      ],
+      "Outcome_Impact": "Forecasts energy demand for efficient resource management.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 53,
+      "Project_Title": "Smart Home Automation using AI",
+      "Students": [
+        "KAVIYASRI J (720821103054)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Enhances comfort and efficiency through automated home systems.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 54,
+      "Project_Title": "AI-Based Air Quality Monitoring System",
+      "Students": [
+        "KESAVAN A (720821103055)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG13"
+      ],
+      "Outcome_Impact": "Monitors air quality to support environmental protection.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 55,
+      "Project_Title": "Intelligent Water Quality Prediction",
+      "Students": [
+        "KISHORE R (720821103056)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG6"
+      ],
+      "Outcome_Impact": "Assesses water quality to ensure safe consumption.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 56,
+      "Project_Title": "Disease Outbreak Prediction System",
+      "Students": [
+        "KURAPATI LOHITHA  (720821103057)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Predicts disease spread to assist public health planning.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 57,
+      "Project_Title": "AI-Powered Virtual Assistant",
+      "Students": [
+        "LINJU RAJAN (720821103058)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Provides intelligent assistance through voice or text interaction.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 58,
+      "Project_Title": "Smart Attendance System using Face Recognition",
+      "Students": [
+        "LOGESHWARAN P (720821103059)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG4"
+      ],
+      "Outcome_Impact": "Automates attendance tracking using facial recognition.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 59,
+      "Project_Title": "Fraud Detection in Online Transactions",
+      "Students": [
+        "LOKESH V (720821103060)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Detects fraudulent activities in online transactions.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 60,
+      "Project_Title": "Hand Gesture Recognition using OpenCV",
+      "Students": [
+        "MADHESH P D (720821103061)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Interprets hand movements for interactive system control.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 61,
+      "Project_Title": "Personality Prediction from Text",
+      "Students": [
+        "MAHALINGESHVARANATHAN N L (720821103062)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG8"
+      ],
+      "Outcome_Impact": "Analyzes text to infer personality traits.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 62,
+      "Project_Title": "Predictive Maintenance using Machine Learning",
+      "Students": [
+        "MAHESH S (720821103063)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Predicts equipment failure to reduce downtime and maintenance costs.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 63,
+      "Project_Title": "Cyberbullying Detection System",
+      "Students": [
+        "HARISH KUMAR R (720821103302)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Identifies cyberbullying content to promote safer online communities.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 64,
+      "Project_Title": "Real-Time Traffic Congestion Prediction Using Machine Learning",
+      "Students": [
+        "MOHAMED RIYAZATH ALIE H (720821103303)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG4"
+      ],
+      "Outcome_Impact": "Predicts traffic congestion in real time to improve urban mobility.",
+      "year": "2024-25"
+    }
+  ],
   "research_data": [
     {
       "s.no.": 1,
@@ -10236,6 +11971,135 @@
       "title": "Fingerprint Based ATM Security System",
       "volume_issue": "Conference Proceedings",
       "award": "-"
+      "S.N.": 3,
+      "Students": [
+        "Adithyan S",
+        "Amrith Dinesh",
+        "Ashwin M"
+      ],
+      "Publisher": "Journal of Science Technology and Research",
+      "Journal_Conference": "Journal of Science Technology and Research",
+      "Title": "Food Quantity Prediction Using Machine Learning Algorithms",
+      "Volume_Issue": "Volume 2, Issue 2, April 2024",
+      "Award": "-"
+    },
+    {
+      "S.N.": 4,
+      "Students": [
+        "Ananya G",
+        "Abhisha Divyadharshini FR",
+        "Kalaivani M",
+        "Leela Christy I"
+      ],
+      "Publisher": "Journal of Artificial Intelligence and Cyber Security",
+      "Journal_Conference": "Journal of Artificial Intelligence and Cyber Security",
+      "Title": "Predictive Routing Optimization Technology Based On Event Traffic Prediction",
+      "Volume_Issue": "Volume 2, Issue 2, April 2024",
+      "Award": "-"
+    },
+    {
+      "S.N.": 5,
+      "Students": [
+        "Linjurajan",
+        "Boppana Pravallika"
+      ],
+      "Publisher": "Journal of Artificial Intelligence and Cyber Security",
+      "Journal_Conference": "Journal of Artificial Intelligence and Cyber Security",
+      "Title": "AI – Based Tool For Preliminary Diagnosis Of Dermatological Manifestation",
+      "Volume_Issue": "Volume 2, Issue 2, April 2024",
+      "Award": "-"
+    },
+    {
+      "S.N.": 6,
+      "Students": [
+        "Suresh Krishna C",
+        "Srikrishnan R",
+        "Nisha S",
+        "Noufia Firthous S"
+      ],
+      "Publisher": "Journal of Theoretical and Computationsl Advances in Scientific Research (JTCASR)",
+      "Journal_Conference": "Journal of Theoretical and Computationsl Advances in Scientific Research (JTCASR)",
+      "Title": "Web scraping Based Site For Product Analysis",
+      "Volume_Issue": "Volume 1, Issue 1, April 2024",
+      "Award": "-"
+    },
+    {
+      "S.N.": 7,
+      "Students": [
+        "Anitha V",
+        "Kamaleshwari R"
+      ],
+      "Publisher": "Conference Proceedings Venue: Taylor University, Kuala Lampur, Malaysia",
+      "Journal_Conference": "International Conference On Transforming Engineering Systems For Sustainability (Tess-2023)",
+      "Title": "Integrating Autonomous emergency banking system with medical assistant using machine learning techniques",
+      "Volume_Issue": "Conference Proceedings",
+      "Award": "-"
+    },
+    {
+      "S.N.": 8,
+      "Students": [
+        "Birundhadevi R",
+        "Deepthi S",
+        "Imayasri A"
+      ],
+      "Publisher": "Conference Proceedings Venue: Taylor University, Kuala Lampur, Malaysia",
+      "Journal_Conference": "International Conference On Transforming Engineering Systems For Sustainability (Tess-2023)",
+      "Title": "Malware detection using artificial intelligence",
+      "Volume_Issue": "Conference Proceedings",
+      "Award": "-"
+    },
+    {
+      "S.N.": 9,
+      "Students": [
+        "Linjurajan",
+        "Boppana Pravallika"
+      ],
+      "Publisher": "Conference Proceedings Venue: Taylor University, Kuala Lampur, Malaysia",
+      "Journal_Conference": "International Conference On Transforming Engineering Systems For Sustainability (Tess-2023)",
+      "Title": "Smart security system for women protection",
+      "Volume_Issue": "Conference Proceedings",
+      "Award": "-"
+    },
+    {
+      "S.N.": 10,
+      "Students": [
+        "Dharani R",
+        "Harishma M",
+        "Kaviyasri J",
+        "Akshaya E"
+      ],
+      "Publisher": "Conference Proceedings Venue: Taylor University, Kuala Lampur, Malaysia",
+      "Journal_Conference": "International Conference On Transforming Engineering Systems For Sustainability (Tess-2023)",
+      "Title": "AI enhanced motion detection for comprehensive home security",
+      "Volume_Issue": "Conference Proceedings",
+      "Award": "-"
+    },
+    {
+      "S.N.": 11,
+      "Students": [
+        "Karthick S",
+        "Kishore R",
+        "Jagan A"
+      ],
+      "Publisher": "Conference Proceedings Venue: Taylor University, Kuala Lampur, Malaysia",
+      "Journal_Conference": "International Conference On Transforming Engineering Systems For Sustainability (Tess-2023)",
+      "Title": "AI-Based approach for IOT integrated Programmed solar power Humorless grassland mower",
+      "Volume_Issue": "Conference Proceedings",
+      "Award": "-"
+    },
+    {
+      "S.N.": 12,
+      "Students": [
+        "S. Kishore",
+        "E. Dhansekar",
+        "L. Vani",
+        "S. Pradeep Kumar"
+      ],
+      "Publisher": "Conference Proceedings Venue: Nandha College of Technology, April 2024",
+      "Journal_Conference": "National Conference on Application of Artificial Intelligence (AI) in Libraries (NCAAIL 2024)",
+      "Title": "Sustainable waste classification and detection using deep learning",
+      "Volume_Issue": "Conference Proceedings",
+      "Award": "-"
     },
     {
       "s.no.": 16,
@@ -10277,6 +12141,15 @@
       "title": "",
       "volume_issue_page": "",
       "doi": ""
+      "S.N.": 16,
+      "Students": [
+        "Saravana S"
+      ],
+      "Publisher": "Conference Proceedings Venue: Bannari Amman Institute of Technology, May 2024",
+      "Journal_Conference": "National Conference on Recent Advancements in Science, Engineering and Technologies (RASET-2024)",
+      "Title": "Autonomous Driving Simulator",
+      "Volume_Issue": "Conference Proceedings",
+      "Award": "Best Paper Award"
     },
     {
       "s.no.": 2,
@@ -10306,6 +12179,29 @@
       "title": "Paper Title",
       "volume_issue_page": "Vol. X, Issue Y, pp. Z",
       "doi": "https://doi.org/... "
+      "S.N.": 18,
+      "Students": [
+        "Yuvraaj Arun"
+      ],
+      "Publisher": "Conference Proceedings Venue: Bannari Amman Institute of Technology, May 2024",
+      "Journal_Conference": "National Conference on Recent Advancements in Science, Engineering and Technologies (RASET-2024)",
+      "Title": "Legal Documentation Using AI Assistant",
+      "Volume_Issue": "Conference Proceedings",
+      "Award": "-"
+    },
+    {
+      "S.N.": 19,
+      "Students": [
+        "Rishi Bala M",
+        "Vanisri MS",
+        "Snowin J",
+        "Swetha P"
+      ],
+      "Publisher": "Conference Proceedings Venue: Nandha College of Technology, April 2024",
+      "Journal_Conference": "National Conference on Application of Artificial Intelligence (AI) in Libraries (NCAAIL 2024)",
+      "Title": "CogniGuide - Your AI Learning Advisor",
+      "Volume_Issue": "Conference Proceedings",
+      "Award": "-"
     },
     {
       "s.no.": 2,
@@ -10506,6 +12402,88 @@
       "title": "Blockchain Based Cloud Smart Healthcare System with Dual Access Control Framework",
       "volume_issue": "Volume 10, Issue 5, 2022",
       "award": "-"
+    }
+  ],
+  "CAY_m2_2022_2023": [
+    {
+      "S.N.": 1,
+      "Students": [
+        "Rishika S",
+        "Vyshakh VS",
+        "Udhaya M"
+      ],
+      "Publisher": "International Journal Of Progressive Research In Engineering Management And Science (IJPREMS)",
+      "Journal_Conference": "International Journal Of Progressive Research In Engineering Management And Science (IJPREMS)",
+      "Title": "Advanced AI Based Cosmetic Suggestion System",
+      "Volume_Issue": "Vol.03, Issue 04, April 2023, Pp:461-463",
+      "Award": "-"
+    },
+    {
+      "S.N.": 2,
+      "Students": [
+        "S Venkata Balaji",
+        "N Aneel",
+        "N Jagadeesh"
+      ],
+      "Publisher": "International Journal For Multidisciplinary Research (IJFMR)",
+      "Journal_Conference": "International Journal For Multidisciplinary Research (IJFMR)",
+      "Title": "Liver Disease Prediction Using Machine Learning",
+      "Volume_Issue": "Volume 5, Issue 3, May-June 2023",
+      "Award": "-"
+    },
+    {
+      "S.N.": 3,
+      "Students": [
+        "Prem K",
+        "Prakash Raja P",
+        "Manikandan M"
+      ],
+      "Publisher": "International Journal For Multidisciplinary Research (IJFMR)",
+      "Journal_Conference": "International Journal For Multidisciplinary Research (IJFMR)",
+      "Title": "A Framework To Make Voting System Transparent Using Blockchain Technology",
+      "Volume_Issue": "Volume 5, Issue 2, March-April 2023",
+      "Award": "-"
+    },
+    {
+      "S.N.": 4,
+      "Students": [
+        "Sikha G Jayan",
+        "Shilpa KP",
+        "Shinas Vaishnav"
+      ],
+      "Publisher": "International Journal Of Progressive Research In Engineering Management And Science (IJPREMS)",
+      "Journal_Conference": "International Journal Of Progressive Research In Engineering Management And Science (IJPREMS)",
+      "Title": "Automatic Monitoring And Control System In Hydroponics Plant Agriculture",
+      "Volume_Issue": "Vol.03, Issue 05, May 2023, Pp-293",
+      "Award": "-"
+    },
+    {
+      "S.N.": 5,
+      "Students": [
+        "Pradeep K",
+        "Santhosh C",
+        "Sedhu Madhavan K",
+        "Saranya S"
+      ],
+      "Publisher": "International Journal For Multidisciplinary Research (IJFMR)",
+      "Journal_Conference": "International Journal For Multidisciplinary Research (IJFMR)",
+      "Title": "A Web -Based Platform That Enables Small Businesses To Set Up An Online Store And Sell Their Products",
+      "Volume_Issue": "Volume 5, Issue 3, May 2023",
+      "Award": "-"
+    },
+    {
+      "S.N.": 21,
+      "Students": [
+        "Abisheik G",
+        "Babu N",
+        "Bharath V",
+        "Gokula Kannan A"
+      ],
+      "Publisher": "Conference Proceedings Venue: Sri Ramakrishna College of Arts and Science, March 2024",
+      "Journal_Conference": "National Conference on Data Science and Analytics (NCDA'24)",
+      "Title": "Personality Analysis Chatbot-AI",
+      "Volume_Issue": "Conference Proceedings",
+      "Award": "-"
     }
   ],
   "CAY_m2_2022_2023": [
@@ -12323,6 +14301,17 @@
       "to": "19.04.2024",
       "year": "2024-2025"
     },
+      "s.no.": 3,
+      "student_name": "",
+      "year_semester": "",
+      "event_name": "",
+      "status": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    }
+  ],
+  "stu_nptel": [
     {
       "sno": 161,
       "registerNumber": "720822103161",
@@ -12353,6 +14342,17 @@
       "to": "19.04.2024",
       "year": "2024-2025"
     },
+      "s.no.": 3,
+      "student_name": "",
+      "year_semester": "",
+      "course_name": "",
+      "status": "",
+      "PO_PSO": "",
+      "SDGs": "",
+      "outcome_impact": ""
+    }
+  ],
+  "Resource_Person": [
     {
       "sno": 164,
       "registerNumber": "720822103164",
@@ -12412,6 +14412,12 @@
       "from": "03.04.2024",
       "to": "19.04.2024",
       "year": "2024-2025"
+      "S.NO.": 6,
+      "Name_of_Faculty_as_Resource_Person": "Dr.Subhalaskhmi. R.T",
+      "Seminar/Workshop/FDP": "Hands on Session to Unleash the Power of Data Exploration",
+      "Date": "13.09.2023",
+      "Location": "Coimbatore",
+      "Organized_by": "Department of Artificial Intelligence and Data Science, M.A.M College of Engineering and Technology"
     },
     {
       "sno": 170,
@@ -12432,6 +14438,12 @@
       "from": "15.07.2024",
       "to": "14.07.2024",
       "year": "2024-2025"
+      "S.NO.": 8,
+      "Name_of_Faculty_as_Resource_Person": "Mr.Murugan.M",
+      "Seminar/Workshop/FDP": "Preparation of IQAC and SSR for NAAC",
+      "Date": "16.04.2024",
+      "Location": "Coimbatore",
+      "Organized_by": "Department of Artificial Intelligence and Data Science, RVS Technical Campus"
     },
     {
       "sno": 172,
@@ -12612,6 +14624,73 @@
       "from": "01.06.2024",
       "to": "30.06.2024",
       "year": "2024-2025"
+      "S.NO.": 20,
+      "Name_of_Faculty_as_Resource_Person": "Mr.Tamizharasu.T",
+      "Seminar/Workshop/FDP": "Cyber Security Threats and Vulnerabilities",
+      "Date": "06.11.2023",
+      "Location": "Coimbatore",
+      "Organized_by": "Department of Artificial Intelligence and Data Science, Adithya Institute of Technology"
+    },
+    {
+      "S.NO.": 21,
+      "Name_of_Faculty_as_Resource_Person": "Dr.Jameer Basha. A",
+      "Seminar/Workshop/FDP": "Security and Privacy Issues in Wireless Networks",
+      "Date": "18.07.2023",
+      "Location": "Coimbatore",
+      "Organized_by": "Department of Electronics and Communication Engineering, Erode Sengunthar Engineering College"
+    },
+    {
+      "S.NO.": 22,
+      "Name_of_Faculty_as_Resource_Person": "Dr. Senthil Kumar.R",
+      "Seminar/Workshop/FDP": "Hands on Session to Unleash the Power of Data Exploration",
+      "Date": "25.08.2023",
+      "Location": "Coimbatore",
+      "Organized_by": "Department of Computer Science and Engineering"
+    },
+    {
+      "S.NO.": 23,
+      "Name_of_Faculty_as_Resource_Person": "Dr.Subhalaskhmi. R.T",
+      "Seminar/Workshop/FDP": "Hands on Session to Unleash the Power of Data Exploration",
+      "Date": "13.09.2023",
+      "Location": "Coimbatore",
+      "Organized_by": "Department of Artificial Intelligence and Data Science, M.A.M College of Engineering and Technology"
+    },
+    {
+      "S.NO.": 24,
+      "Name_of_Faculty_as_Resource_Person": "Dr.Subhalaskhmi. R.T",
+      "Seminar/Workshop/FDP": "Hands on Session to Unleash the Power of Data Exploration",
+      "Date": "22.02.2024",
+      "Location": "Perundurai",
+      "Organized_by": "Department of Computer Science and Engineering, Sri Sai Ranganathar Institute of Technology"
+    },
+    {
+      "S.NO.": 25,
+      "Name_of_Faculty_as_Resource_Person": "Mr.Murugan.M",
+      "Seminar/Workshop/FDP": "Preparation of IQAC and SSR for NAAC",
+      "Date": "16.04.2024",
+      "Location": "Coimbatore",
+      "Organized_by": "Department of Artificial Intelligence and Data Science, RVS Technical Campus"
+    },
+    {
+      "S.NO.": 26,
+      "Name_of_Faculty_as_Resource_Person": "Dr.Jameer Basha.A",
+      "Seminar/Workshop/FDP": "FDP on Artificial Intelligence (AI) Enabled Internet of Things (IoT)",
+      "Date": "28.05.2024",
+      "Location": "Tiruchirapalli",
+      "Organized_by": "Department of Computer Science and Engineering, Indira Ganesan College of Engineering"
+    }
+  ],
+  "stu_mini": [
+    {
+      "s.no.": 1,
+      "title": "Road Accident Prediction Using Data Mining Techniques",
+      "students": "Manoj Kumar Nagumothu, Podapati Anvesh, Muthinti Satyanarayana",
+      "year": "2023",
+      "courseCode": "20CS710",
+      "wp": "WP2, WP5, WP6",
+      "ea": "EA1, EA2, EA3",
+      "po": "PO1, PO2, PO3, PO4, PO5, PO6, PO7, PO9, PO10",
+      "pso": "PSO1, PSO2"
     },
     {
       "sno": 190,
@@ -17435,6 +19514,478 @@
       "Date": "28.05.2024",
       "Location": "Tiruchirapalli",
       "Organized_by": "Department of Computer Science and Engineering, Indira Ganesan College of Engineering"
+    }
+  ],
+  "stu_nptel": [
+    {
+      "s.no.": 1,
+      "register_number": "720823103002",
+      "student_name": "Aathish K",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 2,
+      "register_number": "720823103003",
+      "student_name": "Abdul Gafoor Suhail",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 3,
+      "register_number": "720823103005",
+      "student_name": "Abhijith R Krishna",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 4,
+      "register_number": "720823103006",
+      "student_name": "Abhinaya K",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 5,
+      "register_number": "720823103009",
+      "student_name": "Abiram K A",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite + Silver",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 6,
+      "register_number": "720823103011",
+      "student_name": "Adithya U",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite + Silver",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 7,
+      "register_number": "720823103012",
+      "student_name": "Ahamed Abrar T A K",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 8,
+      "register_number": "720823103023",
+      "student_name": "Asmitha M",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 9,
+      "register_number": "720823103065",
+      "student_name": "Kanishka A",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite + Silver",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 10,
+      "register_number": "720823103067",
+      "student_name": "Karthick Ram R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 11,
+      "register_number": "720823103072",
+      "student_name": "Kayalvizhi Pearlin L",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 12,
+      "register_number": "720823103073",
+      "student_name": "Kiruthika B",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite + Silver",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 13,
+      "register_number": "720823103074",
+      "student_name": "Kishore M",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite + Silver",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 14,
+      "register_number": "720823103082",
+      "student_name": "Logeshwaran R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 15,
+      "register_number": "720823103086",
+      "student_name": "Mahalakshmi K",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 16,
+      "register_number": "720823103087",
+      "student_name": "Manikandan G",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 17,
+      "register_number": "720823103099",
+      "student_name": "Mythilipriyanka T",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 18,
+      "register_number": "720823103100",
+      "student_name": "Mythish T",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 19,
+      "register_number": "720823103102",
+      "student_name": "Nandhini R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 20,
+      "register_number": "720823103103",
+      "student_name": "Nandhini R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 21,
+      "register_number": "720823103105",
+      "student_name": "Naveen M",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 22,
+      "register_number": "720823103109",
+      "student_name": "Padmaharshini A",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 23,
+      "register_number": "720823103112",
+      "student_name": "Pavishini K",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite + Silver",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 24,
+      "register_number": "720823103117",
+      "student_name": "Ragavan S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 25,
+      "register_number": "720823103120",
+      "student_name": "Rajakumari R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 26,
+      "register_number": "720823103123",
+      "student_name": "Rakshitha R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 27,
+      "register_number": "720823103124",
+      "student_name": "Rama R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 28,
+      "register_number": "720823103126",
+      "student_name": "Ramkumar P",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 29,
+      "register_number": "720823103129",
+      "student_name": "Rohith P",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 30,
+      "register_number": "720823103137",
+      "student_name": "Sanjay P",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 31,
+      "register_number": "720823103141",
+      "student_name": "Santhiya S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 32,
+      "register_number": "720823103143",
+      "student_name": "Santhosh M",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 33,
+      "register_number": "720823103147",
+      "student_name": "Selvamalar U",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 34,
+      "register_number": "720823103149",
+      "student_name": "Sham S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 35,
+      "register_number": "720823103150",
+      "student_name": "Shani T",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 36,
+      "register_number": "720823103152",
+      "student_name": "Sherinsweety S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 37,
+      "register_number": "720823103153",
+      "student_name": "Shyam AM",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 38,
+      "register_number": "720823103154",
+      "student_name": "Shyamala Devi M",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 39,
+      "register_number": "720823103158",
+      "student_name": "Sridhar S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 40,
+      "register_number": "720823103163",
+      "student_name": "Swetha S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 41,
+      "register_number": "720823103167",
+      "student_name": "Thillaikarasi R",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 42,
+      "register_number": "720823103171",
+      "student_name": "Vasu P",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 43,
+      "register_number": "720823103172",
+      "student_name": "Vedha Valli V",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 44,
+      "register_number": "720823103173",
+      "student_name": "Vijayakumar G",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 45,
+      "register_number": "720823103175",
+      "student_name": "Vikashini K",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 46,
+      "register_number": "720823103180",
+      "student_name": "Vinothini S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
+    },
+    {
+      "s.no.": 47,
+      "register_number": "720823103183",
+      "student_name": "Yogeshwari S",
+      "course_name": "Python for Data Science",
+      "organized_by": "IIT Madras",
+      "duration": "Jan-Feb 2025",
+      "grade": "Elite",
+      "academic_year": "2024-2025"
     }
   ]
 }
