@@ -244,7 +244,6 @@
       "duration": "1 Day"
     }
   ],
-
   "fac_patents": [
     {
       "sno": 1,
@@ -703,7 +702,6 @@
       "status": "Filled"
     }
   ],
-
   "internships": [
     {
       "s.no.": 1,
@@ -927,9 +925,7 @@
       "pre_placement_offer": "4 to 6 LPA"
     }
   ],
-
   "castrol_projects": [
-      
     {
       "s.no.": 2,
       "name": "Jeyasuba M (720822103075)",
@@ -1858,13 +1854,1102 @@
     }
   ],
   "miniProjects": [],
-  "micro_projects": [],
-
+  "stu_micro": [
+    {
+      "S_No": 1,
+      "Project_Title": "Student Performance Prediction using Machine Learning",
+      "Students": [
+        "ABDUL KALAM N (720821103001)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG4"
+      ],
+      "Outcome_Impact": "Predicts academic performance to support early intervention and personalized learning.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 2,
+      "Project_Title": "House Price Prediction using Regression Models",
+      "Students": [
+        "ABHILASH S (720821103002)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO1",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Estimates property values accurately using historical and market data.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 3,
+      "Project_Title": "Email Spam Detection System",
+      "Students": [
+        "ABIJITH C P (720821103003)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Automatically filters unwanted emails to improve communication efficiency.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 4,
+      "Project_Title": "Movie Recommendation System",
+      "Students": [
+        "ABIJITH K (720821103004)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SD G_Goals": [
+        "SDG12"
+      ],
+      "Outcome_Impact": "Recommends personalized content based on user preferences and behavior.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 5,
+      "Project_Title": "Iris Flower Classification",
+      "Students": [
+        "ABINESH P (720821103005)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO1",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG15"
+      ],
+      "Outcome_Impact": "Classifies data points accurately using supervised learning techniques.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 6,
+      "Project_Title": "Loan Eligibility Prediction",
+      "Students": [
+        "ADHEEP DAS (720821103006)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG8"
+      ],
+      "Outcome_Impact": "Assists financial institutions in making informed loan approval decisions.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 7,
+      "Project_Title": "Diabetes Prediction System",
+      "Students": [
+        "ADHIL J (720821103007)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Helps in early detection of diabetes using patient health data.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 8,
+      "Project_Title": "Weather Forecasting using ML",
+      "Students": [
+        "ADIL ABDUL NASSAR (720821103008)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG13"
+      ],
+      "Outcome_Impact": "Forecasts weather conditions to support planning and decision-making.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 9,
+      "Project_Title": "Customer Churn Prediction",
+      "Students": [
+        "AKSHAYA E (720821103009)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG8"
+      ],
+      "Outcome_Impact": "Identifies customers likely to leave, enabling retention strategies.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 10,
+      "Project_Title": "Handwritten Digit Recognition",
+      "Students": [
+        "ANBURAJ G (720821103010)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Recognizes handwritten digits for automation and document processing.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 11,
+      "Project_Title": "Credit Card Fraud Detection System",
+      "Students": [
+        "ANITHA V (720821103011)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Detects fraudulent transactions to enhance financial security.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 12,
+      "Project_Title": "Sentiment Analysis of Product Reviews",
+      "Students": [
+        "ASHAK MS (720821103012)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG12"
+      ],
+      "Outcome_Impact": "Analyzes customer opinions to improve product quality and services.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 13,
+      "Project_Title": "Fake News Detection using NLP",
+      "Students": [
+        "AYESETTY MOHANA SAI SREE HARIKA (720821103013)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Identifies misleading news to reduce misinformation spread.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 14,
+      "Project_Title": "Stock Price Prediction using ML",
+      "Students": [
+        "BANDI VENKA REDDY (720821103014)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG8"
+      ],
+      "Outcome_Impact": "Predicts stock trends to assist investors in decision-making.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 15,
+      "Project_Title": "Heart Disease Prediction System",
+      "Students": [
+        "BIRUNDHADEVI R (720821103015)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Supports early diagnosis of heart disease for better healthcare outcomes.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 16,
+      "Project_Title": "Traffic Accident Severity Prediction",
+      "Students": [
+        "BOPPANA PRAVALLIKA (720821103016)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Analyzes accident data to improve road safety measures.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 17,
+      "Project_Title": "Image Classification using CNN",
+      "Students": [
+        "DEEPTHI S (720821103017)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Classifies images effectively using deep learning models.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 18,
+      "Project_Title": "Face Mask Detection System",
+      "Students": [
+        "DHANASEKAR M (720821103018)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Ensures public safety by detecting face mask compliance.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 19,
+      "Project_Title": "Resume Screening using Machine Learning",
+      "Students": [
+        "DHARANI R (720821103019)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG8"
+      ],
+      "Outcome_Impact": "Automates resume shortlisting to reduce recruitment effort.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 20,
+      "Project_Title": "Online Shopping Recommendation Engine",
+      "Students": [
+        "DHIBINESH P D (720821103020)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG12"
+      ],
+      "Outcome_Impact": "Enhances user experience through personalized product recommendations.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 21,
+      "Project_Title": "Chatbot using Natural Language Processing",
+      "Students": [
+        "DHINESH D (720821103021)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Provides automated conversational support using natural language understanding.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 22,
+      "Project_Title": "Emotion Detection from Text",
+      "Students": [
+        "DILSHAD P (720821103022)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Detects emotional tone in text for sentiment-aware applications.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 23,
+      "Project_Title": "Language Translation System",
+      "Students": [
+        "DINESH L (720821103023)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG10"
+      ],
+      "Outcome_Impact": "Enables translation between languages to improve global communication.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 24,
+      "Project_Title": "News Article Classification",
+      "Students": [
+        "DINESH M (720821103024)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Organizes and categorizes news articles efficiently.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 25,
+      "Project_Title": "Hate Speech Detection System",
+      "Students": [
+        "DINESHKUMAR M (720821103025)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Identifies harmful online content to promote safer digital platforms.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 26,
+      "Project_Title": "Text Summarization using Machine Learning",
+      "Students": [
+        "DURAI R (720821103026)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG4"
+      ],
+      "Outcome_Impact": "Generates concise summaries from large text documents.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 27,
+      "Project_Title": "Plagiarism Detection System",
+      "Students": [
+        "ELAMPARITHI K (720821103027)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Detects copied content to uphold academic and content integrity.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 28,
+      "Project_Title": "Question Answering System",
+      "Students": [
+        "GANDIKOTA YESU PRASAD (720821103028)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Answers user queries accurately using intelligent systems.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 29,
+      "Project_Title": "Speech-to-Text Conversion System",
+      "Students": [
+        "GOSU VAMSHI (720821103029)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG10"
+      ],
+      "Outcome_Impact": "Converts spoken language into text for accessibility and automation.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 30,
+      "Project_Title": "Fake News Detection using Machine Learning",
+      "Students": [
+        "GURUPRASATH A (720821103030)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Identifies fake news using machine learning classification models.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 31,
+      "Project_Title": "Face Recognition System",
+      "Students": [
+        "HARI HARAN S (720821103031)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Authenticates individuals using facial features.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 32,
+      "Project_Title": "Object Detection using YOLO",
+      "Students": [
+        "HARIHARAN K (720821103032)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Detects and localizes objects in real-time images or videos.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 33,
+      "Project_Title": "Traffic Sign Recognition",
+      "Students": [
+        "HARISANKAR A (720821103034)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Recognizes traffic signs to support intelligent transportation systems.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 34,
+      "Project_Title": "Disease Detection from X-ray Images",
+      "Students": [
+        "HARISARAN V (720821103035)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Assists medical professionals by detecting diseases from X-ray images.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 35,
+      "Project_Title": "Plant Leaf Disease Detection",
+      "Students": [
+        "HARISH KEERTHI V (720821103036)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG2"
+      ],
+      "Outcome_Impact": "Identifies plant diseases early to improve agricultural productivity.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 36,
+      "Project_Title": "Gesture Recognition System",
+      "Students": [
+        "HARISHMA M (720821103038)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Interprets human gestures for human–computer interaction.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 37,
+      "Project_Title": "Automatic Number Plate Recognition",
+      "Students": [
+        "HARISH S (720821103037)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Automates vehicle identification for traffic monitoring and security.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 38,
+      "Project_Title": "Crowd Counting System",
+      "Students": [
+        "ILANTHIRAYAN G (720821103039)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Estimates crowd density to enhance public safety management.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 39,
+      "Project_Title": "Facial Emotion Recognition",
+      "Students": [
+        "IMAYASRI A (720821103040)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Identifies facial expressions to understand human emotions.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 40,
+      "Project_Title": "Fire Detection using Image Processing",
+      "Students": [
+        "JAGAN A (720821103041)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Detects fire incidents early to prevent large-scale damage.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 41,
+      "Project_Title": "Autonomous Vehicle Navigation System",
+      "Students": [
+        "JANATH NIKASH K (720821103042)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Supports safe navigation of autonomous vehicles.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 42,
+      "Project_Title": "Intrusion Detection System using ML",
+      "Students": [
+        "JITHIN L (720821103043)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Identifies network intrusions to improve cybersecurity.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 43,
+      "Project_Title": "Fake Profile Detection on Social Media",
+      "Students": [
+        "KABILESH R (720821103044)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Detects fake social media profiles to reduce online fraud.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 44,
+      "Project_Title": "Recommendation System for E-Learning Platforms",
+      "Students": [
+        "KAMALAKANNAN K (720821103045)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG4"
+      ],
+      "Outcome_Impact": "Personalizes learning content for improved educational outcomes.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 45,
+      "Project_Title": "Infertility Based Classification Model using Machine Learning Techniques",
+      "Students": [
+        "KAMALESHWARI R (720821103046)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Enables early infertility detection through machine learning–based classification to support accurate diagnosis and improved treatment outcomes.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 46,
+      "Project_Title": "Smart Traffic Management System",
+      "Students": [
+        "KARTHIC V (720821103047)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Optimizes traffic flow using intelligent decision-making systems.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 47,
+      "Project_Title": "AI-Based Resume Ranking System",
+      "Students": [
+        "KARTHICK S (720821103048)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG8"
+      ],
+      "Outcome_Impact": "Ranks resumes objectively to improve recruitment efficiency.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 48,
+      "Project_Title": "Speech Emotion Recognition System",
+      "Students": [
+        "KARTHICK S (720821103049)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Analyzes speech patterns to identify emotional states.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 49,
+      "Project_Title": "Financial Market Trend Prediction",
+      "Students": [
+        "KARTHIK SUJITH (720821103050)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG8"
+      ],
+      "Outcome_Impact": "Predicts financial trends to support strategic planning.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 50,
+      "Project_Title": "Healthcare Diagnosis System using ML",
+      "Students": [
+        "KARTHIKEYAN M (720821103051)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Assists doctors in diagnosis using data-driven insights.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 51,
+      "Project_Title": "Smart Agriculture System using ML",
+      "Students": [
+        "KATHIRVEL R (720821103052)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG2"
+      ],
+      "Outcome_Impact": "Improves crop yield through intelligent farming practices.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 52,
+      "Project_Title": "Energy Consumption Prediction System",
+      "Students": [
+        "KAVIN KUMAR P (720821103053)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG7"
+      ],
+      "Outcome_Impact": "Forecasts energy demand for efficient resource management.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 53,
+      "Project_Title": "Smart Home Automation using AI",
+      "Students": [
+        "KAVIYASRI J (720821103054)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Enhances comfort and efficiency through automated home systems.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 54,
+      "Project_Title": "AI-Based Air Quality Monitoring System",
+      "Students": [
+        "KESAVAN A (720821103055)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG13"
+      ],
+      "Outcome_Impact": "Monitors air quality to support environmental protection.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 55,
+      "Project_Title": "Intelligent Water Quality Prediction",
+      "Students": [
+        "KISHORE R (720821103056)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG6"
+      ],
+      "Outcome_Impact": "Assesses water quality to ensure safe consumption.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 56,
+      "Project_Title": "Disease Outbreak Prediction System",
+      "Students": [
+        "KURAPATI LOHITHA  (720821103057)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG3"
+      ],
+      "Outcome_Impact": "Predicts disease spread to assist public health planning.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 57,
+      "Project_Title": "AI-Powered Virtual Assistant",
+      "Students": [
+        "LINJU RAJAN (720821103058)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Provides intelligent assistance through voice or text interaction.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 58,
+      "Project_Title": "Smart Attendance System using Face Recognition",
+      "Students": [
+        "LOGESHWARAN P (720821103059)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG4"
+      ],
+      "Outcome_Impact": "Automates attendance tracking using facial recognition.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 59,
+      "Project_Title": "Fraud Detection in Online Transactions",
+      "Students": [
+        "LOKESH V (720821103060)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Detects fraudulent activities in online transactions.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 60,
+      "Project_Title": "Hand Gesture Recognition using OpenCV",
+      "Students": [
+        "MADHESH P D (720821103061)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG9"
+      ],
+      "Outcome_Impact": "Interprets hand movements for interactive system control.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 61,
+      "Project_Title": "Personality Prediction from Text",
+      "Students": [
+        "MAHALINGESHVARANATHAN N L (720821103062)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG8"
+      ],
+      "Outcome_Impact": "Analyzes text to infer personality traits.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 62,
+      "Project_Title": "Predictive Maintenance using Machine Learning",
+      "Students": [
+        "MAHESH S (720821103063)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO2",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG16"
+      ],
+      "Outcome_Impact": "Predicts equipment failure to reduce downtime and maintenance costs.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 63,
+      "Project_Title": "Cyberbullying Detection System",
+      "Students": [
+        "HARISH KUMAR R (720821103302)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO4",
+        "PSO1"
+      ],
+      "SDG_Goals": [
+        "SDG11"
+      ],
+      "Outcome_Impact": "Identifies cyberbullying content to promote safer online communities.",
+      "year": "2024-25"
+    },
+    {
+      "S_No": 64,
+      "Project_Title": "Real-Time Traffic Congestion Prediction Using Machine Learning",
+      "Students": [
+        "MOHAMED RIYAZATH ALIE H (720821103303)"
+      ],
+      "Year_Semester": "III Year / VI Semester",
+      "PO_PSO": [
+        "PO5",
+        "PSO2"
+      ],
+      "SDG_Goals": [
+        "SDG4"
+      ],
+      "Outcome_Impact": "Predicts traffic congestion in real time to improve urban mobility.",
+      "year": "2024-25"
+    }
+  ],
   "research_data": [
-    
     {
       "s.no.": 1,
-      "faculty name": ["Dr.A.JameerBasha, Professor & Head"],
+      "faculty name": [
+        "Dr.A.JameerBasha, Professor & Head"
+      ],
       "project_title": "Scheme for Promoting Interests, Creativity and Ethics among Students (SPICES)",
       "project_type": "Research",
       "funding_agency": "AICTE",
@@ -1873,7 +2958,9 @@
     },
     {
       "s.no.": 2,
-      "faculty name": ["Ms.P.Jeevitha, AP/CSE"],
+      "faculty name": [
+        "Ms.P.Jeevitha, AP/CSE"
+      ],
       "project_title": "Intelligent Support System for diagnosis of covid 19 and captioning of x ray images using LSTM and RNN with explainability",
       "project_type": "Research",
       "funding_agency": "Hindusthan Educational and Charitable Trust",
@@ -1882,7 +2969,9 @@
     },
     {
       "s.no.": 3,
-      "faculty name": ["Dr.R.Kala, AP/CSE"],
+      "faculty name": [
+        "Dr.R.Kala, AP/CSE"
+      ],
       "project_title": "Brain Tumor Detection Using Deep Convolutional Neural Network And Its Application Using FPGA Implementation",
       "project_type": "Research",
       "funding_agency": "Hindusthan Educational and Charitable Trust",
@@ -1891,7 +2980,9 @@
     },
     {
       "s.no.": 4,
-      "faculty name": ["Ms.R.T. Subhalakshmi, AP/CSE"],
+      "faculty name": [
+        "Ms.R.T. Subhalakshmi, AP/CSE"
+      ],
       "project_title": "Automatic segmentation and classification of COVID-19 CT image Using DCN",
       "project_type": "Research",
       "funding_agency": "Hindusthan Educational and Charitable Trust",
@@ -1900,7 +2991,9 @@
     },
     {
       "s.no.": 5,
-      "faculty name": ["Dr.A.JameerBasha, Professor & Head"],
+      "faculty name": [
+        "Dr.A.JameerBasha, Professor & Head"
+      ],
       "project_title": "Application of Artificial Intelligence in Waste Water Management",
       "project_type": "Research",
       "funding_agency": "Hindusthan Educational and Charitable Trust",
@@ -1909,7 +3002,9 @@
     },
     {
       "s.no.": 6,
-      "faculty name": ["Dr.S.Lokesh, ASP/CSE"],
+      "faculty name": [
+        "Dr.S.Lokesh, ASP/CSE"
+      ],
       "project_title": "Nano Assistive Communication Device for Elderly and Speech Disability People after Stroke",
       "project_type": "Research",
       "funding_agency": "Hindusthan Educational and Charitable Trust",
@@ -1918,7 +3013,9 @@
     },
     {
       "s.no.": 7,
-      "faculty name": ["Mr.Arun, AP/CSE"],
+      "faculty name": [
+        "Mr.Arun, AP/CSE"
+      ],
       "project_title": "Social Vulnerability in context to natural disaster using Machine learning",
       "project_type": "Research",
       "funding_agency": "Hindusthan Educational and Charitable Trust",
@@ -1927,7 +3024,10 @@
     },
     {
       "s.no.": 8,
-      "faculty name": ["Dr.JameerBasha.A", "Dr.Senthilkumar.R"],
+      "faculty name": [
+        "Dr.JameerBasha.A",
+        "Dr.Senthilkumar.R"
+      ],
       "project_title": "CRM / ERP Development",
       "project_type": "Consultancy",
       "funding_agency": "Metalica Motors, Pollachi Road, Achampatti Coimbatore",
@@ -1936,7 +3036,10 @@
     },
     {
       "s.no.": 9,
-      "faculty name": ["Dr.Senthilkumar.R", "Dr.Ramasamy.S"],
+      "faculty name": [
+        "Dr.Senthilkumar.R",
+        "Dr.Ramasamy.S"
+      ],
       "project_title": "Automated Resume Screening System",
       "project_type": "Consultancy",
       "funding_agency": "Initz Technologies, Coimbatore",
@@ -1945,7 +3048,10 @@
     },
     {
       "s.no.": 10,
-      "faculty name": ["Mr.Murugan.K", "Mr.Devendran.M"],
+      "faculty name": [
+        "Mr.Murugan.K",
+        "Mr.Devendran.M"
+      ],
       "project_title": "Real Time Food Tracker",
       "project_type": "Consultancy",
       "funding_agency": "Clarozon Technologies",
@@ -1954,7 +3060,10 @@
     },
     {
       "s.no.": 11,
-      "faculty name": ["Dr.Jayasudha.D", "Mr.Uthayakumar.J"],
+      "faculty name": [
+        "Dr.Jayasudha.D",
+        "Mr.Uthayakumar.J"
+      ],
       "project_title": "IoT-based Smart Home Automation System",
       "project_type": "Consultancy",
       "funding_agency": "Quantanics TechServ, Madurai",
@@ -1963,7 +3072,10 @@
     },
     {
       "s.no.": 12,
-      "faculty name": ["Dr.Chitra.M", "Mr.Arun.R"],
+      "faculty name": [
+        "Dr.Chitra.M",
+        "Mr.Arun.R"
+      ],
       "project_title": "Chat-bot System for Customer Support",
       "project_type": "Consultancy",
       "funding_agency": "Little Genius Technologies",
@@ -1972,7 +3084,10 @@
     },
     {
       "s.no.": 13,
-      "faculty name": ["Dr.Subhalakshmi.R.T", "Mrs.Jeevitha.P"],
+      "faculty name": [
+        "Dr.Subhalakshmi.R.T",
+        "Mrs.Jeevitha.P"
+      ],
       "project_title": "AI-Based Real-Time Voice Assistant",
       "project_type": "Consultancy",
       "funding_agency": "Webnest Technologies",
@@ -1981,7 +3096,10 @@
     },
     {
       "s.no.": 14,
-      "faculty name": ["Dr.Maheshkumar.N.B", "Mr.Murugan.K"],
+      "faculty name": [
+        "Dr.Maheshkumar.N.B",
+        "Mr.Murugan.K"
+      ],
       "project_title": "AI-Based Video Surveillance System",
       "project_type": "Consultancy",
       "funding_agency": "Visaithalam Solutions",
@@ -1990,7 +3108,10 @@
     },
     {
       "s.no.": 15,
-      "faculty name": ["Mrs.Jeevitha.P", "Mrs.Pavithra.K.S"],
+      "faculty name": [
+        "Mrs.Jeevitha.P",
+        "Mrs.Pavithra.K.S"
+      ],
       "project_title": "Blockchain based Supply Chain management",
       "project_type": "Consultancy",
       "funding_agency": "Litz Technologies",
@@ -1999,7 +3120,10 @@
     },
     {
       "s.no.": 16,
-      "faculty name": ["Dr.Senthilkumar.R", "Mr.Devendran.M"],
+      "faculty name": [
+        "Dr.Senthilkumar.R",
+        "Mr.Devendran.M"
+      ],
       "project_title": "IoT Based Energy Monitoring and Optimization System",
       "project_type": "Consultancy",
       "funding_agency": "Talent Factori Pvt Ltd",
@@ -2008,7 +3132,10 @@
     },
     {
       "s.no.": 17,
-      "faculty name": ["Dr.Jeyasudha.D", "Mrs.BanuPriya.M"],
+      "faculty name": [
+        "Dr.Jeyasudha.D",
+        "Mrs.BanuPriya.M"
+      ],
       "project_title": "Vehicle Tracking System",
       "project_type": "Consultancy",
       "funding_agency": "Icore solutions",
@@ -2017,7 +3144,10 @@
     },
     {
       "s.no.": 18,
-      "faculty name": ["Dr.Subhalakshmi.R.T", "Mr.Kalaiselvi.T"],
+      "faculty name": [
+        "Dr.Subhalakshmi.R.T",
+        "Mr.Kalaiselvi.T"
+      ],
       "project_title": "AI-Based Disease Diagnosis System",
       "project_type": "Consultancy",
       "funding_agency": "Dataspire Technologies",
@@ -2026,7 +3156,10 @@
     },
     {
       "s.no.": 19,
-      "faculty name": ["Dr.Kala.R", "Mrs.Vidhya.D"],
+      "faculty name": [
+        "Dr.Kala.R",
+        "Mrs.Vidhya.D"
+      ],
       "project_title": "Smart Blind Stick",
       "project_type": "Consultancy",
       "funding_agency": "Initz Technologies",
@@ -2035,7 +3168,10 @@
     },
     {
       "s.no.": 20,
-      "faculty name": ["Dr.Uma.S", "Mr.Senthilkumar.R"],
+      "faculty name": [
+        "Dr.Uma.S",
+        "Mr.Senthilkumar.R"
+      ],
       "project_title": "Smart Farming using IoT",
       "project_type": "Consultancy",
       "funding_agency": "Quantanics TechServ Pvt Ltd",
@@ -2044,7 +3180,10 @@
     },
     {
       "s.no.": 21,
-      "faculty name": ["Dr.Lokesh.S", "Mrs.Banupriya.M"],
+      "faculty name": [
+        "Dr.Lokesh.S",
+        "Mrs.Banupriya.M"
+      ],
       "project_title": "QR Code based Street light control system",
       "project_type": "Consultancy",
       "funding_agency": "Talent Factori Pvt Ltd",
@@ -2053,7 +3192,10 @@
     },
     {
       "s.no.": 22,
-      "faculty name": ["Dr.Ramasamy.S", "Mr.Devendran.M"],
+      "faculty name": [
+        "Dr.Ramasamy.S",
+        "Mr.Devendran.M"
+      ],
       "project_title": "An AI Driven & Blockchain Enabled Employee Tracking & Ethical Rating Platform",
       "project_type": "Consultancy",
       "funding_agency": "Talent Factori Pvt Ltd",
@@ -2175,7 +3317,6 @@
       "impact/outcome": "Data Analysis and Visualization with Power BI"
     }
   ],
-
   "innovations_tab": [
     {
       "s.no.": 1,
@@ -2292,7 +3433,6 @@
       "salary": "12.0 LPA"
     }
   ],
-
   "International": [
     {
       "s.no.": 1,
@@ -4288,7 +5428,6 @@
       "doi": "May 2023"
     }
   ],
-
   "National_journals": [
     {
       "s.no.": 1,
@@ -4351,7 +5490,9 @@
     {
       "S.N.": 1,
       "Title": "Wireless Sensor Networks (WSN) with Internet of Things (IoT)",
-      "Authors": ["Dr. S. Ramasamy"],
+      "Authors": [
+        "Dr. S. Ramasamy"
+      ],
       "ISBN": "9786205630778",
       "Publisher": "LAP LAMBERT Academic Publishing",
       "Status": "Published"
@@ -4359,7 +5500,9 @@
     {
       "S.N.": 2,
       "Title": "Genetic Algorithm and Machine Learning",
-      "Authors": ["Mrs. R. Gnanakumari"],
+      "Authors": [
+        "Mrs. R. Gnanakumari"
+      ],
       "ISBN": "9789357570800",
       "Publisher": "Scientific International Publishing House (SIPH)",
       "Status": "Published"
@@ -4367,7 +5510,9 @@
     {
       "S.N.": 3,
       "Title": "Artificial Intelligence & Machine Learning",
-      "Authors": ["Dr. S. Ramasamy"],
+      "Authors": [
+        "Dr. S. Ramasamy"
+      ],
       "ISBN": "9789319432950",
       "Publisher": "Sri Krishna Hitech Publishing Company",
       "Status": "Published"
@@ -4375,7 +5520,9 @@
     {
       "S.N.": 4,
       "Title": "Internet of Things (IoT): Technologies and Applications",
-      "Authors": ["Dr. S. Ramasamy"],
+      "Authors": [
+        "Dr. S. Ramasamy"
+      ],
       "ISBN": "9789367366912",
       "Publisher": "IGI Global Publishing Next Gen Research",
       "Status": "Published"
@@ -4383,7 +5530,9 @@
     {
       "S.N.": 5,
       "Title": "Agile Learning Methodologies",
-      "Authors": ["Mr. T. Tamizharasu"],
+      "Authors": [
+        "Mr. T. Tamizharasu"
+      ],
       "ISBN": "9788193433492",
       "Publisher": "Mercury Publications Consortium",
       "Status": "Published"
@@ -4391,7 +5540,10 @@
     {
       "S.N.": 6,
       "Title": "A Deep Learning Based Emotion Detection Using Convolutional Neural Network",
-      "Authors": ["Mrs. R. Gnanakumari", "Mr. G. Jeevanantham"],
+      "Authors": [
+        "Mrs. R. Gnanakumari",
+        "Mr. G. Jeevanantham"
+      ],
       "ISBN": "9786206810452",
       "Publisher": "AETS Global Publisher",
       "Status": "Published"
@@ -4399,7 +5551,9 @@
     {
       "S.N.": 7,
       "Title": "Genetic Algorithm and Machine Learning",
-      "Authors": ["Mrs. R. Gnanakumari"],
+      "Authors": [
+        "Mrs. R. Gnanakumari"
+      ],
       "ISBN": "9789357570800",
       "Publisher": "Scientific International Publishing House (SIPH)",
       "Status": "Published"
@@ -4407,7 +5561,9 @@
     {
       "S.N.": 8,
       "Title": "Fundamentals of Data Science",
-      "Authors": ["Mrs. R. Gnanakumari"],
+      "Authors": [
+        "Mrs. R. Gnanakumari"
+      ],
       "ISBN": "9766119313129",
       "Publisher": "Global Aasan Research",
       "Status": "Published"
@@ -4415,7 +5571,9 @@
     {
       "S.N.": 9,
       "Title": "Blockchain Technology for Beginners",
-      "Authors": ["Dr. D. Jayasutha"],
+      "Authors": [
+        "Dr. D. Jayasutha"
+      ],
       "ISBN": "9788119313150",
       "Publisher": "Global Aasan Research",
       "Status": "Published"
@@ -4423,7 +5581,9 @@
     {
       "S.N.": 10,
       "Title": "Full Stack Web Development",
-      "Authors": ["Dr. D. Jayasutha"],
+      "Authors": [
+        "Dr. D. Jayasutha"
+      ],
       "ISBN": "9788119313273",
       "Publisher": "Global Aasan Research",
       "Status": "Published"
@@ -4431,7 +5591,9 @@
     {
       "S.N.": 11,
       "Title": "Big Data Analytics",
-      "Authors": ["Mr. S. Tamizharasu"],
+      "Authors": [
+        "Mr. S. Tamizharasu"
+      ],
       "ISBN": "9789357570800",
       "Publisher": "Scientific International Publishing House (SIPH)",
       "Status": "Published"
@@ -4439,7 +5601,9 @@
     {
       "S.N.": 12,
       "Title": "Information Retrieval",
-      "Authors": ["Dr. M. Thangamani"],
+      "Authors": [
+        "Dr. M. Thangamani"
+      ],
       "ISBN": "9788193433478",
       "Publisher": "Mercury Publications Consortium",
       "Status": "Published"
@@ -4447,7 +5611,9 @@
     {
       "S.N.": 13,
       "Title": "Data Visualization Techniques",
-      "Authors": ["Dr. M. Thangamani"],
+      "Authors": [
+        "Dr. M. Thangamani"
+      ],
       "ISBN": "9788195490196",
       "Publisher": "Mercury Publications Consortium",
       "Status": "Published"
@@ -4572,11 +5738,12 @@
       "status": "Published"
     }
   ],
-
   "participations": [
     {
       "sno": 1,
-      "students": ["NHASIK MOHAMMMED N (720820103080)"],
+      "students": [
+        "NHASIK MOHAMMMED N (720820103080)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "KRIZEN 21",
       "organizer": "SRI KRISHNA COLLEGE OF ENGINEERING AND TECHNOLOGY - COIMBATORE",
@@ -4588,7 +5755,9 @@
     },
     {
       "sno": 2,
-      "students": ["NAVEEN A (720820103073)"],
+      "students": [
+        "NAVEEN A (720820103073)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "KRIZEN 21",
       "organizer": "SRI KRISHNA COLLEGE OF ENGINEERING AND TECHNOLOGY - COIMBATORE",
@@ -4600,7 +5769,9 @@
     },
     {
       "sno": 3,
-      "students": ["LOKESH MPT (720819104062)"],
+      "students": [
+        "LOKESH MPT (720819104062)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "TEKSPARK 21",
       "organizer": "KARPAGAM INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -4612,7 +5783,9 @@
     },
     {
       "sno": 4,
-      "students": ["LEELA CHRISTY I (720820103057)"],
+      "students": [
+        "LEELA CHRISTY I (720820103057)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "TEKSPARK 21",
       "organizer": "KARPAGAM INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -4624,7 +5797,9 @@
     },
     {
       "sno": 5,
-      "students": ["ABHISHA DIVYADHARSHINI F R (720820103004)"],
+      "students": [
+        "ABHISHA DIVYADHARSHINI F R (720820103004)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "TEKSPARK 21",
       "organizer": "KARPAGAM INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -4636,7 +5811,9 @@
     },
     {
       "sno": 6,
-      "students": ["KOLLA VENKATASATHISH (720820103055)"],
+      "students": [
+        "KOLLA VENKATASATHISH (720820103055)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "CSE TECXTREME 202",
       "organizer": "CHALAPATHI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
@@ -4648,7 +5825,9 @@
     },
     {
       "sno": 7,
-      "students": ["CHINTHALAPALLI KIRAN KUMAR REDDY (720820103024)"],
+      "students": [
+        "CHINTHALAPALLI KIRAN KUMAR REDDY (720820103024)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "CSE TECXTREME 202",
       "organizer": "CHALAPATHI INSTITUTE OF ENGINEERING AND TECHNOLOGY",
@@ -4660,7 +5839,9 @@
     },
     {
       "sno": 8,
-      "students": ["RISHI BALA M (720820103091)"],
+      "students": [
+        "RISHI BALA M (720820103091)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "CHAKRAWAR 2K22",
       "organizer": "M.KUMARASAMY COLLEGE OF ENGINEERING - KARUR",
@@ -4672,7 +5853,9 @@
     },
     {
       "sno": 9,
-      "students": ["POONTHAMILAN M (720820103087)"],
+      "students": [
+        "POONTHAMILAN M (720820103087)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "CHAKRAWAR 2K22",
       "organizer": "M.KUMARASAMY COLLEGE OF ENGINEERING - KARUR",
@@ -4684,7 +5867,9 @@
     },
     {
       "sno": 10,
-      "students": ["PACHIGULLA DEEPTHI (720819104080)"],
+      "students": [
+        "PACHIGULLA DEEPTHI (720819104080)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "NEXUS 22",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -4696,7 +5881,9 @@
     },
     {
       "sno": 11,
-      "students": ["RAJALAKSHMI R (720819104093)"],
+      "students": [
+        "RAJALAKSHMI R (720819104093)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "INNOTECH 22",
       "organizer": "SNS COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -4708,7 +5895,9 @@
     },
     {
       "sno": 12,
-      "students": ["PRADEEP K (720819104087)"],
+      "students": [
+        "PRADEEP K (720819104087)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "ZHAKRA 22",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -4720,7 +5909,9 @@
     },
     {
       "sno": 13,
-      "students": ["NELATURI SUDHA MANI (720819104076)"],
+      "students": [
+        "NELATURI SUDHA MANI (720819104076)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "ZHAKRA 22",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -4732,7 +5923,9 @@
     },
     {
       "sno": 14,
-      "students": ["SREERAG M (720819104109)"],
+      "students": [
+        "SREERAG M (720819104109)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "ZHAKRA 22",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -4744,7 +5937,9 @@
     },
     {
       "sno": 15,
-      "students": ["SRIRAMKARAN C (720820103109)"],
+      "students": [
+        "SRIRAMKARAN C (720820103109)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "MEDIX 2K22",
       "organizer": "VELALAR COLLEGE OF ENGINEERING AND TECHNOLOGY - ERODE",
@@ -4756,7 +5951,9 @@
     },
     {
       "sno": 16,
-      "students": ["UNAIS AHAMED S (720820103119)"],
+      "students": [
+        "UNAIS AHAMED S (720820103119)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "MEDIX 2K22",
       "organizer": "VELALAR COLLEGE OF ENGINEERING AND TECHNOLOGY - ERODE",
@@ -4768,7 +5965,9 @@
     },
     {
       "sno": 17,
-      "students": ["SANJAY P (720820103092)"],
+      "students": [
+        "SANJAY P (720820103092)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TEXANTO 2K22",
       "organizer": "ERODE SENGUNTHAR ENGINEERING COLLEGE - ERODE",
@@ -4780,7 +5979,9 @@
     },
     {
       "sno": 18,
-      "students": ["GOKUL B (720819104033)"],
+      "students": [
+        "GOKUL B (720819104033)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "RUBIX 22",
       "organizer": "BANNARI AMMAN INSTITUTE OF TECHNOLOGY - ERODE",
@@ -4792,7 +5993,9 @@
     },
     {
       "sno": 19,
-      "students": ["IRFAN RAHIM (720819104044)"],
+      "students": [
+        "IRFAN RAHIM (720819104044)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "RUBIX 22",
       "organizer": "BANNARI AMMAN INSTITUTE OF TECHNOLOGY - ERODE",
@@ -4804,7 +6007,9 @@
     },
     {
       "sno": 20,
-      "students": ["GURUULA SIRISHA (720819104039)"],
+      "students": [
+        "GURUULA SIRISHA (720819104039)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "RUBIX 22",
       "organizer": "BANNARI AMMAN INSTITUTE OF TECHNOLOGY - ERODE",
@@ -4816,7 +6021,9 @@
     },
     {
       "sno": 21,
-      "students": ["JOEL T ABRAHAM (720819104048)"],
+      "students": [
+        "JOEL T ABRAHAM (720819104048)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "NOVITAS 22",
       "organizer": "DHIRAJLAL GANDHI COLLEGE OF ENGINEERING - SALEM",
@@ -4828,7 +6035,9 @@
     },
     {
       "sno": 22,
-      "students": ["KANNAN M (720819104050)"],
+      "students": [
+        "KANNAN M (720819104050)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "NOVITAS 22",
       "organizer": "DHIRAJLAL GANDHI COLLEGE OF ENGINEERING - SALEM",
@@ -4840,7 +6049,9 @@
     },
     {
       "sno": 23,
-      "students": ["KAVIRAJAN S (720819104055)"],
+      "students": [
+        "KAVIRAJAN S (720819104055)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TRONEXUS 22",
       "organizer": "SNS COLLEGE OF TECHNOLOGY – COIMBATORE",
@@ -4852,7 +6063,9 @@
     },
     {
       "sno": 24,
-      "students": ["RISHIKA S (720819104096)"],
+      "students": [
+        "RISHIKA S (720819104096)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TRONEXUS 22",
       "organizer": "SNS COLLEGE OF TECHNOLOGY – COIMBATORE",
@@ -4864,7 +6077,9 @@
     },
     {
       "sno": 25,
-      "students": ["SANTHOSH C (720819104098)"],
+      "students": [
+        "SANTHOSH C (720819104098)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "SRIT RISE 2022",
       "organizer": "SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -4876,7 +6091,9 @@
     },
     {
       "sno": 26,
-      "students": ["ILYAS P I (720819104042)"],
+      "students": [
+        "ILYAS P I (720819104042)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "SRIT RISE 2022",
       "organizer": "SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -4888,7 +6105,9 @@
     },
     {
       "sno": 27,
-      "students": ["THAGATAMIL A (720819104116)"],
+      "students": [
+        "THAGATAMIL A (720819104116)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "YUGAM 2022",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -4900,7 +6119,9 @@
     },
     {
       "sno": 28,
-      "students": ["YELLAVULA KUMAR RAO (720819104127)"],
+      "students": [
+        "YELLAVULA KUMAR RAO (720819104127)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "YUGAM 2022",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -4912,7 +6133,9 @@
     },
     {
       "sno": 29,
-      "students": ["AGARSHANA S (720820103008)"],
+      "students": [
+        "AGARSHANA S (720820103008)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "KRIZEN 21",
       "organizer": "SRI KRISHNA COLLEGE OF ENGINEERING AND TECHNOLOGY - COIMBATORE",
@@ -4924,7 +6147,9 @@
     },
     {
       "sno": 30,
-      "students": ["ISWARYA K (720820103039)"],
+      "students": [
+        "ISWARYA K (720820103039)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "KRIZEN 21",
       "organizer": "SRI KRISHNA COLLEGE OF ENGINEERING AND TECHNOLOGY - COIMBATORE",
@@ -4936,7 +6161,9 @@
     },
     {
       "sno": 31,
-      "students": ["JENESHA J (720820103042)"],
+      "students": [
+        "JENESHA J (720820103042)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "KRIZEN 21",
       "organizer": "SRI KRISHNA COLLEGE OF ENGINEERING AND TECHNOLOGY - COIMBATORE",
@@ -4948,7 +6175,9 @@
     },
     {
       "sno": 32,
-      "students": ["ILYAS P I (720819104042)"],
+      "students": [
+        "ILYAS P I (720819104042)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "TEKSPARK 21",
       "organizer": "KARPAGAM INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -4960,7 +6189,9 @@
     },
     {
       "sno": 33,
-      "students": ["IRFAN RAHIM Z (720819104044)"],
+      "students": [
+        "IRFAN RAHIM Z (720819104044)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "TEKSPARK 21",
       "organizer": "KARPAGAM INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -4972,7 +6203,9 @@
     },
     {
       "sno": 34,
-      "students": ["NANDHAKUMARAN R T (720820103073)"],
+      "students": [
+        "NANDHAKUMARAN R T (720820103073)"
+      ],
       "Year/Semester": "3RD SEM \\ 2ND YEAR",
       "event": "SRISHTI 2K2",
       "organizer": "PSG COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -4984,7 +6217,9 @@
     },
     {
       "sno": 35,
-      "students": ["VANI.L (720820103310)"],
+      "students": [
+        "VANI.L (720820103310)"
+      ],
       "Year/Semester": "3RD SEM \\ 2ND YEAR",
       "event": "SRISHTI 2K2",
       "organizer": "PSG COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -4996,7 +6231,9 @@
     },
     {
       "sno": 36,
-      "students": ["MADHULIKA M (720820103061)"],
+      "students": [
+        "MADHULIKA M (720820103061)"
+      ],
       "Year/Semester": "3RD SEM \\ 2ND YEAR",
       "event": "SRISHTI 2K2",
       "organizer": "PSG COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -5008,7 +6245,9 @@
     },
     {
       "sno": 37,
-      "students": ["JAYA ANCY R (720819104047)"],
+      "students": [
+        "JAYA ANCY R (720819104047)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "SRISHTI 2K2",
       "organizer": "PSG COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -5020,7 +6259,9 @@
     },
     {
       "sno": 38,
-      "students": ["JAGATHEESHWARAN S (720819104045)"],
+      "students": [
+        "JAGATHEESHWARAN S (720819104045)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "SRISHTI 2K2",
       "organizer": "PSG COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -5032,7 +6273,9 @@
     },
     {
       "sno": 39,
-      "students": ["KAVIARASAN R (720819104053)"],
+      "students": [
+        "KAVIARASAN R (720819104053)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "SRISHTI 2K2",
       "organizer": "PSG COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -5044,7 +6287,9 @@
     },
     {
       "sno": 40,
-      "students": ["KAVIN VIGNESH T (720819104054)"],
+      "students": [
+        "KAVIN VIGNESH T (720819104054)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "SRISHTI 2K2",
       "organizer": "PSG COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -5056,7 +6301,9 @@
     },
     {
       "sno": 41,
-      "students": ["SHAKTHIPRIYA S (720820103100)"],
+      "students": [
+        "SHAKTHIPRIYA S (720820103100)"
+      ],
       "Year/Semester": "3RD SEM \\ 2ND YEAR",
       "event": "NATIONAL SEMINAR ON ETHICAL HACKING AND CYBER SECURITY",
       "organizer": "AVC COLLEGE OF ENGINEERING - MAILADUTHURAI",
@@ -5068,7 +6315,9 @@
     },
     {
       "sno": 42,
-      "students": ["CHOTTAI VARUSAI GANI H (720819104024)"],
+      "students": [
+        "CHOTTAI VARUSAI GANI H (720819104024)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "NATIONAL SEMINAR ON ETHICAL HACKING AND CYBER SECURITY",
       "organizer": "AVC COLLEGE OF ENGINEERING - MAILADUTHURAI",
@@ -5080,7 +6329,9 @@
     },
     {
       "sno": 43,
-      "students": ["DEENA SANKAR V (720819104025)"],
+      "students": [
+        "DEENA SANKAR V (720819104025)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "NATIONAL SEMINAR ON ETHICAL HACKING AND CYBER SECURITY",
       "organizer": "AVC COLLEGE OF ENGINEERING - MAILADUTHURAI",
@@ -5092,7 +6343,9 @@
     },
     {
       "sno": 44,
-      "students": ["KURAPATI GOWTHAMI (720819104060)"],
+      "students": [
+        "KURAPATI GOWTHAMI (720819104060)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "NATIONAL SEMINAR ON ETHICAL HACKING AND CYBER SECURITY",
       "organizer": "AVC COLLEGE OF ENGINEERING - MAILADUTHURAI",
@@ -5104,7 +6357,9 @@
     },
     {
       "sno": 45,
-      "students": ["JENKE SUBBA REDDY (720819104046)"],
+      "students": [
+        "JENKE SUBBA REDDY (720819104046)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "NATIONAL SEMINAR ON ETHICAL HACKING AND CYBER SECURITY",
       "organizer": "AVC COLLEGE OF ENGINEERING - MAILADUTHURAI",
@@ -5116,7 +6371,9 @@
     },
     {
       "sno": 46,
-      "students": ["MOHAMED YEHIA M (720820103067)"],
+      "students": [
+        "MOHAMED YEHIA M (720820103067)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "NATIONAL SEMINAR ON ETHICAL HACKING AND CYBER SECURITY",
       "organizer": "AVC COLLEGE OF ENGINEERING - MAILADUTHURAI",
@@ -5128,7 +6385,9 @@
     },
     {
       "sno": 47,
-      "students": ["NISHA S (720820103082)"],
+      "students": [
+        "NISHA S (720820103082)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "NATIONAL SEMINAR ON ETHICAL HACKING AND CYBER SECURITY",
       "organizer": "AVC COLLEGE OF ENGINEERING - MAILADUTHURAI",
@@ -5140,7 +6399,9 @@
     },
     {
       "sno": 48,
-      "students": ["SUDHAKAR P (720819104111)"],
+      "students": [
+        "SUDHAKAR P (720819104111)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TWO DAYS STATE LEVEL CSI STUDENT CONVENTION - 2022",
       "organizer": "KARPAGAM COLLEGE OF ENGINEERING - COIMBATORE",
@@ -5152,7 +6413,9 @@
     },
     {
       "sno": 49,
-      "students": ["ABISHEIK G (720820103005)"],
+      "students": [
+        "ABISHEIK G (720820103005)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "MEQNZO 2O21",
       "organizer": "SRM VALLIAMMAI ENGINEERING COLLEGE KATTANKULATHUR",
@@ -5164,7 +6427,9 @@
     },
     {
       "sno": 50,
-      "students": ["ADITHYAN S (720820103007)"],
+      "students": [
+        "ADITHYAN S (720820103007)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "MEQNZO 2O21",
       "organizer": "SRM VALLIAMMAI ENGINEERING COLLEGE KATTANKULATHUR",
@@ -5176,7 +6441,9 @@
     },
     {
       "sno": 51,
-      "students": ["KAVIYA S (720820103051)"],
+      "students": [
+        "KAVIYA S (720820103051)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "WORKSHOP",
       "organizer": "PSG COLLEGE OF TECHNOLOGY",
@@ -5188,7 +6455,9 @@
     },
     {
       "sno": 52,
-      "students": ["KANAMARLAPUDI AKSHAY KUMAR GUPTA (720820103046)"],
+      "students": [
+        "KANAMARLAPUDI AKSHAY KUMAR GUPTA (720820103046)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "WORKSHOP",
       "organizer": "PSG COLLEGE OF TECHNOLOGY",
@@ -5200,7 +6469,9 @@
     },
     {
       "sno": 53,
-      "students": ["KARTHICK R (720820103047)"],
+      "students": [
+        "KARTHICK R (720820103047)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "WORKSHOP",
       "organizer": "PSG COLLEGE OF TECHNOLOGY",
@@ -5212,7 +6483,9 @@
     },
     {
       "sno": 54,
-      "students": ["KISHORE S (720820103308)"],
+      "students": [
+        "KISHORE S (720820103308)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "AVANZARE 16.0",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -5224,7 +6497,9 @@
     },
     {
       "sno": 55,
-      "students": ["VIKRAM S (720820103122)"],
+      "students": [
+        "VIKRAM S (720820103122)"
+      ],
       "Year/Semester": "6th SEM / 3RD YEAR",
       "event": "AVANZARE 16.0",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -5236,7 +6511,9 @@
     },
     {
       "sno": 56,
-      "students": ["THIRISHA S (720820103118)"],
+      "students": [
+        "THIRISHA S (720820103118)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "AVANZARE 16.0",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -5248,7 +6525,9 @@
     },
     {
       "sno": 57,
-      "students": ["SWETHA P (720820103114)"],
+      "students": [
+        "SWETHA P (720820103114)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "AVANZARE 16.0",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -5260,7 +6539,9 @@
     },
     {
       "sno": 58,
-      "students": ["NAVEEN A (720820103075)"],
+      "students": [
+        "NAVEEN A (720820103075)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "AVANZARE 16.0",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -5272,7 +6553,9 @@
     },
     {
       "sno": 59,
-      "students": ["NHASIK MOHAMMED N (720820103080)"],
+      "students": [
+        "NHASIK MOHAMMED N (720820103080)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "CHAKRAWAR 2K22",
       "organizer": "M.KUMARASAMY COLLEGE OF ENGINEERING - KARUR",
@@ -5284,7 +6567,9 @@
     },
     {
       "sno": 60,
-      "students": ["SANTHIYA D (720820103095)"],
+      "students": [
+        "SANTHIYA D (720820103095)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "CHAKRAWAR 2K22",
       "organizer": "M.KUMARASAMY COLLEGE OF ENGINEERING - KARUR",
@@ -5296,7 +6581,9 @@
     },
     {
       "sno": 61,
-      "students": ["SUMESHAS V (720820103112)"],
+      "students": [
+        "SUMESHAS V (720820103112)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "CHAKRAWAR 2K22",
       "organizer": "M.KUMARASAMY COLLEGE OF ENGINEERING - KARUR",
@@ -5308,7 +6595,9 @@
     },
     {
       "sno": 62,
-      "students": ["NELATURI SUDHA MANI (720819104076)"],
+      "students": [
+        "NELATURI SUDHA MANI (720819104076)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "NEXUS 22",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -5320,7 +6609,9 @@
     },
     {
       "sno": 63,
-      "students": ["MOHSIN NATHAR ALI (720819104070)"],
+      "students": [
+        "MOHSIN NATHAR ALI (720819104070)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "NEXUS 22",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -5332,7 +6623,9 @@
     },
     {
       "sno": 64,
-      "students": ["PATHAKOTI VNKATA LINGA RAO (720819104083)"],
+      "students": [
+        "PATHAKOTI VNKATA LINGA RAO (720819104083)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "NEXUS 22",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -5344,7 +6637,9 @@
     },
     {
       "sno": 65,
-      "students": ["VIKRAM S (720820103122)"],
+      "students": [
+        "VIKRAM S (720820103122)"
+      ],
       "Year/Semester": "6th SEM / 3RD YEAR",
       "event": "NEXUS 22",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -5356,7 +6651,9 @@
     },
     {
       "sno": 66,
-      "students": ["PREM K (720819104091)"],
+      "students": [
+        "PREM K (720819104091)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TWO DAYS STATE LEVEL CSI STUDENT CONVENTION - 2022",
       "organizer": "KARPAGAM COLLEGE OF ENGINEERING - COIMBATORE",
@@ -5368,7 +6665,9 @@
     },
     {
       "sno": 67,
-      "students": ["NUTHI ANEEL (720819104079)"],
+      "students": [
+        "NUTHI ANEEL (720819104079)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "PAPER PRESENTATION",
       "organizer": "KARPAGAM COLLEGE OF ENGINEERING - COIMBATORE",
@@ -5380,7 +6679,9 @@
     },
     {
       "sno": 68,
-      "students": ["LEELA CHRISTY I (720820103058)"],
+      "students": [
+        "LEELA CHRISTY I (720820103058)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "PAPER PRESENTATION",
       "organizer": "KARPAGAM COLLEGE OF ENGINEERING - COIMBATORE",
@@ -5392,7 +6693,9 @@
     },
     {
       "sno": 69,
-      "students": ["KESAVAN B (720819104056)"],
+      "students": [
+        "KESAVAN B (720819104056)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "INNOTECH 22",
       "organizer": "SNS COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -5404,7 +6707,9 @@
     },
     {
       "sno": 70,
-      "students": ["PRAVEEN (720819104090)"],
+      "students": [
+        "PRAVEEN (720819104090)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "INNOTECH 22",
       "organizer": "SNS COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -5416,7 +6721,9 @@
     },
     {
       "sno": 71,
-      "students": ["KOLA PRAVALLIKA (720819104058)"],
+      "students": [
+        "KOLA PRAVALLIKA (720819104058)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "INNOTECH 22",
       "organizer": "SNS COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -5428,7 +6735,9 @@
     },
     {
       "sno": 72,
-      "students": ["LEONARD JONES V (720819104061)"],
+      "students": [
+        "LEONARD JONES V (720819104061)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "INNOTECH 22",
       "organizer": "SNS COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -5440,7 +6749,9 @@
     },
     {
       "sno": 73,
-      "students": ["NUTHI ANEEL (720819104079)"],
+      "students": [
+        "NUTHI ANEEL (720819104079)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "INNOTECH 22",
       "organizer": "SNS COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -5452,7 +6763,9 @@
     },
     {
       "sno": 74,
-      "students": ["SANTHOSH M (720820103096)"],
+      "students": [
+        "SANTHOSH M (720820103096)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "MEDIX 2K22",
       "organizer": "VELALAR COLLEGE OF ENGINEERING AND TECHNOLOGY - ERODE",
@@ -5464,7 +6777,9 @@
     },
     {
       "sno": 75,
-      "students": ["VANISRI MS (720820103120)"],
+      "students": [
+        "VANISRI MS (720820103120)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "MEDIX 2K22",
       "organizer": "VELALAR COLLEGE OF ENGINEERING AND TECHNOLOGY - ERODE",
@@ -5476,7 +6791,9 @@
     },
     {
       "sno": 76,
-      "students": ["SREE MATHI R (720820103107)"],
+      "students": [
+        "SREE MATHI R (720820103107)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TEXANTO 2K22",
       "organizer": "ERODE SENGUNTHAR ENGINEERING COLLEGE - ERODE",
@@ -5488,7 +6805,9 @@
     },
     {
       "sno": 77,
-      "students": ["PULI SRI HARI (720820103089)"],
+      "students": [
+        "PULI SRI HARI (720820103089)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TEXANTO 2K22",
       "organizer": "ERODE SENGUNTHAR ENGINEERING COLLEGE - ERODE",
@@ -5500,7 +6819,9 @@
     },
     {
       "sno": 78,
-      "students": ["SREE MANIKANDAN B (720820103106)"],
+      "students": [
+        "SREE MANIKANDAN B (720820103106)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TEXANTO 2K22",
       "organizer": "ERODE SENGUNTHAR ENGINEERING COLLEGE - ERODE",
@@ -5512,7 +6833,9 @@
     },
     {
       "sno": 79,
-      "students": ["SANJAY S (720820103092)"],
+      "students": [
+        "SANJAY S (720820103092)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TEXANTO 2K22",
       "organizer": "ERODE SENGUNTHAR ENGINEERING COLLEGE - ERODE",
@@ -5524,7 +6847,9 @@
     },
     {
       "sno": 80,
-      "students": ["SANTHOSH M (720820103096)"],
+      "students": [
+        "SANTHOSH M (720820103096)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TEXANTO 2K22",
       "organizer": "ERODE SENGUNTHAR ENGINEERING COLLEGE - ERODE",
@@ -5536,7 +6861,9 @@
     },
     {
       "sno": 81,
-      "students": ["TADIMARRI NARESH KUMAR (720820103115)"],
+      "students": [
+        "TADIMARRI NARESH KUMAR (720820103115)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "MESCIA 2K22",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -5548,7 +6875,9 @@
     },
     {
       "sno": 82,
-      "students": ["MADHULIKA M (720820103061)"],
+      "students": [
+        "MADHULIKA M (720820103061)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "MESCIA 2K22",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -5560,7 +6889,9 @@
     },
     {
       "sno": 83,
-      "students": ["KAVIPRIYA M (720820103046)"],
+      "students": [
+        "KAVIPRIYA M (720820103046)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "MESCIA 2K22",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -5572,7 +6903,9 @@
     },
     {
       "sno": 84,
-      "students": ["MACHAVARAPU ACHYUTH (720820103060)"],
+      "students": [
+        "MACHAVARAPU ACHYUTH (720820103060)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "MESCIA 2K22",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -5584,7 +6917,9 @@
     },
     {
       "sno": 85,
-      "students": ["LOGESHWARAN M (720820103059)"],
+      "students": [
+        "LOGESHWARAN M (720820103059)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "MESCIA 2K22",
       "organizer": "KONGU ENGINEERING COLLEGE - ERODE",
@@ -5596,7 +6931,9 @@
     },
     {
       "sno": 86,
-      "students": ["JENESHA J (720820103042)"],
+      "students": [
+        "JENESHA J (720820103042)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "DHRUVA 2022",
       "organizer": "SRI RAMAKRISHNA COLLEGE OF ARTS AND SCIENCE FOR WOMEN - COIMBATORE",
@@ -5608,7 +6945,9 @@
     },
     {
       "sno": 87,
-      "students": ["KAMARAJ N (720820103045)"],
+      "students": [
+        "KAMARAJ N (720820103045)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "DHRUVA 2022",
       "organizer": "SRI RAMAKRISHNA COLLEGE OF ARTS AND SCIENCE FOR WOMEN - COIMBATORE",
@@ -5620,7 +6959,9 @@
     },
     {
       "sno": 88,
-      "students": ["JAI KRISHNA SAGAR S (720820103040)"],
+      "students": [
+        "JAI KRISHNA SAGAR S (720820103040)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "DHRUVA 2022",
       "organizer": "SRI RAMAKRISHNA COLLEGE OF ARTS AND SCIENCE FOR WOMEN - COIMBATORE",
@@ -5632,7 +6973,9 @@
     },
     {
       "sno": 89,
-      "students": ["SIVABALAJI T (720819104106)"],
+      "students": [
+        "SIVABALAJI T (720819104106)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "RESNOVAE 2K22",
       "organizer": "SSM INSTITUTE OF ENGINEERING AND TECHNOLOGY - DINDIGUL",
@@ -5644,7 +6987,9 @@
     },
     {
       "sno": 90,
-      "students": ["SAVIDI BOJINA VENKATA BALAJI (720819104099)"],
+      "students": [
+        "SAVIDI BOJINA VENKATA BALAJI (720819104099)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "RESNOVAE 2K22",
       "organizer": "SSM INSTITUTE OF ENGINEERING AND TECHNOLOGY - DINDIGUL",
@@ -5656,7 +7001,9 @@
     },
     {
       "sno": 91,
-      "students": ["RISHIKA S (720819104096)"],
+      "students": [
+        "RISHIKA S (720819104096)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "RESNOVAE 2K22",
       "organizer": "SSM INSTITUTE OF ENGINEERING AND TECHNOLOGY - DINDIGUL",
@@ -5668,7 +7015,9 @@
     },
     {
       "sno": 92,
-      "students": ["DEEPAK SAMY R"],
+      "students": [
+        "DEEPAK SAMY R"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "RESNOVAE 2K22",
       "organizer": "SSM INSTITUTE OF ENGINEERING AND TECHNOLOGY - DINDIGUL",
@@ -5680,7 +7029,9 @@
     },
     {
       "sno": 93,
-      "students": ["YELLAVULA KUMAR RAO (720819104127)"],
+      "students": [
+        "YELLAVULA KUMAR RAO (720819104127)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "YUDDHA VARNA 22",
       "organizer": "M.KUMARASAMY COLLEGE OF ENGINEERING - KARUR",
@@ -5692,7 +7043,9 @@
     },
     {
       "sno": 94,
-      "students": ["MOHSIN NATHAR ALI (720819104070)"],
+      "students": [
+        "MOHSIN NATHAR ALI (720819104070)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "YUDDHA VARNA 22",
       "organizer": "M.KUMARASAMY COLLEGE OF ENGINEERING - KARUR",
@@ -5704,7 +7057,9 @@
     },
     {
       "sno": 95,
-      "students": ["CHILLAKURU DEEKSHITHA (720819104023)"],
+      "students": [
+        "CHILLAKURU DEEKSHITHA (720819104023)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "RUBIX 22",
       "organizer": "BANNARI AMMAN INSTITUTE OF TECHNOLOGY - ERODE",
@@ -5716,7 +7071,9 @@
     },
     {
       "sno": 96,
-      "students": ["DEEPIKA C (720819104026)"],
+      "students": [
+        "DEEPIKA C (720819104026)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "RUBIX 22",
       "organizer": "BANNARI AMMAN INSTITUTE OF TECHNOLOGY - ERODE",
@@ -5728,7 +7085,9 @@
     },
     {
       "sno": 97,
-      "students": ["DRONADULA CHANDRA SEKAR (720819104028)"],
+      "students": [
+        "DRONADULA CHANDRA SEKAR (720819104028)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "RUBIX 22",
       "organizer": "BANNARI AMMAN INSTITUTE OF TECHNOLOGY - ERODE",
@@ -5740,7 +7099,9 @@
     },
     {
       "sno": 98,
-      "students": ["NOUFIA FIRTHOUS B (720820103304)"],
+      "students": [
+        "NOUFIA FIRTHOUS B (720820103304)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHSPURTZ 2K22",
       "organizer": "NANDHA COLLEGE OF TECHNOLOGY - ERODE",
@@ -5752,7 +7113,9 @@
     },
     {
       "sno": 99,
-      "students": ["VANI L (720820103310)"],
+      "students": [
+        "VANI L (720820103310)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHSPURTZ 2K22",
       "organizer": "NANDHA COLLEGE OF TECHNOLOGY - ERODE",
@@ -5764,7 +7127,9 @@
     },
     {
       "sno": 100,
-      "students": ["NISHANTH G (720820103309)"],
+      "students": [
+        "NISHANTH G (720820103309)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHSPURTZ 2K22",
       "organizer": "NANDHA COLLEGE OF TECHNOLOGY - ERODE",
@@ -5776,7 +7141,9 @@
     },
     {
       "sno": 101,
-      "students": ["HARIKRISHNAN M (720819104041)"],
+      "students": [
+        "HARIKRISHNAN M (720819104041)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "NMLDLTP’22",
       "organizer": "M.KUMARASAMY COLLEGE OF ENGINEERING - KARUR",
@@ -5788,7 +7155,9 @@
     },
     {
       "sno": 102,
-      "students": ["MONISHA M (720820103069)"],
+      "students": [
+        "MONISHA M (720820103069)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "NMLDLTP’22",
       "organizer": "M.KUMARASAMY COLLEGE OF ENGINEERING - KARUR",
@@ -5800,7 +7169,9 @@
     },
     {
       "sno": 103,
-      "students": ["MUTHUKUMAR M (720820103071)"],
+      "students": [
+        "MUTHUKUMAR M (720820103071)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "NMLDLTP’22",
       "organizer": "M.KUMARASAMY COLLEGE OF ENGINEERING - KARUR",
@@ -5812,7 +7183,9 @@
     },
     {
       "sno": 104,
-      "students": ["NAVEEN S (720820103077)"],
+      "students": [
+        "NAVEEN S (720820103077)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "NMLDLTP’22",
       "organizer": "M.KUMARASAMY COLLEGE OF ENGINEERING - KARUR",
@@ -5824,7 +7197,9 @@
     },
     {
       "sno": 105,
-      "students": ["NIRMAL DEV M (720820103081)"],
+      "students": [
+        "NIRMAL DEV M (720820103081)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "NMLDLTP’22",
       "organizer": "M.KUMARASAMY COLLEGE OF ENGINEERING - KARUR",
@@ -5836,7 +7211,9 @@
     },
     {
       "sno": 106,
-      "students": ["SUDHAKAR M (720819104110)"],
+      "students": [
+        "SUDHAKAR M (720819104110)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "HENOSIS 2K22",
       "organizer": "DR.N.G.P. INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -5848,7 +7225,9 @@
     },
     {
       "sno": 107,
-      "students": ["THANGTAMIL A (720819104116)"],
+      "students": [
+        "THANGTAMIL A (720819104116)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "HENOSIS 2K22",
       "organizer": "DR.N.G.P. INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -5860,7 +7239,9 @@
     },
     {
       "sno": 108,
-      "students": ["VYSHAKH V S (720819104126)"],
+      "students": [
+        "VYSHAKH V S (720819104126)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "HENOSIS 2K22",
       "organizer": "DR.N.G.P. INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -5872,7 +7253,9 @@
     },
     {
       "sno": 109,
-      "students": ["VEDIKOLA RAVENDRA REDDY (720819104121)"],
+      "students": [
+        "VEDIKOLA RAVENDRA REDDY (720819104121)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "HENOSIS 2K22",
       "organizer": "DR.N.G.P. INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -5884,7 +7267,9 @@
     },
     {
       "sno": 110,
-      "students": ["SUDARSAN P (720819104111)"],
+      "students": [
+        "SUDARSAN P (720819104111)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "HENOSIS 2K22",
       "organizer": "DR.N.G.P. INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -5896,7 +7281,9 @@
     },
     {
       "sno": 111,
-      "students": ["UDHAYA M (720819104118)"],
+      "students": [
+        "UDHAYA M (720819104118)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "HENOSIS 2K22",
       "organizer": "DR.N.G.P. INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -5908,7 +7295,9 @@
     },
     {
       "sno": 112,
-      "students": ["GURRALA SIRISHA (720819104039)"],
+      "students": [
+        "GURRALA SIRISHA (720819104039)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "NOVITAS 22",
       "organizer": "DHIRAJLAL GANDHI COLLEGE OF ENGINEERING - SALEM",
@@ -5920,7 +7309,9 @@
     },
     {
       "sno": 113,
-      "students": ["IMRAN KHAN S (720819104043)"],
+      "students": [
+        "IMRAN KHAN S (720819104043)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "NOVITAS 22",
       "organizer": "DHIRAJLAL GANDHI COLLEGE OF ENGINEERING - SALEM",
@@ -5932,7 +7323,9 @@
     },
     {
       "sno": 114,
-      "students": ["RISHI R (720819104095)"],
+      "students": [
+        "RISHI R (720819104095)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "THER-O-FEST 2022",
       "organizer": "SREE SAKTHI ENGINEERING COLLEGE - COIMBATORE",
@@ -5944,7 +7337,9 @@
     },
     {
       "sno": 115,
-      "students": ["SEDHU MADHAVAN K (720819104100)"],
+      "students": [
+        "SEDHU MADHAVAN K (720819104100)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "THER-O-FEST 2022",
       "organizer": "SREE SAKTHI ENGINEERING COLLEGE - COIMBATORE",
@@ -5956,7 +7351,9 @@
     },
     {
       "sno": 116,
-      "students": ["PANDIYARAJAN G (720819104082)"],
+      "students": [
+        "PANDIYARAJAN G (720819104082)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "THER-O-FEST 2022",
       "organizer": "SREE SAKTHI ENGINEERING COLLEGE - COIMBATORE",
@@ -5968,7 +7365,9 @@
     },
     {
       "sno": 117,
-      "students": ["PANDI R (720819104081)"],
+      "students": [
+        "PANDI R (720819104081)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TECH FIESTA 22",
       "organizer": "NEHRU INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -5980,7 +7379,9 @@
     },
     {
       "sno": 118,
-      "students": ["VAISHNAV P (720819104120)"],
+      "students": [
+        "VAISHNAV P (720819104120)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TECH FIESTA 22",
       "organizer": "NEHRU INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -5992,7 +7393,9 @@
     },
     {
       "sno": 119,
-      "students": ["THILLAI AISHWARYA S (720819104117)"],
+      "students": [
+        "THILLAI AISHWARYA S (720819104117)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TECH FIESTA 22",
       "organizer": "NEHRU INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -6004,7 +7407,9 @@
     },
     {
       "sno": 120,
-      "students": ["VELGA NIKHILA (720819104122)"],
+      "students": [
+        "VELGA NIKHILA (720819104122)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TECH FIESTA 22",
       "organizer": "NEHRU INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -6016,7 +7421,9 @@
     },
     {
       "sno": 121,
-      "students": ["NALLI JAGADEESH (720819104074)"],
+      "students": [
+        "NALLI JAGADEESH (720819104074)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "CERPTERA 2022",
       "organizer": "COIMBATORE INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -6028,7 +7435,9 @@
     },
     {
       "sno": 122,
-      "students": ["DEEPIKA C (720819104026)"],
+      "students": [
+        "DEEPIKA C (720819104026)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TRONEXUS 22",
       "organizer": "SNS COLLEGE OF TECHNOLOGY – COIMBATORE",
@@ -6040,7 +7449,9 @@
     },
     {
       "sno": 123,
-      "students": ["KESAVAN B (720819104056)"],
+      "students": [
+        "KESAVAN B (720819104056)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TRONEXUS 22",
       "organizer": "SNS COLLEGE OF TECHNOLOGY – COIMBATORE",
@@ -6052,7 +7463,9 @@
     },
     {
       "sno": 124,
-      "students": ["KISHORE P (720819104057)"],
+      "students": [
+        "KISHORE P (720819104057)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TRONEXUS 22",
       "organizer": "SNS COLLEGE OF TECHNOLOGY – COIMBATORE",
@@ -6064,7 +7477,9 @@
     },
     {
       "sno": 125,
-      "students": ["SHILPA K P (720819104102)"],
+      "students": [
+        "SHILPA K P (720819104102)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TRONEXUS 22",
       "organizer": "SNS COLLEGE OF TECHNOLOGY – COIMBATORE",
@@ -6076,7 +7491,9 @@
     },
     {
       "sno": 126,
-      "students": ["ELAVARASAN K (720819104030)"],
+      "students": [
+        "ELAVARASAN K (720819104030)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "SRIT RISE 2022",
       "organizer": "SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -6088,7 +7505,9 @@
     },
     {
       "sno": 127,
-      "students": ["IRFAN RAHIM Z (720819104044)"],
+      "students": [
+        "IRFAN RAHIM Z (720819104044)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "SRIT RISE 2022",
       "organizer": "SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -6100,7 +7519,9 @@
     },
     {
       "sno": 128,
-      "students": ["UDHAYA KUMAR S (720819104119)"],
+      "students": [
+        "UDHAYA KUMAR S (720819104119)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TORQUE 2K22",
       "organizer": "SELVAM COLLEGE OF TECHNOLOGY - NAMAKKAL",
@@ -6112,7 +7533,9 @@
     },
     {
       "sno": 129,
-      "students": ["PODAPATI ANVESH (720819104084)"],
+      "students": [
+        "PODAPATI ANVESH (720819104084)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TORQUE 2K22",
       "organizer": "SELVAM COLLEGE OF TECHNOLOGY - NAMAKKAL",
@@ -6124,7 +7547,9 @@
     },
     {
       "sno": 130,
-      "students": ["REENA (720819104094)"],
+      "students": [
+        "REENA (720819104094)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TORQUE 2K22",
       "organizer": "SELVAM COLLEGE OF TECHNOLOGY - NAMAKKAL",
@@ -6136,7 +7561,9 @@
     },
     {
       "sno": 131,
-      "students": ["SIRAPARAPU SANDYA RANI (720819104105)"],
+      "students": [
+        "SIRAPARAPU SANDYA RANI (720819104105)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "YUGAM 2022",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY - COIMBATORE",
@@ -6148,7 +7575,9 @@
     },
     {
       "sno": 132,
-      "students": ["MANIKANDAN M (720819104064)"],
+      "students": [
+        "MANIKANDAN M (720819104064)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "XENTRIX 2K22",
       "organizer": "EXCEL ENGINEERING COLLEGE - NAMAKKAL",
@@ -6160,7 +7589,9 @@
     },
     {
       "sno": 133,
-      "students": ["SHILPA KP (720819104102)"],
+      "students": [
+        "SHILPA KP (720819104102)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "XENTRIX 2K22",
       "organizer": "EXCEL ENGINEERING COLLEGE - NAMAKKAL",
@@ -6172,7 +7603,9 @@
     },
     {
       "sno": 134,
-      "students": ["MUJAY A (720819104071)"],
+      "students": [
+        "MUJAY A (720819104071)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "XENTRIX 2K22",
       "organizer": "EXCEL ENGINEERING COLLEGE - NAMAKKAL",
@@ -6184,7 +7617,9 @@
     },
     {
       "sno": 135,
-      "students": ["PANDI R (720819104081)"],
+      "students": [
+        "PANDI R (720819104081)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "XENTRIX 2K22",
       "organizer": "EXCEL ENGINEERING COLLEGE - NAMAKKAL",
@@ -6196,7 +7631,9 @@
     },
     {
       "sno": 136,
-      "students": ["JONNALAGADDA SURYA SASANKA (720820103043)"],
+      "students": [
+        "JONNALAGADDA SURYA SASANKA (720820103043)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "IRISH 2K22",
       "organizer": "PA COLLEGE OF ENGINEERING – POLLACHI",
@@ -6208,7 +7645,9 @@
     },
     {
       "sno": 137,
-      "students": ["BHARATH M (720820103020)"],
+      "students": [
+        "BHARATH M (720820103020)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "IRISH 2K22",
       "organizer": "PA COLLEGE OF ENGINEERING – POLLACHI",
@@ -6220,7 +7659,9 @@
     },
     {
       "sno": 138,
-      "students": ["ASHWIN M (720820103017)"],
+      "students": [
+        "ASHWIN M (720820103017)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "RANSOMEWARE 2K22",
       "organizer": "ADITHYA INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -6232,7 +7673,9 @@
     },
     {
       "sno": 139,
-      "students": ["AASHAD S (720820103002)"],
+      "students": [
+        "AASHAD S (720820103002)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "RANSOMEWARE 2K22",
       "organizer": "ADITHYA INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -6244,7 +7687,9 @@
     },
     {
       "sno": 140,
-      "students": ["SIVA BALAJI T (720819104106)"],
+      "students": [
+        "SIVA BALAJI T (720819104106)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "RANSOMEWARE 2K22",
       "organizer": "ADITHYA INSTITUTE OF TECHNOLOGY - COIMBATORE",
@@ -6256,7 +7701,9 @@
     },
     {
       "sno": 141,
-      "students": ["SUDHRSAN L (720819104112)"],
+      "students": [
+        "SUDHRSAN L (720819104112)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "PAPER PRESENTATION",
       "organizer": "SRI RAMAKRISHNA ENGINEERING COLLEGE",
@@ -6268,7 +7715,9 @@
     },
     {
       "sno": 142,
-      "students": ["SREERAG M (720819104109)"],
+      "students": [
+        "SREERAG M (720819104109)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "PAPER PRESENTATION",
       "organizer": "SRI RAMAKRISHNA ENGINEERING COLLEGE",
@@ -6280,7 +7729,9 @@
     },
     {
       "sno": 143,
-      "students": ["NHASIK MOHAMMED N (720820103080)"],
+      "students": [
+        "NHASIK MOHAMMED N (720820103080)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "PAPER PRESENTATION",
       "organizer": "ANNA UNIVERSITY REGIONAL CAMPUS-COIMBATORE",
@@ -6292,7 +7743,9 @@
     },
     {
       "sno": 144,
-      "students": ["RAMMOHAN P (720820103090)"],
+      "students": [
+        "RAMMOHAN P (720820103090)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "PAPER PRESENTATION",
       "organizer": "ANNA UNIVERSITY REGIONAL CAMPUS-COIMBATORE",
@@ -6304,7 +7757,9 @@
     },
     {
       "sno": 145,
-      "students": ["PATHAKOTI VENKATA LINGA RAO (720819104083)"],
+      "students": [
+        "PATHAKOTI VENKATA LINGA RAO (720819104083)"
+      ],
       "Year/Semester": "5TH SEM / 3RD YEAR",
       "event": "JFINAGLES",
       "organizer": "JCT COLLEGE OF ENGINEERING AND TECHNOLOGY, COIMBATORE",
@@ -6316,7 +7771,9 @@
     },
     {
       "sno": 146,
-      "students": ["MACHAVARAPU ACHYUTH (720820103060)"],
+      "students": [
+        "MACHAVARAPU ACHYUTH (720820103060)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TECH ZEAL 2023 (Hackathon)",
       "organizer": "SONA COLLEGE OF TECHNOLOGY",
@@ -6328,7 +7785,9 @@
     },
     {
       "sno": 147,
-      "students": ["VETTORI FERNANDO (720820103305)"],
+      "students": [
+        "VETTORI FERNANDO (720820103305)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TECH ZEAL 2023 (Hackathon)",
       "organizer": "SONA COLLEGE OF TECHNOLOGY",
@@ -6340,7 +7799,9 @@
     },
     {
       "sno": 148,
-      "students": ["KANAMARLAPUDI AKSHAY KUMAR GUPTA (720820103046)"],
+      "students": [
+        "KANAMARLAPUDI AKSHAY KUMAR GUPTA (720820103046)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TECH ZEAL 2023 (Hackathon)",
       "organizer": "SONA COLLEGE OF TECHNOLOGY",
@@ -6352,7 +7813,9 @@
     },
     {
       "sno": 149,
-      "students": ["KAVIN KUMAR P (720820103050)"],
+      "students": [
+        "KAVIN KUMAR P (720820103050)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TECH ZEAL 2023 (Hackathon)",
       "organizer": "SONA COLLEGE OF TECHNOLOGY",
@@ -6364,7 +7827,9 @@
     },
     {
       "sno": 150,
-      "students": ["CHINTALAPALLI KIRAN KUMAR REDDY (720820103024)"],
+      "students": [
+        "CHINTALAPALLI KIRAN KUMAR REDDY (720820103024)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "TECH ZEAL 2023 (Hackathon)",
       "organizer": "SONA COLLEGE OF TECHNOLOGY",
@@ -6376,7 +7841,9 @@
     },
     {
       "sno": 151,
-      "students": ["PRAKASHRAJA P (720819104088)"],
+      "students": [
+        "PRAKASHRAJA P (720819104088)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "WEB HUNTING",
       "organizer": "SONA COLLEGE OF TECHNOLOGY-SALEM",
@@ -6388,7 +7855,9 @@
     },
     {
       "sno": 152,
-      "students": ["GOKULA KANNAN A (720820103032)"],
+      "students": [
+        "GOKULA KANNAN A (720820103032)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "BLIND CODING",
       "organizer": "SONA COLLEGE OF TECHNOLOGY-SALEM",
@@ -6400,7 +7869,9 @@
     },
     {
       "sno": 153,
-      "students": ["GOWRESHANKER G (720820103302)"],
+      "students": [
+        "GOWRESHANKER G (720820103302)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "BLIND CODING",
       "organizer": "SONA COLLEGE OF TECHNOLOGY-SALEM",
@@ -6412,7 +7883,9 @@
     },
     {
       "sno": 154,
-      "students": ["NANTHAKUMARAN R T (720820103073)"],
+      "students": [
+        "NANTHAKUMARAN R T (720820103073)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "CODE DEBUGGING",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY -COIMBATORE",
@@ -6424,7 +7897,9 @@
     },
     {
       "sno": 155,
-      "students": ["PALAVALLI SATISH KUMAR REDDY (720820103085)"],
+      "students": [
+        "PALAVALLI SATISH KUMAR REDDY (720820103085)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "CODE DEBUGGING",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY -COIMBATORE",
@@ -6436,7 +7911,9 @@
     },
     {
       "sno": 156,
-      "students": ["MUHAMMED ANSIL M (720820103070)"],
+      "students": [
+        "MUHAMMED ANSIL M (720820103070)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "PAPER PRESENTATION",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY -COIMBATORE",
@@ -6448,7 +7925,9 @@
     },
     {
       "sno": 157,
-      "students": ["MONISHA M (720820103078)"],
+      "students": [
+        "MONISHA M (720820103078)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "PAPER PRESENTATION",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY -COIMBATORE",
@@ -6460,7 +7939,9 @@
     },
     {
       "sno": 158,
-      "students": ["PRADEEP KUMAR V (720820103088)"],
+      "students": [
+        "PRADEEP KUMAR V (720820103088)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "PAPER PRESENTATION",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY -COIMBATORE",
@@ -6472,7 +7953,9 @@
     },
     {
       "sno": 159,
-      "students": ["ABHISHA DIVYADHARSHINI F R (720820103004)"],
+      "students": [
+        "ABHISHA DIVYADHARSHINI F R (720820103004)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "QUIZ",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY -COIMBATORE",
@@ -6484,7 +7967,9 @@
     },
     {
       "sno": 160,
-      "students": ["RAMMOHAN P (720820103090)"],
+      "students": [
+        "RAMMOHAN P (720820103090)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "PAPER PRESENTATION",
       "organizer": "KONGU ENGINEERING COLLEGE-ERODE",
@@ -6496,7 +7981,9 @@
     },
     {
       "sno": 161,
-      "students": ["THIRISHA S (720820103118)"],
+      "students": [
+        "THIRISHA S (720820103118)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "PAPER PRESENTATION",
       "organizer": "KONGU ENGINEERING COLLEGE-ERODE",
@@ -6508,7 +7995,9 @@
     },
     {
       "sno": 162,
-      "students": ["SREERAG M (720819104109)"],
+      "students": [
+        "SREERAG M (720819104109)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "PAPER PRESENTATION DEBUGGING",
       "organizer": "HINDHUSTHAN COLLEGE OF ENGINEERING AND TECHNOLOGY",
@@ -6520,7 +8009,9 @@
     },
     {
       "sno": 163,
-      "students": ["PRANAV P (720819104089)"],
+      "students": [
+        "PRANAV P (720819104089)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "JFINAGLES",
       "organizer": "JCT- COIMBATORE",
@@ -6532,7 +8023,9 @@
     },
     {
       "sno": 164,
-      "students": ["BABU N (720820103019)"],
+      "students": [
+        "BABU N (720820103019)"
+      ],
       "Year/Semester": "",
       "event": "DEBATE",
       "organizer": "SRI SAI RANGANATHAN ENGINEERING COLLEGE-COIMBATORE",
@@ -6544,7 +8037,9 @@
     },
     {
       "sno": 165,
-      "students": ["DANDI ESWARARAO (720820103025)"],
+      "students": [
+        "DANDI ESWARARAO (720820103025)"
+      ],
       "Year/Semester": "",
       "event": "DEBATE",
       "organizer": "SRI SAI RANGANATHAN ENGINEERING COLLEGE-COIMBATORE",
@@ -6556,7 +8051,9 @@
     },
     {
       "sno": 166,
-      "students": ["KALAIVANI M (720820103044)"],
+      "students": [
+        "KALAIVANI M (720820103044)"
+      ],
       "Year/Semester": "",
       "event": "DEBATE",
       "organizer": "SRI SAI RANGANATHAN ENGINEERING COLLEGE-COIMBATORE",
@@ -6568,7 +8065,9 @@
     },
     {
       "sno": 167,
-      "students": ["LAM AMULYA (720820103056)"],
+      "students": [
+        "LAM AMULYA (720820103056)"
+      ],
       "Year/Semester": "",
       "event": "DEBATE",
       "organizer": "SRI SAI RANGANATHAN ENGINEERING COLLEGE-COIMBATORE",
@@ -6580,7 +8079,9 @@
     },
     {
       "sno": 168,
-      "students": ["SANTHOSH M (720820103096)"],
+      "students": [
+        "SANTHOSH M (720820103096)"
+      ],
       "Year/Semester": "",
       "event": "TECHNICAL QUIZ",
       "organizer": "SRI RAMAKRISHNA EMNGINEERING COLLEGE-COIMBATORE",
@@ -6592,7 +8093,9 @@
     },
     {
       "sno": 169,
-      "students": ["VIKRAM S (720820103122)"],
+      "students": [
+        "VIKRAM S (720820103122)"
+      ],
       "Year/Semester": "",
       "event": "TECHNICAL QUIZ",
       "organizer": "SRI RAMAKRISHNA EMNGINEERING COLLEGE-COIMBATORE",
@@ -6604,7 +8107,9 @@
     },
     {
       "sno": 170,
-      "students": ["NAVEEN A (720820103075)"],
+      "students": [
+        "NAVEEN A (720820103075)"
+      ],
       "Year/Semester": "",
       "event": "TECHNICAL QUIZ",
       "organizer": "SRI RAMAKRISHNA EMNGINEERING COLLEGE-COIMBATORE",
@@ -6616,7 +8121,9 @@
     },
     {
       "sno": 171,
-      "students": ["NISHA S (720820103082)"],
+      "students": [
+        "NISHA S (720820103082)"
+      ],
       "Year/Semester": "",
       "event": "TECHNICAL QUIZ",
       "organizer": "SRI RAMAKRISHNA EMNGINEERING COLLEGE-COIMBATORE",
@@ -6628,7 +8135,9 @@
     },
     {
       "sno": 172,
-      "students": ["NITHISH P (720820103083)"],
+      "students": [
+        "NITHISH P (720820103083)"
+      ],
       "Year/Semester": "",
       "event": "TECHNICAL QUIZ",
       "organizer": "SRI RAMAKRISHNA EMNGINEERING COLLEGE-COIMBATORE",
@@ -6640,7 +8149,9 @@
     },
     {
       "sno": 173,
-      "students": ["SANJAI P (720820103092)"],
+      "students": [
+        "SANJAI P (720820103092)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "ANNA UNIVERSITY REGIONAL CAMPUS-COIMBATORE",
@@ -6652,7 +8163,9 @@
     },
     {
       "sno": 174,
-      "students": ["VANI L (720820103310)"],
+      "students": [
+        "VANI L (720820103310)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "ANNA UNIVERSITY REGIONAL CAMPUS-COIMBATORE",
@@ -6664,7 +8177,9 @@
     },
     {
       "sno": 175,
-      "students": ["ISWARYA K (720820103039)"],
+      "students": [
+        "ISWARYA K (720820103039)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "ANNA UNIVERSITY REGIONAL CAMPUS-COIMBATORE",
@@ -6676,7 +8191,9 @@
     },
     {
       "sno": 176,
-      "students": ["JENESHA J (720820103042)"],
+      "students": [
+        "JENESHA J (720820103042)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "ANNA UNIVERSITY REGIONAL CAMPUS-COIMBATORE",
@@ -6688,7 +8205,9 @@
     },
     {
       "sno": 177,
-      "students": ["KAMARAJ N (720820103045)"],
+      "students": [
+        "KAMARAJ N (720820103045)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KARPAGAM COLLEGE OF ENGINEERING",
@@ -6700,7 +8219,9 @@
     },
     {
       "sno": 178,
-      "students": ["YUVARAAJ S (720820103126)"],
+      "students": [
+        "YUVARAAJ S (720820103126)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KARPAGAM COLLEGE OF ENGINEERING",
@@ -6712,7 +8233,9 @@
     },
     {
       "sno": 179,
-      "students": ["SWETHA P (720820103114)"],
+      "students": [
+        "SWETHA P (720820103114)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KARPAGAM COLLEGE OF ENGINEERING",
@@ -6724,7 +8247,9 @@
     },
     {
       "sno": 180,
-      "students": ["NAVEEN R (720820103076)"],
+      "students": [
+        "NAVEEN R (720820103076)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KARPAGAM COLLEGE OF ENGINEERING",
@@ -6736,7 +8261,9 @@
     },
     {
       "sno": 181,
-      "students": ["NAVEEN S (720820103077)"],
+      "students": [
+        "NAVEEN S (720820103077)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT EXPO",
       "organizer": "HINDHUSTHAN COLLEGE OF ENGINEERING AND TECHNOLOGY",
@@ -6748,7 +8275,9 @@
     },
     {
       "sno": 182,
-      "students": ["SNOWIN J (720820103104)"],
+      "students": [
+        "SNOWIN J (720820103104)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT EXPO",
       "organizer": "HINDHUSTHAN COLLEGE OF ENGINEERING AND TECHNOLOGY",
@@ -6760,7 +8289,9 @@
     },
     {
       "sno": 183,
-      "students": ["SANTHIYA D (720820103095)"],
+      "students": [
+        "SANTHIYA D (720820103095)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT EXPO",
       "organizer": "HINDHUSTHAN COLLEGE OF ENGINEERING AND TECHNOLOGY",
@@ -6772,7 +8303,9 @@
     },
     {
       "sno": 184,
-      "students": ["SANJAY S (720820103093)"],
+      "students": [
+        "SANJAY S (720820103093)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT EXPO",
       "organizer": "HINDHUSTHAN COLLEGE OF ENGINEERING AND TECHNOLOGY",
@@ -6784,7 +8317,9 @@
     },
     {
       "sno": 185,
-      "students": ["SIVA V (720821103102)"],
+      "students": [
+        "SIVA V (720821103102)"
+      ],
       "Year/Semester": "",
       "event": "Intel FPGAs",
       "organizer": "NIT, TRICHY",
@@ -6796,7 +8331,9 @@
     },
     {
       "sno": 186,
-      "students": ["SARAVANA K (720820103097)"],
+      "students": [
+        "SARAVANA K (720820103097)"
+      ],
       "Year/Semester": "",
       "event": "BLIND CODING",
       "organizer": "UNITED INSTITUTE OF TECHNOLOGY",
@@ -6808,7 +8345,9 @@
     },
     {
       "sno": 187,
-      "students": ["YUGESWARAN N (720820103125)"],
+      "students": [
+        "YUGESWARAN N (720820103125)"
+      ],
       "Year/Semester": "",
       "event": "BLIND CODING",
       "organizer": "UNITED INSTITUTE OF TECHNOLOGY",
@@ -6820,7 +8359,9 @@
     },
     {
       "sno": 188,
-      "students": ["YUVARAAJ S (720820103126)"],
+      "students": [
+        "YUVARAAJ S (720820103126)"
+      ],
       "Year/Semester": "",
       "event": "BLIND CODING",
       "organizer": "UNITED INSTITUTE OF TECHNOLOGY",
@@ -6832,7 +8373,9 @@
     },
     {
       "sno": 189,
-      "students": ["NOUFIA FIRTHOUS B (720820103304)"],
+      "students": [
+        "NOUFIA FIRTHOUS B (720820103304)"
+      ],
       "Year/Semester": "",
       "event": "BLIND CODING",
       "organizer": "UNITED INSTITUTE OF TECHNOLOGY",
@@ -6844,7 +8387,9 @@
     },
     {
       "sno": 190,
-      "students": ["MUTHUKUMAR M (720820103071)"],
+      "students": [
+        "MUTHUKUMAR M (720820103071)"
+      ],
       "Year/Semester": "",
       "event": "HACKATHON",
       "organizer": "COIMBATORE INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -6856,7 +8401,9 @@
     },
     {
       "sno": 191,
-      "students": ["NADISH K S (720820103072)"],
+      "students": [
+        "NADISH K S (720820103072)"
+      ],
       "Year/Semester": "",
       "event": "HACKATHON",
       "organizer": "COIMBATORE INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -6868,7 +8415,9 @@
     },
     {
       "sno": 192,
-      "students": ["HILTON PAUL P (720820103038)"],
+      "students": [
+        "HILTON PAUL P (720820103038)"
+      ],
       "Year/Semester": "",
       "event": "HACKATHON",
       "organizer": "COIMBATORE INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -6880,7 +8429,9 @@
     },
     {
       "sno": 193,
-      "students": ["JAI KRISHNA SAGAR S (720820103040)"],
+      "students": [
+        "JAI KRISHNA SAGAR S (720820103040)"
+      ],
       "Year/Semester": "",
       "event": "HACKATHON",
       "organizer": "COIMBATORE INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -6892,7 +8443,9 @@
     },
     {
       "sno": 194,
-      "students": ["SEEMALA BHUVANA TEJA (720820103099)"],
+      "students": [
+        "SEEMALA BHUVANA TEJA (720820103099)"
+      ],
       "Year/Semester": "",
       "event": "CODE HUNTER",
       "organizer": "KALAIGNARKARUNANIDHI INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -6904,7 +8457,9 @@
     },
     {
       "sno": 195,
-      "students": ["LAM AMULYA (720820103056)"],
+      "students": [
+        "LAM AMULYA (720820103056)"
+      ],
       "Year/Semester": "",
       "event": "CODE HUNTER",
       "organizer": "KALAIGNARKARUNANIDHI INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -6916,7 +8471,9 @@
     },
     {
       "sno": 196,
-      "students": ["MADHULIKA M (720820103061)"],
+      "students": [
+        "MADHULIKA M (720820103061)"
+      ],
       "Year/Semester": "",
       "event": "CODE HUNTER",
       "organizer": "KALAIGNARKARUNANIDHI INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -6928,7 +8485,9 @@
     },
     {
       "sno": 197,
-      "students": ["SIVA SHANKARAN E (720820103102)"],
+      "students": [
+        "SIVA SHANKARAN E (720820103102)"
+      ],
       "Year/Semester": "",
       "event": "CODE HUNTER",
       "organizer": "KALAIGNARKARUNANIDHI INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -6940,7 +8499,9 @@
     },
     {
       "sno": 198,
-      "students": ["SUMEDHAS V (720820103112)"],
+      "students": [
+        "SUMEDHAS V (720820103112)"
+      ],
       "Year/Semester": "",
       "event": "CODE HUNTER",
       "organizer": "KALAIGNARKARUNANIDHI INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -6952,7 +8513,9 @@
     },
     {
       "sno": 199,
-      "students": ["SREE MANIKANDAN B (720820103106)"],
+      "students": [
+        "SREE MANIKANDAN B (720820103106)"
+      ],
       "Year/Semester": "",
       "event": "CODE HUNTER",
       "organizer": "KALAIGNARKARUNANIDHI INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -6964,7 +8527,9 @@
     },
     {
       "sno": 200,
-      "students": ["JONNALAGADDA SURYA SASANKA (720820103043)"],
+      "students": [
+        "JONNALAGADDA SURYA SASANKA (720820103043)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "RATHINAM TECHNICAL CAMPUS-COIMBATORE",
@@ -6976,7 +8541,9 @@
     },
     {
       "sno": 201,
-      "students": ["LOGESHWARAN M (720820103059)"],
+      "students": [
+        "LOGESHWARAN M (720820103059)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "RATHINAM TECHNICAL CAMPUS-COIMBATORE",
@@ -6988,7 +8555,9 @@
     },
     {
       "sno": 202,
-      "students": ["SRIRAMKARAN C (720820103109)"],
+      "students": [
+        "SRIRAMKARAN C (720820103109)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "RATHINAM TECHNICAL CAMPUS-COIMBATORE",
@@ -7000,7 +8569,9 @@
     },
     {
       "sno": 203,
-      "students": ["KULANTHAI DAISON F (720820103055)"],
+      "students": [
+        "KULANTHAI DAISON F (720820103055)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "RATHINAM TECHNICAL CAMPUS-COIMBATORE",
@@ -7012,7 +8583,9 @@
     },
     {
       "sno": 204,
-      "students": ["NOUFIA FIRTHOUS B (720820103304)"],
+      "students": [
+        "NOUFIA FIRTHOUS B (720820103304)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "RATHINAM TECHNICAL CAMPUS-COIMBATORE",
@@ -7024,7 +8597,9 @@
     },
     {
       "sno": 205,
-      "students": ["PRADEEP KUMAR S (720820103311)"],
+      "students": [
+        "PRADEEP KUMAR S (720820103311)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "RATHINAM TECHNICAL CAMPUS-COIMBATORE",
@@ -7036,7 +8611,9 @@
     },
     {
       "sno": 206,
-      "students": ["VIJAY ANAND S (720820103121)"],
+      "students": [
+        "VIJAY ANAND S (720820103121)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT PRESENTATION",
       "organizer": "KONGU ENGINEERING COLLEGE-ERODE",
@@ -7048,7 +8625,9 @@
     },
     {
       "sno": 207,
-      "students": ["SUBRAMANI P (720820103111)"],
+      "students": [
+        "SUBRAMANI P (720820103111)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT PRESENTATION",
       "organizer": "KONGU ENGINEERING COLLEGE-ERODE",
@@ -7060,7 +8639,9 @@
     },
     {
       "sno": 208,
-      "students": ["TADIMARRI SAIBHARGAV (720820103116)"],
+      "students": [
+        "TADIMARRI SAIBHARGAV (720820103116)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT PRESENTATION",
       "organizer": "KONGU ENGINEERING COLLEGE-ERODE",
@@ -7072,7 +8653,9 @@
     },
     {
       "sno": 209,
-      "students": ["SUMEDHAS V (720820103112)"],
+      "students": [
+        "SUMEDHAS V (720820103112)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT PRESENTATION",
       "organizer": "KONGU ENGINEERING COLLEGE-ERODE",
@@ -7084,7 +8667,9 @@
     },
     {
       "sno": 210,
-      "students": ["AADHARSH A (720820103001)"],
+      "students": [
+        "AADHARSH A (720820103001)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT PRESENTATION",
       "organizer": "KONGU ENGINEERING COLLEGE-ERODE",
@@ -7096,7 +8681,9 @@
     },
     {
       "sno": 211,
-      "students": ["DANDI ESWARARAO (720820103025)"],
+      "students": [
+        "DANDI ESWARARAO (720820103025)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT PRESENTATION",
       "organizer": "KONGU ENGINEERING COLLEGE-ERODE",
@@ -7108,7 +8695,9 @@
     },
     {
       "sno": 212,
-      "students": ["HILTON PAUL P (720820103038)"],
+      "students": [
+        "HILTON PAUL P (720820103038)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY-COIMBATORE",
@@ -7120,7 +8709,9 @@
     },
     {
       "sno": 213,
-      "students": ["MADHULIKA M (720820103061)"],
+      "students": [
+        "MADHULIKA M (720820103061)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "SRI RAMAKRISHNA ENGINEERING COLLEGE",
@@ -7132,7 +8723,9 @@
     },
     {
       "sno": 214,
-      "students": ["VANI L (720820103310)"],
+      "students": [
+        "VANI L (720820103310)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "SRI RAMAKRISHNA ENGINEERING COLLEGE",
@@ -7144,7 +8737,9 @@
     },
     {
       "sno": 215,
-      "students": ["NAVANEETH (720820103074)"],
+      "students": [
+        "NAVANEETH (720820103074)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY-COIMBATORE",
@@ -7156,7 +8751,9 @@
     },
     {
       "sno": 216,
-      "students": ["GOKULA KANNAN A (720820103032)"],
+      "students": [
+        "GOKULA KANNAN A (720820103032)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY-COIMBATORE",
@@ -7168,7 +8765,9 @@
     },
     {
       "sno": 217,
-      "students": ["MOHAMED YEHIA M (720820103067)"],
+      "students": [
+        "MOHAMED YEHIA M (720820103067)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY-COIMBATORE",
@@ -7180,7 +8779,9 @@
     },
     {
       "sno": 218,
-      "students": ["ABISHEK MANNAM (720820103006)"],
+      "students": [
+        "ABISHEK MANNAM (720820103006)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY-COIMBATORE",
@@ -7192,7 +8793,9 @@
     },
     {
       "sno": 219,
-      "students": ["SRIKRISHNAN R (720820103108)"],
+      "students": [
+        "SRIKRISHNAN R (720820103108)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY-COIMBATORE",
@@ -7204,7 +8807,9 @@
     },
     {
       "sno": 220,
-      "students": ["RISHI BALA M (720820103091)"],
+      "students": [
+        "RISHI BALA M (720820103091)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY-COIMBATORE",
@@ -7216,7 +8821,9 @@
     },
     {
       "sno": 221,
-      "students": ["SRIRAMKARAN C (720820103109)"],
+      "students": [
+        "SRIRAMKARAN C (720820103109)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT PRESENTATION",
       "organizer": "JANSONS INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -7228,7 +8835,9 @@
     },
     {
       "sno": 222,
-      "students": ["E.DHANASEKAR (720820103307)"],
+      "students": [
+        "E.DHANASEKAR (720820103307)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT PRESENTATION",
       "organizer": "JANSONS INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -7240,7 +8849,9 @@
     },
     {
       "sno": 223,
-      "students": ["NISHANTH.G (720820103309)"],
+      "students": [
+        "NISHANTH.G (720820103309)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT PRESENTATION",
       "organizer": "JANSONS INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -7252,7 +8863,9 @@
     },
     {
       "sno": 224,
-      "students": ["KAVIYA S (720820103051)"],
+      "students": [
+        "KAVIYA S (720820103051)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT PRESENTATION",
       "organizer": "JANSONS INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -7264,7 +8877,9 @@
     },
     {
       "sno": 225,
-      "students": ["KAVIN C (720820103049)"],
+      "students": [
+        "KAVIN C (720820103049)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT PRESENTATION",
       "organizer": "JANSONS INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -7276,7 +8891,9 @@
     },
     {
       "sno": 226,
-      "students": ["KAMARAJ N (720820103045)"],
+      "students": [
+        "KAMARAJ N (720820103045)"
+      ],
       "Year/Semester": "",
       "event": "PROJECT PRESENTATION",
       "organizer": "JANSONS INSTITUTE OF TECHNOLOGY-COIMBATORE",
@@ -7288,7 +8905,9 @@
     },
     {
       "sno": 227,
-      "students": ["LOGESHWARAN M (720820103059)"],
+      "students": [
+        "LOGESHWARAN M (720820103059)"
+      ],
       "Year/Semester": "",
       "event": "CODE DEBUGGING",
       "organizer": "KUMARAGURU COLLEGE OF TECHNOLOGY -COIMBATORE",
@@ -7300,7 +8919,9 @@
     },
     {
       "sno": 228,
-      "students": ["AYUSH J CHANDRAN (720820103018)"],
+      "students": [
+        "AYUSH J CHANDRAN (720820103018)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KARPAGAM COLLEGE OF ENGINEERING- COIMBATORE",
@@ -7312,7 +8933,9 @@
     },
     {
       "sno": 229,
-      "students": ["ANANYA G (720820103014)"],
+      "students": [
+        "ANANYA G (720820103014)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KARPAGAM COLLEGE OF ENGINEERING- COIMBATORE",
@@ -7324,7 +8947,9 @@
     },
     {
       "sno": 230,
-      "students": ["GOKULA KANNAN A (720820103032)"],
+      "students": [
+        "GOKULA KANNAN A (720820103032)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KARPAGAM COLLEGE OF ENGINEERING- COIMBATORE",
@@ -7336,7 +8961,9 @@
     },
     {
       "sno": 231,
-      "students": ["MADHUMITHA P (720820103062)"],
+      "students": [
+        "MADHUMITHA P (720820103062)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KARPAGAM COLLEGE OF ENGINEERING- COIMBATORE",
@@ -7348,7 +8975,9 @@
     },
     {
       "sno": 232,
-      "students": ["CHANDRASEKAR R (720820103023)"],
+      "students": [
+        "CHANDRASEKAR R (720820103023)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KARPAGAM COLLEGE OF ENGINEERING- COIMBATORE",
@@ -7360,7 +8989,9 @@
     },
     {
       "sno": 233,
-      "students": ["BHARATH V (720820103021)"],
+      "students": [
+        "BHARATH V (720820103021)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KARPAGAM COLLEGE OF ENGINEERING- COIMBATORE",
@@ -7372,7 +9003,9 @@
     },
     {
       "sno": 234,
-      "students": ["KANAMARLAPUDI AKSHAY KUMAR GUPTA (720820103046)"],
+      "students": [
+        "KANAMARLAPUDI AKSHAY KUMAR GUPTA (720820103046)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KARPAGAM COLLEGE OF ENGINEERING- COIMBATORE",
@@ -7384,7 +9017,9 @@
     },
     {
       "sno": 235,
-      "students": ["KAVIN KUMAR P (720820103050)"],
+      "students": [
+        "KAVIN KUMAR P (720820103050)"
+      ],
       "Year/Semester": "",
       "event": "ALGOCODE",
       "organizer": "PSG COLLEGE OF TECHNOLOGY-COIMBATORE",
@@ -7396,7 +9031,9 @@
     },
     {
       "sno": 236,
-      "students": ["MADHULIKA M (720820103061)"],
+      "students": [
+        "MADHULIKA M (720820103061)"
+      ],
       "Year/Semester": "",
       "event": "ALGOCODE",
       "organizer": "PSG COLLEGE OF TECHNOLOGY-COIMBATORE",
@@ -7408,7 +9045,9 @@
     },
     {
       "sno": 237,
-      "students": ["LOGESHWARAN M (720820103058)"],
+      "students": [
+        "LOGESHWARAN M (720820103058)"
+      ],
       "Year/Semester": "",
       "event": "ALGOCODE",
       "organizer": "PSG COLLEGE OF TECHNOLOGY-COIMBATORE",
@@ -7420,7 +9059,9 @@
     },
     {
       "sno": 238,
-      "students": ["PRADEEP KUMAR S (720820103311)"],
+      "students": [
+        "PRADEEP KUMAR S (720820103311)"
+      ],
       "Year/Semester": "",
       "event": "ALGOCODE",
       "organizer": "PSG COLLEGE OF TECHNOLOGY-COIMBATORE",
@@ -7432,7 +9073,9 @@
     },
     {
       "sno": 239,
-      "students": ["VIJAY ANAND S (720820103121)"],
+      "students": [
+        "VIJAY ANAND S (720820103121)"
+      ],
       "Year/Semester": "",
       "event": "ALGOCODE",
       "organizer": "PSG COLLEGE OF TECHNOLOGY-COIMBATORE",
@@ -7444,7 +9087,9 @@
     },
     {
       "sno": 240,
-      "students": ["SUBRAMANI P (720820103111)"],
+      "students": [
+        "SUBRAMANI P (720820103111)"
+      ],
       "Year/Semester": "",
       "event": "DEBUGGING",
       "organizer": "SALEM COLLEGE OF ENGINEERING-SALEM",
@@ -7456,7 +9101,9 @@
     },
     {
       "sno": 241,
-      "students": ["TADIMARRI SAIBHARGAV (720820103116)"],
+      "students": [
+        "TADIMARRI SAIBHARGAV (720820103116)"
+      ],
       "Year/Semester": "",
       "event": "DEBUGGING",
       "organizer": "SALEM COLLEGE OF ENGINEERING-SALEM",
@@ -7468,7 +9115,9 @@
     },
     {
       "sno": 242,
-      "students": ["SUMEDHAS V (720820103112)"],
+      "students": [
+        "SUMEDHAS V (720820103112)"
+      ],
       "Year/Semester": "",
       "event": "DEBUGGING",
       "organizer": "SALEM COLLEGE OF ENGINEERING-SALEM",
@@ -7480,7 +9129,9 @@
     },
     {
       "sno": 243,
-      "students": ["AADHARSH A (720820103001)"],
+      "students": [
+        "AADHARSH A (720820103001)"
+      ],
       "Year/Semester": "",
       "event": "DEBUGGING",
       "organizer": "SALEM COLLEGE OF ENGINEERING-SALEM",
@@ -7492,7 +9143,9 @@
     },
     {
       "sno": 244,
-      "students": ["DANDI ESWARARAO (720820103025)"],
+      "students": [
+        "DANDI ESWARARAO (720820103025)"
+      ],
       "Year/Semester": "",
       "event": "DEBUGGING",
       "organizer": "SALEM COLLEGE OF ENGINEERING-SALEM",
@@ -7504,7 +9157,9 @@
     },
     {
       "sno": 245,
-      "students": ["HILTON PAUL P (720820103038)"],
+      "students": [
+        "HILTON PAUL P (720820103038)"
+      ],
       "Year/Semester": "",
       "event": "DEBUGGING",
       "organizer": "SALEM COLLEGE OF ENGINEERING-SALEM",
@@ -7516,7 +9171,9 @@
     },
     {
       "sno": 246,
-      "students": ["PRADEEP KUMAR S (720820103311)"],
+      "students": [
+        "PRADEEP KUMAR S (720820103311)"
+      ],
       "Year/Semester": "",
       "event": "CODE DEBUGGING",
       "organizer": "VINAYAKA MISSIONS VARIYAR ENGINEERING COLLEGE-SALEM",
@@ -7528,7 +9185,9 @@
     },
     {
       "sno": 247,
-      "students": ["SARAVANA K (720820103097)"],
+      "students": [
+        "SARAVANA K (720820103097)"
+      ],
       "Year/Semester": "",
       "event": "CODE DEBUGGING",
       "organizer": "VINAYAKA MISSIONS VARIYAR ENGINEERING COLLEGE-SALEM",
@@ -7540,7 +9199,9 @@
     },
     {
       "sno": 248,
-      "students": ["YUGESWARAN N (720820103125)"],
+      "students": [
+        "YUGESWARAN N (720820103125)"
+      ],
       "Year/Semester": "",
       "event": "CODE DEBUGGING",
       "organizer": "VINAYAKA MISSIONS VARIYAR ENGINEERING COLLEGE-SALEM",
@@ -7552,7 +9213,9 @@
     },
     {
       "sno": 249,
-      "students": ["YUVARAAJ S (720820103126)"],
+      "students": [
+        "YUVARAAJ S (720820103126)"
+      ],
       "Year/Semester": "",
       "event": "CODE DEBUGGING",
       "organizer": "VINAYAKA MISSIONS VARIYAR ENGINEERING COLLEGE-SALEM",
@@ -7564,7 +9227,9 @@
     },
     {
       "sno": 250,
-      "students": ["NOUFIA FIRTHOUS B (720820103304)"],
+      "students": [
+        "NOUFIA FIRTHOUS B (720820103304)"
+      ],
       "Year/Semester": "",
       "event": "CODE DEBUGGING",
       "organizer": "VINAYAKA MISSIONS VARIYAR ENGINEERING COLLEGE-SALEM",
@@ -7576,7 +9241,9 @@
     },
     {
       "sno": 251,
-      "students": ["MUTHUKUMAR M (720820103071)"],
+      "students": [
+        "MUTHUKUMAR M (720820103071)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "SRI SHANMUGA COLLEGE OF ENGINEERING & TECHNOLOGY-SALEM",
@@ -7588,7 +9255,9 @@
     },
     {
       "sno": 252,
-      "students": ["AGARSHANA S (720820103008)"],
+      "students": [
+        "AGARSHANA S (720820103008)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "SRI SHANMUGA COLLEGE OF ENGINEERING & TECHNOLOGY-SALEM",
@@ -7600,7 +9269,9 @@
     },
     {
       "sno": 253,
-      "students": ["YUVARAAJ S (720820103126)"],
+      "students": [
+        "YUVARAAJ S (720820103126)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "SRI SHANMUGA COLLEGE OF ENGINEERING & TECHNOLOGY-SALEM",
@@ -7612,7 +9283,9 @@
     },
     {
       "sno": 254,
-      "students": ["ANANYA G (720820103014)"],
+      "students": [
+        "ANANYA G (720820103014)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "SRI SHANMUGA COLLEGE OF ENGINEERING & TECHNOLOGY-SALEM",
@@ -7624,7 +9297,9 @@
     },
     {
       "sno": 255,
-      "students": ["NANTHAKUMARAN (720820103073)"],
+      "students": [
+        "NANTHAKUMARAN (720820103073)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "SRI SHANMUGA COLLEGE OF ENGINEERING & TECHNOLOGY-SALEM",
@@ -7636,7 +9311,9 @@
     },
     {
       "sno": 256,
-      "students": ["DEEPASH SAMY R (720820103301)"],
+      "students": [
+        "DEEPASH SAMY R (720820103301)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "NANDHA COLLEGE OF TECHNOLOGY-ERODE",
@@ -7648,7 +9325,9 @@
     },
     {
       "sno": 257,
-      "students": ["MIDHUN R R (720820103064)"],
+      "students": [
+        "MIDHUN R R (720820103064)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "NANDHA COLLEGE OF TECHNOLOGY-ERODE",
@@ -7660,7 +9339,9 @@
     },
     {
       "sno": 258,
-      "students": ["SEEMALA BHUVANA TEJA (720820103099)"],
+      "students": [
+        "SEEMALA BHUVANA TEJA (720820103099)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "NANDHA COLLEGE OF TECHNOLOGY-ERODE",
@@ -7672,7 +9353,9 @@
     },
     {
       "sno": 259,
-      "students": ["JENESHA J (720820103042)"],
+      "students": [
+        "JENESHA J (720820103042)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "NANDHA COLLEGE OF TECHNOLOGY-ERODE",
@@ -7684,7 +9367,9 @@
     },
     {
       "sno": 260,
-      "students": ["NISHANTH.G (720820103309)"],
+      "students": [
+        "NISHANTH.G (720820103309)"
+      ],
       "Year/Semester": "",
       "event": "TECH DEBATE",
       "organizer": "ERODE SENGUNTHAR ENGINEERING COLLEGE-ERODE",
@@ -7696,7 +9381,9 @@
     },
     {
       "sno": 261,
-      "students": ["RAJALAKSHMI R (720819104093)"],
+      "students": [
+        "RAJALAKSHMI R (720819104093)"
+      ],
       "Year/Semester": "",
       "event": "TECH DEBATE",
       "organizer": "ERODE SENGUNTHAR ENGINEERING COLLEGE-ERODE",
@@ -7708,7 +9395,9 @@
     },
     {
       "sno": 262,
-      "students": ["RUSSEL GABRIEL THOMAS (720819104097)"],
+      "students": [
+        "RUSSEL GABRIEL THOMAS (720819104097)"
+      ],
       "Year/Semester": "",
       "event": "TECH DEBATE",
       "organizer": "ERODE SENGUNTHAR ENGINEERING COLLEGE-ERODE",
@@ -7720,7 +9409,9 @@
     },
     {
       "sno": 263,
-      "students": ["SUDHRSAN L (720819104112)"],
+      "students": [
+        "SUDHRSAN L (720819104112)"
+      ],
       "Year/Semester": "",
       "event": "LOGO PROGRAMMING",
       "organizer": "ERODE SENGUNTHAR ENGINEERING COLLEGE-ERODE",
@@ -7732,7 +9423,9 @@
     },
     {
       "sno": 264,
-      "students": ["SREERAG M (720819104109)"],
+      "students": [
+        "SREERAG M (720819104109)"
+      ],
       "Year/Semester": "",
       "event": "LOGO PROGRAMMING",
       "organizer": "ERODE SENGUNTHAR ENGINEERING COLLEGE-ERODE",
@@ -7744,7 +9437,9 @@
     },
     {
       "sno": 265,
-      "students": ["NAVANEETH (720820103074)"],
+      "students": [
+        "NAVANEETH (720820103074)"
+      ],
       "Year/Semester": "",
       "event": "LOGO PROGRAMMING",
       "organizer": "ERODE SENGUNTHAR ENGINEERING COLLEGE-ERODE",
@@ -7756,7 +9451,9 @@
     },
     {
       "sno": 266,
-      "students": ["GOKULA KANNAN A (720820103032)"],
+      "students": [
+        "GOKULA KANNAN A (720820103032)"
+      ],
       "Year/Semester": "",
       "event": "LOGO PROGRAMMING",
       "organizer": "ERODE SENGUNTHAR ENGINEERING COLLEGE-ERODE",
@@ -7768,7 +9465,9 @@
     },
     {
       "sno": 267,
-      "students": ["MOHAMED YEHIA M (720820103067)"],
+      "students": [
+        "MOHAMED YEHIA M (720820103067)"
+      ],
       "Year/Semester": "",
       "event": "LOGO PROGRAMMING",
       "organizer": "ERODE SENGUNTHAR ENGINEERING COLLEGE-ERODE",
@@ -7780,7 +9479,9 @@
     },
     {
       "sno": 268,
-      "students": ["JENESHA J (720820103042)"],
+      "students": [
+        "JENESHA J (720820103042)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "VELALAR COLLEGE OF ENGINEERING AND TECHNOLOGY-ERODE",
@@ -7792,7 +9493,9 @@
     },
     {
       "sno": 269,
-      "students": ["PRANAV P (720819104089)"],
+      "students": [
+        "PRANAV P (720819104089)"
+      ],
       "Year/Semester": "",
       "event": "HACKATHON",
       "organizer": "SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY, COIMBATORE",
@@ -7804,7 +9507,9 @@
     },
     {
       "sno": 270,
-      "students": ["VETTORI FERNANDO M (720820103305)"],
+      "students": [
+        "VETTORI FERNANDO M (720820103305)"
+      ],
       "Year/Semester": "",
       "event": "HACKATHON",
       "organizer": "SRI RAMAKRISHNA INSTITUTE OF TECHNOLOGY, COIMBATORE",
@@ -7816,7 +9521,9 @@
     },
     {
       "sno": 271,
-      "students": ["SREERAG M (720819104109)"],
+      "students": [
+        "SREERAG M (720819104109)"
+      ],
       "Year/Semester": "",
       "event": "INTELLIGENT INNOVATORS",
       "organizer": "SRI ESHWAR COLLEGE OF ENGINEERING",
@@ -7828,7 +9535,9 @@
     },
     {
       "sno": 272,
-      "students": ["SNOWIN J (720820103104)"],
+      "students": [
+        "SNOWIN J (720820103104)"
+      ],
       "Year/Semester": "",
       "event": "INTELLIGENT INNOVATORS",
       "organizer": "SRI ESHWAR COLLEGE OF ENGINEERING",
@@ -7840,7 +9549,9 @@
     },
     {
       "sno": 273,
-      "students": ["YUVARAAJ S (720820103126)"],
+      "students": [
+        "YUVARAAJ S (720820103126)"
+      ],
       "Year/Semester": "",
       "event": "INTELLIGENT INNOVATORS",
       "organizer": "SRI ESHWAR COLLEGE OF ENGINEERING",
@@ -7852,7 +9563,9 @@
     },
     {
       "sno": 274,
-      "students": ["AGARSHANA S (720820103008)"],
+      "students": [
+        "AGARSHANA S (720820103008)"
+      ],
       "Year/Semester": "",
       "event": "INTELLIGENT INNOVATORS",
       "organizer": "SRI ESHWAR COLLEGE OF ENGINEERING",
@@ -7864,7 +9577,9 @@
     },
     {
       "sno": 275,
-      "students": ["PRANAV P (720819104089)"],
+      "students": [
+        "PRANAV P (720819104089)"
+      ],
       "Year/Semester": "",
       "event": "JFINAGLES",
       "organizer": "JCT COLLEGE OF ENGINEERING AND TECHNOLOGY, COIMBATORE",
@@ -7876,7 +9591,9 @@
     },
     {
       "sno": 276,
-      "students": ["S. RISHIKA (720819104096)"],
+      "students": [
+        "S. RISHIKA (720819104096)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KONGU ENGINEERING COLLEGE-ERODE",
@@ -7888,7 +9605,9 @@
     },
     {
       "sno": 277,
-      "students": ["LOKESH.M.P.T (720819104062)"],
+      "students": [
+        "LOKESH.M.P.T (720819104062)"
+      ],
       "Year/Semester": "",
       "event": "DEBUGGING",
       "organizer": "KONGU ENGINEERING COLLEGE-ERODE",
@@ -7900,7 +9619,9 @@
     },
     {
       "sno": 278,
-      "students": ["NELATURI SUDHA MANI (720819104076)"],
+      "students": [
+        "NELATURI SUDHA MANI (720819104076)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KONGU ENGINEERING COLLEGE-ERODE",
@@ -7912,7 +9633,9 @@
     },
     {
       "sno": 279,
-      "students": ["RAJALAKSHMI R (720819104093)"],
+      "students": [
+        "RAJALAKSHMI R (720819104093)"
+      ],
       "Year/Semester": "",
       "event": "DEBUGGING",
       "organizer": "KONGU ENGINEERING COLLEGE-ERODE",
@@ -7924,7 +9647,9 @@
     },
     {
       "sno": 280,
-      "students": ["RUSSEL GABRIEL THOMAS (720819104097)"],
+      "students": [
+        "RUSSEL GABRIEL THOMAS (720819104097)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "KONGU ENGINEERING COLLEGE-ERODE",
@@ -7936,7 +9661,9 @@
     },
     {
       "sno": 281,
-      "students": ["SUDHRSAN L (720819104112)"],
+      "students": [
+        "SUDHRSAN L (720819104112)"
+      ],
       "Year/Semester": "",
       "event": "SMART INDIA HACKATHON",
       "organizer": "SIH 2023",
@@ -7948,7 +9675,9 @@
     },
     {
       "sno": 282,
-      "students": ["SREERAG M (720819104109)"],
+      "students": [
+        "SREERAG M (720819104109)"
+      ],
       "Year/Semester": "",
       "event": "SMART INDIA HACKATHON",
       "organizer": "SIH 2023",
@@ -7960,7 +9689,9 @@
     },
     {
       "sno": 283,
-      "students": ["SNOWIN J (720820103104)"],
+      "students": [
+        "SNOWIN J (720820103104)"
+      ],
       "Year/Semester": "",
       "event": "SMART INDIA HACKATHON",
       "organizer": "SIH 2023",
@@ -7972,7 +9703,9 @@
     },
     {
       "sno": 284,
-      "students": ["AGARSHANA S (720820103008)"],
+      "students": [
+        "AGARSHANA S (720820103008)"
+      ],
       "Year/Semester": "",
       "event": "SMART INDIA HACKATHON",
       "organizer": "SIH 2023",
@@ -7984,7 +9717,9 @@
     },
     {
       "sno": 285,
-      "students": ["YUVARAAJ S (720820103126)"],
+      "students": [
+        "YUVARAAJ S (720820103126)"
+      ],
       "Year/Semester": "",
       "event": "SMART INDIA HACKATHON",
       "organizer": "SIH 2023",
@@ -7996,7 +9731,9 @@
     },
     {
       "sno": 286,
-      "students": ["ANANYA G (720820103014)"],
+      "students": [
+        "ANANYA G (720820103014)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "SRI RAMAKRISHNA ENGINEERING COLLEGE",
@@ -8008,7 +9745,9 @@
     },
     {
       "sno": 287,
-      "students": ["NANTHAKUMARAN (720820103073)"],
+      "students": [
+        "NANTHAKUMARAN (720820103073)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "SRI RAMAKRISHNA ENGINEERING COLLEGE",
@@ -8020,7 +9759,9 @@
     },
     {
       "sno": 288,
-      "students": ["NHASIK MOHAMMED (720820103080)"],
+      "students": [
+        "NHASIK MOHAMMED (720820103080)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "SRI RAMAKRISHNA ENGINEERING COLLEGE",
@@ -8032,7 +9773,9 @@
     },
     {
       "sno": 289,
-      "students": ["MOHAMED YEHIA (720820103067)"],
+      "students": [
+        "MOHAMED YEHIA (720820103067)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "SRI RAMAKRISHNA ENGINEERING COLLEGE",
@@ -8044,7 +9787,9 @@
     },
     {
       "sno": 290,
-      "students": ["NISHA (720820103082)"],
+      "students": [
+        "NISHA (720820103082)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "SRI RAMAKRISHNA ENGINEERING COLLEGE",
@@ -8056,7 +9801,9 @@
     },
     {
       "sno": 291,
-      "students": ["DUNGALA MOHANA PRIYANKA (720819104029)"],
+      "students": [
+        "DUNGALA MOHANA PRIYANKA (720819104029)"
+      ],
       "Year/Semester": "",
       "event": "DEBUGGING",
       "organizer": "KONGU ENGINEERING COLLEGE-ERODE",
@@ -8068,7 +9815,9 @@
     },
     {
       "sno": 292,
-      "students": ["PACHIGULLA DEEPTHI (720819104080)"],
+      "students": [
+        "PACHIGULLA DEEPTHI (720819104080)"
+      ],
       "Year/Semester": "",
       "event": "JFINAGLES",
       "organizer": "JCT COLLEGE OF ENGINEERING AND TECHNOLOGY, COIMBATORE",
@@ -8080,7 +9829,9 @@
     },
     {
       "sno": 293,
-      "students": ["PACHIGULLA DEEPTHI (720819104080)"],
+      "students": [
+        "PACHIGULLA DEEPTHI (720819104080)"
+      ],
       "Year/Semester": "",
       "event": "PAPER PRESENTATION",
       "organizer": "JCT COLLEGE OF ENGINEERING AND TECHNOLOGY",
@@ -8092,7 +9843,9 @@
     },
     {
       "sno": 294,
-      "students": ["AKASH N (720820103009)"],
+      "students": [
+        "AKASH N (720820103009)"
+      ],
       "Year/Semester": "7TH SEM / 4TH YEAR",
       "event": "IRISH- 2K23",
       "organizer": "",
@@ -8104,7 +9857,9 @@
     },
     {
       "sno": 295,
-      "students": ["VIKRAM S (720820103122)"],
+      "students": [
+        "VIKRAM S (720820103122)"
+      ],
       "Year/Semester": "7TH SEM / 4TH YEAR",
       "event": "IGNITE-2023",
       "organizer": "",
@@ -8116,7 +9871,9 @@
     },
     {
       "sno": 296,
-      "students": ["YUVARAAJ S (720820103126)"],
+      "students": [
+        "YUVARAAJ S (720820103126)"
+      ],
       "Year/Semester": "7TH SEM / 4TH YEAR",
       "event": "IGNITE-2023",
       "organizer": "",
@@ -8128,7 +9885,9 @@
     },
     {
       "sno": 297,
-      "students": ["ASHWIN M (720820103017)"],
+      "students": [
+        "ASHWIN M (720820103017)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CBEYONZ’24",
       "organizer": "",
@@ -8140,7 +9899,9 @@
     },
     {
       "sno": 298,
-      "students": ["ANANYA G (720820103014)"],
+      "students": [
+        "ANANYA G (720820103014)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CBEYONZ’24",
       "organizer": "",
@@ -8152,7 +9913,9 @@
     },
     {
       "sno": 299,
-      "students": ["KISHORE P (720820103053)"],
+      "students": [
+        "KISHORE P (720820103053)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CRYPTERA 2024",
       "organizer": "",
@@ -8164,7 +9927,9 @@
     },
     {
       "sno": 300,
-      "students": ["HARISH B (720822103065)"],
+      "students": [
+        "HARISH B (720822103065)"
+      ],
       "Year/Semester": "",
       "event": "TECHNICAL QUIZ",
       "organizer": "",
@@ -8176,7 +9941,9 @@
     },
     {
       "sno": 301,
-      "students": ["HARISH P (720822103067)"],
+      "students": [
+        "HARISH P (720822103067)"
+      ],
       "Year/Semester": "",
       "event": "TECHNICAL QUIZ",
       "organizer": "",
@@ -8188,7 +9955,9 @@
     },
     {
       "sno": 302,
-      "students": ["ARUN S"],
+      "students": [
+        "ARUN S"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "EPOCH 2024",
       "organizer": "",
@@ -8200,7 +9969,9 @@
     },
     {
       "sno": 303,
-      "students": ["MOHAMED HALIF A (720822103104)"],
+      "students": [
+        "MOHAMED HALIF A (720822103104)"
+      ],
       "Year/Semester": "",
       "event": "CODE IN CHOS",
       "organizer": "",
@@ -8212,7 +9983,9 @@
     },
     {
       "sno": 304,
-      "students": ["HARIPRASAD R S (720822103064)"],
+      "students": [
+        "HARIPRASAD R S (720822103064)"
+      ],
       "Year/Semester": "",
       "event": "CODE IN CHOS",
       "organizer": "",
@@ -8224,7 +9997,9 @@
     },
     {
       "sno": 305,
-      "students": ["SANJAY S (720820103093)"],
+      "students": [
+        "SANJAY S (720820103093)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "V-PRAYUKTI’24",
       "organizer": "",
@@ -8236,7 +10011,9 @@
     },
     {
       "sno": 306,
-      "students": ["POONTHAMILAN M (720820103087)"],
+      "students": [
+        "POONTHAMILAN M (720820103087)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "V-PRAYUKTI’24",
       "organizer": "",
@@ -8248,7 +10025,9 @@
     },
     {
       "sno": 307,
-      "students": ["SUMEDHAS V (720820103112)"],
+      "students": [
+        "SUMEDHAS V (720820103112)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "HECURA 2024",
       "organizer": "",
@@ -8260,7 +10039,9 @@
     },
     {
       "sno": 308,
-      "students": ["NISHA S (720820103082)"],
+      "students": [
+        "NISHA S (720820103082)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHFEST 2024",
       "organizer": "",
@@ -8272,7 +10053,9 @@
     },
     {
       "sno": 309,
-      "students": ["MIDHUN R R (720820103064)"],
+      "students": [
+        "MIDHUN R R (720820103064)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHFEST 2024",
       "organizer": "",
@@ -8284,7 +10067,9 @@
     },
     {
       "sno": 310,
-      "students": ["KAMARAJ N (720820103045)"],
+      "students": [
+        "KAMARAJ N (720820103045)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "GENESIZ’S 2K24",
       "organizer": "",
@@ -8296,7 +10081,9 @@
     },
     {
       "sno": 311,
-      "students": ["NITHISH P (720820103083)"],
+      "students": [
+        "NITHISH P (720820103083)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "QUANTAS-24",
       "organizer": "",
@@ -8308,7 +10095,9 @@
     },
     {
       "sno": 312,
-      "students": ["MONISHA M (720820103069)"],
+      "students": [
+        "MONISHA M (720820103069)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "GUSTO 2024",
       "organizer": "",
@@ -8320,7 +10109,9 @@
     },
     {
       "sno": 313,
-      "students": ["BARATH V (720820103021)"],
+      "students": [
+        "BARATH V (720820103021)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CELESTIX 2024",
       "organizer": "",
@@ -8332,7 +10123,9 @@
     },
     {
       "sno": 314,
-      "students": ["NIRMAL DEV M (720820103081)"],
+      "students": [
+        "NIRMAL DEV M (720820103081)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "GUSTO 2024",
       "organizer": "",
@@ -8344,7 +10137,9 @@
     },
     {
       "sno": 315,
-      "students": ["KAVIYA S (720820103051)"],
+      "students": [
+        "KAVIYA S (720820103051)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "GUSTO 2024",
       "organizer": "",
@@ -8356,7 +10151,9 @@
     },
     {
       "sno": 316,
-      "students": ["GOMATHI D (720820103033)"],
+      "students": [
+        "GOMATHI D (720820103033)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CELESTIX 2024",
       "organizer": "",
@@ -8368,7 +10165,9 @@
     },
     {
       "sno": 317,
-      "students": ["SANJAY P (720823103137)"],
+      "students": [
+        "SANJAY P (720823103137)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CELESTIX 2024",
       "organizer": "",
@@ -8380,7 +10179,9 @@
     },
     {
       "sno": 318,
-      "students": ["GOBI R (720820103031)"],
+      "students": [
+        "GOBI R (720820103031)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHFEST 2K24",
       "organizer": "",
@@ -8392,7 +10193,9 @@
     },
     {
       "sno": 319,
-      "students": ["SIVAMANICKAM P (720820103103)"],
+      "students": [
+        "SIVAMANICKAM P (720820103103)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHNOFEST 24",
       "organizer": "",
@@ -8404,7 +10207,9 @@
     },
     {
       "sno": 320,
-      "students": ["SANKU PAVAN KUMAR (720820103094)"],
+      "students": [
+        "SANKU PAVAN KUMAR (720820103094)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "DESIGNZIA 24",
       "organizer": "",
@@ -8416,7 +10221,9 @@
     },
     {
       "sno": 321,
-      "students": ["NAVANEETH (720820103074)"],
+      "students": [
+        "NAVANEETH (720820103074)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CYNOSURE 2K24",
       "organizer": "",
@@ -8458,7 +10265,9 @@
     },
     {
       "sno": 324,
-      "students": ["NAUFFAL AHAMED K (720822103113)"],
+      "students": [
+        "NAUFFAL AHAMED K (720822103113)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL EVENTS",
       "organizer": "",
@@ -8470,7 +10279,9 @@
     },
     {
       "sno": 325,
-      "students": ["MAHESHPRAVEEN E (720822103099)"],
+      "students": [
+        "MAHESHPRAVEEN E (720822103099)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL EVENTS",
       "organizer": "",
@@ -8482,7 +10293,9 @@
     },
     {
       "sno": 326,
-      "students": ["MRIDUL P (720822103064)"],
+      "students": [
+        "MRIDUL P (720822103064)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL EVENTS",
       "organizer": "",
@@ -8494,7 +10307,9 @@
     },
     {
       "sno": 327,
-      "students": ["KARTHIK R (720820103047)"],
+      "students": [
+        "KARTHIK R (720820103047)"
+      ],
       "Year/Semester": "7TH SEM / 4TH YEAR",
       "event": "TECHNOVISTA-2023",
       "organizer": "",
@@ -8506,7 +10321,9 @@
     },
     {
       "sno": 328,
-      "students": ["AADHARASH A (720820103001)"],
+      "students": [
+        "AADHARASH A (720820103001)"
+      ],
       "Year/Semester": "7TH SEM / 4TH YEAR",
       "event": "TECHNOVISTA-2023",
       "organizer": "",
@@ -8518,7 +10335,9 @@
     },
     {
       "sno": 329,
-      "students": ["MADHULIKA M (720820103061)"],
+      "students": [
+        "MADHULIKA M (720820103061)"
+      ],
       "Year/Semester": "7TH SEM / 4TH YEAR",
       "event": "TECHNOVISTA-2023",
       "organizer": "",
@@ -8530,7 +10349,9 @@
     },
     {
       "sno": 330,
-      "students": ["THIRISHA S (720820103118)"],
+      "students": [
+        "THIRISHA S (720820103118)"
+      ],
       "Year/Semester": "7TH SEM / 4TH YEAR",
       "event": "IGNITE-2023",
       "organizer": "",
@@ -8542,7 +10363,9 @@
     },
     {
       "sno": 331,
-      "students": ["NITHISH P (720820103083)"],
+      "students": [
+        "NITHISH P (720820103083)"
+      ],
       "Year/Semester": "7TH SEM / 4TH YEAR",
       "event": "IGNITE-2023",
       "organizer": "",
@@ -8554,7 +10377,9 @@
     },
     {
       "sno": 332,
-      "students": ["KAVIN C (720820103049)"],
+      "students": [
+        "KAVIN C (720820103049)"
+      ],
       "Year/Semester": "7TH SEM / 4TH YEAR",
       "event": "IGNITE-2023",
       "organizer": "",
@@ -8566,7 +10391,9 @@
     },
     {
       "sno": 333,
-      "students": ["KISHORE R (720821103056)"],
+      "students": [
+        "KISHORE R (720821103056)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "RAISEATHON 2024 BY AIC RAISE",
       "organizer": "",
@@ -8578,7 +10405,9 @@
     },
     {
       "sno": 334,
-      "students": ["JAGAN A (720821103041)"],
+      "students": [
+        "JAGAN A (720821103041)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "RAISEATHON 2024 BY AIC RAISE",
       "organizer": "",
@@ -8590,7 +10419,9 @@
     },
     {
       "sno": 335,
-      "students": ["DHARANI.R (720821103019)"],
+      "students": [
+        "DHARANI.R (720821103019)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "RAISEATHON 2024 BY AIC RAISE",
       "organizer": "",
@@ -8602,7 +10433,9 @@
     },
     {
       "sno": 336,
-      "students": ["AKASHAYA.E (720821103009)"],
+      "students": [
+        "AKASHAYA.E (720821103009)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "RAISEATHON 2024 BY AIC RAISE",
       "organizer": "",
@@ -8614,7 +10447,9 @@
     },
     {
       "sno": 337,
-      "students": ["SNOWIN J (720820103104)"],
+      "students": [
+        "SNOWIN J (720820103104)"
+      ],
       "Year/Semester": "7TH SEM / 4TH YEAR",
       "event": "IRISH- 2K23",
       "organizer": "",
@@ -8626,7 +10461,9 @@
     },
     {
       "sno": 338,
-      "students": ["SREE MATHI R (720820103107)"],
+      "students": [
+        "SREE MATHI R (720820103107)"
+      ],
       "Year/Semester": "7TH SEM / 4TH YEAR",
       "event": "IRISH- 2K23",
       "organizer": "",
@@ -8638,7 +10475,9 @@
     },
     {
       "sno": 339,
-      "students": ["AKASH N (720820103009)"],
+      "students": [
+        "AKASH N (720820103009)"
+      ],
       "Year/Semester": "7TH SEM / 4TH YEAR",
       "event": "IRISH- 2K23",
       "organizer": "",
@@ -8650,7 +10489,9 @@
     },
     {
       "sno": 340,
-      "students": ["VIKRAM S (720820103122)"],
+      "students": [
+        "VIKRAM S (720820103122)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CRYPTERA 2024",
       "organizer": "",
@@ -8662,7 +10503,9 @@
     },
     {
       "sno": 341,
-      "students": ["SHAKTHIPRIYA S (720820103100)"],
+      "students": [
+        "SHAKTHIPRIYA S (720820103100)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CRYPTERA 2024",
       "organizer": "",
@@ -8674,7 +10517,9 @@
     },
     {
       "sno": 342,
-      "students": ["KISHORE P (720820103053)"],
+      "students": [
+        "KISHORE P (720820103053)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CRYPTERA 2024",
       "organizer": "",
@@ -8686,7 +10531,9 @@
     },
     {
       "sno": 343,
-      "students": ["PULI SRI HARI (720820103089)"],
+      "students": [
+        "PULI SRI HARI (720820103089)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CRYPTERA 2024",
       "organizer": "",
@@ -8698,7 +10545,9 @@
     },
     {
       "sno": 344,
-      "students": ["UNAIS AHAMED (720820103119)"],
+      "students": [
+        "UNAIS AHAMED (720820103119)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CRYPTERA 2024",
       "organizer": "",
@@ -8710,7 +10559,9 @@
     },
     {
       "sno": 345,
-      "students": ["PRINCELA R (720822103126)"],
+      "students": [
+        "PRINCELA R (720822103126)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNOFEST 24",
       "organizer": "",
@@ -8722,7 +10573,9 @@
     },
     {
       "sno": 346,
-      "students": ["PATANDAWOOD KHAN (720820103086)"],
+      "students": [
+        "PATANDAWOOD KHAN (720820103086)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHNOFEST 24",
       "organizer": "",
@@ -8734,7 +10587,9 @@
     },
     {
       "sno": 347,
-      "students": ["VINISHA M (720820103123)"],
+      "students": [
+        "VINISHA M (720820103123)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHNOFEST 24",
       "organizer": "",
@@ -8746,7 +10601,9 @@
     },
     {
       "sno": 348,
-      "students": ["SIVAMANICKAM P (720820103103)"],
+      "students": [
+        "SIVAMANICKAM P (720820103103)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHNOFEST 24",
       "organizer": "",
@@ -8758,7 +10615,9 @@
     },
     {
       "sno": 349,
-      "students": ["VIJAY ANAND S (720820103121)"],
+      "students": [
+        "VIJAY ANAND S (720820103121)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "EPOCH 2024",
       "organizer": "",
@@ -8770,7 +10629,9 @@
     },
     {
       "sno": 350,
-      "students": ["ARUN S (720820103015)"],
+      "students": [
+        "ARUN S (720820103015)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "EPOCH 2024",
       "organizer": "",
@@ -8782,7 +10643,9 @@
     },
     {
       "sno": 351,
-      "students": ["ROHINI PRIYA P (720822103136)"],
+      "students": [
+        "ROHINI PRIYA P (720822103136)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "YOUNG INDIA HACKATHON (2023)",
       "organizer": "",
@@ -8794,7 +10657,9 @@
     },
     {
       "sno": 352,
-      "students": ["VERONIK A K S (720822103172)"],
+      "students": [
+        "VERONIK A K S (720822103172)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "YOUNG INDIA HACKATHON (2023)",
       "organizer": "",
@@ -8806,7 +10671,9 @@
     },
     {
       "sno": 353,
-      "students": ["THILLAI GOWRI (720822103172)"],
+      "students": [
+        "THILLAI GOWRI (720822103172)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "YOUNG INDIA HACKATHON (2023)",
       "organizer": "",
@@ -8818,7 +10685,9 @@
     },
     {
       "sno": 354,
-      "students": ["SUGUNA (720822103156)"],
+      "students": [
+        "SUGUNA (720822103156)"
+      ],
       "Year/Semester": "3RD SEM / 2ND YEAR",
       "event": "YOUNG INDIA HACKATHON (2023)",
       "organizer": "",
@@ -8830,7 +10699,9 @@
     },
     {
       "sno": 355,
-      "students": ["SHARVESH R M (720820103101)"],
+      "students": [
+        "SHARVESH R M (720820103101)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "DESIGNZIA 24",
       "organizer": "",
@@ -8842,7 +10713,9 @@
     },
     {
       "sno": 356,
-      "students": ["SANKU PAVAN KUMAR (720820103094)"],
+      "students": [
+        "SANKU PAVAN KUMAR (720820103094)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "DESIGNZIA 24",
       "organizer": "",
@@ -8854,7 +10727,9 @@
     },
     {
       "sno": 357,
-      "students": ["GHANTTASALA BHANU PRASAD (720820103030)"],
+      "students": [
+        "GHANTTASALA BHANU PRASAD (720820103030)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "DESIGNZIA 24",
       "organizer": "",
@@ -8866,7 +10741,9 @@
     },
     {
       "sno": 358,
-      "students": ["JAYA PRAKASH S (720822103071)"],
+      "students": [
+        "JAYA PRAKASH S (720822103071)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL QUIZ, ORGANIZED BY DEPT OF COMPUTER SCIENCE",
       "organizer": "",
@@ -8878,7 +10755,9 @@
     },
     {
       "sno": 359,
-      "students": ["JOSHUA J (720822103306)"],
+      "students": [
+        "JOSHUA J (720822103306)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL QUIZ, ORGANIZED BY DEPT OF COMPUTER SCIENCE",
       "organizer": "",
@@ -8890,7 +10769,9 @@
     },
     {
       "sno": 360,
-      "students": ["PADMASREE S (720820103084)"],
+      "students": [
+        "PADMASREE S (720820103084)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CYNOSURE 2K24",
       "organizer": "",
@@ -8902,7 +10783,9 @@
     },
     {
       "sno": 361,
-      "students": ["NAVANEETH (720820103074)"],
+      "students": [
+        "NAVANEETH (720820103074)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CYNOSURE 2K24",
       "organizer": "",
@@ -8914,7 +10797,9 @@
     },
     {
       "sno": 362,
-      "students": ["NAVIN STYRIS A (720820103078)"],
+      "students": [
+        "NAVIN STYRIS A (720820103078)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CYNOSURE 2K24",
       "organizer": "",
@@ -8926,7 +10811,9 @@
     },
     {
       "sno": 363,
-      "students": ["NISHA S (720820103082)"],
+      "students": [
+        "NISHA S (720820103082)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CODE COMBAT, ORGANIZED BY CSI KEC STUDENT BRANCH",
       "organizer": "",
@@ -8938,7 +10825,9 @@
     },
     {
       "sno": 364,
-      "students": ["LATHIKA K (720822103093)"],
+      "students": [
+        "LATHIKA K (720822103093)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "CODE COMBAT, ORGANIZED BY CSI KEC STUDENT BRANCH",
       "organizer": "",
@@ -8950,7 +10839,9 @@
     },
     {
       "sno": 365,
-      "students": ["SARAVANAN K (720820103097)"],
+      "students": [
+        "SARAVANAN K (720820103097)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "HECURA 2024",
       "organizer": "",
@@ -8962,7 +10853,9 @@
     },
     {
       "sno": 366,
-      "students": ["SUMEDHAS V (720820103112)"],
+      "students": [
+        "SUMEDHAS V (720820103112)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "HECURA 2024",
       "organizer": "",
@@ -8974,7 +10867,9 @@
     },
     {
       "sno": 367,
-      "students": ["ARUN S (720820103015)"],
+      "students": [
+        "ARUN S (720820103015)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "HECURA 2024",
       "organizer": "",
@@ -8986,7 +10881,9 @@
     },
     {
       "sno": 368,
-      "students": ["MITHUN RAJ M (720822103103)"],
+      "students": [
+        "MITHUN RAJ M (720822103103)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "PROJECT EXPO ORGANIZED BY DEPT OF MECHATRONICS ENGG",
       "organizer": "",
@@ -8998,7 +10895,9 @@
     },
     {
       "sno": 369,
-      "students": ["CHINTHALAPALLI KIRAN KUMAR REDDY (720820103024)"],
+      "students": [
+        "CHINTHALAPALLI KIRAN KUMAR REDDY (720820103024)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CBEYONZ’24",
       "organizer": "",
@@ -9010,7 +10909,9 @@
     },
     {
       "sno": 370,
-      "students": ["AGARSHANA S (720820103008)"],
+      "students": [
+        "AGARSHANA S (720820103008)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CBEYONZ’24",
       "organizer": "",
@@ -9022,7 +10923,9 @@
     },
     {
       "sno": 371,
-      "students": ["ASHWIN M (720820103017)"],
+      "students": [
+        "ASHWIN M (720820103017)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CBEYONZ’24",
       "organizer": "",
@@ -9034,7 +10937,9 @@
     },
     {
       "sno": 372,
-      "students": ["ANANYA G (720820103014)"],
+      "students": [
+        "ANANYA G (720820103014)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CBEYONZ’24",
       "organizer": "",
@@ -9046,7 +10951,9 @@
     },
     {
       "sno": 373,
-      "students": ["HARIHARAN N (720820103035)"],
+      "students": [
+        "HARIHARAN N (720820103035)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CBEYONZ’24",
       "organizer": "",
@@ -9058,7 +10965,9 @@
     },
     {
       "sno": 374,
-      "students": ["KISHOR P (720820103053)"],
+      "students": [
+        "KISHOR P (720820103053)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "INFEST 2K24",
       "organizer": "",
@@ -9070,7 +10979,9 @@
     },
     {
       "sno": 375,
-      "students": ["ISWARYA K (720820103039)"],
+      "students": [
+        "ISWARYA K (720820103039)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHFEST 2024",
       "organizer": "",
@@ -9082,7 +10993,9 @@
     },
     {
       "sno": 376,
-      "students": ["RAMMOHAN P (720820103090)"],
+      "students": [
+        "RAMMOHAN P (720820103090)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHFEST 2024",
       "organizer": "",
@@ -9094,7 +11007,9 @@
     },
     {
       "sno": 377,
-      "students": ["NISHA S (720820103082)"],
+      "students": [
+        "NISHA S (720820103082)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHFEST 2024",
       "organizer": "",
@@ -9106,7 +11021,9 @@
     },
     {
       "sno": 378,
-      "students": ["MIDHUN R R (720820103064)"],
+      "students": [
+        "MIDHUN R R (720820103064)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHFEST 2024",
       "organizer": "",
@@ -9118,7 +11035,9 @@
     },
     {
       "sno": 379,
-      "students": ["KARTHICK (720820103047)"],
+      "students": [
+        "KARTHICK (720820103047)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "EDII’S HACKATHON 2024 BY EDII-TN",
       "organizer": "",
@@ -9130,7 +11049,9 @@
     },
     {
       "sno": 380,
-      "students": ["KISHOR P (720820103053)"],
+      "students": [
+        "KISHOR P (720820103053)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "EDII’S HACKATHON 2024 BY EDII-TN",
       "organizer": "",
@@ -9142,7 +11063,9 @@
     },
     {
       "sno": 381,
-      "students": ["JAGAN A (720821103041)"],
+      "students": [
+        "JAGAN A (720821103041)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "EDII’S HACKATHON 2024 BY EDII-TN",
       "organizer": "",
@@ -9154,7 +11077,9 @@
     },
     {
       "sno": 382,
-      "students": ["SARAVANA K (720820103097)"],
+      "students": [
+        "SARAVANA K (720820103097)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "GENESIZ’S 2K24",
       "organizer": "",
@@ -9166,7 +11091,9 @@
     },
     {
       "sno": 383,
-      "students": ["KAMARAJ N (720820103045)"],
+      "students": [
+        "KAMARAJ N (720820103045)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "GENESIZ’S 2K24",
       "organizer": "",
@@ -9178,7 +11105,9 @@
     },
     {
       "sno": 384,
-      "students": ["VISHWA K (720822103185)"],
+      "students": [
+        "VISHWA K (720822103185)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "PAPER PRESENTATION",
       "organizer": "",
@@ -9190,7 +11119,9 @@
     },
     {
       "sno": 385,
-      "students": ["NADISH K S (720820103072)"],
+      "students": [
+        "NADISH K S (720820103072)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHFEST 2K24",
       "organizer": "",
@@ -9202,7 +11133,9 @@
     },
     {
       "sno": 386,
-      "students": ["MADHUMITHA P (720820103062)"],
+      "students": [
+        "MADHUMITHA P (720820103062)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHFEST 2K24",
       "organizer": "",
@@ -9214,7 +11147,9 @@
     },
     {
       "sno": 387,
-      "students": ["NAVEEN R (720820103076)"],
+      "students": [
+        "NAVEEN R (720820103076)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHFEST 2K24",
       "organizer": "",
@@ -9226,7 +11161,9 @@
     },
     {
       "sno": 388,
-      "students": ["GOBI R (720820103031)"],
+      "students": [
+        "GOBI R (720820103031)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHFEST 2K24",
       "organizer": "",
@@ -9238,7 +11175,9 @@
     },
     {
       "sno": 389,
-      "students": ["GOMATHI D (720820103033)"],
+      "students": [
+        "GOMATHI D (720820103033)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CELESTIX 2024",
       "organizer": "",
@@ -9250,7 +11189,9 @@
     },
     {
       "sno": 390,
-      "students": ["KAVSITH RAJA K (720822103084)"],
+      "students": [
+        "KAVSITH RAJA K (720822103084)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL EVENTS, ORGANIZED BY DEPT OF CSE",
       "organizer": "",
@@ -9262,7 +11203,9 @@
     },
     {
       "sno": 391,
-      "students": ["KRISHNA PRABHU E (720822103092)"],
+      "students": [
+        "KRISHNA PRABHU E (720822103092)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL EVENTS, ORGANIZED BY DEPT OF CSE",
       "organizer": "",
@@ -9274,7 +11217,9 @@
     },
     {
       "sno": 392,
-      "students": ["JEEVITHKARAN D (720822103074)"],
+      "students": [
+        "JEEVITHKARAN D (720822103074)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL EVENTS, ORGANIZED BY DEPT OF CSE",
       "organizer": "",
@@ -9286,7 +11231,9 @@
     },
     {
       "sno": 393,
-      "students": ["SANJAY P (720823103137)"],
+      "students": [
+        "SANJAY P (720823103137)"
+      ],
       "Year/Semester": "2ND SEM / 1ST YEAR",
       "event": "CELESTIX 2024",
       "organizer": "",
@@ -9298,7 +11245,9 @@
     },
     {
       "sno": 394,
-      "students": ["HARISH J (720823103055)"],
+      "students": [
+        "HARISH J (720823103055)"
+      ],
       "Year/Semester": "2ND SEM / 1ST YEAR",
       "event": "TECHNICAL QUIZ",
       "organizer": "",
@@ -9310,7 +11259,9 @@
     },
     {
       "sno": 395,
-      "students": ["HARISH T"],
+      "students": [
+        "HARISH T"
+      ],
       "Year/Semester": "2ND SEM / 1ST YEAR",
       "event": "TECHNICAL QUIZ",
       "organizer": "",
@@ -9352,7 +11303,9 @@
     },
     {
       "sno": 398,
-      "students": ["SARAVANAN K (720820103097)"],
+      "students": [
+        "SARAVANAN K (720820103097)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHSPARK 2K24",
       "organizer": "",
@@ -9364,7 +11317,9 @@
     },
     {
       "sno": 399,
-      "students": ["MOHAMED ANSIL M (720820103070)"],
+      "students": [
+        "MOHAMED ANSIL M (720820103070)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHSPARK 2K24",
       "organizer": "",
@@ -9376,7 +11331,9 @@
     },
     {
       "sno": 400,
-      "students": ["SUBRAMANI P (720820103111)"],
+      "students": [
+        "SUBRAMANI P (720820103111)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "V-PRAYUKTI’24",
       "organizer": "",
@@ -9388,7 +11345,9 @@
     },
     {
       "sno": 401,
-      "students": ["SANJAY S (720820103093)"],
+      "students": [
+        "SANJAY S (720820103093)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "V-PRAYUKTI’24",
       "organizer": "",
@@ -9400,7 +11359,9 @@
     },
     {
       "sno": 402,
-      "students": ["POONTHAMILAN M (720820103087)"],
+      "students": [
+        "POONTHAMILAN M (720820103087)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "V-PRAYUKTI’24",
       "organizer": "",
@@ -9412,7 +11373,9 @@
     },
     {
       "sno": 403,
-      "students": ["MOHAMED RIYAS S (720820103066)"],
+      "students": [
+        "MOHAMED RIYAS S (720820103066)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "V-PRAYUKTI’24",
       "organizer": "",
@@ -9424,7 +11387,9 @@
     },
     {
       "sno": 404,
-      "students": ["SWETHA P (720820103114)"],
+      "students": [
+        "SWETHA P (720820103114)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "V-PRAYUKTI’24",
       "organizer": "",
@@ -9436,7 +11401,9 @@
     },
     {
       "sno": 405,
-      "students": ["MITHUN RAJ (720822103103)"],
+      "students": [
+        "MITHUN RAJ (720822103103)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "PROJECT EMPORIUM ORGANIZED BY DEPT OF AI & ML",
       "organizer": "",
@@ -9448,7 +11415,9 @@
     },
     {
       "sno": 406,
-      "students": ["MOHAMED HALIF A (720822103104)"],
+      "students": [
+        "MOHAMED HALIF A (720822103104)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "NINJA CODING, LETS' C,LANGUAGE GEEK & LEARN CODE UNLEASH, ORGANIZED BY INFORMATION TECHNOLOGY ASSOCIATION",
       "organizer": "",
@@ -9460,7 +11429,9 @@
     },
     {
       "sno": 407,
-      "students": ["KOUSIKA S (720822103090)"],
+      "students": [
+        "KOUSIKA S (720822103090)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "NINJA CODING, LETS' C,LANGUAGE GEEK & LEARN CODE UNLEASH, ORGANIZED BY INFORMATION TECHNOLOGY ASSOCIATION",
       "organizer": "",
@@ -9472,7 +11443,9 @@
     },
     {
       "sno": 408,
-      "students": ["MADAN PRASATH S (720822103096)"],
+      "students": [
+        "MADAN PRASATH S (720822103096)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "NINJA CODING, LETS' C,LANGUAGE GEEK & LEARN CODE UNLEASH, ORGANIZED BY INFORMATION TECHNOLOGY ASSOCIATION",
       "organizer": "",
@@ -9484,7 +11457,9 @@
     },
     {
       "sno": 409,
-      "students": ["HARIPRASAD P S (720820103034)"],
+      "students": [
+        "HARIPRASAD P S (720820103034)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "NINJA CODING, LETS' C,LANGUAGE GEEK & LEARN CODE UNLEASH, ORGANIZED BY INFORMATION TECHNOLOGY ASSOCIATION",
       "organizer": "",
@@ -9496,7 +11471,9 @@
     },
     {
       "sno": 410,
-      "students": ["JAYESH RAM P K (720822103072)"],
+      "students": [
+        "JAYESH RAM P K (720822103072)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL EVENTS, ORGANIZED BY DEPT OF IT",
       "organizer": "",
@@ -9508,7 +11485,9 @@
     },
     {
       "sno": 411,
-      "students": ["PRAVEEN S (720822103123)"],
+      "students": [
+        "PRAVEEN S (720822103123)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL EVENTS, ORGANIZED BY DEPT OF IT",
       "organizer": "",
@@ -9520,7 +11499,9 @@
     },
     {
       "sno": 412,
-      "students": ["MOHAMED IRFAN K (720820103068)"],
+      "students": [
+        "MOHAMED IRFAN K (720820103068)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "TECHNICAL EVENTS, ORGANIZED BY DEPT OF IT",
       "organizer": "",
@@ -9532,7 +11513,9 @@
     },
     {
       "sno": 413,
-      "students": ["PRAGIN BARATH M (720822103121)"],
+      "students": [
+        "PRAGIN BARATH M (720822103121)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL EVENTS, ORGANIZED BY DEPT OF IT",
       "organizer": "",
@@ -9544,7 +11527,9 @@
     },
     {
       "sno": 414,
-      "students": ["MOHAMED HALIF A (720822103104)"],
+      "students": [
+        "MOHAMED HALIF A (720822103104)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "CODE IN CHOS",
       "organizer": "",
@@ -9556,7 +11541,9 @@
     },
     {
       "sno": 415,
-      "students": ["HARIPRASAD R S (720822103064)"],
+      "students": [
+        "HARIPRASAD R S (720822103064)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "CODE IN CHOS",
       "organizer": "",
@@ -9568,7 +11555,9 @@
     },
     {
       "sno": 416,
-      "students": ["KAMALESHWARI R (720821103046)"],
+      "students": [
+        "KAMALESHWARI R (720821103046)"
+      ],
       "Year/Semester": "6TH SEM / 3RD YEAR",
       "event": "NCIIPC-AICTE PENTATHON 2024",
       "organizer": "",
@@ -9580,7 +11569,9 @@
     },
     {
       "sno": 417,
-      "students": ["KARTHICK R (720820103047)"],
+      "students": [
+        "KARTHICK R (720820103047)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "NCIIPC-AICTE PENTATHON 2024",
       "organizer": "",
@@ -9592,7 +11583,9 @@
     },
     {
       "sno": 418,
-      "students": ["NITHISH P (720820103083)"],
+      "students": [
+        "NITHISH P (720820103083)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "QUANTAS-24",
       "organizer": "",
@@ -9604,7 +11597,9 @@
     },
     {
       "sno": 419,
-      "students": ["HARIHARAN N (720820103035)"],
+      "students": [
+        "HARIHARAN N (720820103035)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "QUANTAS-24",
       "organizer": "",
@@ -9616,7 +11611,9 @@
     },
     {
       "sno": 420,
-      "students": ["MONISHA M (720820103069)"],
+      "students": [
+        "MONISHA M (720820103069)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "GUSTO 2024",
       "organizer": "",
@@ -9628,7 +11625,9 @@
     },
     {
       "sno": 421,
-      "students": ["ABISHEIK G (720820103005)"],
+      "students": [
+        "ABISHEIK G (720820103005)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "GUSTO 2024",
       "organizer": "",
@@ -9640,7 +11639,9 @@
     },
     {
       "sno": 422,
-      "students": ["JEYASUBA M (720822103075)"],
+      "students": [
+        "JEYASUBA M (720822103075)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL EVENTS",
       "organizer": "",
@@ -9652,7 +11653,9 @@
     },
     {
       "sno": 423,
-      "students": ["KALAIVANI C (720822103076)"],
+      "students": [
+        "KALAIVANI C (720822103076)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL EVENTS",
       "organizer": "",
@@ -9664,7 +11667,9 @@
     },
     {
       "sno": 424,
-      "students": ["KAMALI SRI M (720822103078)"],
+      "students": [
+        "KAMALI SRI M (720822103078)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL EVENTS",
       "organizer": "",
@@ -9676,7 +11681,9 @@
     },
     {
       "sno": 425,
-      "students": ["NIVITHA Y (720822103117)"],
+      "students": [
+        "NIVITHA Y (720822103117)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL EVENTS",
       "organizer": "",
@@ -9688,7 +11695,9 @@
     },
     {
       "sno": 426,
-      "students": ["PRINCELA (720822103126)"],
+      "students": [
+        "PRINCELA (720822103126)"
+      ],
       "Year/Semester": "4TH SEM / 2ND YEAR",
       "event": "TECHNICAL EVENTS",
       "organizer": "",
@@ -9700,7 +11709,9 @@
     },
     {
       "sno": 427,
-      "students": ["KAVIN C (720820103049)"],
+      "students": [
+        "KAVIN C (720820103049)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CELESTIX 2024",
       "organizer": "",
@@ -9712,7 +11723,9 @@
     },
     {
       "sno": 428,
-      "students": ["BHARATH V (720820103021)"],
+      "students": [
+        "BHARATH V (720820103021)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CELESTIX 2024",
       "organizer": "",
@@ -9724,7 +11737,9 @@
     },
     {
       "sno": 429,
-      "students": ["KAMARAJ N (720820103045)"],
+      "students": [
+        "KAMARAJ N (720820103045)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "CELESTIX 2024",
       "organizer": "",
@@ -9736,7 +11751,9 @@
     },
     {
       "sno": 430,
-      "students": ["LEELA CRISTY I (720820103057)"],
+      "students": [
+        "LEELA CRISTY I (720820103057)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "GUSTO 2024",
       "organizer": "",
@@ -9748,7 +11765,9 @@
     },
     {
       "sno": 431,
-      "students": ["NIRMAL DEV M (720820103081)"],
+      "students": [
+        "NIRMAL DEV M (720820103081)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "GUSTO 2024",
       "organizer": "",
@@ -9760,7 +11779,9 @@
     },
     {
       "sno": 432,
-      "students": ["KAVIYA S (720820103051)"],
+      "students": [
+        "KAVIYA S (720820103051)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "GUSTO 2024",
       "organizer": "",
@@ -9772,7 +11793,9 @@
     },
     {
       "sno": 433,
-      "students": ["NAVEEN A (720820103075)"],
+      "students": [
+        "NAVEEN A (720820103075)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "GUSTO 2024",
       "organizer": "",
@@ -9784,7 +11807,9 @@
     },
     {
       "sno": 434,
-      "students": ["RISHI BALA M (720820103091)"],
+      "students": [
+        "RISHI BALA M (720820103091)"
+      ],
       "Year/Semester": "8TH SEM / 4TH YEAR",
       "event": "GUSTO 2024",
       "organizer": "",
@@ -9913,7 +11938,11 @@
     },
     {
       "S.N.": 3,
-      "Students": ["Adithyan S", "Amrith Dinesh", "Ashwin M"],
+      "Students": [
+        "Adithyan S",
+        "Amrith Dinesh",
+        "Ashwin M"
+      ],
       "Publisher": "Journal of Science Technology and Research",
       "Journal_Conference": "Journal of Science Technology and Research",
       "Title": "Food Quantity Prediction Using Machine Learning Algorithms",
@@ -9936,7 +11965,10 @@
     },
     {
       "S.N.": 5,
-      "Students": ["Linjurajan", "Boppana Pravallika"],
+      "Students": [
+        "Linjurajan",
+        "Boppana Pravallika"
+      ],
       "Publisher": "Journal of Artificial Intelligence and Cyber Security",
       "Journal_Conference": "Journal of Artificial Intelligence and Cyber Security",
       "Title": "AI – Based Tool For Preliminary Diagnosis Of Dermatological Manifestation",
@@ -9959,7 +11991,10 @@
     },
     {
       "S.N.": 7,
-      "Students": ["Anitha V", "Kamaleshwari R"],
+      "Students": [
+        "Anitha V",
+        "Kamaleshwari R"
+      ],
       "Publisher": "Conference Proceedings Venue: Taylor University, Kuala Lampur, Malaysia",
       "Journal_Conference": "International Conference On Transforming Engineering Systems For Sustainability (Tess-2023)",
       "Title": "Integrating Autonomous emergency banking system with medical assistant using machine learning techniques",
@@ -9968,7 +12003,11 @@
     },
     {
       "S.N.": 8,
-      "Students": ["Birundhadevi R", "Deepthi S", "Imayasri A"],
+      "Students": [
+        "Birundhadevi R",
+        "Deepthi S",
+        "Imayasri A"
+      ],
       "Publisher": "Conference Proceedings Venue: Taylor University, Kuala Lampur, Malaysia",
       "Journal_Conference": "International Conference On Transforming Engineering Systems For Sustainability (Tess-2023)",
       "Title": "Malware detection using artificial intelligence",
@@ -9977,7 +12016,10 @@
     },
     {
       "S.N.": 9,
-      "Students": ["Linjurajan", "Boppana Pravallika"],
+      "Students": [
+        "Linjurajan",
+        "Boppana Pravallika"
+      ],
       "Publisher": "Conference Proceedings Venue: Taylor University, Kuala Lampur, Malaysia",
       "Journal_Conference": "International Conference On Transforming Engineering Systems For Sustainability (Tess-2023)",
       "Title": "Smart security system for women protection",
@@ -9986,7 +12028,12 @@
     },
     {
       "S.N.": 10,
-      "Students": ["Dharani R", "Harishma M", "Kaviyasri J", "Akshaya E"],
+      "Students": [
+        "Dharani R",
+        "Harishma M",
+        "Kaviyasri J",
+        "Akshaya E"
+      ],
       "Publisher": "Conference Proceedings Venue: Taylor University, Kuala Lampur, Malaysia",
       "Journal_Conference": "International Conference On Transforming Engineering Systems For Sustainability (Tess-2023)",
       "Title": "AI enhanced motion detection for comprehensive home security",
@@ -9995,7 +12042,11 @@
     },
     {
       "S.N.": 11,
-      "Students": ["Karthick S", "Kishore R", "Jagan A"],
+      "Students": [
+        "Karthick S",
+        "Kishore R",
+        "Jagan A"
+      ],
       "Publisher": "Conference Proceedings Venue: Taylor University, Kuala Lampur, Malaysia",
       "Journal_Conference": "International Conference On Transforming Engineering Systems For Sustainability (Tess-2023)",
       "Title": "AI-Based approach for IOT integrated Programmed solar power Humorless grassland mower",
@@ -10004,7 +12055,12 @@
     },
     {
       "S.N.": 12,
-      "Students": ["S. Kishore", "E. Dhansekar", "L. Vani", "S. Pradeep Kumar"],
+      "Students": [
+        "S. Kishore",
+        "E. Dhansekar",
+        "L. Vani",
+        "S. Pradeep Kumar"
+      ],
       "Publisher": "Conference Proceedings Venue: Nandha College of Technology, April 2024",
       "Journal_Conference": "National Conference on Application of Artificial Intelligence (AI) in Libraries (NCAAIL 2024)",
       "Title": "Sustainable waste classification and detection using deep learning",
@@ -10055,7 +12111,9 @@
     },
     {
       "S.N.": 16,
-      "Students": ["Saravana S"],
+      "Students": [
+        "Saravana S"
+      ],
       "Publisher": "Conference Proceedings Venue: Bannari Amman Institute of Technology, May 2024",
       "Journal_Conference": "National Conference on Recent Advancements in Science, Engineering and Technologies (RASET-2024)",
       "Title": "Autonomous Driving Simulator",
@@ -10078,7 +12136,9 @@
     },
     {
       "S.N.": 18,
-      "Students": ["Yuvraaj Arun"],
+      "Students": [
+        "Yuvraaj Arun"
+      ],
       "Publisher": "Conference Proceedings Venue: Bannari Amman Institute of Technology, May 2024",
       "Journal_Conference": "National Conference on Recent Advancements in Science, Engineering and Technologies (RASET-2024)",
       "Title": "Legal Documentation Using AI Assistant",
@@ -10087,7 +12147,12 @@
     },
     {
       "S.N.": 19,
-      "Students": ["Rishi Bala M", "Vanisri MS", "Snowin J", "Swetha P"],
+      "Students": [
+        "Rishi Bala M",
+        "Vanisri MS",
+        "Snowin J",
+        "Swetha P"
+      ],
       "Publisher": "Conference Proceedings Venue: Nandha College of Technology, April 2024",
       "Journal_Conference": "National Conference on Application of Artificial Intelligence (AI) in Libraries (NCAAIL 2024)",
       "Title": "CogniGuide - Your AI Learning Advisor",
@@ -10110,7 +12175,12 @@
     },
     {
       "S.N.": 21,
-      "Students": ["Abisheik G", "Babu N", "Bharath V", "Gokula Kannan A"],
+      "Students": [
+        "Abisheik G",
+        "Babu N",
+        "Bharath V",
+        "Gokula Kannan A"
+      ],
       "Publisher": "Conference Proceedings Venue: Sri Ramakrishna College of Arts and Science, March 2024",
       "Journal_Conference": "National Conference on Data Science and Analytics (NCDA'24)",
       "Title": "Personality Analysis Chatbot-AI",
@@ -10121,7 +12191,11 @@
   "CAY_m2_2022_2023": [
     {
       "S.N.": 1,
-      "Students": ["Rishika S", "Vyshakh VS", "Udhaya M"],
+      "Students": [
+        "Rishika S",
+        "Vyshakh VS",
+        "Udhaya M"
+      ],
       "Publisher": "International Journal Of Progressive Research In Engineering Management And Science (IJPREMS)",
       "Journal_Conference": "International Journal Of Progressive Research In Engineering Management And Science (IJPREMS)",
       "Title": "Advanced AI Based Cosmetic Suggestion System",
@@ -10130,7 +12204,11 @@
     },
     {
       "S.N.": 2,
-      "Students": ["S Venkata Balaji", "N Aneel", "N Jagadeesh"],
+      "Students": [
+        "S Venkata Balaji",
+        "N Aneel",
+        "N Jagadeesh"
+      ],
       "Publisher": "International Journal For Multidisciplinary Research (IJFMR)",
       "Journal_Conference": "International Journal For Multidisciplinary Research (IJFMR)",
       "Title": "Liver Disease Prediction Using Machine Learning",
@@ -10139,7 +12217,11 @@
     },
     {
       "S.N.": 3,
-      "Students": ["Prem K", "Prakash Raja P", "Manikandan M"],
+      "Students": [
+        "Prem K",
+        "Prakash Raja P",
+        "Manikandan M"
+      ],
       "Publisher": "International Journal For Multidisciplinary Research (IJFMR)",
       "Journal_Conference": "International Journal For Multidisciplinary Research (IJFMR)",
       "Title": "A Framework To Make Voting System Transparent Using Blockchain Technology",
@@ -10148,7 +12230,11 @@
     },
     {
       "S.N.": 4,
-      "Students": ["Sikha G Jayan", "Shilpa KP", "Shinas Vaishnav"],
+      "Students": [
+        "Sikha G Jayan",
+        "Shilpa KP",
+        "Shinas Vaishnav"
+      ],
       "Publisher": "International Journal Of Progressive Research In Engineering Management And Science (IJPREMS)",
       "Journal_Conference": "International Journal Of Progressive Research In Engineering Management And Science (IJPREMS)",
       "Title": "Automatic Monitoring And Control System In Hydroponics Plant Agriculture",
@@ -10157,7 +12243,12 @@
     },
     {
       "S.N.": 5,
-      "Students": ["Pradeep K", "Santhosh C", "Sedhu Madhavan K", "Saranya S"],
+      "Students": [
+        "Pradeep K",
+        "Santhosh C",
+        "Sedhu Madhavan K",
+        "Saranya S"
+      ],
       "Publisher": "International Journal For Multidisciplinary Research (IJFMR)",
       "Journal_Conference": "International Journal For Multidisciplinary Research (IJFMR)",
       "Title": "A Web -Based Platform That Enables Small Businesses To Set Up An Online Store And Sell Their Products",
@@ -10166,7 +12257,11 @@
     },
     {
       "S.N.": 6,
-      "Students": ["Lokesh M.P.T.", "Ponduri Manogna", "Vengadesh J"],
+      "Students": [
+        "Lokesh M.P.T.",
+        "Ponduri Manogna",
+        "Vengadesh J"
+      ],
       "Publisher": "International Journal For Multidisciplinary Research (IJFMR)",
       "Journal_Conference": "International Journal For Multidisciplinary Research (IJFMR)",
       "Title": "Smart Agriculture Using IoT",
@@ -10175,7 +12270,11 @@
     },
     {
       "S.N.": 7,
-      "Students": ["Rajalakshmi R", "Reena J", "Sivanesan M"],
+      "Students": [
+        "Rajalakshmi R",
+        "Reena J",
+        "Sivanesan M"
+      ],
       "Publisher": "International Journal Of Progressive Research In Engineering Management And Science (IJPREMS)",
       "Journal_Conference": "International Journal Of Progressive Research In Engineering Management And Science (IJPREMS)",
       "Title": "Driver Drowsiness Detection With Open CV and Keras",
@@ -10184,7 +12283,11 @@
     },
     {
       "S.N.": 8,
-      "Students": ["Mohammed Nishad S", "Russel Gabriel Thomas", "Sreerag M"],
+      "Students": [
+        "Mohammed Nishad S",
+        "Russel Gabriel Thomas",
+        "Sreerag M"
+      ],
       "Publisher": "International Journal Of Progressive Research In Engineering Management And Science (IJPREMS)",
       "Journal_Conference": "International Journal Of Progressive Research In Engineering Management And Science (IJPREMS)",
       "Title": "Traffic Prediction For Intelligent Transportation System",
@@ -10193,7 +12296,11 @@
     },
     {
       "S.N.": 9,
-      "Students": ["Jenke Subbareddy", "Chejarla Srihitha", "Gurrala Sirisha"],
+      "Students": [
+        "Jenke Subbareddy",
+        "Chejarla Srihitha",
+        "Gurrala Sirisha"
+      ],
       "Publisher": "Conference Proceedings Venue: Karpagam Institute of Technology, April 2023",
       "Journal_Conference": "National E-Conference on Artificial Intelligence, Cyber Security, IoT and Computing Technologies (NASICT 2023)",
       "Title": "Smart Parking Android Application",
@@ -10202,7 +12309,11 @@
     },
     {
       "S.N.": 10,
-      "Students": ["Kaviarasan R", "Irfan Rahim Z", "Imran Khan S"],
+      "Students": [
+        "Kaviarasan R",
+        "Irfan Rahim Z",
+        "Imran Khan S"
+      ],
       "Publisher": "Conference Proceedings Venue: SRM TRP Engineering College, Trichirappalli",
       "Journal_Conference": "National Conference on Recent Advances in Communicative Electronics (NCRACE 2023)",
       "Title": "Heart Disease Prediction using Machine Learning",
@@ -10211,17 +12322,24 @@
     },
     {
       "S.N.": 11,
-      "Students": ["Gokul B", "Kavirajan S", "Gokul S"],
+      "Students": [
+        "Gokul B",
+        "Kavirajan S",
+        "Gokul S"
+      ],
       "Publisher": "Conference Proceedings Venue: SRM TRP Engineering College, Trichirappalli",
       "Journal_Conference": "National Conference on Recent Advances in Communicative Electronics (NCRACE 2023)",
       "Title": "Personal Expenses Tracker application using cloud",
       "Volume_Issue": "Conference Proceedings",
       "Award": "-"
     },
-
     {
       "S.N.": 1,
-      "Students": ["Haritha MP", "Sreeyuktha R", "Vishnuprasad R"],
+      "Students": [
+        "Haritha MP",
+        "Sreeyuktha R",
+        "Vishnuprasad R"
+      ],
       "Publisher": "International Journal of Advanced Research in Science, Communication and Technology (IJARSCT)",
       "Journal_Conference": "International Journal of Advanced Research in Science, Communication and Technology (IJARSCT)",
       "Title": "Double Layered Security System for Smart ATM by Fingerprint and RF Technology",
@@ -10258,7 +12376,11 @@
     },
     {
       "S.N.": 4,
-      "Students": ["Haritha M P", "Sreeyuktha R", "Vishnuprasad R"],
+      "Students": [
+        "Haritha M P",
+        "Sreeyuktha R",
+        "Vishnuprasad R"
+      ],
       "Publisher": "Conference Proceedings Venue: Bannari Amman Institute of Technology, Erode",
       "Journal_Conference": "National Conference on innovations in information and Communication Technologies (NCIICT 2022)",
       "Title": "Fingerprint Based ATM Security System",
@@ -11690,7 +13812,6 @@
       "outcome_impact": ""
     }
   ],
-
   "stu_nptel": [
     {
       "s.no.": 1,
@@ -11723,7 +13844,6 @@
       "outcome_impact": ""
     }
   ],
-
   "Resource_Person": [
     {
       "S.NO.": 1,
@@ -11771,7 +13891,6 @@
       "S.NO.": 6,
       "Name_of_Faculty_as_Resource_Person": "Dr.Subhalaskhmi. R.T",
       "Seminar/Workshop/FDP": "Hands on Session to Unleash the Power of Data Exploration",
-
       "Date": "13.09.2023",
       "Location": "Coimbatore",
       "Organized_by": "Department of Artificial Intelligence and Data Science, M.A.M College of Engineering and Technology"
@@ -11788,7 +13907,6 @@
       "S.NO.": 8,
       "Name_of_Faculty_as_Resource_Person": "Mr.Murugan.M",
       "Seminar/Workshop/FDP": "Preparation of IQAC and SSR for NAAC",
-
       "Date": "16.04.2024",
       "Location": "Coimbatore",
       "Organized_by": "Department of Artificial Intelligence and Data Science, RVS Technical Campus"
@@ -11887,7 +14005,6 @@
       "S.NO.": 20,
       "Name_of_Faculty_as_Resource_Person": "Mr.Tamizharasu.T",
       "Seminar/Workshop/FDP": "Cyber Security Threats and Vulnerabilities",
-
       "Date": "06.11.2023",
       "Location": "Coimbatore",
       "Organized_by": "Department of Artificial Intelligence and Data Science, Adithya Institute of Technology"
@@ -11896,7 +14013,6 @@
       "S.NO.": 21,
       "Name_of_Faculty_as_Resource_Person": "Dr.Jameer Basha. A",
       "Seminar/Workshop/FDP": "Security and Privacy Issues in Wireless Networks",
-
       "Date": "18.07.2023",
       "Location": "Coimbatore",
       "Organized_by": "Department of Electronics and Communication Engineering, Erode Sengunthar Engineering College"
@@ -11905,7 +14021,6 @@
       "S.NO.": 22,
       "Name_of_Faculty_as_Resource_Person": "Dr. Senthil Kumar.R",
       "Seminar/Workshop/FDP": "Hands on Session to Unleash the Power of Data Exploration",
-
       "Date": "25.08.2023",
       "Location": "Coimbatore",
       "Organized_by": "Department of Computer Science and Engineering"
@@ -11914,7 +14029,6 @@
       "S.NO.": 23,
       "Name_of_Faculty_as_Resource_Person": "Dr.Subhalaskhmi. R.T",
       "Seminar/Workshop/FDP": "Hands on Session to Unleash the Power of Data Exploration",
-
       "Date": "13.09.2023",
       "Location": "Coimbatore",
       "Organized_by": "Department of Artificial Intelligence and Data Science, M.A.M College of Engineering and Technology"
@@ -11923,7 +14037,6 @@
       "S.NO.": 24,
       "Name_of_Faculty_as_Resource_Person": "Dr.Subhalaskhmi. R.T",
       "Seminar/Workshop/FDP": "Hands on Session to Unleash the Power of Data Exploration",
-
       "Date": "22.02.2024",
       "Location": "Perundurai",
       "Organized_by": "Department of Computer Science and Engineering, Sri Sai Ranganathar Institute of Technology"
@@ -11932,7 +14045,6 @@
       "S.NO.": 25,
       "Name_of_Faculty_as_Resource_Person": "Mr.Murugan.M",
       "Seminar/Workshop/FDP": "Preparation of IQAC and SSR for NAAC",
-
       "Date": "16.04.2024",
       "Location": "Coimbatore",
       "Organized_by": "Department of Artificial Intelligence and Data Science, RVS Technical Campus"
@@ -11941,7 +14053,6 @@
       "S.NO.": 26,
       "Name_of_Faculty_as_Resource_Person": "Dr.Jameer Basha.A",
       "Seminar/Workshop/FDP": "FDP on Artificial Intelligence (AI) Enabled Internet of Things (IoT)",
-
       "Date": "28.05.2024",
       "Location": "Tiruchirapalli",
       "Organized_by": "Department of Computer Science and Engineering, Indira Ganesan College of Engineering"
