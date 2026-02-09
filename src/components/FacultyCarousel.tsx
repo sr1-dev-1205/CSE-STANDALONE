@@ -113,7 +113,7 @@ const FacultyCarousel: React.FC<FacultyCarouselProps> = ({
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false, // Disabled by default, controlled by IntersectionObserver
+    autoplay: true,
     autoplaySpeed: 2500,
     pauseOnHover: true,
     arrows: false,
