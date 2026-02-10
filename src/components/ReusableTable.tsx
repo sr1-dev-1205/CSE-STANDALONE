@@ -164,8 +164,8 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
 
   const getColumnWidth = (columnName: string) => {
     const col = columnName.toLowerCase();
-    if (col.includes('sno')) return 'w-16';
-    if (col.includes('date')) return 'w-24';
+    if (col.includes('sno') || col.includes('s.no')) return 'w-20';
+    if (col.includes('date')) return isMobile ? 'min-w-[140px]' : 'min-w-[180px]';
     if (col.includes('volume') || col.includes('issue') || col.includes('pageno')) return isMobile ? 'min-w-[120px]' : 'min-w-[180px]';
     if (col.includes('justification')) return isMobile ? 'min-w-[250px]' : 'min-w-[400px]';
     if (col.includes('problem') || col.includes('statement')) return isMobile ? 'min-w-[200px]' : 'min-w-[300px]';
@@ -230,8 +230,8 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
                       key={key}
                       onClick={() => handleCategoryChange(key)}
                       className={`px-4 sm:px-6 py-2 text-sm sm:text-base font-semibold rounded-t-xl transition-all duration-200 ${isActive
-                          ? 'bg-amber-500 text-white shadow-md'
-                          : 'bg-gray-100 text-gray-700 hover:bg-amber-100 hover:text-amber-700'
+                        ? 'bg-amber-500 text-white shadow-md'
+                        : 'bg-gray-100 text-gray-700 hover:bg-amber-100 hover:text-amber-700'
                         }`}
                     >
                       {label}
@@ -447,8 +447,8 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
                   key={index}
                   onClick={() => setCurrentPage(pageNum)}
                   className={`px-2 sm:px-3 py-1 text-xs sm:text-sm font-medium rounded-md ${currentPage === pageNum
-                      ? 'bg-amber-100 text-amber-700 border border-amber-400'
-                      : 'text-gray-600 hover:bg-gray-100 border border-transparent'
+                    ? 'bg-amber-100 text-amber-700 border border-amber-400'
+                    : 'text-gray-600 hover:bg-gray-100 border border-transparent'
                     }`}
                 >
                   {pageNum}
@@ -462,8 +462,8 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
                   <button
                     onClick={() => setCurrentPage(totalPages)}
                     className={`px-2 sm:px-3 py-1 text-xs sm:text-sm font-medium rounded-md ${currentPage === totalPages
-                        ? 'bg-amber-100 text-amber-700 border border-amber-400'
-                        : 'text-gray-600 hover:bg-gray-100 border border-transparent'
+                      ? 'bg-amber-100 text-amber-700 border border-amber-400'
+                      : 'text-gray-600 hover:bg-gray-100 border border-transparent'
                       }`}
                   >
                     {totalPages}
