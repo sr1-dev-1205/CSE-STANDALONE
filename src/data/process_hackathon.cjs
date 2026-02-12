@@ -11,7 +11,7 @@ try {
         secData.hackathon = [];
     }
 
-    // Determine starting s.no.
+    // Determine starting s.no..
     let currentSNo = 1;
 
     if (secData.hackathon.length > 0) {
