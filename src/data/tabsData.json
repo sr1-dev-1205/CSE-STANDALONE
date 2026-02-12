@@ -703,28 +703,49 @@
   "name": "SDG Initiatives",
   "icon": "Globe",
   "content": {
-    "title": "Our Contribution to SDGs",
+    "title": "Evidence of Addressing Sustainable Development Goals (SDG)",
     "items": [
       {
-        "goal": "SDG 4",
-        "title": "Quality Education",
-        "description": "Implemented inclusive teaching methodologies and scholarship programs.",
-        "year": "2024",
-        "initiatives": ["Digital Classrooms", "Faculty Training Programs"]
+        "id": 1,
+        "title": "SDG in Curriculum",
+        "description": "The department has seamlessly integrated SDG-related topics across multiple courses, including Problem Solving and Programming in C, Advanced C Programming and Data Structures I, Introduction to IoT and Embedded Programming, and Internship/Inplant Training.",
+        "icon": "BookOpen",
+        "image": "sdgCurriculum"
       },
       {
-        "goal": "SDG 7",
-        "title": "Affordable and Clean Energy",
-        "description": "Installed solar panels on campus reducing 30% energy dependency.",
-        "year": "2023",
-        "initiatives": ["Green Campus Initiative", "Energy Audits"]
+        "id": 2,
+        "title": "SDG in Research/Capstone Projects",
+        "description": "The department actively engages in research and capstone projects that contribute to sustainable development. Students have undertaken various SDG-aligned projects, demonstrating innovation and social impact.",
+        "icon": "FlaskConical",
+        "image": "sdgResearch"
       },
       {
-        "goal": "SDG 13",
-        "title": "Climate Action",
-        "description": "Organized plantation drives and sustainability awareness campaigns.",
-        "year": "2024",
-        "initiatives": ["Tree Plantation", "Waste Management Program"]
+        "id": 3,
+        "title": "SDG in Mini/Minor Projects",
+        "description": "Students have successfully developed impactful projects that contribute to sustainable development. One such project, Precision Blade Edge Decision submitted to L&T TECHgium, addresses key challenges in industrial manufacturing.",
+        "icon": "Lightbulb",
+        "image": "sdgMini"
+      },
+      {
+        "id": 4,
+        "title": "SDG in International/National Events",
+        "description": "The department frequently hosts symposiums, webinars, and guest lectures on SDG-driven themes, including Sustainable AI, Smart Cities, and Ethical Computing.",
+        "icon": "Calendar",
+        "image": "sdgEvents"
+      },
+      {
+        "id": 5,
+        "title": "SDG in Industry Collaborations",
+        "description": "The department has established strategic partnerships with industries and startups, leading to hands-on projects in clean technology, smart agriculture, and digital healthcare.",
+        "icon": "Handshake",
+        "image": "sdgIndustry"
+      },
+      {
+        "id": 6,
+        "title": "SDG in Institutional Practices",
+        "description": "The department has implemented various sustainable practices within the institution, including paperless documentation, energy-efficient computing labs, and digital learning platforms.",
+        "icon": "Building2",
+        "image": "sdgInstitutional"
       }
     ]
   }
