@@ -911,25 +911,28 @@
         "title": "Placement Highlights",
         "items": [
           {
-            "title": "Placement Statistics 2024",
-            "description": "The 2020-2024 batch has achieved significant success with multiple premium offers.",
-            "placed": "100+ Students Placed",
+            "title": "Placement Statistics 2023-2024",
+            "description": "The 2020-2024 batch achieved outstanding success with diverse high-value offers and premium company placements.",
+            "placed": "108 Students Placed",
             "highest": "Rs. 6.40 LPA",
             "average": "Rs. 3.29 LPA",
-            "companies": "41+ Recruiters"
+            "companies": "41 Recruiters"
           },
           {
-            "title": "Key Recruiters",
-            "description": "Our students are hired by industry leaders and emerging tech pioneers.",
-            "list": "Steria (India) Limited, EY Global, Cognizant, Tata Consultancy Services, LTI, Tech Mahindra, G10X, Unlox, Academor, Infygain Technologies",
-            "visits": "Regular industry-readiness training and campus drives"
+            "title": "Placement Statistics 2022-2023",
+            "description": "A year of consistent growth with significant placements in top-tier technology firms and global corporations.",
+            "placed": "85 Students Placed",
+            "highest": "Rs. 7.00 LPA",
+            "average": "Rs. 3.59 LPA",
+            "companies": "26 Recruiters"
           },
           {
-            "title": "Placement Training",
-            "description": "Comprehensive training program to prepare students for placements.",
-            "modules": "Aptitude, Technical, Communication, Interview Skills",
-            "duration": "Year‑round program",
-            "success": "90% placement rate in last 5 years"
+            "title": "Placement Statistics 2021-2022",
+            "description": "Steady placement performance across multiple sectors and emerging tech companies despite market challenges.",
+            "placed": "53 Students Placed",
+            "highest": "Rs. 4.00 LPA",
+            "average": "Rs. 3.35 LPA",
+            "companies": "16 Recruiters"
           }
         ]
       }
