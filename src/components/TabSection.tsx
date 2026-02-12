@@ -982,7 +982,7 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
         />
       )}
 
-      {/* HOD Modal */}
+      {/* HOD Modall */}
       {selectedHOD && (
         <HODModal
           hodData={selectedHOD}
