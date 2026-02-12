@@ -166,7 +166,7 @@
         ]
       }
     },
-     {
+    {
       "id": "faculty_achievements",
       "name": "Faculty Achievements",
       "icon": "Award",
@@ -197,7 +197,6 @@
         ]
       }
     },
-
     {
       "id": "student_achievements",
       "name": "Student Achievements",
@@ -298,11 +297,33 @@
             "year": "2024",
             "type": "mini",
             "courseCode": "20CS710",
-            "wp": ["WP1", "WP2", "WP3", "WP6"],
-            "ea": ["EA1", "EA2", "EA3"],
-            "po": ["PO1", "PO2", "PO3", "PO4", "PO5", "PO6"],
-            "pso": ["PSO2"],
-            "sdg": ["SDG8", "SDG9", "SDG11"]
+            "wp": [
+              "WP1",
+              "WP2",
+              "WP3",
+              "WP6"
+            ],
+            "ea": [
+              "EA1",
+              "EA2",
+              "EA3"
+            ],
+            "po": [
+              "PO1",
+              "PO2",
+              "PO3",
+              "PO4",
+              "PO5",
+              "PO6"
+            ],
+            "pso": [
+              "PSO2"
+            ],
+            "sdg": [
+              "SDG8",
+              "SDG9",
+              "SDG11"
+            ]
           },
           {
             "title": "Heart Disease Prediction Using Machine Learning",
@@ -312,11 +333,30 @@
             "year": "2024",
             "type": "mini",
             "courseCode": "20CS710",
-            "wp": ["WP2", "WP3", "WP4", "WP6"],
-            "ea": ["EA1", "EA2"],
-            "po": ["PO1", "PO2", "PO3", "PO4", "PO5", "PO12"],
-            "pso": ["PSO2"],
-            "sdg": ["SDG3"]
+            "wp": [
+              "WP2",
+              "WP3",
+              "WP4",
+              "WP6"
+            ],
+            "ea": [
+              "EA1",
+              "EA2"
+            ],
+            "po": [
+              "PO1",
+              "PO2",
+              "PO3",
+              "PO4",
+              "PO5",
+              "PO12"
+            ],
+            "pso": [
+              "PSO2"
+            ],
+            "sdg": [
+              "SDG3"
+            ]
           },
           {
             "title": "AI Based Farmer Assistance ChatBot",
@@ -326,11 +366,34 @@
             "year": "2024",
             "type": "mini",
             "courseCode": "20CS710",
-            "wp": ["WP1", "WP2", "WP3", "WP6"],
-            "ea": ["EA1", "EA2", "EA3"],
-            "po": ["PO1", "PO2", "PO3", "PO4", "PO5", "PO6"],
-            "pso": ["PSO1", "PSO2"],
-            "sdg": ["SDG2", "SDG8", "SDG9"]
+            "wp": [
+              "WP1",
+              "WP2",
+              "WP3",
+              "WP6"
+            ],
+            "ea": [
+              "EA1",
+              "EA2",
+              "EA3"
+            ],
+            "po": [
+              "PO1",
+              "PO2",
+              "PO3",
+              "PO4",
+              "PO5",
+              "PO6"
+            ],
+            "pso": [
+              "PSO1",
+              "PSO2"
+            ],
+            "sdg": [
+              "SDG2",
+              "SDG8",
+              "SDG9"
+            ]
           },
           {
             "title": "Medicinal Plants Detection Using Machine Learning",
@@ -340,11 +403,31 @@
             "year": "2024",
             "type": "mini",
             "courseCode": "20CS710",
-            "wp": ["WP2", "WP3", "WP4", "WP6"],
-            "ea": ["EA1", "EA2"],
-            "po": ["PO1", "PO2", "PO3", "PO4", "PO5", "PO12"],
-            "pso": ["PSO2"],
-            "sdg": ["SDG3", "SDG15"]
+            "wp": [
+              "WP2",
+              "WP3",
+              "WP4",
+              "WP6"
+            ],
+            "ea": [
+              "EA1",
+              "EA2"
+            ],
+            "po": [
+              "PO1",
+              "PO2",
+              "PO3",
+              "PO4",
+              "PO5",
+              "PO12"
+            ],
+            "pso": [
+              "PSO2"
+            ],
+            "sdg": [
+              "SDG3",
+              "SDG15"
+            ]
           },
           {
             "title": "Intelligent Video Surveillance System",
@@ -354,11 +437,33 @@
             "year": "2023",
             "type": "mini",
             "courseCode": "20CS710",
-            "wp": ["WP2", "WP5", "WP6", "WP7"],
-            "ea": ["EA1", "EA3", "EA5"],
-            "po": ["PO1", "PO2", "PO3", "PO4", "PO5", "PO6"],
-            "pso": ["PSO1", "PSO2", "PSO3"],
-            "sdg": ["SDG16"]
+            "wp": [
+              "WP2",
+              "WP5",
+              "WP6",
+              "WP7"
+            ],
+            "ea": [
+              "EA1",
+              "EA3",
+              "EA5"
+            ],
+            "po": [
+              "PO1",
+              "PO2",
+              "PO3",
+              "PO4",
+              "PO5",
+              "PO6"
+            ],
+            "pso": [
+              "PSO1",
+              "PSO2",
+              "PSO3"
+            ],
+            "sdg": [
+              "SDG16"
+            ]
           },
           {
             "title": "ChatBot – Schemes of Government",
@@ -368,11 +473,29 @@
             "year": "2024",
             "type": "mini",
             "courseCode": "20CS710",
-            "wp": ["WP2", "WP3", "WP6"],
-            "ea": ["EA1", "EA2"],
-            "po": ["PO1", "PO2", "PO3", "PO5", "PO12"],
-            "pso": ["PSO2"],
-            "sdg": ["SDG9", "SDG16"]
+            "wp": [
+              "WP2",
+              "WP3",
+              "WP6"
+            ],
+            "ea": [
+              "EA1",
+              "EA2"
+            ],
+            "po": [
+              "PO1",
+              "PO2",
+              "PO3",
+              "PO5",
+              "PO12"
+            ],
+            "pso": [
+              "PSO2"
+            ],
+            "sdg": [
+              "SDG9",
+              "SDG16"
+            ]
           },
           {
             "title": "Sentiment Analysis for Social Media",
@@ -382,16 +505,37 @@
             "year": "2024",
             "type": "mini",
             "courseCode": "20CS710",
-            "wp": ["WP2", "WP3", "WP4", "WP6"],
-            "ea": ["EA1", "EA2"],
-            "po": ["PO1", "PO2", "PO3", "PO4", "PO5", "PO6", "PO8", "PO12"],
-            "pso": ["PSO2"],
-            "sdg": ["SDG9", "SDG16"]
+            "wp": [
+              "WP2",
+              "WP3",
+              "WP4",
+              "WP6"
+            ],
+            "ea": [
+              "EA1",
+              "EA2"
+            ],
+            "po": [
+              "PO1",
+              "PO2",
+              "PO3",
+              "PO4",
+              "PO5",
+              "PO6",
+              "PO8",
+              "PO12"
+            ],
+            "pso": [
+              "PSO2"
+            ],
+            "sdg": [
+              "SDG9",
+              "SDG16"
+            ]
           }
         ]
       }
     },
-   
     {
       "id": "internships",
       "name": "Notable Internship",
@@ -405,8 +549,15 @@
             "candidate_name": "Chinthalapalli Kiran Kumar Reddy",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -419,8 +570,15 @@
             "candidate_name": "Boppana Akash Sai Kumar",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -433,8 +591,15 @@
             "candidate_name": "Agarshana S",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -447,8 +612,15 @@
             "candidate_name": "Charan Gopi Yerramsetty",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -461,8 +633,15 @@
             "candidate_name": "Santhosh M",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -475,8 +654,15 @@
             "candidate_name": "Vinisha M",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -489,8 +675,15 @@
             "candidate_name": "Abisheik G",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -503,8 +696,15 @@
             "candidate_name": "Midhun R R",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -517,8 +717,15 @@
             "candidate_name": "Nithish P",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -531,8 +738,15 @@
             "candidate_name": "Vijay Anand",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -545,8 +759,15 @@
             "candidate_name": "Mohamedirfan K",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -559,8 +780,15 @@
             "candidate_name": "Nisha S",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -573,8 +801,15 @@
             "candidate_name": "Noufia Firthous B",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -587,8 +822,15 @@
             "candidate_name": "Aashad S",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -601,8 +843,15 @@
             "candidate_name": "Sai Santhosh Durbhakula",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -615,8 +864,15 @@
             "candidate_name": "Lam Amulya",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -629,8 +885,15 @@
             "candidate_name": "Ashish K S",
             "designation": "Business Development Executive",
             "date_of_joining": "7-February-2024",
-            "training_period": { "from": "7-February-2024", "to": "16-February-2024", "paid": false },
-            "on_job_training": { "start_date": "17-February-2024", "end_date": "16-August-2024" },
+            "training_period": {
+              "from": "7-February-2024",
+              "to": "16-February-2024",
+              "paid": false
+            },
+            "on_job_training": {
+              "start_date": "17-February-2024",
+              "end_date": "16-August-2024"
+            },
             "location": "Bangalore",
             "stipend_per_month": 15000,
             "incentives": 10000,
@@ -649,17 +912,17 @@
         "items": [
           {
             "title": "Placement Statistics 2024",
-            "description": "Our students have been placed in top companies with excellent packages.",
-            "placed": "95% of students placed",
-            "highest": "Rs. 42 LPA",
-            "average": "Rs. 8.5 LPA",
-            "companies": "50+ recruiters"
+            "description": "The 2020-2024 batch has achieved significant success with multiple premium offers.",
+            "placed": "100+ Students Placed",
+            "highest": "Rs. 6.40 LPA",
+            "average": "Rs. 3.29 LPA",
+            "companies": "41+ Recruiters"
           },
           {
-            "title": "Top Recruiters",
-            "description": "Our students have been recruited by leading global companies.",
-            "list": "Google, Microsoft, Amazon, TCS, Infosys, Wipro, IBM, Accenture",
-            "visits": "Regular campus recruitment drives"
+            "title": "Key Recruiters",
+            "description": "Our students are hired by industry leaders and emerging tech pioneers.",
+            "list": "Steria (India) Limited, EY Global, Cognizant, Tata Consultancy Services, LTI, Tech Mahindra, G10X, Unlox, Academor, Infygain Technologies",
+            "visits": "Regular industry-readiness training and campus drives"
           },
           {
             "title": "Placement Training",
@@ -671,7 +934,6 @@
         ]
       }
     },
-    
     {
       "id": "professional",
       "name": "Professional Society",
@@ -697,63 +959,121 @@
         ]
       }
     },
-    
     {
-  "id": "sdgs",
-  "name": "SDG Initiatives",
-  "icon": "Globe",
-  "content": {
-    "title": "Our Contribution to SDGs",
-    "items": [
-      {
-        "goal": "SDG 4",
-        "title": "Quality Education",
-        "description": "Implemented inclusive teaching methodologies and scholarship programs.",
-        "year": "2024",
-        "initiatives": ["Digital Classrooms", "Faculty Training Programs"]
-      },
-      {
-        "goal": "SDG 7",
-        "title": "Affordable and Clean Energy",
-        "description": "Installed solar panels on campus reducing 30% energy dependency.",
-        "year": "2023",
-        "initiatives": ["Green Campus Initiative", "Energy Audits"]
-      },
-      {
-        "goal": "SDG 13",
-        "title": "Climate Action",
-        "description": "Organized plantation drives and sustainability awareness campaigns.",
-        "year": "2024",
-        "initiatives": ["Tree Plantation", "Waste Management Program"]
+      "id": "sdgs",
+      "name": "SDG Initiatives",
+      "icon": "Globe",
+      "content": {
+        "title": "Our Contribution to SDGs",
+        "items": [
+          {
+            "goal": "SDG 4",
+            "title": "Quality Education",
+            "description": "Implemented inclusive teaching methodologies and scholarship programs.",
+            "year": "2024",
+            "initiatives": [
+              "Digital Classrooms",
+              "Faculty Training Programs"
+            ]
+          },
+          {
+            "goal": "SDG 7",
+            "title": "Affordable and Clean Energy",
+            "description": "Installed solar panels on campus reducing 30% energy dependency.",
+            "year": "2023",
+            "initiatives": [
+              "Green Campus Initiative",
+              "Energy Audits"
+            ]
+          },
+          {
+            "goal": "SDG 13",
+            "title": "Climate Action",
+            "description": "Organized plantation drives and sustainability awareness campaigns.",
+            "year": "2024",
+            "initiatives": [
+              "Tree Plantation",
+              "Waste Management Program"
+            ]
+          }
+        ]
       }
-    ]
-  }
-},
- {
+    },
+    {
       "id": "collaborations",
       "name": "Powered by Industries",
       "icon": "Briefcase",
       "content": {
         "title": "Collaboration & MoU Partners",
         "items": [
-          { "title": "IBM", "description": "Curriculum integration and delivery in AI & Data Sciences.", "logo": "ibm" },
-          { "title": "Google", "description": "Academic partner with tools and resources for digital skills.", "logo": "google" },
-          { "title": "Oracle Academy", "description": "Membership providing resources to develop computing skills.", "logo": "oracle" },
-          { "title": "Zoho", "description": "Partner for training and internships in application development.", "logo": "zoho" },
-          { "title": "Red Hat", "description": "Alliance for Linux, cloud, and development technologies.", "logo": "redhat" },
-          { "title": "Dell EMC", "description": "Center of excellence in Data Science and Big Data Analytics.", "logo": "dell" },
-          { "title": "VMware", "description": "Center of excellence in cloud infrastructure services.", "logo": "vmware" },
-          { "title": "CSS Corp", "description": "Skills training and soft skills development.", "logo": "csscorp" },
-          { "title": "Salesforce", "description": "Partner for CRM using AI and app development.", "logo": "salesforce" },
-          { "title": "NASSCOM", "description": "Supports India as a global hub for emerging technologies.", "logo": "nasscom" },
-          { "title": "UiPath", "description": "Center of Excellence in Robotic Process Automation.", "logo": "uipath" },
-          { "title": "Celonis", "description": "Center of Excellence in Process Mining and Execution.", "logo": "celonis" },
-          { "title": "Infosys Springboard", "description": "Training and reskilling in technology.", "logo": "infosys" }
+          {
+            "title": "IBM",
+            "description": "Curriculum integration and delivery in AI & Data Sciences.",
+            "logo": "ibm"
+          },
+          {
+            "title": "Google",
+            "description": "Academic partner with tools and resources for digital skills.",
+            "logo": "google"
+          },
+          {
+            "title": "Oracle Academy",
+            "description": "Membership providing resources to develop computing skills.",
+            "logo": "oracle"
+          },
+          {
+            "title": "Zoho",
+            "description": "Partner for training and internships in application development.",
+            "logo": "zoho"
+          },
+          {
+            "title": "Red Hat",
+            "description": "Alliance for Linux, cloud, and development technologies.",
+            "logo": "redhat"
+          },
+          {
+            "title": "Dell EMC",
+            "description": "Center of excellence in Data Science and Big Data Analytics.",
+            "logo": "dell"
+          },
+          {
+            "title": "VMware",
+            "description": "Center of excellence in cloud infrastructure services.",
+            "logo": "vmware"
+          },
+          {
+            "title": "CSS Corp",
+            "description": "Skills training and soft skills development.",
+            "logo": "csscorp"
+          },
+          {
+            "title": "Salesforce",
+            "description": "Partner for CRM using AI and app development.",
+            "logo": "salesforce"
+          },
+          {
+            "title": "NASSCOM",
+            "description": "Supports India as a global hub for emerging technologies.",
+            "logo": "nasscom"
+          },
+          {
+            "title": "UiPath",
+            "description": "Center of Excellence in Robotic Process Automation.",
+            "logo": "uipath"
+          },
+          {
+            "title": "Celonis",
+            "description": "Center of Excellence in Process Mining and Execution.",
+            "logo": "celonis"
+          },
+          {
+            "title": "Infosys Springboard",
+            "description": "Training and reskilling in technology.",
+            "logo": "infosys"
+          }
         ]
       }
     },
-    
-  
     {
       "id": "alumni",
       "name": "Alumni Network",
