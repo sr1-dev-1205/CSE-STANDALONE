@@ -91,6 +91,7 @@ const handlePreviousTeam = useCallback(() => {
   if (typeof document === 'undefined' || !document.body) return null;
 
   const isTeam1 = currentTeam.teamId === 1;
+  const isJuspaySlide = currentTeam.teamId === 0;
   const gradientClass = 'bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-600';
 
   const modalContent = (
@@ -174,96 +175,121 @@ const handlePreviousTeam = useCallback(() => {
 
           {/* Main Content - Compact Layout */}
           <div className="p-4 bg-gradient-to-br from-gray-50 to-white">
-            {/* Horizontal Scrolling Image Carousel - Same as Industry Oriented */}
-            <div className="relative mb-4">
-              <div className="overflow-hidden rounded-xl">
-                <div 
-                  ref={carouselRef}
-                  className="flex gap-4 pb-2"
-                  style={{
-                    animation: `scroll-achievements ${currentTeam.achievements.length * 5}s linear infinite`,
-                  }}
-                  onMouseEnter={() => {
-                    const element = carouselRef.current;
-                    if (element) {
-                      element.style.animationPlayState = 'paused';
-                    }
-                  }}
-                  onMouseLeave={() => {
-                    const element = carouselRef.current;
-                    if (element) {
-                      element.style.animationPlayState = 'running';
-                    }
-                  }}
-                >
-                  {/* Render all achievement images - Repeat 4 times if only 1 image */}
-                  {(currentTeam.achievements.length === 1
-                    ? [...currentTeam.achievements, ...currentTeam.achievements, ...currentTeam.achievements, ...currentTeam.achievements]
-                    : currentTeam.achievements
-                  ).map((achievement, index) => (
-                    <div 
-                      key={`team-${currentTeam.teamId}-achievement-${achievement.id}-${index}`}
-                      className="flex-shrink-0 w-80 group relative"
-                    >
-                      <div className="relative overflow-hidden rounded-xl shadow-xl ring-2 ring-yellow-400/20">
-                        <img
-                          src={achievement.image.startsWith('/') ? `${import.meta.env.BASE_URL}${achievement.image.slice(1)}` : achievement.image}
-                          alt={achievement.title}
-                          className="w-full h-48 object-cover transition-transform duration-700 group-hover:scale-105"
-                          loading="lazy"
-                        />
-                        
-                        {/* Gradient Overlay */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-                        
-                        {/* Image Title Overlay */}
-                        <div className="absolute bottom-0 left-0 right-0 p-3 text-white">
-                          <p className="text-sm font-bold line-clamp-2">{achievement.title}</p>
-                        </div>
-                        
-                        {/* Image Number Badge */}
-                        <div className="absolute top-2 right-2 bg-yellow-500 px-2 py-0.5 rounded-full text-white text-xs font-bold shadow-lg">
-                          {currentTeam.achievements.length === 1 ? '1 / 1' : `${(index % currentTeam.achievements.length) + 1} / ${currentTeam.achievements.length}`}
-                        </div>
-                      </div>
+            {/* Conditional Image Display - Static for Juspay, Scrolling for Others */}
+            {isJuspaySlide ? (
+              /* Static Large Image for Juspay Slide */
+              <div className="relative mb-4">
+                <div className="overflow-hidden rounded-xl">
+                  <div className="relative flex items-center justify-center rounded-xl shadow-xl ring-2 ring-yellow-400/20 bg-gray-100">
+                    <img
+                      src={currentTeam.achievements[0].image.startsWith('/') ? `${import.meta.env.BASE_URL}${currentTeam.achievements[0].image.slice(1)}` : currentTeam.achievements[0].image}
+                      alt={currentTeam.achievements[0].title}
+                      className="w-full max-h-[70vh] object-contain"
+                      loading="lazy"
+                    />
+                    
+                    {/* Gradient Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+                    
+                    {/* Image Title Overlay */}
+                    <div className="absolute bottom-0 left-0 right-0 p-3 text-white">
+                      <p className="text-sm font-bold line-clamp-2">{currentTeam.achievements[0].title}</p>
                     </div>
-                  ))}
-                  
-                  {/* Duplicate for seamless loop */}
-                  {(currentTeam.achievements.length === 1
-                    ? [...currentTeam.achievements, ...currentTeam.achievements, ...currentTeam.achievements, ...currentTeam.achievements]
-                    : currentTeam.achievements
-                  ).map((achievement, index) => (
-                    <div 
-                      key={`team-${currentTeam.teamId}-achievement-dup-${achievement.id}-${index}`}
-                      className="flex-shrink-0 w-80 group relative"
-                    >
-                      <div className="relative overflow-hidden rounded-xl shadow-xl ring-2 ring-yellow-400/20">
-                        <img
-                          src={achievement.image.startsWith('/') ? `${import.meta.env.BASE_URL}${achievement.image.slice(1)}` : achievement.image}
-                          alt={achievement.title}
-                          className="w-full h-48 object-cover transition-transform duration-700 group-hover:scale-105"
-                          loading="lazy"
-                        />
-                        
-                        {/* Gradient Overlay */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-                        
-                        {/* Image Title Overlay */}
-                        <div className="absolute bottom-0 left-0 right-0 p-3 text-white">
-                          <p className="text-sm font-bold line-clamp-2">{achievement.title}</p>
-                        </div>
-                        
-                        {/* Image Number Badge */}
-                        <div className="absolute top-2 right-2 bg-yellow-500 px-2 py-0.5 rounded-full text-white text-xs font-bold shadow-lg">
-                          {currentTeam.achievements.length === 1 ? '1 / 1' : `${(index % currentTeam.achievements.length) + 1} / ${currentTeam.achievements.length}`}
-                        </div>
-                      </div>
-                    </div>
-                  ))}
+                  </div>
                 </div>
               </div>
-            </div>
+            ) : (
+              /* Horizontal Scrolling Image Carousel - Same as Industry Oriented */
+              <div className="relative mb-4">
+                <div className="overflow-hidden rounded-xl">
+                  <div 
+                    ref={carouselRef}
+                    className="flex gap-4 pb-2"
+                    style={{
+                      animation: `scroll-achievements ${currentTeam.achievements.length * 5}s linear infinite`,
+                    }}
+                    onMouseEnter={() => {
+                      const element = carouselRef.current;
+                      if (element) {
+                        element.style.animationPlayState = 'paused';
+                      }
+                    }}
+                    onMouseLeave={() => {
+                      const element = carouselRef.current;
+                      if (element) {
+                        element.style.animationPlayState = 'running';
+                      }
+                    }}
+                  >
+                    {/* Render all achievement images - Repeat 4 times if only 1 image */}
+                    {(currentTeam.achievements.length === 1
+                      ? [...currentTeam.achievements, ...currentTeam.achievements, ...currentTeam.achievements, ...currentTeam.achievements]
+                      : currentTeam.achievements
+                    ).map((achievement, index) => (
+                      <div 
+                        key={`team-${currentTeam.teamId}-achievement-${achievement.id}-${index}`}
+                        className="flex-shrink-0 w-80 group relative"
+                      >
+                        <div className="relative overflow-hidden rounded-xl shadow-xl ring-2 ring-yellow-400/20">
+                          <img
+                            src={achievement.image.startsWith('/') ? `${import.meta.env.BASE_URL}${achievement.image.slice(1)}` : achievement.image}
+                            alt={achievement.title}
+                            className="w-full h-48 object-cover transition-transform duration-700 group-hover:scale-105"
+                            loading="lazy"
+                          />
+                          
+                          {/* Gradient Overlay */}
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+                          
+                          {/* Image Title Overlay */}
+                          <div className="absolute bottom-0 left-0 right-0 p-3 text-white">
+                            <p className="text-sm font-bold line-clamp-2">{achievement.title}</p>
+                          </div>
+                          
+                          {/* Image Number Badge */}
+                          <div className="absolute top-2 right-2 bg-yellow-500 px-2 py-0.5 rounded-full text-white text-xs font-bold shadow-lg">
+                            {currentTeam.achievements.length === 1 ? '1 / 1' : `${(index % currentTeam.achievements.length) + 1} / ${currentTeam.achievements.length}`}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                    
+                    {/* Duplicate for seamless loop */}
+                    {(currentTeam.achievements.length === 1
+                      ? [...currentTeam.achievements, ...currentTeam.achievements, ...currentTeam.achievements, ...currentTeam.achievements]
+                      : currentTeam.achievements
+                    ).map((achievement, index) => (
+                      <div 
+                        key={`team-${currentTeam.teamId}-achievement-dup-${achievement.id}-${index}`}
+                        className="flex-shrink-0 w-80 group relative"
+                      >
+                        <div className="relative overflow-hidden rounded-xl shadow-xl ring-2 ring-yellow-400/20">
+                          <img
+                            src={achievement.image.startsWith('/') ? `${import.meta.env.BASE_URL}${achievement.image.slice(1)}` : achievement.image}
+                            alt={achievement.title}
+                            className="w-full h-48 object-cover transition-transform duration-700 group-hover:scale-105"
+                            loading="lazy"
+                          />
+                          
+                          {/* Gradient Overlay */}
+                          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+                          
+                          {/* Image Title Overlay */}
+                          <div className="absolute bottom-0 left-0 right-0 p-3 text-white">
+                            <p className="text-sm font-bold line-clamp-2">{achievement.title}</p>
+                          </div>
+                          
+                          {/* Image Number Badge */}
+                          <div className="absolute top-2 right-2 bg-yellow-500 px-2 py-0.5 rounded-full text-white text-xs font-bold shadow-lg">
+                            {currentTeam.achievements.length === 1 ? '1 / 1' : `${(index % currentTeam.achievements.length) + 1} / ${currentTeam.achievements.length}`}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
 
             {/* Compact Title Section */}
             <div className="mb-3 pb-3 border-b border-yellow-200">
@@ -289,7 +315,7 @@ const handlePreviousTeam = useCallback(() => {
             </div>
 
             {/* Compact Team Members Table */}
-            {!currentTeam.teamName.includes('StartupTN') && !currentTeam.teamName.includes('Malaysia') && (
+            {!isJuspaySlide && !currentTeam.teamName.includes('StartupTN') && !currentTeam.teamName.includes('Malaysia') && (
               <div className="bg-white rounded-lg border border-yellow-200 shadow-md overflow-hidden">
                 <div className="bg-gradient-to-r from-yellow-500 to-orange-500 px-3 py-2 flex items-center gap-1.5">
                   <FontAwesomeIcon icon={faUsers} className="w-3.5 h-3.5 text-white" />

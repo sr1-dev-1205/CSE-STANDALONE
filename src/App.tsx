@@ -13,6 +13,7 @@ import RecruitersPage from './pages/RecruitersPage';
 import TrainingDetailsPage from './pages/TrainingDetailsPage';
 import AcademicCal from './pages/AcademicCal';
 import OpportunitiesPage from './pages/OpportunitiesPage';
+import SDGInitiatives from './pages/SDGInitiatives';
 import DepartmentHeader from './components/DepartmentHeader';
 import NewsTicker from './components/NewsTicker';
 import Footer from './components/Footer';
@@ -62,6 +63,7 @@ function App() {
           <Route path="/training-details" element={<TrainingDetailsPage />} />
           <Route path="/academic-calendar" element={<AcademicCal />} />
           <Route path="/opportunities" element={<OpportunitiesPage />} />
+          <Route path="/sdg-initiatives" element={<SDGInitiatives />} />
           <Route path="/datatable/:section" element={<DataTable />} />
         </Routes>
       </div>

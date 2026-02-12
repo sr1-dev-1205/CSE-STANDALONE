@@ -30,6 +30,8 @@ import {
   Phone,
   Info,
   MessageSquare,
+  FlaskConical,
+  Handshake,
 } from "lucide-react";
 
 // Direct paths to logo files in public folder
@@ -360,6 +362,49 @@ function NotableProjectCard({
   );
 }
 
+// SDG Card Component for SDG Initiatives
+function SDGCard({ item }: { item: any }) {
+  const sdgIconMap: Record<string, any> = {
+    BookOpen,
+    FlaskConical: Lightbulb,
+    Lightbulb,
+    Calendar,
+    Handshake: Users,
+    Building2,
+  };
+
+  const Icon = sdgIconMap[item.icon as keyof typeof sdgIconMap] || Globe;
+
+  return (
+    <div className="bg-gradient-to-br from-white to-gray-50 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 border-2 border-yellow-200 hover:border-yellow-400 group h-[280px] flex flex-col">
+      {/* Icon and Title */}
+      <div className="flex items-center gap-3 mb-4 h-[60px]">
+        <div className="p-3 bg-yellow-100 rounded-lg group-hover:bg-yellow-200 transition-colors flex-shrink-0">
+          <Icon className="w-6 h-6 text-yellow-600" />
+        </div>
+        <h3 className="text-lg font-bold text-gray-900 group-hover:text-yellow-600 transition-colors line-clamp-2">
+          {item.title}
+        </h3>
+      </div>
+
+      {/* Description */}
+      <p className="text-sm text-gray-600 leading-relaxed flex-grow line-clamp-4">
+        {item.description}
+      </p>
+
+      {/* SDG Tag */}
+      <div className="mt-auto pt-4 border-t border-gray-200">
+        <div className="flex items-center justify-between">
+          <span className="text-xs font-semibold text-yellow-600 uppercase tracking-wider">
+            SDG Initiative #{item.id}
+          </span>
+          <ArrowRight className="w-5 h-5 text-yellow-500 group-hover:translate-x-1 transition-transform" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
 // Modal for Project Details - Clean Advertisement Style
 function ProjectModal({
   project,
@@ -582,6 +627,12 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
     // Special handling for Academic Calendar - navigate to AcademicCal page
     if (activeTab === "academic_calendar") {
       navigate("/academic-calendar");
+      return;
+    }
+
+    // Special handling for SDG Initiatives - navigate to SDG page
+    if (activeTab === "sdgs") {
+      navigate("/sdg-initiatives");
       return;
     }
 
@@ -878,6 +929,34 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
                         ),
                       )}
                     </div>
+                  ) : activeTab === "sdgs" ? (
+                    // SDG Initiatives - Auto-scrolling Carousel showing 6 cards
+                    <Slider
+                      dots={true}
+                      infinite={true}
+                      autoplay={true}
+                      autoplaySpeed={3000}
+                      slidesToShow={3}
+                      slidesToScroll={1}
+                      responsive={[
+                        {
+                          breakpoint: 1024,
+                          settings: { slidesToShow: 2, slidesToScroll: 1 },
+                        },
+                        {
+                          breakpoint: 768,
+                          settings: { slidesToShow: 1, slidesToScroll: 1 },
+                        },
+                      ]}
+                    >
+                      {activeTabData.content.items.map(
+                        (item: any, index: number) => (
+                          <div key={index} className="px-4 mb-6">
+                            <SDGCard item={item} />
+                          </div>
+                        ),
+                      )}
+                    </Slider>
                   ) : (
                     // Show only 2 cards max for other tabs
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
