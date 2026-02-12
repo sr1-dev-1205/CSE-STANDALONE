@@ -63,6 +63,7 @@ const sectionTitleMap: Record<string, string> = {
   collaborations: "Industry Collaborations",
   innovations: "Innovations",
   placements: "Placements",
+  placements_tab: "Placement Records",
   faculty_achievements: "Faculty Achievements",
   student_achievements: "Student Achievements",
   obe_practices: "OBE Practices",
@@ -145,7 +146,7 @@ const DataTable: React.FC = () => {
   useEffect(() => {
     // Map the section to the correct data key
     const dataKey = sectionDataKeyMap[normalizedSection] || normalizedSection;
-    
+
     if (normalizedSection === "internships") {
       // Load internship data from tabsData.json
       const internshipsTab = (tabsData as any).tabs.find((tab: any) => tab.id === "internships");
