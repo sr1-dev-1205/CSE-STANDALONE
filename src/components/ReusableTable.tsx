@@ -155,7 +155,19 @@ const ReusableTable: React.FC<ReusableTableProps> = ({
   const paginatedData = filteredData.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 
   // ✅ Columns handling
-  const allColumns = data.length > 0 ? Object.keys(data[0]).filter((c) => c.toLowerCase() !== 'year') : [];
+  const allColumns = React.useMemo(() => {
+    if (data.length === 0) return [];
+    let cols = Object.keys(data[0]).filter((c) => c.toLowerCase() !== 'year');
+
+    // Move s.no. to the front if it exists
+    const snoIndex = cols.findIndex(c => c.toLowerCase().includes('sno') || c.toLowerCase().includes('s.no'));
+    if (snoIndex > -1) {
+      const snoCol = cols.splice(snoIndex, 1)[0];
+      cols.unshift(snoCol);
+    }
+    return cols;
+  }, [data]);
+
   const compactColumns = allColumns.slice(0, 4); // only first 4 columns in collapsed view
   const columns = expanded ? allColumns : compactColumns;
 
