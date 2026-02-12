@@ -1,9 +1,11 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { ChevronLeft } from "lucide-react";
-import secData from "../data/SecData.json";
 import tabsData from "../data/tabsData.json";
 import ReusableTable from "../components/ReusableTable";
+
+// Dynamic import for heavy data
+const loadSecData = () => import("../data/SecData.json");
 
 const categoryOptions = [
   { label: "Mini Projects", key: "stu_mini" },
@@ -142,38 +144,57 @@ const DataTable: React.FC = () => {
 
   // Load data based on section
   const [tableData, setTableData] = useState<any[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Map the section to the correct data key
-    const dataKey = sectionDataKeyMap[normalizedSection] || normalizedSection;
+    const loadData = async () => {
+      setIsLoading(true);
+      try {
+        // Map the section to the correct data key
+        const dataKey = sectionDataKeyMap[normalizedSection] || normalizedSection;
 
-    if (normalizedSection === "internships") {
-      // Load internship data from tabsData.json
-      const internshipsTab = (tabsData as any).tabs.find((tab: any) => tab.id === "internships");
-      if (internshipsTab && internshipsTab.content && internshipsTab.content.items) {
-        const transformedData = internshipsTab.content.items.map((item: any, index: number) => ({
-          "s.no.": index + 1,
-          "name": item.candidate_name,
-          "year": "2023-24",
-          "company": "Academor",
-          "designation": item.designation,
-          "location": item.location,
-          "joining_date": item.date_of_joining,
-          "stipend_per_month": `₹${item.stipend_per_month.toLocaleString()}`,
-          "incentives": `₹${item.incentives.toLocaleString()}`,
-          "pre_placement_offer": item.pre_placement_offer
-        }));
-        setTableData(transformedData);
+        if (normalizedSection === "internships") {
+          // Load internship data from tabsData.json
+          const internshipsTab = (tabsData as any).tabs.find((tab: any) => tab.id === "internships");
+          if (internshipsTab && internshipsTab.content && internshipsTab.content.items) {
+            const transformedData = internshipsTab.content.items.map((item: any, index: number) => ({
+              "s.no.": index + 1,
+              "name": item.candidate_name,
+              "year": "2023-24",
+              "company": "Academor",
+              "designation": item.designation,
+              "location": item.location,
+              "joining_date": item.date_of_joining,
+              "stipend_per_month": `₹${item.stipend_per_month.toLocaleString()}`,
+              "incentives": `₹${item.incentives.toLocaleString()}`,
+              "pre_placement_offer": item.pre_placement_offer
+            }));
+            setTableData(transformedData);
+          }
+        } else {
+          // Dynamically load SecData only when needed
+          const secDataModule = await loadSecData();
+          const secData = secDataModule.default;
+          
+          if (isNotable || isFaculty || isStudent) {
+            // For sections with category dropdown, load based on selected category
+            const data = (secData as any)[selectedCategoryKey] || [];
+            setTableData(data);
+          } else {
+            // For other sections, load data directly from SecData
+            const data = (secData as any)[dataKey] || [];
+            setTableData(data);
+          }
+        }
+      } catch (error) {
+        console.error("Error loading data:", error);
+        setTableData([]);
+      } finally {
+        setIsLoading(false);
       }
-    } else if (isNotable || isFaculty || isStudent) {
-      // For sections with category dropdown, load based on selected category
-      const data = (secData as any)[selectedCategoryKey] || [];
-      setTableData(data);
-    } else {
-      // For other sections, load data directly from SecData
-      const data = (secData as any)[dataKey] || [];
-      setTableData(data);
-    }
+    };
+
+    loadData();
   }, [normalizedSection, selectedCategoryKey, isNotable, isFaculty, isStudent]);
 
   const data = tableData;
@@ -207,37 +228,46 @@ const DataTable: React.FC = () => {
         </button>
       </div>
 
-      {/* Table */}
-      <ReusableTable
-        data={data}
-        title={title}
-        description={description}
-        showCategory={showCategoryDropdown}
-        categoryOptions={dropdownOptions}
-        selectedCategoryKey={selectedCategoryKey}
-        onCategoryChange={setSelectedCategoryKey}
-      />
-
-      {/* Call to Action */}
-      <div className="mt-12 mb-8 max-w-7xl mx-auto px-4">
-        <div className="bg-gradient-to-r from-yellow-500 to-orange-500 px-4 py-8 sm:px-10 sm:py-12 md:py-14 rounded-xl sm:rounded-2xl text-center text-white">
-          <h2 className="text-lg sm:text-xl md:text-3xl font-bold mb-2 sm:mb-4">
-            Join Our Educational Legacy
-          </h2>
-          <p className="text-sm sm:text-base md:text-lg mb-5 sm:mb-6 md:mb-8 opacity-90 max-w-2xl mx-auto px-2">
-            Be part of an institution that has been shaping futures
-            for over three decades
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-2">
-            <button className="bg-white text-gray-900 px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-200 w-full sm:w-auto">
-              Explore Programs
-            </button>
-            <button className="border-2 border-white text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition duration-200 w-full sm:w-auto">
-              Contact Us
-            </button>
-          </div>
+      {/* Loading state */}
+      {isLoading ? (
+        <div className="flex items-center justify-center min-h-screen">
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-yellow-500"></div>
         </div>
-      </div>
+      ) : (
+        <>
+          {/* Table */}
+          <ReusableTable
+            data={data}
+            title={title}
+            description={description}
+            showCategory={showCategoryDropdown}
+            categoryOptions={dropdownOptions}
+            selectedCategoryKey={selectedCategoryKey}
+            onCategoryChange={setSelectedCategoryKey}
+          />
+
+          {/* Call to Action */}
+          <div className="mt-12 mb-8 max-w-7xl mx-auto px-4">
+            <div className="bg-gradient-to-r from-yellow-500 to-orange-500 px-4 py-8 sm:px-10 sm:py-12 md:py-14 rounded-xl sm:rounded-2xl text-center text-white">
+              <h2 className="text-lg sm:text-xl md:text-3xl font-bold mb-2 sm:mb-4">
+                Join Our Educational Legacy
+              </h2>
+              <p className="text-sm sm:text-base md:text-lg mb-5 sm:mb-6 md:mb-8 opacity-90 max-w-2xl mx-auto px-2">
+                Be part of an institution that has been shaping futures
+                for over three decades
+              </p>
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center px-2">
+                <button className="bg-white text-gray-900 px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-200 w-full sm:w-auto">
+                  Explore Programs
+                </button>
+                <button className="border-2 border-white text-white px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg font-semibold hover:bg-white hover:text-gray-900 transition duration-200 w-full sm:w-auto">
+                  Contact Us
+                </button>
+              </div>
+            </div>
+          </div>
+        </>
+      )}
     </div>
   );
 };
