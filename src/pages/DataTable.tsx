@@ -171,7 +171,21 @@ const DataTable: React.FC = () => {
       setTableData(data);
     } else {
       // For other sections, load data directly from SecData
-      const data = (secData as any)[dataKey] || [];
+      let data = (secData as any)[dataKey] || [];
+
+      // Special transformation for placements
+      if (dataKey === "placements_tab") {
+        data = data.map((item: any) => {
+          const newItem = { ...item };
+          if (newItem.student && newItem.registerNumber) {
+            newItem.student = `${newItem.student} (${newItem.registerNumber})`;
+          }
+          // Remove the registerNumber property so it doesn't show as a column
+          delete newItem.registerNumber;
+          return newItem;
+        });
+      }
+
       setTableData(data);
     }
   }, [normalizedSection, selectedCategoryKey, isNotable, isFaculty, isStudent]);

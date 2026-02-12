@@ -301,9 +301,28 @@ const famousRecruitersOrder: string[] = [
   'Bajaj Finance Limited',
   'SBI Card',
   'UST Global',
+  'Greeno Technology',
+  'HAsh Agile Technologies',
+  'HDB Financial Services',
 ];
 
-const sortedRecruiters: Recruiter[] = [...(recruiters as Recruiter[])].sort((a, b) => {
+const requestedLogosList = [
+  'Amazon',
+  'Juspay',
+  'Cognizant',
+  'Zoho Corporation',
+  'Wipro',
+  'Rinex Technologies',
+  'Flipkart',
+  'Axis Bank',
+  'Bajaj Finance Limited',
+  'SBI Card',
+  'Greeno Technology',
+  'HAsh Agile Technologies',
+  'HDB Financial Services'
+];
+
+const sortedRecruiters = [...(recruiters as any)].sort((a, b) => {
   const indexA = famousRecruitersOrder.indexOf(a.name);
   const indexB = famousRecruitersOrder.indexOf(b.name);
 
@@ -319,6 +338,33 @@ const sortedRecruiters: Recruiter[] = [...(recruiters as Recruiter[])].sort((a, 
 
   return a.name.localeCompare(b.name);
 });
+
+const placementStats = [
+  {
+    year: "2023-2024",
+    placed: "108+",
+    highest: "6.40 LPA",
+    average: "3.29 LPA",
+    companies: "41+",
+    description: "Exceptional performance with multiple premium offers from top-tier tech companies."
+  },
+  {
+    year: "2022-2023",
+    placed: "85+",
+    highest: "7.00 LPA",
+    average: "3.59 LPA",
+    companies: "26+",
+    description: "Strong placement drive with consistent records in core and IT sectors."
+  },
+  {
+    year: "2021-2022",
+    placed: "53+",
+    highest: "4.00 LPA",
+    average: "3.35 LPA",
+    companies: "16+",
+    description: "Steady growth in placements with students securing roles in emerging technologies."
+  }
+];
 
 const companyDomainOverrides: Record<string, string> = {
   'Amazon': 'amazon.com',
@@ -376,44 +422,44 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
   };
 
   const IconComponent = iconMap[department.icon as keyof typeof iconMap] || Monitor;
-  
+
   // Placement section tabs: Home, CSE Specialized, Placement Team, Recruiters, Training, Industrial Partners
   const [activePlacementTab, setActivePlacementTab] = useState<'home' | 'cse-specialized' | 'team' | 'recruiters' | 'training' | 'partners'>('home');
   const [isPlacementExpanded, setIsPlacementExpanded] = useState(false);
   const [activePartnerTab, setActivePartnerTab] = useState<'igenuine' | 'sixprases' | 'terv'>('igenuine');
-  
+
   // Carousel state and ref
   const [currentIndex, setCurrentIndex] = useState(0);
   const carouselRef = useRef<HTMLDivElement>(null);
   const [autoScroll, setAutoScroll] = useState(true);
-  
+
   // Industry carousel state
   const industryCarouselRef = useRef<HTMLDivElement>(null);
-  
+
   // Events carousel ref
   const eventsCarouselRef = useRef<HTMLDivElement>(null);
-  
+
   // Events year filter state
   const [selectedEventsYear, setSelectedEventsYear] = useState<string>('2024-25');
-  
+
   // Handle automatic scrolling
   useEffect(() => {
     if (!autoScroll) return;
-    
+
     const interval = setInterval(() => {
       setCurrentIndex(prev => (prev + 1) % (excellenceCards.length - 2));
     }, 5000);
-    
+
     return () => clearInterval(interval);
   }, [autoScroll]);
-  
+
   // Handle manual navigation
   const goToIndex = (index: number) => {
     setCurrentIndex(index);
     setAutoScroll(false);
     setTimeout(() => setAutoScroll(true), 10000); // Resume auto-scroll after 10 seconds
   };
-  
+
   // Calculate visible cards
   const visibleCards = excellenceCards.slice(currentIndex, currentIndex + 3);
   // Handle wrap-around for the last cards
@@ -433,137 +479,137 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
   return (
     <div className="space-y-8">
       {/* Department Header */}
-     <div id="about-department" className="scroll-mt-32">
-  <LazyLoadWrapper height="250px" delay={500}>
-  <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-    <div className="relative h-[280px] sm:h-[350px] md:h-[400px] lg:h-[450px] xl:h-[500px]">
-      {/* Background Image with Overlay */}
-      <img 
-        src={getImageUrl(department.image)}
-        alt={department.name}
-        className="w-full h-full object-cover"
-      />
-      <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent" />
+      <div id="about-department" className="scroll-mt-32">
+        <LazyLoadWrapper height="250px" delay={500}>
+          <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
+            <div className="relative h-[280px] sm:h-[350px] md:h-[400px] lg:h-[450px] xl:h-[500px]">
+              {/* Background Image with Overlay */}
+              <img
+                src={getImageUrl(department.image)}
+                alt={department.name}
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent" />
 
-      {/* Top-left Icon & Badge */}
-      <div className="absolute top-3 left-3 sm:top-4 sm:left-5 md:top-5 md:left-6 flex items-center gap-2 sm:gap-3 md:gap-4">
-        {/* Icon */}
-        <div className="bg-white/95 p-2.5 sm:p-3 md:p-4 rounded-lg sm:rounded-xl shadow-lg backdrop-blur-sm">
-          <IconComponent className="h-5 w-5 sm:h-6 sm:w-6 md:h-8 md:w-8 text-yellow-600" />
-        </div>
-        
-        {/* Badge */}
-        <div className="bg-yellow-500 text-gray-900 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-bold uppercase tracking-wider shadow-md backdrop-blur-sm">
-          {department.shortName}
-        </div>
-      </div>
+              {/* Top-left Icon & Badge */}
+              <div className="absolute top-3 left-3 sm:top-4 sm:left-5 md:top-5 md:left-6 flex items-center gap-2 sm:gap-3 md:gap-4">
+                {/* Icon */}
+                <div className="bg-white/95 p-2.5 sm:p-3 md:p-4 rounded-lg sm:rounded-xl shadow-lg backdrop-blur-sm">
+                  <IconComponent className="h-5 w-5 sm:h-6 sm:w-6 md:h-8 md:w-8 text-yellow-600" />
+                </div>
 
-      {/* Hero Content */}
-      <div className="absolute inset-x-0 bottom-0 p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 text-white">
-        <div className="max-w-4xl space-y-2 sm:space-y-3 md:space-y-4">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight tracking-tight shadow-sm">{department.name}</h1>
-          <p className="text-sm sm:text-base md:text-lg lg:text-sl text-gray-200 leading-relaxed max-w-3xl drop-shadow-md line-clamp-2 sm:line-clamp-none">
-            {department.description}
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</LazyLoadWrapper>
-</div>
+                {/* Badge */}
+                <div className="bg-yellow-500 text-gray-900 px-3 sm:px-4 py-1 sm:py-1.5 rounded-full text-xs sm:text-sm font-bold uppercase tracking-wider shadow-md backdrop-blur-sm">
+                  {department.shortName}
+                </div>
+              </div>
 
-{/* Programs Offered - Immediately after About Department */}
-<div className="mt-10 sm:mt-12 md:mt-14 mb-4">
-  <LazyLoadWrapper height="250px" delay={500}>
-    <div className="bg-white p-5 sm:p-6 md:p-7 lg:p-8 rounded-2xl shadow-lg">
-      <h4 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-4 sm:mb-5 md:mb-6">Programs Offered</h4>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
-        {department.programs.map((program, index) => (
-          <div key={index} className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-xl border border-gray-200 hover:border-yellow-300 hover:shadow-md transition-all duration-300 group">
-            <h5 className="font-bold text-gray-900 mb-3 group-hover:text-yellow-700 transition-colors">{program.name}</h5>
-            <div className="space-y-2 text-sm text-gray-600">
-              <div><span className="font-medium">Duration:</span> {program.duration}</div>
-              {program.intake && <div><span className="font-medium">Intake:</span> {program.intake}</div>}
-              <div><span className="font-medium">Eligibility:</span> {program.eligibility}</div>
+              {/* Hero Content */}
+              <div className="absolute inset-x-0 bottom-0 p-4 sm:p-6 md:p-8 lg:p-10 xl:p-12 text-white">
+                <div className="max-w-4xl space-y-2 sm:space-y-3 md:space-y-4">
+                  <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight tracking-tight shadow-sm">{department.name}</h1>
+                  <p className="text-sm sm:text-base md:text-lg lg:text-sl text-gray-200 leading-relaxed max-w-3xl drop-shadow-md line-clamp-2 sm:line-clamp-none">
+                    {department.description}
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-        ))}
+        </LazyLoadWrapper>
       </div>
-    </div>
-  </LazyLoadWrapper>
-</div>
+
+      {/* Programs Offered - Immediately after About Department */}
+      <div className="mt-10 sm:mt-12 md:mt-14 mb-4">
+        <LazyLoadWrapper height="250px" delay={500}>
+          <div className="bg-white p-5 sm:p-6 md:p-7 lg:p-8 rounded-2xl shadow-lg">
+            <h4 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-4 sm:mb-5 md:mb-6">Programs Offered</h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
+              {department.programs.map((program, index) => (
+                <div key={index} className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-xl border border-gray-200 hover:border-yellow-300 hover:shadow-md transition-all duration-300 group">
+                  <h5 className="font-bold text-gray-900 mb-3 group-hover:text-yellow-700 transition-colors">{program.name}</h5>
+                  <div className="space-y-2 text-sm text-gray-600">
+                    <div><span className="font-medium">Duration:</span> {program.duration}</div>
+                    {program.intake && <div><span className="font-medium">Intake:</span> {program.intake}</div>}
+                    <div><span className="font-medium">Eligibility:</span> {program.eligibility}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </LazyLoadWrapper>
+      </div>
 
       {/* Vision & Mission */}
       <div id="department-vision-mission" className="scroll-mt-32">
         <LazyLoadWrapper height="180px" delay={500}>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 md:gap-6 mt-10 sm:mt-12 md:mt-16 lg:mt-20">
-  <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-    <h4 className="text-lg font-bold text-gray-900 mb-3 flex items-center space-x-2">
-      <Award className="h-6 w-6 text-yellow-500" />
-      <span>Vision</span>
-    </h4>
-    <p className="text-gray-700 leading-relaxed">{department.vision}</p>
-  </div>
+            <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+              <h4 className="text-lg font-bold text-gray-900 mb-3 flex items-center space-x-2">
+                <Award className="h-6 w-6 text-yellow-500" />
+                <span>Vision</span>
+              </h4>
+              <p className="text-gray-700 leading-relaxed">{department.vision}</p>
+            </div>
 
-  <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
-    <h4 className="text-lg font-bold text-gray-900 mb-3 flex items-center space-x-2">
-      <BookOpen className="h-6 w-6 text-yellow-500" />
-      <span>Mission</span>
-    </h4>
+            <div className="bg-white p-6 rounded-xl shadow-lg border border-gray-100">
+              <h4 className="text-lg font-bold text-gray-900 mb-3 flex items-center space-x-2">
+                <BookOpen className="h-6 w-6 text-yellow-500" />
+                <span>Mission</span>
+              </h4>
 
-    <div className="text-gray-700 leading-relaxed space-y-3">
-      {Array.isArray(department.mission) ? (
-        department.mission.map((point: string, index: number) => {
-          const [label, ...rest] = point.split(":");
-          return (
-            <p key={index} className="text-sm">
-              <span className="font-semibold">{label}:</span> {rest.join(":").trim()}
-            </p>
-          );
-        })
-      ) : (
-        <p className="text-sm">{department.mission}</p>
-      )}
-    </div>
-  </div>
-</div>
+              <div className="text-gray-700 leading-relaxed space-y-3">
+                {Array.isArray(department.mission) ? (
+                  department.mission.map((point: string, index: number) => {
+                    const [label, ...rest] = point.split(":");
+                    return (
+                      <p key={index} className="text-sm">
+                        <span className="font-semibold">{label}:</span> {rest.join(":").trim()}
+                      </p>
+                    );
+                  })
+                ) : (
+                  <p className="text-sm">{department.mission}</p>
+                )}
+              </div>
+            </div>
+          </div>
         </LazyLoadWrapper>
       </div>
-     
-  {/* Program Outcomes */}
-  <div id="psos-peos-pos" className="mt-16 mb-0 scroll-mt-32">
-    <LazyLoadWrapper height="400px" delay={600}>
-      <DepartmentOutcomes 
-        psos={department.psos.map(item => ({
-          id: (item.id || item.code || '') as string,
-          title: (item.title || '') as string,
-          description: item.description
-        }))}
-        peos={department.peos.map(item => ({
-          id: (item.id || item.code || '') as string,
-          title: (item.title || '') as string,
-          description: item.description
-        }))}
-        pos={department.pos.map(item => ({
-          id: (item.id || item.code || '') as string,
-          title: (item.title || '') as string,
-          description: item.description
-        }))}
-        departmentName={department.name}
-      />
-    </LazyLoadWrapper>
-  </div>
+
+      {/* Program Outcomes */}
+      <div id="psos-peos-pos" className="mt-16 mb-0 scroll-mt-32">
+        <LazyLoadWrapper height="400px" delay={600}>
+          <DepartmentOutcomes
+            psos={department.psos.map(item => ({
+              id: (item.id || item.code || '') as string,
+              title: (item.title || '') as string,
+              description: item.description
+            }))}
+            peos={department.peos.map(item => ({
+              id: (item.id || item.code || '') as string,
+              title: (item.title || '') as string,
+              description: item.description
+            }))}
+            pos={department.pos.map(item => ({
+              id: (item.id || item.code || '') as string,
+              title: (item.title || '') as string,
+              description: item.description
+            }))}
+            departmentName={department.name}
+          />
+        </LazyLoadWrapper>
+      </div>
 
       {/* Combined OBE Section - OBE Philosophy + OBE Inputs */}
       <div id="obe" className="scroll-mt-32 mt-0">
         <LazyLoadWrapper height="800px" delay={500}>
           <div className="bg-white p-12 rounded-2xl shadow-lg text-center mb-12">
             <h4 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6">OBE Philosophy</h4>
-             <div className="w-32 h-1 bg-[#f59e0b] rounded-full mx-auto mb-6"></div>
+            <div className="w-32 h-1 bg-[#f59e0b] rounded-full mx-auto mb-6"></div>
             <p className="text-gray-700 mb-8 leading-relaxed">
               {departmentWithDefaults.obePhilosophy.description}
             </p>
-            
+
             {/* OBE Principles */}
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
               {departmentWithDefaults.obePhilosophy.principles.map((principle, index) => {
@@ -599,9 +645,9 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
             </div>
           </div>
         </LazyLoadWrapper>
-        
+
         {/* OBE Inputs - Combined within the same section */}
-        <LazyLoadWrapper height="600px" delay={500}> 
+        <LazyLoadWrapper height="600px" delay={500}>
           <ObeInput />
         </LazyLoadWrapper>
       </div>
@@ -614,8 +660,8 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
           <div className="w-32 h-1 bg-[#f59e0b] rounded-full mx-auto mb-6"></div>
           <div className="relative">
             {*/}
-            {/* Carousel */}
-            {/*
+      {/* Carousel */}
+      {/*
             <div 
               ref={carouselRef}
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 transition-all duration-500 ease-in-out"
@@ -644,8 +690,8 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
               ))}
             </div>
             */}
-            {/* Navigation Dots */}
-            {/*
+      {/* Navigation Dots */}
+      {/*
             <div className="flex justify-center mt-8 space-x-2">
               {excellenceCards.map((_, index) => (
                 <button
@@ -657,8 +703,8 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
               ))}
             </div>
             */}
-            {/* View More Button */}
-            {/*
+      {/* View More Button */}
+      {/*
             <div className="text-center mt-8">
               <button className="bg-yellow-500 hover:bg-yellow-600 text-gray-900 px-6 py-3 rounded-lg font-semibold transition-all duration-300 hover:scale-105 flex items-center space-x-2 mx-auto shadow-md">
                 <span>View All Centres</span>
@@ -717,15 +763,14 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                   <button
                     key={tab.id}
                     onClick={() => setActivePlacementTab(tab.id as 'home' | 'cse-specialized' | 'partners' | 'team' | 'recruiters' | 'training')}
-                    className={`flex items-center justify-center space-x-1.5 sm:space-x-2 px-3 py-3 sm:px-4 sm:py-4 text-xs sm:text-sm lg:text-base font-bold transition-all duration-200 border-b-4 whitespace-nowrap ${
-                      tab.id === 'cse-specialized'
-                        ? activePlacementTab === tab.id
-                          ? "text-violet-700 border-violet-700 bg-violet-100"
-                          : "text-violet-500 border-transparent hover:text-violet-700 hover:bg-violet-50"
-                        : activePlacementTab === tab.id
-                          ? "text-yellow-600 border-yellow-500 bg-yellow-50"
-                          : "text-gray-600 border-transparent hover:text-yellow-600 hover:bg-yellow-50"
-                    }`}
+                    className={`flex items-center justify-center space-x-1.5 sm:space-x-2 px-3 py-3 sm:px-4 sm:py-4 text-xs sm:text-sm lg:text-base font-bold transition-all duration-200 border-b-4 whitespace-nowrap ${tab.id === 'cse-specialized'
+                      ? activePlacementTab === tab.id
+                        ? "text-violet-700 border-violet-700 bg-violet-100"
+                        : "text-violet-500 border-transparent hover:text-violet-700 hover:bg-violet-50"
+                      : activePlacementTab === tab.id
+                        ? "text-yellow-600 border-yellow-500 bg-yellow-50"
+                        : "text-gray-600 border-transparent hover:text-yellow-600 hover:bg-yellow-50"
+                      }`}
                   >
                     <i className={`${tab.icon} text-sm sm:text-base lg:text-lg`}></i>
                     <span className="inline">{tab.label}</span>
@@ -734,45 +779,70 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
               </div>
             </div>
 
+
             {activePlacementTab === 'home' && (
               <div className="mt-4">
-                <h5 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 text-center">About Placement</h5>
 
-                <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-4 sm:p-6 md:p-8 rounded-2xl">
-                  <div className="prose prose-sm sm:prose-lg max-w-none text-gray-700 text-center sm:text-left">
-                    <p className="mb-4">
-                      The <strong>Placement Advisory Team</strong>, popularly known as <strong>Corporate Relations</strong> on HITECH campus, aims at providing the best opportunities enabling every student to realize his/her dream.
-                    </p>
-                    
-                    <p className="mb-4">
-                      This team is committed to the task of securing Final Placements and Summer Internships for every student on campus. It has not only consistently set high standards for itself but has been successful in surpassing them time and again.
-                    </p>
-                    
-                    <p className="mb-4">
-                      Over the last decade, Hindusthan has emerged as one of the most favored destinations for hiring fresh talent from campuses. Its endeavors to provide industry-compliant talent and emphasis on Quality, Discipline, Self-Learning, Ethics, and Values have borne rich dividends.
-                    </p>
-                    
-                    {isPlacementExpanded && (
-                      <>
-                        <p className="mb-4">
-                          Hindusthan has recently received an international recognition from MAC Singapore, the <strong>'Le Platina Royce Award'</strong>, for world-class brand status. The HR Club, Mumbai awarded our Institution as the <strong>"Best Institution in Tamil Nadu"</strong> for the Campus to Corporate Employability Programme.
+                {/* Yearly Statistics Cards */}
+                <div className="mt-12">
+                  <h6 className="text-2xl font-bold text-gray-900 mb-8 text-center">Yearly Placement Highlights</h6>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    {placementStats.map((stat, index) => (
+                      <div key={index} className="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 hover:border-yellow-400 hover:shadow-xl transition-all duration-300 group flex flex-col h-full">
+                        <div className="flex items-center justify-between mb-4">
+                          <span className="bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">Academic Year</span>
+                          <span className="text-gray-900 font-bold">{stat.year}</span>
+                        </div>
+
+                        <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-yellow-600 transition-colors">Placement Statistics</h3>
+
+                        <div className="space-y-4 mb-6 flex-grow">
+                          <div className="flex items-center gap-3">
+                            <div className="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center flex-shrink-0">
+                              <Users className="w-5 h-5 text-blue-600" />
+                            </div>
+                            <div>
+                              <p className="text-xs text-gray-500 font-semibold uppercase">Students Placed</p>
+                              <p className="text-base font-bold text-gray-900">{stat.placed} Students</p>
+                            </div>
+                          </div>
+
+                          <div className="flex items-center gap-3">
+                            <div className="w-10 h-10 rounded-lg bg-green-50 flex items-center justify-center flex-shrink-0">
+                              <Award className="w-5 h-5 text-green-600" />
+                            </div>
+                            <div>
+                              <p className="text-xs text-gray-500 font-semibold uppercase">Highest Salary</p>
+                              <p className="text-base font-bold text-gray-900">Rs. {stat.highest}</p>
+                            </div>
+                          </div>
+
+                          <div className="flex items-center gap-3">
+                            <div className="w-10 h-10 rounded-lg bg-purple-50 flex items-center justify-center flex-shrink-0">
+                              <BarChart2 className="w-5 h-5 text-purple-600" />
+                            </div>
+                            <div>
+                              <p className="text-xs text-gray-500 font-semibold uppercase">Average Salary</p>
+                              <p className="text-base font-bold text-gray-900">Rs. {stat.average}</p>
+                            </div>
+                          </div>
+
+                          <div className="flex items-center gap-3">
+                            <div className="w-10 h-10 rounded-lg bg-orange-50 flex items-center justify-center flex-shrink-0">
+                              <Building className="w-5 h-5 text-orange-600" />
+                            </div>
+                            <div>
+                              <p className="text-xs text-gray-500 font-semibold uppercase">Top Recruiters</p>
+                              <p className="text-base font-bold text-gray-900">{stat.companies} Companies</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <p className="text-sm text-gray-600 italic border-t border-gray-100 pt-4 leading-relaxed line-clamp-2 mt-auto">
+                          "{stat.description}"
                         </p>
-                        
-                        <p className="mb-4">
-                          At Hindusthan, pedagogy is oriented to make students industry-ready. Students are given more exposure to practical learning which helps them meet industry expectations. All efforts are made to inculcate values and make them socially responsible citizens.
-                        </p>
-                      </>
-                    )}
-                  </div>
-                  
-                  <div className="text-center mt-4 sm:mt-6">
-                    <button 
-                      onClick={() => setIsPlacementExpanded(!isPlacementExpanded)}
-                      className="inline-flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base font-semibold bg-yellow-500 text-gray-900 hover:bg-yellow-600 transition-all duration-200 hover:scale-105 shadow-md sm:hidden"
-                    >
-                      <span>{isPlacementExpanded ? 'Show Less' : 'Show More'}</span>
-                      <ArrowRight className={`h-4 w-4 transition-transform duration-200 ${isPlacementExpanded ? 'rotate-90' : ''}`} />
-                    </button>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
@@ -781,12 +851,12 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
             {activePlacementTab === 'cse-specialized' && (
               <div className="mt-4">
                 <h5 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-6 md:text-center">CSE Specialized Industrial Training</h5>
-                
+
                 <div className="bg-gradient-to-br from-purple-50 to-violet-50 p-4 sm:p-6 md:p-8 rounded-2xl border-2 border-purple-200 mb-6 sm:mb-8">
                   <div className="text-center max-w-3xl mx-auto">
                     <h6 className="text-lg sm:text-xl md:text-2xl font-bold text-gray-900 mb-2 sm:mb-3">Exclusive Training for CSE Students</h6>
                     <p className="text-gray-700 leading-relaxed mb-4 text-center sm:text-left">
-                      Specialized training programs designed exclusively for Computer Science Engineering students, 
+                      Specialized training programs designed exclusively for Computer Science Engineering students,
                       delivered by external technical experts from leading industry organizations.
                     </p>
                     <div className="flex flex-wrap justify-center gap-4 text-sm">
@@ -813,17 +883,17 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                   <div className="bg-white rounded-2xl shadow-lg overflow-hidden border-t-4 border-purple-500">
                     <div className="p-6">
                       <div className="flex items-center justify-between mb-4">
-                        <img 
-                          src="https://img.logo.dev/quantumniquesolutions.com?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                          alt="Quantumnique" 
-                          className="h-20 w-20 object-contain" 
+                        <img
+                          src="https://img.logo.dev/quantumniquesolutions.com?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                          alt="Quantumnique"
+                          className="h-20 w-20 object-contain"
                         />
                         <span className="bg-purple-500 text-white px-3 py-1 rounded-full text-sm font-bold">3rd Sem</span>
                       </div>
-                      
+
                       <h6 className="text-2xl font-bold text-gray-900 mb-2">Quantumnique</h6>
                       <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-4">
                         <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Training Program</p>
                         <p className="text-gray-700 text-base">Java Programming & Advanced Data Structures</p>
@@ -862,17 +932,17 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                   <div className="bg-white rounded-2xl shadow-lg overflow-hidden border-t-4 border-blue-500">
                     <div className="p-6">
                       <div className="flex items-center justify-between mb-4">
-                        <img 
-                          src="https://img.logo.dev/igenuinelearning.com?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                          alt="IgenuineLearning" 
-                          className="h-20 w-20 object-contain" 
+                        <img
+                          src="https://img.logo.dev/igenuinelearning.com?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                          alt="IgenuineLearning"
+                          className="h-20 w-20 object-contain"
                         />
                         <span className="bg-blue-500 text-white px-3 py-1 rounded-full text-sm font-bold">3rd Sem</span>
                       </div>
-                      
+
                       <h6 className="text-2xl font-bold text-gray-900 mb-2">IgenuineLearning</h6>
                       <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-4">
                         <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Training Program</p>
                         <p className="text-gray-700 text-base">Java Programming & Advanced Data Structures</p>
@@ -914,17 +984,17 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                   <div className="bg-white rounded-2xl shadow-lg overflow-hidden border-t-4 border-indigo-500">
                     <div className="p-6">
                       <div className="flex items-center justify-between mb-4">
-                        <img 
-                          src="https://img.logo.dev/quantumniquesolutions.com?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                          alt="Quantumnique" 
-                          className="h-20 w-20 object-contain" 
+                        <img
+                          src="https://img.logo.dev/quantumniquesolutions.com?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                          alt="Quantumnique"
+                          className="h-20 w-20 object-contain"
                         />
                         <span className="bg-indigo-500 text-white px-3 py-1 rounded-full text-sm font-bold">4th Sem</span>
                       </div>
-                      
+
                       <h6 className="text-2xl font-bold text-gray-900 mb-2">Quantumnique</h6>
                       <div className="border-b-2 border-indigo-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-4">
                         <p className="text-sm font-semibold text-indigo-600 uppercase mb-2">Training Program</p>
                         <p className="text-gray-700 text-base">Database Management & Analysis of Algorithms</p>
@@ -966,7 +1036,7 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
             {activePlacementTab === 'partners' && (
               <div className="mt-4">
                 <h5 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-6 md:text-center">Industrial Training Partners</h5>
-                
+
                 {/* Partner Cards Grid - Responsive columns */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
                   {/* IgenuineLearning 2025 */}
@@ -976,10 +1046,10 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                         <img src="https://img.logo.dev/igenuinelearning.com?token=pk_K8u3uM3kQMik6ox3R29MqA" alt="IgenuineLearning" className="h-20 w-20 object-contain" />
                         <span className="bg-yellow-500 text-gray-900 px-3 py-1 rounded-full text-sm font-bold">2025</span>
                       </div>
-                      
+
                       <h6 className="text-2xl font-bold text-gray-900 mb-2">IgenuineLearning</h6>
                       <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-4">
                         <p className="text-sm font-semibold text-yellow-600 uppercase mb-2">Training Program</p>
                         <p className="text-gray-700 text-base">Full Stack Java Development</p>
@@ -1021,10 +1091,10 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                         <img src="https://img.logo.dev/sixphrase.com?token=pk_K8u3uM3kQMik6ox3R29MqA" alt="Six Phrase" className="h-20 w-20 object-contain" />
                         <span className="bg-yellow-500 text-gray-900 px-3 py-1 rounded-full text-sm font-bold">2024</span>
                       </div>
-                      
+
                       <h6 className="text-2xl font-bold text-gray-900 mb-2">Six Phrase</h6>
                       <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-4">
                         <p className="text-sm font-semibold text-yellow-600 uppercase mb-2">Training Program</p>
                         <p className="text-gray-700 text-base">Full Stack Java Development</p>
@@ -1066,10 +1136,10 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                         <img src="https://img.logo.dev/terv.pro?token=pk_K8u3uM3kQMik6ox3R29MqA" alt="Terv" className="h-20 w-20 object-contain" />
                         <span className="bg-yellow-500 text-gray-900 px-3 py-1 rounded-full text-sm font-bold">2023</span>
                       </div>
-                      
+
                       <h6 className="text-2xl font-bold text-gray-900 mb-2">Terv</h6>
                       <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-4">
                         <p className="text-sm font-semibold text-yellow-600 uppercase mb-2">Training Program</p>
                         <p className="text-gray-700 text-base">Full Stack Java Development</p>
@@ -1111,46 +1181,98 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
 
             {activePlacementTab === 'recruiters' && (
               <div className="mt-4">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4 sm:mb-6 gap-2">
-                  <h5 className="text-xl sm:text-2xl font-bold text-gray-900 text-center sm:text-left">Our Recruiters</h5>
-                  <p className="text-sm text-gray-500 text-center sm:text-left">
-                    Total Companies: <span className="font-semibold">{sortedRecruiters.length}</span>
-                  </p>
-                </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
-                  {sortedRecruiters.slice(0, 5).map((company) => {
-                    const logoUrl = getCompanyEnrichLogoUrl(company.name);
-                    return (
-                      <div
-                        key={company.name}
-                        className="flex flex-col items-center justify-center bg-white rounded-xl border-2 border-gray-200 p-6 hover:border-yellow-400 hover:shadow-lg transition-all"
-                      >
-                        {logoUrl ? (
-                          <img
-                            src={logoUrl}
-                            alt={company.name}
-                            className="w-32 h-32 object-contain mb-4"
-                          />
-                        ) : (
-                          <div className="w-32 h-32 mb-4 rounded-full flex items-center justify-center bg-yellow-100 text-yellow-700 font-bold text-2xl">
-                            {company.name.charAt(0)}
-                          </div>
-                        )}
-                        <p className="text-center text-base font-semibold text-gray-800">
-                          {company.name}
-                        </p>
-                      </div>
-                    );
-                  })}
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-8 gap-2">
+                  <div>
+                    <h5 className="text-2xl sm:text-3xl font-bold text-gray-900">Industry Giants & Placement Partners</h5>
+                    <p className="text-gray-500 mt-1">Leading multi-national corporations who regularly visit our campus for recruitment drives</p>
+                  </div>
+                  <div className="bg-yellow-50 px-4 py-2 rounded-xl border border-yellow-200 self-start sm:self-center">
+                    <p className="text-sm font-semibold text-yellow-700">
+                      Networked with <span className="text-xl font-bold text-yellow-600">{sortedRecruiters.length}+</span> Global Recruiters
+                    </p>
+                  </div>
                 </div>
 
-                <div className="text-center mt-6">
+                <div className="relative overflow-hidden py-10 scale-110">
+                  <div className="flex animate-scroll gap-12 hover:[animation-play-state:paused] transition-all duration-300 items-center">
+                    {/* First set of logos */}
+                    {sortedRecruiters.slice(0, 30).map((company) => {
+                      const logoUrl = getCompanyEnrichLogoUrl(company.name);
+                      return (
+                        <div
+                          key={company.name}
+                          className="flex-shrink-0 w-44 group transition-all duration-300 flex flex-col items-center justify-center p-2"
+                        >
+                          <div className="h-28 flex items-center justify-center mb-3 w-full">
+                            {logoUrl ? (
+                              <img
+                                src={logoUrl}
+                                alt={company.name}
+                                className="max-h-full max-w-full object-contain transition-all duration-300 transform group-hover:scale-110"
+                                loading="lazy"
+                                onError={(e) => {
+                                  const target = e.target as HTMLImageElement;
+                                  target.onerror = null;
+                                  target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(company.name)}&background=FEF3C7&color=92400E&font-size=0.33&bold=true&size=128`;
+                                }}
+                              />
+                            ) : (
+                              <div className="w-16 h-16 rounded-full flex items-center justify-center bg-yellow-100 text-yellow-700 font-bold text-2xl">
+                                {company.name.charAt(0)}
+                              </div>
+                            )}
+                          </div>
+                          <p className="text-center text-sm font-bold text-gray-700 opacity-0 group-hover:opacity-100 transition-opacity translate-y-2 group-hover:translate-y-0 duration-300">
+                            {company.name}
+                          </p>
+                        </div>
+                      );
+                    })}
+                    {/* Duplicate set for seamless scrolling */}
+                    {sortedRecruiters.slice(0, 30).map((company) => {
+                      const logoUrl = getCompanyEnrichLogoUrl(company.name);
+                      return (
+                        <div
+                          key={`${company.name}-dup`}
+                          className="flex-shrink-0 w-44 group transition-all duration-300 flex flex-col items-center justify-center p-2"
+                        >
+                          <div className="h-28 flex items-center justify-center mb-3 w-full">
+                            {logoUrl ? (
+                              <img
+                                src={logoUrl}
+                                alt={company.name}
+                                className="max-h-full max-w-full object-contain transition-all duration-300 transform group-hover:scale-110"
+                                loading="lazy"
+                                onError={(e) => {
+                                  const target = e.target as HTMLImageElement;
+                                  target.onerror = null;
+                                  target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(company.name)}&background=FEF3C7&color=92400E&font-size=0.33&bold=true&size=128`;
+                                }}
+                              />
+                            ) : (
+                              <div className="w-16 h-16 rounded-full flex items-center justify-center bg-yellow-100 text-yellow-700 font-bold text-2xl">
+                                {company.name.charAt(0)}
+                              </div>
+                            )}
+                          </div>
+                          <p className="text-center text-sm font-bold text-gray-700 opacity-0 group-hover:opacity-100 transition-opacity translate-y-2 group-hover:translate-y-0 duration-300">
+                            {company.name}
+                          </p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                <div className="text-center mt-12 bg-gray-50 p-8 rounded-3xl border border-dashed border-gray-300">
+                  <h6 className="text-xl font-bold text-gray-900 mb-2">Want to explore all our recruitment partners?</h6>
+                  <p className="text-gray-500 mb-6 max-w-lg mx-auto">Browse our complete list of recruiters including top-tier Fortune 500 companies and growing startups.</p>
                   <button
                     onClick={() => navigate('/recruiters')}
-                    className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold bg-yellow-500 text-gray-900 hover:bg-yellow-600 transition-all duration-200 hover:scale-105 shadow-md"
+                    className="inline-flex items-center gap-3 px-8 py-4 rounded-xl text-base font-bold bg-yellow-500 text-gray-900 hover:bg-yellow-600 transition-all duration-300 hover:scale-105 shadow-lg group"
                   >
-                    <span>See all recruiters</span>
-                    <ArrowRight className="h-4 w-4" />
+                    <span>Explore Full Recruiter Network</span>
+                    <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </button>
                 </div>
               </div>
@@ -1207,16 +1329,16 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
             {activePlacementTab === 'training' && (
               <div className="mt-4">
                 <h5 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-4 sm:mb-6 md:text-center">Training & Skill Development</h5>
-                
+
                 <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-4 sm:p-6 md:p-8 rounded-2xl">
                   <p className="text-gray-700 text-base sm:text-lg leading-relaxed text-center mb-4 sm:mb-6">
                     Intensive training programs on aptitude, programming, communication, and interview skills
                     are conducted regularly to make students industry-ready. Our comprehensive training approach
                     ensures students are well-prepared for campus recruitment and corporate environments.
                   </p>
-                  
+
                   <div className="text-center">
-                    <button 
+                    <button
                       onClick={() => navigate('/training-details')}
                       className="inline-flex items-center gap-2 px-6 py-3 rounded-lg text-base font-semibold bg-yellow-500 text-gray-900 hover:bg-yellow-600 transition-all duration-200 hover:scale-105 shadow-md"
                     >
@@ -1227,6 +1349,81 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                 </div>
               </div>
             )}
+            {/* Global Auto-scrolling Recruiters - Always Visible (Restricted to Requested Logos) */}
+            <div className="relative overflow-hidden py-12 mt-12 bg-gray-50/50 rounded-3xl border border-gray-100">
+              <div className="flex animate-scroll gap-16 hover:[animation-play-state:paused] transition-all duration-300 items-center">
+                {/* First set of logos */}
+                {recruiters
+                  .filter((rec: any) => requestedLogosList.includes(rec.name))
+                  .map((company: any) => {
+                    const logoUrl = getCompanyEnrichLogoUrl(company.name);
+                    return (
+                      <div
+                        key={company.name}
+                        className="flex-shrink-0 group transition-all duration-300 flex flex-col items-center justify-center"
+                      >
+                        <div className="h-24 w-40 flex items-center justify-center mb-3">
+                          {logoUrl ? (
+                            <img
+                              src={logoUrl}
+                              alt={company.name}
+                              className="max-h-full max-w-full object-contain transition-all duration-300 transform group-hover:scale-110"
+                              loading="lazy"
+                              onError={(e) => {
+                                const target = e.target as HTMLImageElement;
+                                target.onerror = null;
+                                target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(company.name)}&background=FEF3C7&color=92400E&font-size=0.33&bold=true&size=128`;
+                              }}
+                            />
+                          ) : (
+                            <div className="w-16 h-16 rounded-full flex items-center justify-center bg-yellow-100 text-yellow-700 font-bold text-2xl">
+                              {company.name.charAt(0)}
+                            </div>
+                          )}
+                        </div>
+                        <p className="text-center text-xs font-bold text-gray-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                          {company.name}
+                        </p>
+                      </div>
+                    );
+                  })}
+                {/* Duplicate set for seamless scrolling */}
+                {recruiters
+                  .filter((rec: any) => requestedLogosList.includes(rec.name))
+                  .map((company: any) => {
+                    const logoUrl = getCompanyEnrichLogoUrl(company.name);
+                    return (
+                      <div
+                        key={`${company.name}-dup`}
+                        className="flex-shrink-0 group transition-all duration-300 flex flex-col items-center justify-center"
+                      >
+                        <div className="h-24 w-40 flex items-center justify-center mb-3">
+                          {logoUrl ? (
+                            <img
+                              src={logoUrl}
+                              alt={company.name}
+                              className="max-h-full max-w-full object-contain transition-all duration-300 transform group-hover:scale-110"
+                              loading="lazy"
+                              onError={(e) => {
+                                const target = e.target as HTMLImageElement;
+                                target.onerror = null;
+                                target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(company.name)}&background=FEF3C7&color=92400E&font-size=0.33&bold=true&size=128`;
+                              }}
+                            />
+                          ) : (
+                            <div className="w-16 h-16 rounded-full flex items-center justify-center bg-yellow-100 text-yellow-700 font-bold text-2xl">
+                              {company.name.charAt(0)}
+                            </div>
+                          )}
+                        </div>
+                        <p className="text-center text-xs font-bold text-gray-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                          {company.name}
+                        </p>
+                      </div>
+                    );
+                  })}
+              </div>
+            </div>
           </div>
         </LazyLoadWrapper>
       </div>
@@ -1240,11 +1437,11 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
             <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
               Collaborations with leading tech companies to provide industry-relevant training and certifications to our students.
             </p>
-            
+
             {/* Scrolling Programs Carousel */}
             <div className="relative">
               <div className="overflow-hidden">
-                <div 
+                <div
                   ref={industryCarouselRef}
                   className="flex animate-scroll-left gap-6 pb-4"
                   onMouseEnter={() => {
@@ -1267,30 +1464,30 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                     <div className="p-6">
                       <div className="flex items-center justify-between mb-4">
                         <div className="flex items-center gap-3">
-                          <img 
-                            src="https://img.logo.dev/capgemini.com?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                            alt="Capgemini" 
-                            className="h-10 w-auto object-contain" 
+                          <img
+                            src="https://img.logo.dev/capgemini.com?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                            alt="Capgemini"
+                            className="h-10 w-auto object-contain"
                           />
                           <span className="text-gray-400 font-bold">+</span>
-                          <img 
-                            src="https://img.logo.dev/ictacademy.in?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                            alt="ICT Academy" 
-                            className="h-10 w-auto object-contain" 
+                          <img
+                            src="https://img.logo.dev/ictacademy.in?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                            alt="ICT Academy"
+                            className="h-10 w-auto object-contain"
                           />
                         </div>
                         <span className="bg-yellow-500 text-white px-4 py-1.5 rounded-md text-sm font-bold">Multiple</span>
                       </div>
-                      
-                      <img 
+
+                      <img
                         src={`${import.meta.env.BASE_URL}industry oriented/capgemini.jpg`}
-                        alt="Capgemini Programs" 
-                        className="w-full h-48 object-cover rounded-lg mb-4" 
+                        alt="Capgemini Programs"
+                        className="w-full h-48 object-cover rounded-lg mb-4"
                       />
-                      
+
                       <h5 className="text-2xl font-bold text-gray-900 mb-3 line-clamp-2">Capgemini & ICT Academy Training Programs</h5>
                       <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-3">
                         <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Programs Offered</p>
                         <div className="text-gray-700 text-sm space-y-3">
@@ -1298,12 +1495,12 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                             <p className="font-bold text-base">1. Women Empowerment Program (2024)</p>
                             <p className="pl-4 text-sm">• Data Science and Big Data Analytics for final year students (CSE, ECE, IT)</p>
                           </div>
-                          
+
                           <div>
                             <p className="font-bold text-base">2. Women Transformation Program (2023)</p>
                             <p className="pl-4 text-sm">• Leadership skills, technical expertise, and professional development</p>
                           </div>
-                          
+
                           <div>
                             <p className="font-bold text-base">3. Data Science & Big Data Analytics (420 Hours)</p>
                             <p className="pl-4 text-sm">• 51 students trained • Joint certification • Free for women students</p>
@@ -1324,30 +1521,30 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                     <div className="p-6">
                       <div className="flex items-center justify-between mb-4">
                         <div className="flex items-center gap-3">
-                          <img 
-                            src="https://img.logo.dev/microsoft.com?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                            alt="Microsoft" 
-                            className="h-10 w-auto object-contain" 
+                          <img
+                            src="https://img.logo.dev/microsoft.com?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                            alt="Microsoft"
+                            className="h-10 w-auto object-contain"
                           />
                           <span className="text-gray-400 font-bold">+</span>
-                          <img 
-                            src="https://img.logo.dev/ictacademy.in?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                            alt="ICT Academy" 
-                            className="h-10 w-auto object-contain" 
+                          <img
+                            src="https://img.logo.dev/ictacademy.in?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                            alt="ICT Academy"
+                            className="h-10 w-auto object-contain"
                           />
                         </div>
                         <span className="bg-yellow-500 text-white px-4 py-1.5 rounded-md text-sm font-bold">2022-23</span>
                       </div>
-                      
-                      <img 
+
+                      <img
                         src={`${import.meta.env.BASE_URL}industry oriented/microsoft cybersecurty.jpg`}
-                        alt="Cyber Shiksha Program" 
-                        className="w-full h-48 object-cover rounded-lg mb-4" 
+                        alt="Cyber Shiksha Program"
+                        className="w-full h-48 object-cover rounded-lg mb-4"
                       />
-                      
+
                       <h5 className="text-2xl font-bold text-gray-900 mb-3 line-clamp-2">Microsoft Cybersecurity - Cyber Shiksha</h5>
                       <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-3">
                         <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Program Overview</p>
                         <p className="text-gray-700 text-base leading-relaxed">
@@ -1378,30 +1575,30 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                     <div className="p-6">
                       <div className="flex items-center justify-between mb-4">
                         <div className="flex items-center gap-3">
-                          <img 
-                            src="https://img.logo.dev/microsoft.com?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                            alt="Microsoft" 
-                            className="h-10 w-auto object-contain" 
+                          <img
+                            src="https://img.logo.dev/microsoft.com?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                            alt="Microsoft"
+                            className="h-10 w-auto object-contain"
                           />
                           <span className="text-gray-400 font-bold">+</span>
-                          <img 
-                            src="https://img.logo.dev/ictacademy.in?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                            alt="ICT Academy" 
-                            className="h-10 w-auto object-contain" 
+                          <img
+                            src="https://img.logo.dev/ictacademy.in?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                            alt="ICT Academy"
+                            className="h-10 w-auto object-contain"
                           />
                         </div>
                         <span className="bg-yellow-500 text-white px-4 py-1.5 rounded-md text-sm font-bold">2025</span>
                       </div>
-                      
-                      <img 
+
+                      <img
                         src={`${import.meta.env.BASE_URL}industry oriented/Microsoft Powerbi.png`}
-                        alt="Power BI Training" 
-                        className="w-full h-48 object-cover rounded-lg mb-4" 
+                        alt="Power BI Training"
+                        className="w-full h-48 object-cover rounded-lg mb-4"
                       />
-                      
+
                       <h5 className="text-2xl font-bold text-gray-900 mb-3 line-clamp-2">Microsoft Power BI Training Program</h5>
                       <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-3">
                         <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Program Details</p>
                         <p className="text-gray-700 text-base leading-relaxed">
@@ -1430,23 +1627,23 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                   <div className="flex-shrink-0 w-72 sm:w-80 md:w-96 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-2 border-yellow-400">
                     <div className="p-6">
                       <div className="flex items-center justify-between mb-4">
-                        <img 
-                          src="https://img.logo.dev/uipath.com?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                          alt="UiPath" 
-                          className="h-12 w-auto object-contain" 
+                        <img
+                          src="https://img.logo.dev/uipath.com?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                          alt="UiPath"
+                          className="h-12 w-auto object-contain"
                         />
                         <span className="bg-yellow-500 text-white px-4 py-1.5 rounded-md text-sm font-bold">2025</span>
                       </div>
-                      
-                      <img 
+
+                      <img
                         src={`${import.meta.env.BASE_URL}industry oriented/UiPath.png`}
-                        alt="UiPath RPA Training" 
-                        className="w-full h-48 object-cover rounded-lg mb-4" 
+                        alt="UiPath RPA Training"
+                        className="w-full h-48 object-cover rounded-lg mb-4"
                       />
-                      
+
                       <h5 className="text-2xl font-bold text-gray-900 mb-3 line-clamp-2">UiPath Robotic Process Automation Training</h5>
                       <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-3">
                         <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Program Objective</p>
                         <p className="text-gray-700 text-base leading-relaxed">
@@ -1484,23 +1681,23 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                   <div className="flex-shrink-0 w-72 sm:w-80 md:w-96 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-2 border-yellow-400">
                     <div className="p-6">
                       <div className="flex items-center justify-between mb-4">
-                        <img 
-                          src="https://img.logo.dev/ibm.com?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                          alt="IBM" 
-                          className="h-12 w-auto object-contain" 
+                        <img
+                          src="https://img.logo.dev/ibm.com?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                          alt="IBM"
+                          className="h-12 w-auto object-contain"
                         />
                         <span className="bg-yellow-500 text-white px-4 py-1.5 rounded-md text-sm font-bold">HX 8001</span>
                       </div>
-                      
-                      <img 
+
+                      <img
                         src={`${import.meta.env.BASE_URL}industry oriented/ibm.jpg`}
-                        alt="Naalaiya Thiran Program" 
-                        className="w-full h-48 object-cover rounded-lg mb-4" 
+                        alt="Naalaiya Thiran Program"
+                        className="w-full h-48 object-cover rounded-lg mb-4"
                       />
-                      
+
                       <h5 className="text-2xl font-bold text-gray-900 mb-3 line-clamp-2">IBM Naalaiya Thiran - Professional Readiness</h5>
                       <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-3">
                         <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Course Code: HX 8001</p>
                         <p className="text-gray-700 text-base font-semibold mb-2">
@@ -1540,30 +1737,30 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                     <div className="p-6">
                       <div className="flex items-center justify-between mb-4">
                         <div className="flex items-center gap-3">
-                          <img 
-                            src="https://img.logo.dev/capgemini.com?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                            alt="Capgemini" 
-                            className="h-10 w-auto object-contain" 
+                          <img
+                            src="https://img.logo.dev/capgemini.com?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                            alt="Capgemini"
+                            className="h-10 w-auto object-contain"
                           />
                           <span className="text-gray-400 font-bold">+</span>
-                          <img 
-                            src="https://img.logo.dev/ictacademy.in?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                            alt="ICT Academy" 
-                            className="h-10 w-auto object-contain" 
+                          <img
+                            src="https://img.logo.dev/ictacademy.in?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                            alt="ICT Academy"
+                            className="h-10 w-auto object-contain"
                           />
                         </div>
                         <span className="bg-yellow-500 text-white px-4 py-1.5 rounded-md text-sm font-bold">Multiple</span>
                       </div>
-                      
-                      <img 
+
+                      <img
                         src={`${import.meta.env.BASE_URL}industry oriented/capgemini.jpg`}
-                        alt="Capgemini Programs" 
-                        className="w-full h-48 object-cover rounded-lg mb-4" 
+                        alt="Capgemini Programs"
+                        className="w-full h-48 object-cover rounded-lg mb-4"
                       />
-                      
+
                       <h5 className="text-2xl font-bold text-gray-900 mb-3 line-clamp-2">Capgemini & ICT Academy Training Programs</h5>
                       <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-3">
                         <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Programs Offered</p>
                         <div className="text-gray-700 text-sm space-y-3">
@@ -1571,12 +1768,12 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                             <p className="font-bold text-base">1. Women Empowerment Program (2024)</p>
                             <p className="pl-4 text-sm">• Data Science and Big Data Analytics for final year students (CSE, ECE, IT)</p>
                           </div>
-                          
+
                           <div>
                             <p className="font-bold text-base">2. Women Transformation Program (2023)</p>
                             <p className="pl-4 text-sm">• Leadership skills, technical expertise, and professional development</p>
                           </div>
-                          
+
                           <div>
                             <p className="font-bold text-base">3. Data Science & Big Data Analytics (420 Hours)</p>
                             <p className="pl-4 text-sm">• 51 students trained • Joint certification • Free for women students</p>
@@ -1597,30 +1794,30 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                     <div className="p-6">
                       <div className="flex items-center justify-between mb-4">
                         <div className="flex items-center gap-3">
-                          <img 
-                            src="https://img.logo.dev/microsoft.com?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                            alt="Microsoft" 
-                            className="h-10 w-auto object-contain" 
+                          <img
+                            src="https://img.logo.dev/microsoft.com?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                            alt="Microsoft"
+                            className="h-10 w-auto object-contain"
                           />
                           <span className="text-gray-400 font-bold">+</span>
-                          <img 
-                            src="https://img.logo.dev/ictacademy.in?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                            alt="ICT Academy" 
-                            className="h-10 w-auto object-contain" 
+                          <img
+                            src="https://img.logo.dev/ictacademy.in?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                            alt="ICT Academy"
+                            className="h-10 w-auto object-contain"
                           />
                         </div>
                         <span className="bg-yellow-500 text-white px-4 py-1.5 rounded-md text-sm font-bold">2022-23</span>
                       </div>
-                      
-                      <img 
+
+                      <img
                         src={`${import.meta.env.BASE_URL}industry oriented/microsoft cybersecurty.jpg`}
-                        alt="Cyber Shiksha Program" 
-                        className="w-full h-48 object-cover rounded-lg mb-4" 
+                        alt="Cyber Shiksha Program"
+                        className="w-full h-48 object-cover rounded-lg mb-4"
                       />
-                      
+
                       <h5 className="text-2xl font-bold text-gray-900 mb-3 line-clamp-2">Microsoft Cybersecurity - Cyber Shiksha</h5>
                       <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-3">
                         <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Program Overview</p>
                         <p className="text-gray-700 text-base leading-relaxed">
@@ -1651,30 +1848,30 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                     <div className="p-6">
                       <div className="flex items-center justify-between mb-4">
                         <div className="flex items-center gap-3">
-                          <img 
-                            src="https://img.logo.dev/microsoft.com?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                            alt="Microsoft" 
-                            className="h-10 w-auto object-contain" 
+                          <img
+                            src="https://img.logo.dev/microsoft.com?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                            alt="Microsoft"
+                            className="h-10 w-auto object-contain"
                           />
                           <span className="text-gray-400 font-bold">+</span>
-                          <img 
-                            src="https://img.logo.dev/ictacademy.in?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                            alt="ICT Academy" 
-                            className="h-10 w-auto object-contain" 
+                          <img
+                            src="https://img.logo.dev/ictacademy.in?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                            alt="ICT Academy"
+                            className="h-10 w-auto object-contain"
                           />
                         </div>
                         <span className="bg-yellow-500 text-white px-4 py-1.5 rounded-md text-sm font-bold">2025</span>
                       </div>
-                      
-                      <img 
+
+                      <img
                         src={`${import.meta.env.BASE_URL}industry oriented/Microsoft Powerbi.png`}
-                        alt="Power BI Training" 
-                        className="w-full h-48 object-cover rounded-lg mb-4" 
+                        alt="Power BI Training"
+                        className="w-full h-48 object-cover rounded-lg mb-4"
                       />
-                      
+
                       <h5 className="text-2xl font-bold text-gray-900 mb-3 line-clamp-2">Microsoft Power BI Training Program</h5>
                       <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-3">
                         <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Program Details</p>
                         <p className="text-gray-700 text-base leading-relaxed">
@@ -1703,23 +1900,23 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                   <div className="flex-shrink-0 w-72 sm:w-80 md:w-96 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-2 border-yellow-400">
                     <div className="p-6">
                       <div className="flex items-center justify-between mb-4">
-                        <img 
-                          src="https://img.logo.dev/uipath.com?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                          alt="UiPath" 
-                          className="h-12 w-auto object-contain" 
+                        <img
+                          src="https://img.logo.dev/uipath.com?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                          alt="UiPath"
+                          className="h-12 w-auto object-contain"
                         />
                         <span className="bg-yellow-500 text-white px-4 py-1.5 rounded-md text-sm font-bold">2025</span>
                       </div>
-                      
-                      <img 
+
+                      <img
                         src={`${import.meta.env.BASE_URL}industry oriented/UiPath.png`}
-                        alt="UiPath RPA Training" 
-                        className="w-full h-48 object-cover rounded-lg mb-4" 
+                        alt="UiPath RPA Training"
+                        className="w-full h-48 object-cover rounded-lg mb-4"
                       />
-                      
+
                       <h5 className="text-2xl font-bold text-gray-900 mb-3 line-clamp-2">UiPath Robotic Process Automation Training</h5>
                       <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-3">
                         <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Program Objective</p>
                         <p className="text-gray-700 text-base leading-relaxed">
@@ -1757,23 +1954,23 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                   <div className="flex-shrink-0 w-72 sm:w-80 md:w-96 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-2 border-yellow-400">
                     <div className="p-6">
                       <div className="flex items-center justify-between mb-4">
-                        <img 
-                          src="https://img.logo.dev/ibm.com?token=pk_K8u3uM3kQMik6ox3R29MqA" 
-                          alt="IBM" 
-                          className="h-12 w-auto object-contain" 
+                        <img
+                          src="https://img.logo.dev/ibm.com?token=pk_K8u3uM3kQMik6ox3R29MqA"
+                          alt="IBM"
+                          className="h-12 w-auto object-contain"
                         />
                         <span className="bg-yellow-500 text-white px-4 py-1.5 rounded-md text-sm font-bold">HX 8001</span>
                       </div>
-                      
-                      <img 
+
+                      <img
                         src={`${import.meta.env.BASE_URL}industry oriented/ibm.jpg`}
-                        alt="Naalaiya Thiran Program" 
-                        className="w-full h-48 object-cover rounded-lg mb-4" 
+                        alt="Naalaiya Thiran Program"
+                        className="w-full h-48 object-cover rounded-lg mb-4"
                       />
-                      
+
                       <h5 className="text-2xl font-bold text-gray-900 mb-3 line-clamp-2">IBM Naalaiya Thiran - Professional Readiness</h5>
                       <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                      
+
                       <div className="mb-3">
                         <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Course Code: HX 8001</p>
                         <p className="text-gray-700 text-base font-semibold mb-2">
@@ -1808,7 +2005,7 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                   </div>
                 </div>
               </div>
-              
+
               {/* Pagination Dots */}
               <div className="flex justify-center gap-2 mt-6">
                 {[0, 1, 2, 3, 4].map((index) => (
@@ -1833,28 +2030,27 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
             <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
               Professional societies and clubs regularly organizing technical events, workshops, seminars, and hackathons to enhance student learning and industry exposure.
             </p>
-            
+
             {/* Year Filter Pills */}
             <div className="flex justify-center gap-3 mb-8 flex-wrap">
               {['2024-25', '2023-24', '2022-23', '2021-22'].map((year) => (
                 <button
                   key={year}
                   onClick={() => setSelectedEventsYear(year)}
-                  className={`px-6 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 ${
-                    selectedEventsYear === year
-                      ? 'bg-yellow-500 text-white shadow-lg scale-105'
-                      : 'bg-gray-100 text-gray-700 hover:bg-yellow-100 hover:text-yellow-700'
-                  }`}
+                  className={`px-6 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 ${selectedEventsYear === year
+                    ? 'bg-yellow-500 text-white shadow-lg scale-105'
+                    : 'bg-gray-100 text-gray-700 hover:bg-yellow-100 hover:text-yellow-700'
+                    }`}
                 >
                   {year}
                 </button>
               ))}
             </div>
-            
+
             {/* Scrolling Events Carousel */}
             <div className="relative">
               <div className="overflow-hidden">
-                <div 
+                <div
                   ref={eventsCarouselRef}
                   className="flex animate-scroll-left gap-6 pb-4"
                   onMouseEnter={() => {
@@ -1874,163 +2070,161 @@ const DepartmentDetail: React.FC<DepartmentDetailProps> = ({ department }) => {
                   {eventsData.events
                     .filter(event => event.year === selectedEventsYear && event.image)
                     .map((event, index) => (
-                    <div key={`event-${selectedEventsYear}-${index}`} className="flex-shrink-0 w-72 sm:w-80 md:w-96 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-2 border-yellow-400">
-                      <div className="p-6">
-                        {/* Society Badge and Level Badge */}
-                        <div className="flex items-center justify-between mb-4">
-                          <span className="bg-yellow-500 text-white px-4 py-1.5 rounded-md text-sm font-bold">
-                            {event.society}
-                          </span>
-                          <span className={`px-3 py-1 rounded-full text-xs font-bold ${
-                            event.level.includes('National') 
-                              ? 'bg-green-100 text-green-700' 
+                      <div key={`event-${selectedEventsYear}-${index}`} className="flex-shrink-0 w-72 sm:w-80 md:w-96 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-2 border-yellow-400">
+                        <div className="p-6">
+                          {/* Society Badge and Level Badge */}
+                          <div className="flex items-center justify-between mb-4">
+                            <span className="bg-yellow-500 text-white px-4 py-1.5 rounded-md text-sm font-bold">
+                              {event.society}
+                            </span>
+                            <span className={`px-3 py-1 rounded-full text-xs font-bold ${event.level.includes('National')
+                              ? 'bg-green-100 text-green-700'
                               : 'bg-blue-100 text-blue-700'
-                          }`}>
-                            {event.level}
-                          </span>
-                        </div>
-                        
-                        {/* Event Image */}
-                        {event.image && (
-                          <img 
-                            src={getImageUrl(event.image)}
-                            alt={event.eventName}
-                            className="w-full h-48 object-cover rounded-lg mb-4"
-                            loading="lazy"
-                          />
-                        )}
-                        
-                        {/* Event Title */}
-                        <h5 className="text-2xl font-bold text-gray-900 mb-3 line-clamp-2">{event.eventName}</h5>
-                        <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                        
-                        {/* Event Description */}
-                        {(event as any).description && (
-                          <div className="mb-3">
-                            <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Event Overview</p>
-                            <p className="text-gray-700 text-base leading-relaxed">
-                              {(event as any).description}
-                            </p>
+                              }`}>
+                              {event.level}
+                            </span>
                           </div>
-                        )}
-                        
-                        {/* Event Highlights */}
-                        {(event as any).highlights && (event as any).highlights.length > 0 && (
-                          <div className="mb-3">
-                            <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Key Highlights</p>
-                            <ul className="text-gray-700 text-base space-y-1">
-                              {(event as any).highlights.map((highlight: string, idx: number) => (
-                                <li key={idx}>• {highlight}</li>
-                              ))}
-                            </ul>
+
+                          {/* Event Image */}
+                          {event.image && (
+                            <img
+                              src={getImageUrl(event.image)}
+                              alt={event.eventName}
+                              className="w-full h-48 object-cover rounded-lg mb-4"
+                              loading="lazy"
+                            />
+                          )}
+
+                          {/* Event Title */}
+                          <h5 className="text-2xl font-bold text-gray-900 mb-3 line-clamp-2">{event.eventName}</h5>
+                          <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
+
+                          {/* Event Description */}
+                          {(event as any).description && (
+                            <div className="mb-3">
+                              <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Event Overview</p>
+                              <p className="text-gray-700 text-base leading-relaxed">
+                                {(event as any).description}
+                              </p>
+                            </div>
+                          )}
+
+                          {/* Event Highlights */}
+                          {(event as any).highlights && (event as any).highlights.length > 0 && (
+                            <div className="mb-3">
+                              <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Key Highlights</p>
+                              <ul className="text-gray-700 text-base space-y-1">
+                                {(event as any).highlights.map((highlight: string, idx: number) => (
+                                  <li key={idx}>• {highlight}</li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+
+                          {/* Event Date and Year */}
+                          <div className="pt-3 border-t border-gray-200">
+                            {event.date && (
+                              <p className="text-sm text-gray-600 mb-1">
+                                <strong>Date:</strong> {event.date}
+                              </p>
+                            )}
+                            <p className="text-sm text-gray-600">
+                              <strong>Academic Year:</strong> {event.year}
+                            </p>
+                            {(event as any).resourcePerson && (
+                              <p className="text-sm text-gray-600 mt-2">
+                                <strong>Resource Person:</strong> {(event as any).resourcePerson}
+                              </p>
+                            )}
+                            {(event as any).coordinator && (
+                              <p className="text-sm text-gray-600 mt-1">
+                                <strong>Coordinator:</strong> {(event as any).coordinator}
+                              </p>
+                            )}
                           </div>
-                        )}
-                        
-                        {/* Event Date and Year */}
-                        <div className="pt-3 border-t border-gray-200">
-                          {event.date && (
-                            <p className="text-sm text-gray-600 mb-1">
-                              <strong>Date:</strong> {event.date}
-                            </p>
-                          )}
-                          <p className="text-sm text-gray-600">
-                            <strong>Academic Year:</strong> {event.year}
-                          </p>
-                          {(event as any).resourcePerson && (
-                            <p className="text-sm text-gray-600 mt-2">
-                              <strong>Resource Person:</strong> {(event as any).resourcePerson}
-                            </p>
-                          )}
-                          {(event as any).coordinator && (
-                            <p className="text-sm text-gray-600 mt-1">
-                              <strong>Coordinator:</strong> {(event as any).coordinator}
-                            </p>
-                          )}
                         </div>
                       </div>
-                    </div>
-                  ))}
+                    ))}
 
                   {/* Duplicate cards for seamless loop */}
                   {eventsData.events
                     .filter(event => event.year === selectedEventsYear && event.image)
                     .map((event, index) => (
-                    <div key={`event-dup-${selectedEventsYear}-${index}`} className="flex-shrink-0 w-72 sm:w-80 md:w-96 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-2 border-yellow-400">
-                      <div className="p-6">
-                        {/* Society Badge and Level Badge */}
-                        <div className="flex items-center justify-between mb-4">
-                          <span className="bg-yellow-500 text-white px-4 py-1.5 rounded-md text-sm font-bold">
-                            {event.society}
-                          </span>
-                          <span className={`px-3 py-1 rounded-full text-xs font-bold ${
-                            event.level.includes('National') 
-                              ? 'bg-green-100 text-green-700' 
+                      <div key={`event-dup-${selectedEventsYear}-${index}`} className="flex-shrink-0 w-72 sm:w-80 md:w-96 bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-2 border-yellow-400">
+                        <div className="p-6">
+                          {/* Society Badge and Level Badge */}
+                          <div className="flex items-center justify-between mb-4">
+                            <span className="bg-yellow-500 text-white px-4 py-1.5 rounded-md text-sm font-bold">
+                              {event.society}
+                            </span>
+                            <span className={`px-3 py-1 rounded-full text-xs font-bold ${event.level.includes('National')
+                              ? 'bg-green-100 text-green-700'
                               : 'bg-blue-100 text-blue-700'
-                          }`}>
-                            {event.level}
-                          </span>
-                        </div>
-                        
-                        {/* Event Image */}
-                        {event.image && (
-                          <img 
-                            src={getImageUrl(event.image)}
-                            alt={event.eventName}
-                            className="w-full h-48 object-cover rounded-lg mb-4"
-                            loading="lazy"
-                          />
-                        )}
-                        
-                        {/* Event Title */}
-                        <h5 className="text-2xl font-bold text-gray-900 mb-3 line-clamp-2">{event.eventName}</h5>
-                        <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
-                        
-                        {/* Event Description */}
-                        {(event as any).description && (
-                          <div className="mb-3">
-                            <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Event Overview</p>
-                            <p className="text-gray-700 text-base leading-relaxed">
-                              {(event as any).description}
-                            </p>
+                              }`}>
+                              {event.level}
+                            </span>
                           </div>
-                        )}
-                        
-                        {/* Event Highlights */}
-                        {(event as any).highlights && (event as any).highlights.length > 0 && (
-                          <div className="mb-3">
-                            <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Key Highlights</p>
-                            <ul className="text-gray-700 text-base space-y-1">
-                              {(event as any).highlights.map((highlight: string, idx: number) => (
-                                <li key={idx}>• {highlight}</li>
-                              ))}
-                            </ul>
+
+                          {/* Event Image */}
+                          {event.image && (
+                            <img
+                              src={getImageUrl(event.image)}
+                              alt={event.eventName}
+                              className="w-full h-48 object-cover rounded-lg mb-4"
+                              loading="lazy"
+                            />
+                          )}
+
+                          {/* Event Title */}
+                          <h5 className="text-2xl font-bold text-gray-900 mb-3 line-clamp-2">{event.eventName}</h5>
+                          <div className="border-b-2 border-yellow-500 w-16 mb-4"></div>
+
+                          {/* Event Description */}
+                          {(event as any).description && (
+                            <div className="mb-3">
+                              <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Event Overview</p>
+                              <p className="text-gray-700 text-base leading-relaxed">
+                                {(event as any).description}
+                              </p>
+                            </div>
+                          )}
+
+                          {/* Event Highlights */}
+                          {(event as any).highlights && (event as any).highlights.length > 0 && (
+                            <div className="mb-3">
+                              <p className="text-base font-semibold text-yellow-600 uppercase mb-2">Key Highlights</p>
+                              <ul className="text-gray-700 text-base space-y-1">
+                                {(event as any).highlights.map((highlight: string, idx: number) => (
+                                  <li key={idx}>• {highlight}</li>
+                                ))}
+                              </ul>
+                            </div>
+                          )}
+
+                          {/* Event Date and Year */}
+                          <div className="pt-3 border-t border-gray-200">
+                            {event.date && (
+                              <p className="text-sm text-gray-600 mb-1">
+                                <strong>Date:</strong> {event.date}
+                              </p>
+                            )}
+                            <p className="text-sm text-gray-600">
+                              <strong>Academic Year:</strong> {event.year}
+                            </p>
+                            {(event as any).resourcePerson && (
+                              <p className="text-sm text-gray-600 mt-2">
+                                <strong>Resource Person:</strong> {(event as any).resourcePerson}
+                              </p>
+                            )}
+                            {(event as any).coordinator && (
+                              <p className="text-sm text-gray-600 mt-1">
+                                <strong>Coordinator:</strong> {(event as any).coordinator}
+                              </p>
+                            )}
                           </div>
-                        )}
-                        
-                        {/* Event Date and Year */}
-                        <div className="pt-3 border-t border-gray-200">
-                          {event.date && (
-                            <p className="text-sm text-gray-600 mb-1">
-                              <strong>Date:</strong> {event.date}
-                            </p>
-                          )}
-                          <p className="text-sm text-gray-600">
-                            <strong>Academic Year:</strong> {event.year}
-                          </p>
-                          {(event as any).resourcePerson && (
-                            <p className="text-sm text-gray-600 mt-2">
-                              <strong>Resource Person:</strong> {(event as any).resourcePerson}
-                            </p>
-                          )}
-                          {(event as any).coordinator && (
-                            <p className="text-sm text-gray-600 mt-1">
-                              <strong>Coordinator:</strong> {(event as any).coordinator}
-                            </p>
-                          )}
                         </div>
                       </div>
-                    </div>
-                  ))}
+                    ))}
                 </div>
               </div>
             </div>

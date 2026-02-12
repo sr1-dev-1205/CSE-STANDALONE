@@ -33,6 +33,7 @@ import {
   FlaskConical,
   Handshake,
 } from "lucide-react";
+import recruitersData from "../data/recruiters.json";
 
 // Direct paths to logo files in public folder
 const logoMap: Record<string, string> = {
@@ -125,15 +126,15 @@ function TabCard({ item }: { item: any }) {
         <div className="space-y-2 text-gray-600">
           {item.authors
             ? item.authors.map((author: string, idx: number) => (
-                <p key={idx} className="text-sm font-medium">
-                  {author}
-                </p>
-              ))
+              <p key={idx} className="text-sm font-medium">
+                {author}
+              </p>
+            ))
             : item.author && (
-                <p className="text-sm font-medium">
-                  {item.author} {item.department && item.department}
-                </p>
-              )}
+              <p className="text-sm font-medium">
+                {item.author} {item.department && item.department}
+              </p>
+            )}
         </div>
       </div>
 
@@ -146,7 +147,7 @@ function TabCard({ item }: { item: any }) {
       {item.logo && (
         <div className="flex justify-center mb-4">
           <img
-            src={item.logo.startsWith('/') 
+            src={item.logo.startsWith('/')
               ? `${import.meta.env.BASE_URL}${item.logo.slice(1)}`
               : `${import.meta.env.BASE_URL}${item.logo}`
             }
@@ -191,7 +192,7 @@ function TabCard({ item }: { item: any }) {
 function CurriculumCard({ item }: { item: any }) {
   const curriculumFields = [
     { key: "regulations", label: "Regulations" },
-        { key: "regulations_2020 A", label: "Regulations 2020 A" },
+    { key: "regulations_2020 A", label: "Regulations 2020 A" },
 
     { key: "regulations_2020", label: "Regulations 2020" },
     { key: "curriculum", label: "Curriculum" },
@@ -231,22 +232,19 @@ function CurriculumCard({ item }: { item: any }) {
               key={key}
               onClick={() => handlePDFClick(item[key])}
               disabled={!isAvailable}
-              className={`flex items-center gap-2 px-5 py-2 border rounded-lg transition-all duration-200 group/btn ${
-                isAvailable
-                  ? 'bg-yellow-50 hover:bg-yellow-100 border-yellow-200 cursor-pointer'
-                  : 'bg-gray-50 border-gray-200 cursor-not-allowed opacity-60'
-              }`}
+              className={`flex items-center gap-2 px-5 py-2 border rounded-lg transition-all duration-200 group/btn ${isAvailable
+                ? 'bg-yellow-50 hover:bg-yellow-100 border-yellow-200 cursor-pointer'
+                : 'bg-gray-50 border-gray-200 cursor-not-allowed opacity-60'
+                }`}
             >
-              <FileText className={`w-4 h-4 ${
-                isAvailable
-                  ? 'text-yellow-600 group-hover/btn:text-yellow-700'
-                  : 'text-gray-400'
-              }`} />
-              <span className={`text-sm font-medium ${
-                isAvailable
-                  ? 'text-gray-700 group-hover/btn:text-gray-900'
-                  : 'text-gray-400'
-              }`}>
+              <FileText className={`w-4 h-4 ${isAvailable
+                ? 'text-yellow-600 group-hover/btn:text-yellow-700'
+                : 'text-gray-400'
+                }`} />
+              <span className={`text-sm font-medium ${isAvailable
+                ? 'text-gray-700 group-hover/btn:text-gray-900'
+                : 'text-gray-400'
+                }`}>
                 {label}
               </span>
             </button>
@@ -476,9 +474,8 @@ const HODModal: React.FC<HODModalProps> = ({ hodData, onClose }) => {
     <div className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto backdrop-blur-sm px-4 py-12">
       <div
         ref={modalRef}
-        className={`relative bg-white w-full max-w-3xl mx-auto rounded-xl shadow-xl overflow-hidden transform transition-all duration-300 ease-out ${
-          isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
-        }`}
+        className={`relative bg-white w-full max-w-3xl mx-auto rounded-xl shadow-xl overflow-hidden transform transition-all duration-300 ease-out ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'
+          }`}
       >
         {/* Header */}
         <div className="bg-yellow-100 pb-4 pt-6 px-6 sm:px-8 relative flex flex-col items-center justify-center">
@@ -612,7 +609,7 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
               : undefined,
             image: item.image
               ? eventImageMap[item.image as keyof typeof eventImageMap] ||
-                item.image
+              item.image
               : undefined,
           })),
         },
@@ -690,11 +687,10 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}
-                className={`flex items-center justify-center gap-2 px-3 sm:px-5 lg:px-6 py-3 sm:py-4 font-medium transition-all duration-200 border-b-2 whitespace-nowrap flex-shrink-0 ${
-                  activeTab === tab.id
-                    ? "text-yellow-600 border-yellow-500 bg-yellow-50 shadow-sm"
-                    : "text-gray-600 border-transparent hover:text-yellow-600 hover:bg-yellow-50"
-                }`}
+                className={`flex items-center justify-center gap-2 px-3 sm:px-5 lg:px-6 py-3 sm:py-4 font-medium transition-all duration-200 border-b-2 whitespace-nowrap flex-shrink-0 ${activeTab === tab.id
+                  ? "text-yellow-600 border-yellow-500 bg-yellow-50 shadow-sm"
+                  : "text-gray-600 border-transparent hover:text-yellow-600 hover:bg-yellow-50"
+                  }`}
               >
                 {tab.icon && <tab.icon className="h-4 w-4 sm:h-5 sm:w-5" />}
                 <span className="text-xs sm:text-sm lg:text-base">{tab.name}</span>
@@ -710,26 +706,26 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
         {activeTabData && (
           <div className="space-y-6">
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-  <h3 className="text-lg sm:text-2xl font-bold text-gray-900">
-    {activeTabData.content.title}
-  </h3>
+              <h3 className="text-lg sm:text-2xl font-bold text-gray-900">
+                {activeTabData.content.title}
+              </h3>
 
-  {activeTab !== "hod" &&
-    activeTab !== "collaborations" &&
-    activeTab !== "professional" &&
-    activeTab !== "notable" &&
-    activeTab !== "curriculum_syllabus" && (
-      <button
-        onClick={handleViewMore}
-        className="bg-yellow-500 text-black hover:bg-yellow-600 font-medium text-sm md:text-base px-3 md:px-5 py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300 flex items-center space-x-2"
-      >
-        <span className="hidden sm:inline">
-          {buttonLabels[activeTab] || "More"}
-        </span>
-        <ChevronRight className="h-4 w-4" />
-      </button>
-    )}
-</div>
+              {activeTab !== "hod" &&
+                activeTab !== "collaborations" &&
+                activeTab !== "professional" &&
+                activeTab !== "notable" &&
+                activeTab !== "curriculum_syllabus" && (
+                  <button
+                    onClick={handleViewMore}
+                    className="bg-yellow-500 text-black hover:bg-yellow-600 font-medium text-sm md:text-base px-3 md:px-5 py-2 rounded-md shadow-md hover:shadow-lg transition-all duration-300 flex items-center space-x-2"
+                  >
+                    <span className="hidden sm:inline">
+                      {buttonLabels[activeTab] || "More"}
+                    </span>
+                    <ChevronRight className="h-4 w-4" />
+                  </button>
+                )}
+            </div>
 
 
             {activeTab === "hod" ? (
@@ -769,7 +765,7 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
                         </span>{" "}
                         {activeTabData.content.items[0].phone}
                       </p>
-                      <button 
+                      <button
                         onClick={() => setSelectedHOD(activeTabData.content.items[0])}
                         className="mt-2 text-yellow-500 hover:text-yellow-600 font-semibold text-sm flex items-center justify-center space-x-1 transition-colors duration-200"
                       >
@@ -854,119 +850,163 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
                       ),
                     )}
                   </Slider>
-                ) : (
+                ) : activeTab === "placements" ? (
+                  <div className="space-y-12">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                      {activeTabData.content.items.map(
+                        (item: any, index: number): JSX.Element => (
+                          <TabCard key={index} item={item} />
+                        ),
+                      )}
+                    </div>
+
+                    {/* Auto-scrolling Recruiters Section */}
+                    <div className="pt-10 border-t border-gray-100">
+                      <div className="flex items-center justify-between mb-8">
+                        <div>
+                          <h4 className="text-xl sm:text-2xl font-bold text-gray-900">Our Leading Recruiters</h4>
+                          <p className="text-sm text-gray-500 mt-1">Industry giants and pioneers who regularly hire our talented graduates</p>
+                        </div>
+                        <button
+                          onClick={() => navigate('/recruiters')}
+                          className="text-yellow-600 hover:text-yellow-700 font-bold text-sm sm:text-base flex items-center gap-1 group transition-all"
+                        >
+                          View All
+                          <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                        </button>
+                      </div>
+
+                      <div className="relative overflow-hidden py-4">
+                        <Slider
+                          infinite={true}
+                          autoplay={true}
+                          autoplaySpeed={0}
+                          speed={3000}
+                          cssEase="linear"
+                          slidesToShow={6}
+                          slidesToScroll={1}
+                          arrows={false}
+                          pauseOnHover={false}
+                          swipeToSlide={true}
+                          responsive={[
+                            {
+                              breakpoint: 1024,
+                              settings: { slidesToShow: 4 },
+                            },
+                            {
+                              breakpoint: 768,
+                              settings: { slidesToShow: 3 },
+                            },
+                            {
+                              breakpoint: 480,
+                              settings: { slidesToShow: 2 },
+                            },
+                          ]}
+                        >
+                          {recruitersData.map((company: any, index: number) => (
+                            <div key={index} className="px-6 outline-none">
+                              <div className="h-28 flex items-center justify-center transition-all duration-300 group">
+                                <img
+                                  src={`https://img.logo.dev/name/${encodeURIComponent(company.name)}?token=pk_K8u3uM3kQMik6ox3R29MqA`}
+                                  alt={company.name}
+                                  className="max-h-20 sm:max-h-24 w-auto object-contain transition-all duration-300 transform group-hover:scale-110"
+                                  loading="lazy"
+                                  onError={(e) => {
+                                    const target = e.target as HTMLImageElement;
+                                    target.onerror = null;
+                                    target.src = `https://ui-avatars.com/api/?name=${encodeURIComponent(company.name)}&background=FEF3C7&color=92400E&font-size=0.33&bold=true&size=128`;
+                                  }}
+                                />
+                              </div>
+                            </div>
+                          ))}
+                        </Slider>
+                      </div>
+                    </div>
+                  </div>
+                ) : activeTab === "collaborations" ? (
                   // Special case for "collaborations" (Powered by Industries) - show all in carousel
-                  activeTab === "collaborations" ? (
-                    <Slider
-                      dots={true}
-                      infinite={true}
-                      autoplay={true}
-                      autoplaySpeed={3000}
-                      slidesToShow={2}
-                      slidesToScroll={2}
-                      responsive={[
-                        {
-                          breakpoint: 1024,
-                          settings: { slidesToShow: 2, slidesToScroll: 2 },
-                        },
-                        {
-                          breakpoint: 768,
-                          settings: { slidesToShow: 1, slidesToScroll: 1 },
-                        },
-                      ]}
-                    >
-                      {activeTabData.content.items.map(
-                        (item: any, index: number) => (
-                          <div key={index} className="px-4 mb-6">
-                            <TabCard item={item} />
-                          </div>
-                        ),
-                      )}
-                    </Slider>
-                  ) : activeTab === "professional" ? (
-                    // Special case for "professional" (Professional Society) - show all cards in grid
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                      {activeTabData.content.items.map(
-                        (item: any, index: number): JSX.Element => (
-                          <TabCard key={index} item={item} />
-                        ),
-                      )}
-                    </div>
-                  ) : activeTab === "internships" ? (
-                    // Internships - Auto-scrolling Carousel showing 10 internships
-                    <Slider
-                      dots={true}
-                      infinite={true}
-                      autoplay={true}
-                      autoplaySpeed={2500}
-                      slidesToShow={3}
-                      slidesToScroll={1}
-                      responsive={[
-                        {
-                          breakpoint: 1024,
-                          settings: { slidesToShow: 2, slidesToScroll: 1 },
-                        },
-                        {
-                          breakpoint: 768,
-                          settings: { slidesToShow: 1, slidesToScroll: 1 },
-                        },
-                      ]}
-                    >
-                      {activeTabData.content.items.slice(0, 10).map(
-                        (item: any, index: number) => (
-                          <div key={index} className="px-4 mb-6">
-                            <InternshipCard item={item} />
-                          </div>
-                        ),
-                      )}
-                    </Slider>
-                  ) : activeTab === "curriculum_syllabus" ? (
-                    // Show all 3 cards for curriculum_syllabus tab with horizontal layout
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                      {activeTabData.content.items.map(
-                        (item: any, index: number): JSX.Element => (
-                          <CurriculumCard key={index} item={item} />
-                        ),
-                      )}
-                    </div>
-                  ) : activeTab === "sdgs" ? (
-                    // SDG Initiatives - Auto-scrolling Carousel showing 6 cards
-                    <Slider
-                      dots={true}
-                      infinite={true}
-                      autoplay={true}
-                      autoplaySpeed={3000}
-                      slidesToShow={3}
-                      slidesToScroll={1}
-                      responsive={[
-                        {
-                          breakpoint: 1024,
-                          settings: { slidesToShow: 2, slidesToScroll: 1 },
-                        },
-                        {
-                          breakpoint: 768,
-                          settings: { slidesToShow: 1, slidesToScroll: 1 },
-                        },
-                      ]}
-                    >
-                      {activeTabData.content.items.map(
-                        (item: any, index: number) => (
-                          <div key={index} className="px-4 mb-6">
-                            <SDGCard item={item} />
-                          </div>
-                        ),
-                      )}
-                    </Slider>
-                  ) : (
-                    // Show only 2 cards max for other tabs
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-                      {activeTabData.content.items.slice(0, 2).map(
-                        (item: any, index: number): JSX.Element => (
-                          <TabCard key={index} item={item} />
-                        ),
-                      )}
-                    </div>
-                  )
+                  <Slider
+                    dots={true}
+                    infinite={true}
+                    autoplay={true}
+                    autoplaySpeed={3000}
+                    slidesToShow={2}
+                    slidesToScroll={2}
+                    responsive={[
+                      {
+                        breakpoint: 1024,
+                        settings: { slidesToShow: 2, slidesToScroll: 2 },
+                      },
+                      {
+                        breakpoint: 768,
+                        settings: { slidesToShow: 1, slidesToScroll: 1 },
+                      },
+                    ]}
+                  >
+                    {activeTabData.content.items.map(
+                      (item: any, index: number) => (
+                        <div key={index} className="px-4 mb-6">
+                          <TabCard item={item} />
+                        </div>
+                      ),
+                    )}
+                  </Slider>
+                ) : activeTab === "professional" ? (
+                  // Special case for "professional" (Professional Society) - show all cards in grid
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {activeTabData.content.items.map(
+                      (item: any, index: number): JSX.Element => (
+                        <TabCard key={index} item={item} />
+                      ),
+                    )}
+                  </div>
+                ) : activeTab === "internships" ? (
+                  // Internships - Auto-scrolling Carousel showing 10 internships
+                  <Slider
+                    dots={true}
+                    infinite={true}
+                    autoplay={true}
+                    autoplaySpeed={2500}
+                    slidesToShow={3}
+                    slidesToScroll={1}
+                    responsive={[
+                      {
+                        breakpoint: 1024,
+                        settings: { slidesToShow: 2, slidesToScroll: 1 },
+                      },
+                      {
+                        breakpoint: 768,
+                        settings: { slidesToShow: 1, slidesToScroll: 1 },
+                      },
+                    ]}
+                  >
+                    {activeTabData.content.items.slice(0, 10).map(
+                      (item: any, index: number) => (
+                        <div key={index} className="px-4 mb-6">
+                          <InternshipCard item={item} />
+                        </div>
+                      ),
+                    )}
+                  </Slider>
+                ) : activeTab === "curriculum_syllabus" ? (
+                  // Show all 3 cards for curriculum_syllabus tab with horizontal layout
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {activeTabData.content.items.map(
+                      (item: any, index: number): JSX.Element => (
+                        <CurriculumCard key={index} item={item} />
+                      ),
+                    )}
+                  </div>
+                ) : (
+                  // Show only 2 cards max for other tabs
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                    {activeTabData.content.items.slice(0, 2).map(
+                      (item: any, index: number): JSX.Element => (
+                        <TabCard key={index} item={item} />
+                      ),
+                    )}
+                  </div>
                 )}
               </>
             )}
