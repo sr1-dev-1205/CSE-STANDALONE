@@ -1,6 +1,28 @@
 {
   "teams": [
     {
+      "teamId": 0,
+      "teamName": "Juspay Placement Achievement",
+      "award": "₹27 LPA Package",
+      "achievements": [
+        {
+          "id": 0,
+          "title": "SHAKTHI SIDHAARTH K R - Juspay Placement - ₹27 LPA",
+          "image": "/images-achievements/placed.jpeg"
+        }
+      ],
+      "problemStatement": "Congratulations to SHAKTHI SIDHAARTH K R for securing a prestigious offer from M/s Juspay with an outstanding annual package of ₹27 LPA! 💼✨ Your dedication, talent, and hard work have truly paid off. Wishing you continued success and many more milestones ahead!",
+      "teamMembers": [
+        {
+          "name": "SHAKTHI SIDHAARTH K R",
+          "rollNo": "-",
+          "year": "-",
+          "semester": "-",
+          "batch": "2025-2026"
+        }
+      ]
+    },
+    {
       "teamId": 1,
       "teamName": "Team 1",
       "award": "2nd Runner Up",

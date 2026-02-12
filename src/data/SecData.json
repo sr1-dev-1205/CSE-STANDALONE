@@ -12956,35 +12956,7 @@
       "award": "-"
     }
   ],
-  "stu_National_journals": [
-    {
-      "s.no.": 1,
-      "student_name": "",
-      "journal_name": "",
-      "indexing": "",
-      "title": "",
-      "volume_issue_page": "",
-      "doi": ""
-    },
-    {
-      "s.no.": 2,
-      "student_name": "",
-      "journal_name": "",
-      "indexing": "",
-      "title": "",
-      "volume_issue_page": "",
-      "doi": ""
-    },
-    {
-      "s.no.": 3,
-      "student_name": "",
-      "journal_name": "",
-      "indexing": "",
-      "title": "",
-      "volume_issue_page": "",
-      "doi": ""
-    }
-  ],
+  
   "stu_National_confrence": [
     {
       "s.no.": 1,
