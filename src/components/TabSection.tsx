@@ -989,6 +989,34 @@ const TabsSection: React.FC<TabsSectionProps> = ({ departmentName: _ }) => {
                       ),
                     )}
                   </Slider>
+                ) : activeTab === "sdgs" ? (
+                  // SDG Initiatives - Auto-scrolling Carousel showing 6 cards
+                  <Slider
+                    dots={true}
+                    infinite={true}
+                    autoplay={true}
+                    autoplaySpeed={3000}
+                    slidesToShow={3}
+                    slidesToScroll={1}
+                    responsive={[
+                      {
+                        breakpoint: 1024,
+                        settings: { slidesToShow: 2, slidesToScroll: 1 },
+                      },
+                      {
+                        breakpoint: 768,
+                        settings: { slidesToShow: 1, slidesToScroll: 1 },
+                      },
+                    ]}
+                  >
+                    {activeTabData.content.items.map(
+                      (item: any, index: number) => (
+                        <div key={index} className="px-4 mb-6">
+                          <SDGCard item={item} />
+                        </div>
+                      ),
+                    )}
+                  </Slider>
                 ) : activeTab === "curriculum_syllabus" ? (
                   // Show all 3 cards for curriculum_syllabus tab with horizontal layout
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
