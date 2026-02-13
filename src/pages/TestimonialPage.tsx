@@ -46,7 +46,7 @@ const testimonials: Testimonial[] = [
         position: "Sr. Graphic Designer",
         company: "Valtech Group of Companies",
         testimonial: "My experience at Hindusthan Institute of Technology has been a pleasant one right from the beginning. During placements, the department was extremely helpful and helped me streamline the whole process smoothly. There was guidance provided at every step.",
-        image: getImageUrl("images/testimonial/jeevan.png")
+        image: getImageUrl("images/testimonial/charles.png")
     },
     {
         name: "S.M.Jeevan",
