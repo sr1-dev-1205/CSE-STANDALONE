@@ -8,6 +8,7 @@ import DataTable from './pages/DataTable';
 import InnovationPolicy from './pages/InnovationPolicy';
 import MagazinePage from './pages/MagazinePage';
 import NewsLetterPage from './pages/NewsLetterPage';
+import TestimonialPage from './pages/TestimonialPage';
 import InnovativeMethods from './pages/InnovativeMethods';
 import RecruitersPage from './pages/RecruitersPage';
 import TrainingDetailsPage from './pages/TrainingDetailsPage';
@@ -58,6 +59,7 @@ function App() {
           <Route path="/innovation-policy" element={<InnovationPolicy />} />
           <Route path="/magazine" element={<MagazinePage />} />
           <Route path="/newsletter" element={<NewsLetterPage />} />
+          <Route path="/testimonial" element={<TestimonialPage />} />
           <Route path="/innovative-methods" element={<InnovativeMethods />} />
           <Route path="/recruiters" element={<RecruitersPage />} />
           <Route path="/training-details" element={<TrainingDetailsPage />} />
