@@ -24,9 +24,11 @@ interface Department {
   programs: Array<{
     name: string;
     duration: string;
-    intake: string;
+    intake?: string;
     eligibility: string;
   }>;
+  hasExternalLink?: boolean;
+  externalUrl?: string;
   specializations: string[];
   facilities: string[];
   faculty: Array<{
@@ -40,6 +42,9 @@ interface Department {
     email: string;
     publications: number;
     researchAreas: string[];
+    description?: string;
+    patents?: number;
+    date_of_joining?: string;
   }>;
   obePhilosophy?: {
     description: string;
@@ -72,6 +77,10 @@ interface Department {
     title?: string;
     description: string;
   }>;
+  trainingAndPlacement?: {
+    description: string;
+    topRecruiters: string[];
+  };
 }
 
 interface DepartmentDetailProps {

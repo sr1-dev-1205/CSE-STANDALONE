@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { BookOpen, Newspaper, Briefcase } from "lucide-react";
+import { BookOpen, Newspaper, Briefcase, MessageSquare } from "lucide-react";
 import PageLayout from "../components/layout/PageLayout";
 import SectionWrapper from "../components/layout/SectionWrapper";
 import LazyLoadWrapper from "../components/LazyLoadWrapper";
@@ -102,88 +102,70 @@ const DepartmentPage: React.FC = () => {
               {/* Department Header */}
               <div className="scroll-mt-32">
                 <SectionWrapper containerClassName="w-full max-w-6xl mx-auto px-3 sm:px-4 lg:px-6">
-                  <DepartmentDetail 
+                  <DepartmentDetail
                     department={{
                       ...department,
                       // Normalize faculty data to match expected structure
                       faculty: (department.faculty || []).map(faculty => {
-                        // Check if researchAreas exists, otherwise create empty array and add missing fields
-                        if ('researchAreas' in faculty) {
-                          // Faculty has researchAreas structure (AI/ML type)
+                        const f = faculty as any;
+                        if ('researchAreas' in f) {
                           return {
-                            ...faculty,
-                            description: ('description' in faculty && faculty.description) || '',
-                            patents: ('patents' in faculty && faculty.patents) || 0,
-                            date_of_joining: ('date_of_joining' in faculty && faculty.date_of_joining) || ''
+                            ...f,
+                            id: Number(f.id),
+                            description: f.description || '',
+                            patents: f.patents || 0,
+                            date_of_joining: f.date_of_joining || '',
+                            researchAreas: f.researchAreas || []
                           };
                         } else {
-                          // Faculty has CSE structure (with date_of_joining, patents, etc.)
                           return {
-                            ...faculty,
+                            ...f,
+                            id: Number(f.id),
                             researchAreas: [],
-                            // Ensure description is present for FacultyCarousel compatibility
-                            description: ('description' in faculty && faculty.description) || ''
+                            description: f.description || ''
                           };
                         }
                       }),
-                      // Normalize PSOs to match expected structure - handle different possible structures
+                      // Normalize programs to handle optional intake
+                      programs: (department.programs || []).map(program => ({
+                        ...program,
+                        intake: program.intake || undefined,
+                        eligibility: program.eligibility || ''
+                      })),
+                      // Normalize PSOs to match expected structure
                       psos: (department.psos || []).map(pso => {
-                        // Type guard to check if pso has code and title properties
-                        if ('code' in pso && 'title' in pso) {
-                          return {
-                            ...pso,
-                            id: pso.id ? String(pso.id) : undefined,
-                            code: pso.code ? String(pso.code) : undefined,
-                            title: pso.title ? String(pso.title) : undefined
-                          };
-                        } else {
-                          // Handle case where pso might only have id, title, description
-                          return {
-                            id: 'id' in pso ? String(pso.id) : undefined,
-                            code: undefined,
-                            title: 'title' in pso ? String((pso as any).title) : undefined,
-                            description: 'description' in pso ? (pso as any).description : (pso as any).title || '' // Fallback to title or empty string
-                          };
-                        }
+                        const p = pso as any;
+                        return {
+                          ...p,
+                          id: p.id ? String(p.id) : undefined,
+                          code: p.code ? String(p.code) : undefined,
+                          title: p.title ? String(p.title) : undefined,
+                          description: p.description || p.title || ''
+                        };
                       }),
                       // Normalize PEOs to match expected structure
                       peos: (department.peos || []).map(peo => {
-                        if ('code' in peo && 'title' in peo) {
-                          return {
-                            ...peo,
-                            id: peo.id ? String(peo.id) : undefined,
-                            code: peo.code ? String(peo.code) : undefined,
-                            title: peo.title ? String(peo.title) : undefined
-                          };
-                        } else {
-                          return {
-                            id: 'id' in peo ? String(peo.id) : undefined,
-                            code: undefined,
-                            title: 'title' in peo ? String((peo as any).title) : undefined,
-                            description: 'description' in peo ? (peo as any).description : (peo as any).title || '' // Fallback to title or empty string
-                          };
-                        }
+                        const p = peo as any;
+                        return {
+                          ...p,
+                          id: p.id ? String(p.id) : undefined,
+                          code: p.code ? String(p.code) : undefined,
+                          title: p.title ? String(p.title) : undefined,
+                          description: p.description || p.title || ''
+                        };
                       }),
                       // Normalize POs to match expected structure
                       pos: (department.pos || []).map(po => {
-                        if ('code' in po && 'title' in po) {
-                          return {
-                            ...po,
-                            id: po.id ? String(po.id) : undefined,
-                            code: po.code ? String(po.code) : undefined,
-                            title: po.title ? String(po.title) : undefined
-                          };
-                        } else {
-                          // Ensure we always return a proper PO object with required fields
-                          return {
-                            id: 'id' in po ? String(po.id) : undefined,
-                            code: undefined,
-                            title: 'title' in po ? String((po as any).title) : undefined,
-                            description: 'description' in po ? (po as any).description : (po as any).title || '' // Fallback to title or empty string
-                          };
-                        }
+                        const p = po as any;
+                        return {
+                          ...p,
+                          id: p.id ? String(p.id) : undefined,
+                          code: p.code ? String(p.code) : undefined,
+                          title: p.title ? String(p.title) : undefined,
+                          description: p.description || p.title || ''
+                        };
                       })
-                    }} 
+                    }}
                   />
                 </SectionWrapper>
               </div>
@@ -227,7 +209,7 @@ const DepartmentPage: React.FC = () => {
                       faculty={(department.faculty || []).map(faculty => {
                         // Type guard to check if faculty has researchAreas
                         const hasResearchAreas = 'researchAreas' in faculty;
-                        
+
                         if (hasResearchAreas) {
                           // Faculty has researchAreas structure (AI/ML type)
                           const facultyWithResearchAreas = faculty as any;
@@ -323,6 +305,23 @@ const DepartmentPage: React.FC = () => {
 
             <span className="ml-1 sm:ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 whitespace-nowrap font-bold text-sm">
               NewsLetter
+            </span>
+          </button>
+        </div>
+
+        {/* Testimonial button - Adjusted for mobile */}
+        <div className="fixed right-0 sm:right-4 top-[57%] sm:top-[58%] transform -translate-y-1/2 z-40">
+          <button
+            onClick={() => navigate("/testimonial")}
+            className="group flex items-center bg-yellow-500 hover:bg-yellow-600 text-gray-900 w-10 sm:w-12 hover:w-32 sm:hover:w-40 h-10 sm:h-12 rounded-l-lg sm:rounded-l-xl shadow-lg transition-all duration-300 overflow-hidden"
+            title="Testimonial"
+          >
+            <div className="flex-shrink-0 w-10 sm:w-12 flex items-center justify-center">
+              <MessageSquare className="w-5 h-5 sm:w-6 sm:h-6 transition-transform duration-300 group-hover:scale-110" />
+            </div>
+
+            <span className="ml-1 sm:ml-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 whitespace-nowrap font-bold text-sm">
+              Testimonial
             </span>
           </button>
         </div>
